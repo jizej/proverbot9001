@@ -1,0 +1,2862 @@
+DIGEST d9c14948663a55f2f5cff6e025b2d694
+FQArithSternBrocot.Q_ordered_field_properties
+R564:570 QArithSternBrocot.Qsyntax <> <> lib
+R611:624 QArithSternBrocot.Field_Theory_Q <> <> lib
+prf 634:655 <> Qmult_absorb_nonzero_r
+R671:671 QArithSternBrocot.Q_field <> Q ind
+binder 665:665 <> x:1
+binder 667:667 <> y:2
+R687:690 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R679:682 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R675:677 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'*'_x not
+R674:674 QArithSternBrocot.Q_ordered_field_properties <> x:1 var
+R678:678 QArithSternBrocot.Q_ordered_field_properties <> y:2 var
+R683:686 QArithSternBrocot.Q_field <> Zero constr
+R692:695 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R691:691 QArithSternBrocot.Q_ordered_field_properties <> y:2 var
+R696:699 QArithSternBrocot.Q_field <> Zero constr
+prf 787:808 <> Qmult_absorb_nonzero_l
+R824:824 QArithSternBrocot.Q_field <> Q ind
+binder 818:818 <> x:3
+binder 820:820 <> y:4
+R840:843 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R832:835 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R828:830 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'*'_x not
+R827:827 QArithSternBrocot.Q_ordered_field_properties <> x:3 var
+R831:831 QArithSternBrocot.Q_ordered_field_properties <> y:4 var
+R836:839 QArithSternBrocot.Q_field <> Zero constr
+R845:848 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R844:844 QArithSternBrocot.Q_ordered_field_properties <> x:3 var
+R849:852 QArithSternBrocot.Q_field <> Zero constr
+prf 940:954 <> Qle_Qminus_Zero
+R969:969 QArithSternBrocot.Q_field <> Q ind
+binder 964:964 <> x:5
+binder 966:966 <> y:6
+R978:981 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R973:976 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'<='_x not
+R972:972 QArithSternBrocot.Q_ordered_field_properties <> x:5 var
+R977:977 QArithSternBrocot.Q_ordered_field_properties <> y:6 var
+R986:989 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'<='_x not
+R982:985 QArithSternBrocot.Q_field <> Zero constr
+R991:991 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'-'_x not
+R990:990 QArithSternBrocot.Q_ordered_field_properties <> y:6 var
+R992:992 QArithSternBrocot.Q_ordered_field_properties <> x:5 var
+R1027:1027 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'+'_x not
+R1025:1025 QArithSternBrocot.Qsyntax <> ::Q_scope:'-'_x not
+R1052:1052 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'+'_x not
+R1050:1050 QArithSternBrocot.Qsyntax <> ::Q_scope:'-'_x not
+R1075:1087 QArithSternBrocot.general_Q <> Qle_plus_plus thm
+R1090:1090 QArithSternBrocot.Qsyntax <> ::Q_scope:'-'_x not
+R1095:1095 QArithSternBrocot.Qsyntax <> ::Q_scope:'-'_x not
+R1104:1116 QArithSternBrocot.general_Q <> Qle_reflexive thm
+R1119:1119 QArithSternBrocot.Qsyntax <> ::Q_scope:'-'_x not
+R1027:1027 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'+'_x not
+R1025:1025 QArithSternBrocot.Qsyntax <> ::Q_scope:'-'_x not
+R1052:1052 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'+'_x not
+R1050:1050 QArithSternBrocot.Qsyntax <> ::Q_scope:'-'_x not
+R1075:1087 QArithSternBrocot.general_Q <> Qle_plus_plus thm
+R1090:1090 QArithSternBrocot.Qsyntax <> ::Q_scope:'-'_x not
+R1095:1095 QArithSternBrocot.Qsyntax <> ::Q_scope:'-'_x not
+R1104:1116 QArithSternBrocot.general_Q <> Qle_reflexive thm
+R1119:1119 QArithSternBrocot.Qsyntax <> ::Q_scope:'-'_x not
+prf 1141:1159 <> Qle_Qminus_Zero_neg
+R1175:1175 QArithSternBrocot.Q_field <> Q ind
+binder 1169:1169 <> x:7
+binder 1171:1171 <> y:8
+R1184:1187 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1179:1182 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'<='_x not
+R1178:1178 QArithSternBrocot.Q_ordered_field_properties <> x:7 var
+R1183:1183 QArithSternBrocot.Q_ordered_field_properties <> y:8 var
+R1191:1194 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'<='_x not
+R1189:1189 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'-'_x not
+R1188:1188 QArithSternBrocot.Q_ordered_field_properties <> x:7 var
+R1190:1190 QArithSternBrocot.Q_ordered_field_properties <> y:8 var
+R1195:1198 QArithSternBrocot.Q_field <> Zero constr
+R1233:1233 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'+'_x not
+R1231:1231 QArithSternBrocot.Qsyntax <> ::Q_scope:'-'_x not
+R1258:1258 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'+'_x not
+R1256:1256 QArithSternBrocot.Qsyntax <> ::Q_scope:'-'_x not
+R1280:1292 QArithSternBrocot.general_Q <> Qle_plus_plus thm
+R1233:1233 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'+'_x not
+R1231:1231 QArithSternBrocot.Qsyntax <> ::Q_scope:'-'_x not
+R1258:1258 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'+'_x not
+R1256:1256 QArithSternBrocot.Qsyntax <> ::Q_scope:'-'_x not
+R1280:1292 QArithSternBrocot.general_Q <> Qle_plus_plus thm
+prf 1318:1336 <> Qle_Zero_Qminus_neg
+R1352:1352 QArithSternBrocot.Q_field <> Q ind
+binder 1346:1346 <> x:9
+binder 1348:1348 <> y:10
+R1366:1369 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1358:1361 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'<='_x not
+R1356:1356 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'-'_x not
+R1355:1355 QArithSternBrocot.Q_ordered_field_properties <> x:9 var
+R1357:1357 QArithSternBrocot.Q_ordered_field_properties <> y:10 var
+R1362:1365 QArithSternBrocot.Q_field <> Zero constr
+R1371:1374 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'<='_x not
+R1370:1370 QArithSternBrocot.Q_ordered_field_properties <> x:9 var
+R1375:1375 QArithSternBrocot.Q_ordered_field_properties <> y:10 var
+R1409:1410 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'+'_x not
+R1414:1414 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'+'_x not
+R1412:1412 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'-'_x not
+R1437:1437 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'+'_x not
+R1438:1441 QArithSternBrocot.Q_field <> Zero constr
+R1462:1474 QArithSternBrocot.general_Q <> Qle_plus_plus thm
+R1409:1410 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'+'_x not
+R1414:1414 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'+'_x not
+R1412:1412 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'-'_x not
+R1437:1437 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'+'_x not
+R1438:1441 QArithSternBrocot.Q_field <> Zero constr
+R1462:1474 QArithSternBrocot.general_Q <> Qle_plus_plus thm
+prf 1500:1514 <> Qle_Zero_Qminus
+R1529:1529 QArithSternBrocot.Q_field <> Q ind
+binder 1524:1524 <> x:11
+binder 1526:1526 <> y:12
+R1544:1547 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1537:1540 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'<='_x not
+R1533:1536 QArithSternBrocot.Q_field <> Zero constr
+R1542:1542 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'-'_x not
+R1541:1541 QArithSternBrocot.Q_ordered_field_properties <> y:12 var
+R1543:1543 QArithSternBrocot.Q_ordered_field_properties <> x:11 var
+R1549:1552 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'<='_x not
+R1548:1548 QArithSternBrocot.Q_ordered_field_properties <> x:11 var
+R1553:1553 QArithSternBrocot.Q_ordered_field_properties <> y:12 var
+R1587:1587 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'+'_x not
+R1588:1591 QArithSternBrocot.Q_field <> Zero constr
+R1614:1615 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'+'_x not
+R1619:1619 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'+'_x not
+R1617:1617 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'-'_x not
+R1641:1653 QArithSternBrocot.general_Q <> Qle_plus_plus thm
+R1659:1662 QArithSternBrocot.Q_field <> Zero constr
+R1666:1666 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'-'_x not
+R1671:1683 QArithSternBrocot.general_Q <> Qle_reflexive thm
+R1587:1587 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'+'_x not
+R1588:1591 QArithSternBrocot.Q_field <> Zero constr
+R1614:1615 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'+'_x not
+R1619:1619 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'+'_x not
+R1617:1617 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'-'_x not
+R1641:1653 QArithSternBrocot.general_Q <> Qle_plus_plus thm
+R1659:1662 QArithSternBrocot.Q_field <> Zero constr
+R1666:1666 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'-'_x not
+R1671:1683 QArithSternBrocot.general_Q <> Qle_reflexive thm
+prf 1705:1721 <> Qmult_mult_nonneg
+R1733:1733 QArithSternBrocot.Q_field <> Q ind
+binder 1731:1731 <> x:13
+R1740:1743 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'<='_x not
+R1736:1739 QArithSternBrocot.Q_field <> Zero constr
+R1745:1745 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'*'_x not
+R1744:1744 QArithSternBrocot.Q_ordered_field_properties <> x:13 var
+R1746:1746 QArithSternBrocot.Q_ordered_field_properties <> x:13 var
+R1778:1788 QArithSternBrocot.general_Q <> Qlt_le_weak thm
+R1797:1802 QArithSternBrocot.general_Q <> Qsgn_9 thm
+R1813:1819 QArithSternBrocot.general_Q <> Qsgn_15 thm
+R1863:1875 QArithSternBrocot.general_Q <> Qle_reflexive thm
+R1863:1875 QArithSternBrocot.general_Q <> Qle_reflexive thm
+R1778:1788 QArithSternBrocot.general_Q <> Qlt_le_weak thm
+R1797:1802 QArithSternBrocot.general_Q <> Qsgn_9 thm
+R1813:1819 QArithSternBrocot.general_Q <> Qsgn_15 thm
+R1813:1819 QArithSternBrocot.general_Q <> Qsgn_15 thm
+R1778:1788 QArithSternBrocot.general_Q <> Qlt_le_weak thm
+R1797:1802 QArithSternBrocot.general_Q <> Qsgn_9 thm
+R1813:1819 QArithSternBrocot.general_Q <> Qsgn_15 thm
+R1813:1819 QArithSternBrocot.general_Q <> Qsgn_15 thm
+prf 1916:1929 <> Qmult_mult_pos
+R1941:1941 QArithSternBrocot.Q_field <> Q ind
+binder 1939:1939 <> x:14
+R1952:1955 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1945:1947 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R1944:1944 QArithSternBrocot.Q_ordered_field_properties <> x:14 var
+R1948:1951 QArithSternBrocot.Q_field <> Zero constr
+R1960:1962 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'<'_x not
+R1956:1959 QArithSternBrocot.Q_field <> Zero constr
+R1964:1964 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'*'_x not
+R1963:1963 QArithSternBrocot.Q_ordered_field_properties <> x:14 var
+R1965:1965 QArithSternBrocot.Q_ordered_field_properties <> x:14 var
+R2003:2011 Coq.Init.Logic <> False_ind scheme
+R2032:2037 QArithSternBrocot.general_Q <> Qsgn_9 thm
+R2048:2054 QArithSternBrocot.general_Q <> Qsgn_15 thm
+R2065:2070 QArithSternBrocot.general_Q <> Qsgn_9 thm
+R2081:2087 QArithSternBrocot.general_Q <> Qsgn_15 thm
+R2003:2011 Coq.Init.Logic <> False_ind scheme
+R2032:2037 QArithSternBrocot.general_Q <> Qsgn_9 thm
+R2048:2054 QArithSternBrocot.general_Q <> Qsgn_15 thm
+R2048:2054 QArithSternBrocot.general_Q <> Qsgn_15 thm
+R2065:2070 QArithSternBrocot.general_Q <> Qsgn_9 thm
+R2081:2087 QArithSternBrocot.general_Q <> Qsgn_15 thm
+R2081:2087 QArithSternBrocot.general_Q <> Qsgn_15 thm
+prf 2118:2124 <> Qlt_opp
+binder 2133:2133 <> x:15
+binder 2135:2135 <> y:16
+R2153:2156 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2144:2146 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'<'_x not
+R2138:2141 QArithSternBrocot.Q_field <> Qopp def
+R2143:2143 QArithSternBrocot.Q_ordered_field_properties <> x:15 var
+R2147:2150 QArithSternBrocot.Q_field <> Qopp def
+R2152:2152 QArithSternBrocot.Q_ordered_field_properties <> y:16 var
+R2158:2160 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'<'_x not
+R2157:2157 QArithSternBrocot.Q_ordered_field_properties <> y:16 var
+R2161:2161 QArithSternBrocot.Q_ordered_field_properties <> x:15 var
+prf 2277:2284 <> Qlt_plus
+R2301:2301 QArithSternBrocot.Q_field <> Q ind
+binder 2293:2293 <> x:17
+binder 2295:2295 <> y:18
+binder 2297:2297 <> z:19
+R2309:2312 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2305:2307 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'<'_x not
+R2304:2304 QArithSternBrocot.Q_ordered_field_properties <> x:17 var
+R2308:2308 QArithSternBrocot.Q_ordered_field_properties <> y:18 var
+R2318:2320 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'<'_x not
+R2314:2316 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'+'_x not
+R2313:2313 QArithSternBrocot.Q_ordered_field_properties <> z:19 var
+R2317:2317 QArithSternBrocot.Q_ordered_field_properties <> x:17 var
+R2322:2324 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'+'_x not
+R2321:2321 QArithSternBrocot.Q_ordered_field_properties <> z:19 var
+R2325:2325 QArithSternBrocot.Q_ordered_field_properties <> y:18 var
+R2357:2359 QArithSternBrocot.general_Q <> Qlt def
+R2368:2375 QArithSternBrocot.Q_order <> Qgt_plus thm
+R2368:2375 QArithSternBrocot.Q_order <> Qgt_plus thm
+prf 2390:2404 <> Qlt_Qminus_Zero
+R2420:2420 QArithSternBrocot.Q_field <> Q ind
+binder 2414:2414 <> x:20
+binder 2416:2416 <> y:21
+R2428:2431 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2424:2426 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'<'_x not
+R2423:2423 QArithSternBrocot.Q_ordered_field_properties <> x:20 var
+R2427:2427 QArithSternBrocot.Q_ordered_field_properties <> y:21 var
+R2436:2438 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'<'_x not
+R2432:2435 QArithSternBrocot.Q_field <> Zero constr
+R2440:2442 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'-'_x not
+R2439:2439 QArithSternBrocot.Q_ordered_field_properties <> y:21 var
+R2443:2443 QArithSternBrocot.Q_ordered_field_properties <> x:20 var
+R2478:2478 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'+'_x not
+R2476:2476 QArithSternBrocot.Qsyntax <> ::Q_scope:'-'_x not
+R2503:2503 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'+'_x not
+R2501:2501 QArithSternBrocot.Qsyntax <> ::Q_scope:'-'_x not
+R2525:2532 QArithSternBrocot.Q_ordered_field_properties <> Qlt_plus thm
+R2478:2478 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'+'_x not
+R2476:2476 QArithSternBrocot.Qsyntax <> ::Q_scope:'-'_x not
+R2503:2503 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'+'_x not
+R2501:2501 QArithSternBrocot.Qsyntax <> ::Q_scope:'-'_x not
+R2525:2532 QArithSternBrocot.Q_ordered_field_properties <> Qlt_plus thm
+prf 2560:2578 <> Qlt_Qminus_Zero_neg
+R2594:2594 QArithSternBrocot.Q_field <> Q ind
+binder 2588:2588 <> x:22
+binder 2590:2590 <> y:23
+R2602:2605 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2598:2600 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'<'_x not
+R2597:2597 QArithSternBrocot.Q_ordered_field_properties <> x:22 var
+R2601:2601 QArithSternBrocot.Q_ordered_field_properties <> y:23 var
+R2609:2611 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'<'_x not
+R2607:2607 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'-'_x not
+R2606:2606 QArithSternBrocot.Q_ordered_field_properties <> x:22 var
+R2608:2608 QArithSternBrocot.Q_ordered_field_properties <> y:23 var
+R2612:2615 QArithSternBrocot.Q_field <> Zero constr
+R2650:2650 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'+'_x not
+R2648:2648 QArithSternBrocot.Qsyntax <> ::Q_scope:'-'_x not
+R2675:2675 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'+'_x not
+R2673:2673 QArithSternBrocot.Qsyntax <> ::Q_scope:'-'_x not
+R2697:2704 QArithSternBrocot.Q_ordered_field_properties <> Qlt_plus thm
+R2650:2650 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'+'_x not
+R2648:2648 QArithSternBrocot.Qsyntax <> ::Q_scope:'-'_x not
+R2675:2675 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'+'_x not
+R2673:2673 QArithSternBrocot.Qsyntax <> ::Q_scope:'-'_x not
+R2697:2704 QArithSternBrocot.Q_ordered_field_properties <> Qlt_plus thm
+prf 2732:2750 <> Qlt_Zero_Qminus_neg
+R2766:2766 QArithSternBrocot.Q_field <> Q ind
+binder 2760:2760 <> x:24
+binder 2762:2762 <> y:25
+R2779:2782 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2772:2774 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'<'_x not
+R2770:2770 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'-'_x not
+R2769:2769 QArithSternBrocot.Q_ordered_field_properties <> x:24 var
+R2771:2771 QArithSternBrocot.Q_ordered_field_properties <> y:25 var
+R2775:2778 QArithSternBrocot.Q_field <> Zero constr
+R2784:2786 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'<'_x not
+R2783:2783 QArithSternBrocot.Q_ordered_field_properties <> x:24 var
+R2787:2787 QArithSternBrocot.Q_ordered_field_properties <> y:25 var
+R2821:2822 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'+'_x not
+R2826:2826 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'+'_x not
+R2824:2824 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'-'_x not
+R2849:2849 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'+'_x not
+R2850:2853 QArithSternBrocot.Q_field <> Zero constr
+R2821:2822 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'+'_x not
+R2826:2826 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'+'_x not
+R2824:2824 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'-'_x not
+R2849:2849 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'+'_x not
+R2850:2853 QArithSternBrocot.Q_field <> Zero constr
+R2874:2883 QArithSternBrocot.general_Q <> Qle_lt_reg thm
+R2874:2883 QArithSternBrocot.general_Q <> Qle_lt_reg thm
+prf 2908:2925 <> Qlt_reg_mult_pos_l
+R2943:2943 QArithSternBrocot.Q_field <> Q ind
+binder 2935:2935 <> x:26
+binder 2937:2937 <> y:27
+binder 2939:2939 <> z:28
+R2954:2957 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2950:2952 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'<'_x not
+R2946:2949 QArithSternBrocot.Q_field <> Zero constr
+R2953:2953 QArithSternBrocot.Q_ordered_field_properties <> x:26 var
+R2963:2966 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2959:2961 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'<'_x not
+R2958:2958 QArithSternBrocot.Q_ordered_field_properties <> y:27 var
+R2962:2962 QArithSternBrocot.Q_ordered_field_properties <> z:28 var
+R2972:2974 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'<'_x not
+R2968:2970 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'*'_x not
+R2967:2967 QArithSternBrocot.Q_ordered_field_properties <> x:26 var
+R2971:2971 QArithSternBrocot.Q_ordered_field_properties <> y:27 var
+R2976:2978 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'*'_x not
+R2975:2975 QArithSternBrocot.Q_ordered_field_properties <> x:26 var
+R2979:2979 QArithSternBrocot.Q_ordered_field_properties <> z:28 var
+R3018:3032 QArithSternBrocot.general_Q <> Qlt_Zero_Qminus thm
+R3044:3045 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'*'_x not
+R3049:3049 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'*'_x not
+R3047:3047 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'-'_x not
+R3070:3085 QArithSternBrocot.general_Q <> Qlt_mult_pos_pos thm
+R3104:3118 QArithSternBrocot.Q_ordered_field_properties <> Qlt_Qminus_Zero thm
+R3018:3032 QArithSternBrocot.general_Q <> Qlt_Zero_Qminus thm
+R3044:3045 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'*'_x not
+R3049:3049 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'*'_x not
+R3047:3047 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'-'_x not
+R3070:3085 QArithSternBrocot.general_Q <> Qlt_mult_pos_pos thm
+R3104:3118 QArithSternBrocot.Q_ordered_field_properties <> Qlt_Qminus_Zero thm
+prf 3146:3163 <> Qlt_reg_mult_pos_r
+R3181:3181 QArithSternBrocot.Q_field <> Q ind
+binder 3173:3173 <> x:29
+binder 3175:3175 <> y:30
+binder 3177:3177 <> z:31
+R3192:3195 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3188:3190 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'<'_x not
+R3184:3187 QArithSternBrocot.Q_field <> Zero constr
+R3191:3191 QArithSternBrocot.Q_ordered_field_properties <> x:29 var
+R3201:3204 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3197:3199 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'<'_x not
+R3196:3196 QArithSternBrocot.Q_ordered_field_properties <> y:30 var
+R3200:3200 QArithSternBrocot.Q_ordered_field_properties <> z:31 var
+R3210:3212 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'<'_x not
+R3206:3208 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'*'_x not
+R3205:3205 QArithSternBrocot.Q_ordered_field_properties <> y:30 var
+R3209:3209 QArithSternBrocot.Q_ordered_field_properties <> x:29 var
+R3214:3216 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'*'_x not
+R3213:3213 QArithSternBrocot.Q_ordered_field_properties <> z:31 var
+R3217:3217 QArithSternBrocot.Q_ordered_field_properties <> x:29 var
+R3256:3270 QArithSternBrocot.general_Q <> Qlt_Zero_Qminus thm
+R3282:3283 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'*'_x not
+R3287:3287 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'*'_x not
+R3285:3285 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'-'_x not
+R3308:3323 QArithSternBrocot.general_Q <> Qlt_mult_pos_pos thm
+R3342:3356 QArithSternBrocot.Q_ordered_field_properties <> Qlt_Qminus_Zero thm
+R3256:3270 QArithSternBrocot.general_Q <> Qlt_Zero_Qminus thm
+R3282:3283 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'*'_x not
+R3287:3287 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'*'_x not
+R3285:3285 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'-'_x not
+R3308:3323 QArithSternBrocot.general_Q <> Qlt_mult_pos_pos thm
+R3342:3356 QArithSternBrocot.Q_ordered_field_properties <> Qlt_Qminus_Zero thm
+prf 3384:3401 <> Qlt_reg_mult_neg_l
+R3419:3419 QArithSternBrocot.Q_field <> Q ind
+binder 3411:3411 <> x:32
+binder 3413:3413 <> y:33
+binder 3415:3415 <> z:34
+R3430:3433 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3423:3425 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'<'_x not
+R3422:3422 QArithSternBrocot.Q_ordered_field_properties <> x:32 var
+R3426:3429 QArithSternBrocot.Q_field <> Zero constr
+R3439:3442 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3435:3437 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'<'_x not
+R3434:3434 QArithSternBrocot.Q_ordered_field_properties <> y:33 var
+R3438:3438 QArithSternBrocot.Q_ordered_field_properties <> z:34 var
+R3448:3450 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'<'_x not
+R3444:3446 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'*'_x not
+R3443:3443 QArithSternBrocot.Q_ordered_field_properties <> x:32 var
+R3447:3447 QArithSternBrocot.Q_ordered_field_properties <> z:34 var
+R3452:3454 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'*'_x not
+R3451:3451 QArithSternBrocot.Q_ordered_field_properties <> x:32 var
+R3455:3455 QArithSternBrocot.Q_ordered_field_properties <> y:33 var
+R3494:3512 QArithSternBrocot.Q_ordered_field_properties <> Qlt_Zero_Qminus_neg thm
+R3524:3525 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'*'_x not
+R3529:3529 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'*'_x not
+R3527:3527 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'-'_x not
+R3550:3565 QArithSternBrocot.general_Q <> Qlt_mult_neg_pos thm
+R3584:3598 QArithSternBrocot.Q_ordered_field_properties <> Qlt_Qminus_Zero thm
+R3494:3512 QArithSternBrocot.Q_ordered_field_properties <> Qlt_Zero_Qminus_neg thm
+R3524:3525 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'*'_x not
+R3529:3529 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'*'_x not
+R3527:3527 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'-'_x not
+R3550:3565 QArithSternBrocot.general_Q <> Qlt_mult_neg_pos thm
+R3584:3598 QArithSternBrocot.Q_ordered_field_properties <> Qlt_Qminus_Zero thm
+prf 3626:3643 <> Qlt_reg_mult_neg_r
+R3661:3661 QArithSternBrocot.Q_field <> Q ind
+binder 3653:3653 <> x:35
+binder 3655:3655 <> y:36
+binder 3657:3657 <> z:37
+R3672:3675 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3665:3667 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'<'_x not
+R3664:3664 QArithSternBrocot.Q_ordered_field_properties <> x:35 var
+R3668:3671 QArithSternBrocot.Q_field <> Zero constr
+R3681:3684 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3677:3679 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'<'_x not
+R3676:3676 QArithSternBrocot.Q_ordered_field_properties <> y:36 var
+R3680:3680 QArithSternBrocot.Q_ordered_field_properties <> z:37 var
+R3690:3692 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'<'_x not
+R3686:3688 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'*'_x not
+R3685:3685 QArithSternBrocot.Q_ordered_field_properties <> z:37 var
+R3689:3689 QArithSternBrocot.Q_ordered_field_properties <> x:35 var
+R3694:3696 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'*'_x not
+R3693:3693 QArithSternBrocot.Q_ordered_field_properties <> y:36 var
+R3697:3697 QArithSternBrocot.Q_ordered_field_properties <> x:35 var
+R3736:3754 QArithSternBrocot.Q_ordered_field_properties <> Qlt_Zero_Qminus_neg thm
+R3766:3767 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'*'_x not
+R3771:3771 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'*'_x not
+R3769:3769 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'-'_x not
+R3792:3807 QArithSternBrocot.general_Q <> Qlt_mult_neg_pos thm
+R3826:3840 QArithSternBrocot.Q_ordered_field_properties <> Qlt_Qminus_Zero thm
+R3736:3754 QArithSternBrocot.Q_ordered_field_properties <> Qlt_Zero_Qminus_neg thm
+R3766:3767 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'*'_x not
+R3771:3771 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'*'_x not
+R3769:3769 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'-'_x not
+R3792:3807 QArithSternBrocot.general_Q <> Qlt_mult_neg_pos thm
+R3826:3840 QArithSternBrocot.Q_ordered_field_properties <> Qlt_Qminus_Zero thm
+prf 3868:3881 <> Qdiv_Qmult_pos
+R3899:3899 QArithSternBrocot.Q_field <> Q ind
+binder 3890:3890 <> x:38
+binder 3892:3892 <> y:39
+binder 3894:3894 <> z:40
+binder 3896:3896 <> t:41
+R3912:3915 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3906:3908 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'<'_x not
+R3902:3905 QArithSternBrocot.Q_field <> Zero constr
+R3910:3910 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'*'_x not
+R3909:3909 QArithSternBrocot.Q_ordered_field_properties <> z:40 var
+R3911:3911 QArithSternBrocot.Q_ordered_field_properties <> t:41 var
+R3925:3928 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3919:3921 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'<'_x not
+R3917:3917 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'/'_x not
+R3916:3916 QArithSternBrocot.Q_ordered_field_properties <> x:38 var
+R3918:3918 QArithSternBrocot.Q_ordered_field_properties <> z:40 var
+R3923:3923 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'/'_x not
+R3922:3922 QArithSternBrocot.Q_ordered_field_properties <> y:39 var
+R3924:3924 QArithSternBrocot.Q_ordered_field_properties <> t:41 var
+R3932:3934 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'<'_x not
+R3930:3930 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'*'_x not
+R3929:3929 QArithSternBrocot.Q_ordered_field_properties <> x:38 var
+R3931:3931 QArithSternBrocot.Q_ordered_field_properties <> t:41 var
+R3936:3936 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'*'_x not
+R3935:3935 QArithSternBrocot.Q_ordered_field_properties <> y:39 var
+R3937:3937 QArithSternBrocot.Q_ordered_field_properties <> z:40 var
+R3996:3997 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'*'_x not
+R4001:4001 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'*'_x not
+R3994:3994 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'*'_x not
+R3999:3999 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'/'_x not
+R4016:4017 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'*'_x not
+R4021:4021 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'*'_x not
+R4014:4014 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'*'_x not
+R4019:4019 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'/'_x not
+R4043:4060 QArithSternBrocot.Q_ordered_field_properties <> Qlt_reg_mult_pos_l thm
+R4064:4064 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'*'_x not
+R4070:4070 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'/'_x not
+R4076:4076 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'/'_x not
+R4119:4140 QArithSternBrocot.Q_ordered_field_properties <> Qmult_absorb_nonzero_r thm
+R4158:4179 QArithSternBrocot.Q_ordered_field_properties <> Qmult_absorb_nonzero_l thm
+R4199:4208 QArithSternBrocot.general_Q <> Qlt_not_eq thm
+R3996:3997 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'*'_x not
+R4001:4001 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'*'_x not
+R3994:3994 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'*'_x not
+R3999:3999 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'/'_x not
+R4016:4017 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'*'_x not
+R4021:4021 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'*'_x not
+R4014:4014 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'*'_x not
+R4019:4019 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'/'_x not
+R4043:4060 QArithSternBrocot.Q_ordered_field_properties <> Qlt_reg_mult_pos_l thm
+R4064:4064 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'*'_x not
+R4070:4070 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'/'_x not
+R4076:4076 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'/'_x not
+R4119:4140 QArithSternBrocot.Q_ordered_field_properties <> Qmult_absorb_nonzero_r thm
+R4158:4179 QArithSternBrocot.Q_ordered_field_properties <> Qmult_absorb_nonzero_l thm
+R4199:4208 QArithSternBrocot.general_Q <> Qlt_not_eq thm
+R4199:4208 QArithSternBrocot.general_Q <> Qlt_not_eq thm
+prf 4236:4250 <> Qinv_involutive
+R4261:4261 QArithSternBrocot.Q_field <> Q ind
+binder 4259:4259 <> x:42
+R4271:4274 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4265:4266 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R4264:4264 QArithSternBrocot.Q_ordered_field_properties <> x:42 var
+R4267:4270 QArithSternBrocot.Q_field <> Zero constr
+R4288:4290 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4275:4278 QArithSternBrocot.Q_order <> Qinv def
+R4281:4284 QArithSternBrocot.Q_order <> Qinv def
+R4286:4286 QArithSternBrocot.Q_ordered_field_properties <> x:42 var
+R4291:4291 QArithSternBrocot.Q_ordered_field_properties <> x:42 var
+prf 4341:4354 <> Qmult_Qdiv_pos
+R4372:4372 QArithSternBrocot.Q_field <> Q ind
+binder 4363:4363 <> x:43
+binder 4365:4365 <> y:44
+binder 4367:4367 <> z:45
+binder 4369:4369 <> t:46
+R4385:4388 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4379:4381 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'<'_x not
+R4375:4378 QArithSternBrocot.Q_field <> Zero constr
+R4383:4383 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'*'_x not
+R4382:4382 QArithSternBrocot.Q_ordered_field_properties <> z:45 var
+R4384:4384 QArithSternBrocot.Q_ordered_field_properties <> t:46 var
+R4398:4401 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4392:4394 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'<'_x not
+R4390:4390 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'*'_x not
+R4389:4389 QArithSternBrocot.Q_ordered_field_properties <> x:43 var
+R4391:4391 QArithSternBrocot.Q_ordered_field_properties <> t:46 var
+R4396:4396 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'*'_x not
+R4395:4395 QArithSternBrocot.Q_ordered_field_properties <> y:44 var
+R4397:4397 QArithSternBrocot.Q_ordered_field_properties <> z:45 var
+R4405:4407 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'<'_x not
+R4403:4403 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'/'_x not
+R4402:4402 QArithSternBrocot.Q_ordered_field_properties <> x:43 var
+R4404:4404 QArithSternBrocot.Q_ordered_field_properties <> z:45 var
+R4409:4409 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'/'_x not
+R4408:4408 QArithSternBrocot.Q_ordered_field_properties <> y:44 var
+R4410:4410 QArithSternBrocot.Q_ordered_field_properties <> t:46 var
+R4460:4469 QArithSternBrocot.general_Q <> Qlt_not_eq thm
+R4509:4512 QArithSternBrocot.Q_order <> Qdiv def
+R4522:4535 QArithSternBrocot.Q_ordered_field_properties <> Qdiv_Qmult_pos thm
+R4548:4551 QArithSternBrocot.Q_order <> Qinv def
+R4555:4555 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'*'_x not
+R4569:4576 QArithSternBrocot.general_Q <> Qinv_pos thm
+R4615:4618 QArithSternBrocot.Q_order <> Qdiv def
+R4639:4653 QArithSternBrocot.Q_ordered_field_properties <> Qinv_involutive thm
+R4730:4751 QArithSternBrocot.Q_ordered_field_properties <> Qmult_absorb_nonzero_l thm
+R4681:4702 QArithSternBrocot.Q_ordered_field_properties <> Qmult_absorb_nonzero_r thm
+R4460:4469 QArithSternBrocot.general_Q <> Qlt_not_eq thm
+R4522:4535 QArithSternBrocot.Q_ordered_field_properties <> Qdiv_Qmult_pos thm
+R4548:4551 QArithSternBrocot.Q_order <> Qinv def
+R4555:4555 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'*'_x not
+R4569:4576 QArithSternBrocot.general_Q <> Qinv_pos thm
+R4639:4653 QArithSternBrocot.Q_ordered_field_properties <> Qinv_involutive thm
+R4639:4653 QArithSternBrocot.Q_ordered_field_properties <> Qinv_involutive thm
+R4639:4653 QArithSternBrocot.Q_ordered_field_properties <> Qinv_involutive thm
+R4639:4653 QArithSternBrocot.Q_ordered_field_properties <> Qinv_involutive thm
+R4639:4653 QArithSternBrocot.Q_ordered_field_properties <> Qinv_involutive thm
+R4639:4653 QArithSternBrocot.Q_ordered_field_properties <> Qinv_involutive thm
+R4639:4653 QArithSternBrocot.Q_ordered_field_properties <> Qinv_involutive thm
+R4639:4653 QArithSternBrocot.Q_ordered_field_properties <> Qinv_involutive thm
+R4639:4653 QArithSternBrocot.Q_ordered_field_properties <> Qinv_involutive thm
+R4681:4702 QArithSternBrocot.Q_ordered_field_properties <> Qmult_absorb_nonzero_r thm
+R4730:4751 QArithSternBrocot.Q_ordered_field_properties <> Qmult_absorb_nonzero_l thm
+R4681:4702 QArithSternBrocot.Q_ordered_field_properties <> Qmult_absorb_nonzero_r thm
+R4681:4702 QArithSternBrocot.Q_ordered_field_properties <> Qmult_absorb_nonzero_r thm
+R4730:4751 QArithSternBrocot.Q_ordered_field_properties <> Qmult_absorb_nonzero_l thm
+R4681:4702 QArithSternBrocot.Q_ordered_field_properties <> Qmult_absorb_nonzero_r thm
+prf 4782:4793 <> Qlt_Qopp_pos
+R4806:4806 QArithSternBrocot.Q_field <> Q ind
+binder 4803:4803 <> x:47
+R4817:4820 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4810:4812 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'<'_x not
+R4809:4809 QArithSternBrocot.Q_ordered_field_properties <> x:47 var
+R4813:4816 QArithSternBrocot.Q_field <> Zero constr
+R4825:4827 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'<'_x not
+R4821:4824 QArithSternBrocot.Q_field <> Zero constr
+R4828:4829 QArithSternBrocot.Qsyntax <> ::Q_scope:'-'_x not
+R4830:4830 QArithSternBrocot.Q_ordered_field_properties <> x:47 var
+R4870:4876 QArithSternBrocot.Q_ordered_field_properties <> Qlt_opp thm
+R4870:4876 QArithSternBrocot.Q_ordered_field_properties <> Qlt_opp thm
+prf 4917:4928 <> Qlt_Qopp_neg
+R4941:4941 QArithSternBrocot.Q_field <> Q ind
+binder 4938:4938 <> x:48
+R4952:4955 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4948:4950 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'<'_x not
+R4944:4947 QArithSternBrocot.Q_field <> Zero constr
+R4951:4951 QArithSternBrocot.Q_ordered_field_properties <> x:48 var
+R4958:4960 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'<'_x not
+R4956:4956 QArithSternBrocot.Qsyntax <> ::Q_scope:'-'_x not
+R4957:4957 QArithSternBrocot.Q_ordered_field_properties <> x:48 var
+R4961:4964 QArithSternBrocot.Q_field <> Zero constr
+R4994:5000 QArithSternBrocot.Q_ordered_field_properties <> Qlt_opp thm
+R4994:5000 QArithSternBrocot.Q_ordered_field_properties <> Qlt_opp thm
+prf 5040:5053 <> Qmult_one_left
+R5066:5066 QArithSternBrocot.Q_field <> Q ind
+binder 5062:5062 <> x:49
+R5077:5079 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5073:5075 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'*'_x not
+R5069:5072 QArithSternBrocot.Q_field <> Qone def
+R5076:5076 QArithSternBrocot.Q_ordered_field_properties <> x:49 var
+R5080:5080 QArithSternBrocot.Q_ordered_field_properties <> x:49 var
+prf 5118:5131 <> Qdiv_Qone_Qone
+R5148:5150 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5134:5137 QArithSternBrocot.Q_order <> Qdiv def
+R5139:5142 QArithSternBrocot.Q_field <> Qone def
+R5144:5147 QArithSternBrocot.Q_field <> Qone def
+R5151:5154 QArithSternBrocot.Q_field <> Qone def
+R5172:5175 QArithSternBrocot.Q_order <> Qdiv def
+R5186:5200 QArithSternBrocot.general_Q <> Qmult_one_right thm
+R5186:5200 QArithSternBrocot.general_Q <> Qmult_one_right thm
+R5186:5200 QArithSternBrocot.general_Q <> Qmult_one_right thm
+prf 5224:5237 <> Qinv_Qdiv_Qone
+binder 5246:5246 <> x:50
+R5255:5257 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5249:5252 QArithSternBrocot.Q_order <> Qinv def
+R5254:5254 QArithSternBrocot.Q_ordered_field_properties <> x:50 var
+R5262:5262 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'/'_x not
+R5258:5261 QArithSternBrocot.Q_field <> Qone def
+R5263:5263 QArithSternBrocot.Q_ordered_field_properties <> x:50 var
+R5291:5294 QArithSternBrocot.Q_order <> Qdiv def
+R5305:5318 QArithSternBrocot.Q_ordered_field_properties <> Qmult_one_left thm
+R5305:5318 QArithSternBrocot.Q_ordered_field_properties <> Qmult_one_left thm
+R5305:5318 QArithSternBrocot.Q_ordered_field_properties <> Qmult_one_left thm
+prf 5346:5356 <> Qminus_Qdiv
+binder 5365:5365 <> x:51
+binder 5367:5367 <> y:52
+binder 5369:5369 <> z:53
+binder 5371:5371 <> t:54
+R5381:5384 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5375:5376 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R5374:5374 QArithSternBrocot.Q_ordered_field_properties <> z:53 var
+R5377:5380 QArithSternBrocot.Q_field <> Zero constr
+R5392:5395 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5386:5387 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R5385:5385 QArithSternBrocot.Q_ordered_field_properties <> t:54 var
+R5388:5391 QArithSternBrocot.Q_field <> Zero constr
+R5405:5407 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5399:5401 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'-'_x not
+R5397:5397 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'/'_x not
+R5396:5396 QArithSternBrocot.Q_ordered_field_properties <> x:51 var
+R5398:5398 QArithSternBrocot.Q_ordered_field_properties <> z:53 var
+R5403:5403 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'/'_x not
+R5402:5402 QArithSternBrocot.Q_ordered_field_properties <> y:52 var
+R5404:5404 QArithSternBrocot.Q_ordered_field_properties <> t:54 var
+R5408:5408 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'/'_x not
+R5416:5418 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'/'_x not
+R5422:5422 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'/'_x not
+R5412:5412 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'-'_x not
+R5410:5410 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'*'_x not
+R5409:5409 QArithSternBrocot.Q_ordered_field_properties <> x:51 var
+R5411:5411 QArithSternBrocot.Q_ordered_field_properties <> t:54 var
+R5414:5414 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'*'_x not
+R5413:5413 QArithSternBrocot.Q_ordered_field_properties <> y:52 var
+R5415:5415 QArithSternBrocot.Q_ordered_field_properties <> z:53 var
+R5420:5420 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'*'_x not
+R5419:5419 QArithSternBrocot.Q_ordered_field_properties <> z:53 var
+R5421:5421 QArithSternBrocot.Q_ordered_field_properties <> t:54 var
+prf 5494:5503 <> Qplus_Qdiv
+binder 5512:5512 <> x:55
+binder 5514:5514 <> y:56
+binder 5516:5516 <> z:57
+binder 5518:5518 <> t:58
+R5528:5531 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5522:5523 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R5521:5521 QArithSternBrocot.Q_ordered_field_properties <> z:57 var
+R5524:5527 QArithSternBrocot.Q_field <> Zero constr
+R5539:5542 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5533:5534 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R5532:5532 QArithSternBrocot.Q_ordered_field_properties <> t:58 var
+R5535:5538 QArithSternBrocot.Q_field <> Zero constr
+R5552:5554 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5546:5548 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'+'_x not
+R5544:5544 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'/'_x not
+R5543:5543 QArithSternBrocot.Q_ordered_field_properties <> x:55 var
+R5545:5545 QArithSternBrocot.Q_ordered_field_properties <> z:57 var
+R5550:5550 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'/'_x not
+R5549:5549 QArithSternBrocot.Q_ordered_field_properties <> y:56 var
+R5551:5551 QArithSternBrocot.Q_ordered_field_properties <> t:58 var
+R5555:5555 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'/'_x not
+R5563:5565 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'/'_x not
+R5569:5569 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'/'_x not
+R5559:5559 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'+'_x not
+R5557:5557 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'*'_x not
+R5556:5556 QArithSternBrocot.Q_ordered_field_properties <> x:55 var
+R5558:5558 QArithSternBrocot.Q_ordered_field_properties <> t:58 var
+R5561:5561 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'*'_x not
+R5560:5560 QArithSternBrocot.Q_ordered_field_properties <> y:56 var
+R5562:5562 QArithSternBrocot.Q_ordered_field_properties <> z:57 var
+R5567:5567 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'*'_x not
+R5566:5566 QArithSternBrocot.Q_ordered_field_properties <> z:57 var
+R5568:5568 QArithSternBrocot.Q_ordered_field_properties <> t:58 var
+def 5645:5656 <> Qmult_Qinv_l
+R5660:5668 QArithSternBrocot.Field_Theory_Q <> Qinv_defT thm
+prf 5679:5690 <> Qmult_Qinv_r
+binder 5699:5699 <> x:59
+R5711:5714 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5703:5706 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R5702:5702 QArithSternBrocot.Q_ordered_field_properties <> x:59 var
+R5707:5710 QArithSternBrocot.Q_field <> Zero constr
+R5727:5729 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5716:5719 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'*'_x not
+R5726:5726 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'*'_x not
+R5715:5715 QArithSternBrocot.Q_ordered_field_properties <> x:59 var
+R5720:5723 QArithSternBrocot.Q_order <> Qinv def
+R5725:5725 QArithSternBrocot.Q_ordered_field_properties <> x:59 var
+R5730:5733 QArithSternBrocot.Q_field <> Qone def
+prf 5785:5794 <> Qinv_Qmult
+binder 5803:5803 <> x:60
+binder 5805:5805 <> y:61
+R5815:5818 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5809:5810 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R5808:5808 QArithSternBrocot.Q_ordered_field_properties <> x:60 var
+R5811:5814 QArithSternBrocot.Q_field <> Zero constr
+R5828:5831 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5820:5823 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R5819:5819 QArithSternBrocot.Q_ordered_field_properties <> y:61 var
+R5824:5827 QArithSternBrocot.Q_field <> Zero constr
+R5842:5844 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5832:5835 QArithSternBrocot.Q_order <> Qinv def
+R5839:5839 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'*'_x not
+R5838:5838 QArithSternBrocot.Q_ordered_field_properties <> x:60 var
+R5840:5840 QArithSternBrocot.Q_ordered_field_properties <> y:61 var
+R5845:5845 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'*'_x not
+R5852:5854 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'*'_x not
+R5861:5861 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'*'_x not
+R5846:5849 QArithSternBrocot.Q_order <> Qinv def
+R5851:5851 QArithSternBrocot.Q_ordered_field_properties <> x:60 var
+R5855:5858 QArithSternBrocot.Q_order <> Qinv def
+R5860:5860 QArithSternBrocot.Q_ordered_field_properties <> y:61 var
+prf 5929:5942 <> Qplus_Qdiv_one
+binder 5951:5951 <> p:62
+binder 5953:5953 <> q:63
+R5964:5967 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5957:5959 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R5956:5956 QArithSternBrocot.Q_ordered_field_properties <> q:63 var
+R5960:5963 QArithSternBrocot.Q_field <> Zero constr
+R5977:5979 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5968:5968 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'/'_x not
+R5972:5975 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'/'_x not
+R5970:5970 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'+'_x not
+R5969:5969 QArithSternBrocot.Q_ordered_field_properties <> p:62 var
+R5971:5971 QArithSternBrocot.Q_ordered_field_properties <> q:63 var
+R5976:5976 QArithSternBrocot.Q_ordered_field_properties <> q:63 var
+R5983:5985 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'+'_x not
+R5981:5981 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'/'_x not
+R5980:5980 QArithSternBrocot.Q_ordered_field_properties <> p:62 var
+R5982:5982 QArithSternBrocot.Q_ordered_field_properties <> q:63 var
+R5986:5989 QArithSternBrocot.Q_field <> Qone def
+prf 6043:6061 <> Qdiv_Qopp_numerator
+R6077:6077 QArithSternBrocot.Q_field <> Q ind
+binder 6071:6071 <> x:64
+binder 6073:6073 <> y:65
+R6088:6091 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6081:6083 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R6080:6080 QArithSternBrocot.Q_ordered_field_properties <> y:65 var
+R6084:6087 QArithSternBrocot.Q_field <> Zero constr
+R6103:6105 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R6092:6095 QArithSternBrocot.Q_order <> Qdiv def
+R6098:6098 QArithSternBrocot.Qsyntax <> ::Q_scope:'-'_x not
+R6099:6099 QArithSternBrocot.Q_ordered_field_properties <> x:64 var
+R6102:6102 QArithSternBrocot.Q_ordered_field_properties <> y:65 var
+R6106:6108 QArithSternBrocot.Qsyntax <> ::Q_scope:'-'_x not
+R6118:6118 QArithSternBrocot.Qsyntax <> ::Q_scope:'-'_x not
+R6109:6112 QArithSternBrocot.Q_order <> Qdiv def
+R6114:6114 QArithSternBrocot.Q_ordered_field_properties <> x:64 var
+R6117:6117 QArithSternBrocot.Q_ordered_field_properties <> y:65 var
+prf 6172:6191 <> Qdiv_Qopp_denomintor
+R6207:6207 QArithSternBrocot.Q_field <> Q ind
+binder 6201:6201 <> x:66
+binder 6203:6203 <> y:67
+R6218:6221 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6211:6213 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R6210:6210 QArithSternBrocot.Q_ordered_field_properties <> y:67 var
+R6214:6217 QArithSternBrocot.Q_field <> Zero constr
+R6233:6235 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R6222:6225 QArithSternBrocot.Q_order <> Qdiv def
+R6227:6227 QArithSternBrocot.Q_ordered_field_properties <> x:66 var
+R6230:6230 QArithSternBrocot.Qsyntax <> ::Q_scope:'-'_x not
+R6231:6231 QArithSternBrocot.Q_ordered_field_properties <> y:67 var
+R6236:6238 QArithSternBrocot.Qsyntax <> ::Q_scope:'-'_x not
+R6248:6248 QArithSternBrocot.Qsyntax <> ::Q_scope:'-'_x not
+R6239:6242 QArithSternBrocot.Q_order <> Qdiv def
+R6244:6244 QArithSternBrocot.Q_ordered_field_properties <> x:66 var
+R6247:6247 QArithSternBrocot.Q_ordered_field_properties <> y:67 var
+R6303:6319 QArithSternBrocot.general_Q <> Qopp_resp_nonzero thm
+R6303:6319 QArithSternBrocot.general_Q <> Qopp_resp_nonzero thm
+prf 6343:6360 <> Qdiv_Qdiv_simplify
+binder 6369:6369 <> x:68
+binder 6371:6371 <> y:69
+binder 6373:6373 <> z:70
+R6384:6387 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6377:6379 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R6376:6376 QArithSternBrocot.Q_ordered_field_properties <> z:70 var
+R6380:6383 QArithSternBrocot.Q_field <> Zero constr
+R6396:6399 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6389:6391 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R6388:6388 QArithSternBrocot.Q_ordered_field_properties <> y:69 var
+R6392:6395 QArithSternBrocot.Q_field <> Zero constr
+R6411:6413 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R6400:6400 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'/'_x not
+R6404:6406 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'/'_x not
+R6410:6410 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'/'_x not
+R6402:6402 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'/'_x not
+R6401:6401 QArithSternBrocot.Q_ordered_field_properties <> x:68 var
+R6403:6403 QArithSternBrocot.Q_ordered_field_properties <> z:70 var
+R6408:6408 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'/'_x not
+R6407:6407 QArithSternBrocot.Q_ordered_field_properties <> y:69 var
+R6409:6409 QArithSternBrocot.Q_ordered_field_properties <> z:70 var
+R6415:6415 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'/'_x not
+R6414:6414 QArithSternBrocot.Q_ordered_field_properties <> x:68 var
+R6416:6416 QArithSternBrocot.Q_ordered_field_properties <> y:69 var
+R6476:6492 QArithSternBrocot.general_Q <> Qinv_resp_nonzero thm
+prf 6517:6543 <> Qdiv_Qmult_Qone_denominator
+binder 6552:6552 <> x:71
+binder 6554:6554 <> y:72
+binder 6556:6556 <> z:73
+R6566:6569 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6560:6561 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R6559:6559 QArithSternBrocot.Q_ordered_field_properties <> z:73 var
+R6562:6565 QArithSternBrocot.Q_field <> Zero constr
+R6577:6580 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6571:6572 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R6570:6570 QArithSternBrocot.Q_ordered_field_properties <> y:72 var
+R6573:6576 QArithSternBrocot.Q_field <> Zero constr
+R6588:6590 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R6582:6583 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'/'_x not
+R6587:6587 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'/'_x not
+R6581:6581 QArithSternBrocot.Q_ordered_field_properties <> x:71 var
+R6585:6585 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'*'_x not
+R6584:6584 QArithSternBrocot.Q_ordered_field_properties <> y:72 var
+R6586:6586 QArithSternBrocot.Q_ordered_field_properties <> z:73 var
+R6591:6591 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'*'_x not
+R6595:6597 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'*'_x not
+R6604:6604 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'*'_x not
+R6593:6593 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'/'_x not
+R6592:6592 QArithSternBrocot.Q_ordered_field_properties <> x:71 var
+R6594:6594 QArithSternBrocot.Q_ordered_field_properties <> y:72 var
+R6602:6602 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'/'_x not
+R6598:6601 QArithSternBrocot.Q_field <> Qone def
+R6603:6603 QArithSternBrocot.Q_ordered_field_properties <> z:73 var
+prf 6675:6696 <> Qdiv_Qmult_numerator_l
+R6713:6713 QArithSternBrocot.Q_field <> Q ind
+binder 6707:6707 <> x:74
+binder 6709:6709 <> y:75
+binder 6711:6711 <> z:76
+R6724:6727 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6718:6719 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R6717:6717 QArithSternBrocot.Q_ordered_field_properties <> y:75 var
+R6720:6723 QArithSternBrocot.Q_field <> Zero constr
+R6735:6735 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R6729:6730 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'*'_x not
+R6734:6734 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'*'_x not
+R6728:6728 QArithSternBrocot.Q_ordered_field_properties <> z:76 var
+R6732:6732 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'/'_x not
+R6731:6731 QArithSternBrocot.Q_ordered_field_properties <> x:74 var
+R6733:6733 QArithSternBrocot.Q_ordered_field_properties <> y:75 var
+R6736:6736 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'/'_x not
+R6740:6741 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'/'_x not
+R6738:6738 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'*'_x not
+R6737:6737 QArithSternBrocot.Q_ordered_field_properties <> z:76 var
+R6739:6739 QArithSternBrocot.Q_ordered_field_properties <> x:74 var
+R6742:6742 QArithSternBrocot.Q_ordered_field_properties <> y:75 var
+prf 6795:6816 <> Qdiv_Qmult_numerator_r
+R6833:6833 QArithSternBrocot.Q_field <> Q ind
+binder 6827:6827 <> x:77
+binder 6829:6829 <> y:78
+binder 6831:6831 <> z:79
+R6844:6847 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6838:6839 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R6837:6837 QArithSternBrocot.Q_ordered_field_properties <> y:78 var
+R6840:6843 QArithSternBrocot.Q_field <> Zero constr
+R6855:6855 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R6848:6848 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'*'_x not
+R6852:6853 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'*'_x not
+R6850:6850 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'/'_x not
+R6849:6849 QArithSternBrocot.Q_ordered_field_properties <> x:77 var
+R6851:6851 QArithSternBrocot.Q_ordered_field_properties <> y:78 var
+R6854:6854 QArithSternBrocot.Q_ordered_field_properties <> z:79 var
+R6856:6856 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'/'_x not
+R6860:6861 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'/'_x not
+R6858:6858 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'*'_x not
+R6857:6857 QArithSternBrocot.Q_ordered_field_properties <> x:77 var
+R6859:6859 QArithSternBrocot.Q_ordered_field_properties <> z:79 var
+R6862:6862 QArithSternBrocot.Q_ordered_field_properties <> y:78 var
+prf 6916:6933 <> Qlt_Qmult_cancel_l
+R6951:6951 QArithSternBrocot.Q_field <> Q ind
+binder 6943:6943 <> x:80
+binder 6945:6945 <> y:81
+binder 6947:6947 <> z:82
+R6962:6965 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6958:6960 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'<'_x not
+R6954:6957 QArithSternBrocot.Q_field <> Zero constr
+R6961:6961 QArithSternBrocot.Q_ordered_field_properties <> x:80 var
+R6979:6982 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6971:6973 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'<'_x not
+R6967:6969 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'*'_x not
+R6966:6966 QArithSternBrocot.Q_ordered_field_properties <> x:80 var
+R6970:6970 QArithSternBrocot.Q_ordered_field_properties <> y:81 var
+R6975:6977 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'*'_x not
+R6974:6974 QArithSternBrocot.Q_ordered_field_properties <> x:80 var
+R6978:6978 QArithSternBrocot.Q_ordered_field_properties <> z:82 var
+R6984:6986 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'<'_x not
+R6983:6983 QArithSternBrocot.Q_ordered_field_properties <> y:81 var
+R6987:6987 QArithSternBrocot.Q_ordered_field_properties <> z:82 var
+R7026:7040 QArithSternBrocot.general_Q <> Qlt_Zero_Qminus thm
+R7050:7055 QArithSternBrocot.general_Q <> Qsgn_9 thm
+R7073:7077 Coq.ZArith.BinInt <> Zmult abbrev
+R7080:7083 QArithSternBrocot.general_Q <> Qsgn def
+R7089:7092 QArithSternBrocot.general_Q <> Qsgn def
+R7096:7096 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'-'_x not
+R7115:7120 QArithSternBrocot.general_Q <> Qsgn_7 thm
+R7160:7166 QArithSternBrocot.general_Q <> Qsgn_15 thm
+R7178:7183 QArithSternBrocot.general_Q <> Qsgn_7 thm
+R7199:7201 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'-'_x not
+R7197:7197 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'*'_x not
+R7203:7203 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'*'_x not
+R7227:7241 QArithSternBrocot.Q_ordered_field_properties <> Qlt_Qminus_Zero thm
+R7026:7040 QArithSternBrocot.general_Q <> Qlt_Zero_Qminus thm
+R7050:7055 QArithSternBrocot.general_Q <> Qsgn_9 thm
+R7073:7077 Coq.ZArith.BinInt <> Zmult abbrev
+R7080:7083 QArithSternBrocot.general_Q <> Qsgn def
+R7089:7092 QArithSternBrocot.general_Q <> Qsgn def
+R7096:7096 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'-'_x not
+R7115:7120 QArithSternBrocot.general_Q <> Qsgn_7 thm
+R7115:7120 QArithSternBrocot.general_Q <> Qsgn_7 thm
+R7160:7166 QArithSternBrocot.general_Q <> Qsgn_15 thm
+R7160:7166 QArithSternBrocot.general_Q <> Qsgn_15 thm
+R7178:7183 QArithSternBrocot.general_Q <> Qsgn_7 thm
+R7199:7201 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'-'_x not
+R7197:7197 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'*'_x not
+R7203:7203 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'*'_x not
+R7227:7241 QArithSternBrocot.Q_ordered_field_properties <> Qlt_Qminus_Zero thm
+prf 7268:7285 <> Qlt_Qmult_cancel_r
+R7303:7303 QArithSternBrocot.Q_field <> Q ind
+binder 7295:7295 <> x:83
+binder 7297:7297 <> y:84
+binder 7299:7299 <> z:85
+R7314:7317 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7310:7312 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'<'_x not
+R7306:7309 QArithSternBrocot.Q_field <> Zero constr
+R7313:7313 QArithSternBrocot.Q_ordered_field_properties <> x:83 var
+R7330:7333 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7323:7324 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'<'_x not
+R7319:7321 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'*'_x not
+R7318:7318 QArithSternBrocot.Q_ordered_field_properties <> y:84 var
+R7322:7322 QArithSternBrocot.Q_ordered_field_properties <> x:83 var
+R7326:7328 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'*'_x not
+R7325:7325 QArithSternBrocot.Q_ordered_field_properties <> z:85 var
+R7329:7329 QArithSternBrocot.Q_ordered_field_properties <> x:83 var
+R7335:7337 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'<'_x not
+R7334:7334 QArithSternBrocot.Q_ordered_field_properties <> y:84 var
+R7338:7338 QArithSternBrocot.Q_ordered_field_properties <> z:85 var
+R7377:7391 QArithSternBrocot.general_Q <> Qlt_Zero_Qminus thm
+R7401:7406 QArithSternBrocot.general_Q <> Qsgn_9 thm
+R7424:7428 Coq.ZArith.BinInt <> Zmult abbrev
+R7431:7434 QArithSternBrocot.general_Q <> Qsgn def
+R7440:7443 QArithSternBrocot.general_Q <> Qsgn def
+R7447:7447 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'-'_x not
+R7466:7471 QArithSternBrocot.general_Q <> Qsgn_7 thm
+R7511:7517 QArithSternBrocot.general_Q <> Qsgn_15 thm
+R7529:7534 QArithSternBrocot.general_Q <> Qsgn_7 thm
+R7550:7552 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'-'_x not
+R7548:7548 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'*'_x not
+R7554:7554 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'*'_x not
+R7578:7592 QArithSternBrocot.Q_ordered_field_properties <> Qlt_Qminus_Zero thm
+R7377:7391 QArithSternBrocot.general_Q <> Qlt_Zero_Qminus thm
+R7401:7406 QArithSternBrocot.general_Q <> Qsgn_9 thm
+R7424:7428 Coq.ZArith.BinInt <> Zmult abbrev
+R7431:7434 QArithSternBrocot.general_Q <> Qsgn def
+R7440:7443 QArithSternBrocot.general_Q <> Qsgn def
+R7447:7447 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'-'_x not
+R7466:7471 QArithSternBrocot.general_Q <> Qsgn_7 thm
+R7466:7471 QArithSternBrocot.general_Q <> Qsgn_7 thm
+R7511:7517 QArithSternBrocot.general_Q <> Qsgn_15 thm
+R7511:7517 QArithSternBrocot.general_Q <> Qsgn_15 thm
+R7529:7534 QArithSternBrocot.general_Q <> Qsgn_7 thm
+R7550:7552 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'-'_x not
+R7548:7548 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'*'_x not
+R7554:7554 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'*'_x not
+R7578:7592 QArithSternBrocot.Q_ordered_field_properties <> Qlt_Qminus_Zero thm
+def 7624:7643 <> Qmult_resp_Qlt_pos_r
+R7684:7684 QArithSternBrocot.Q_field <> Q ind
+binder 7676:7676 <> t:86
+binder 7678:7678 <> x:87
+binder 7680:7680 <> y:88
+R7695:7698 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7691:7693 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'<'_x not
+R7687:7690 QArithSternBrocot.Q_field <> Zero constr
+R7694:7694 QArithSternBrocot.Q_ordered_field_properties <> t:86 var
+R7712:7715 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7704:7706 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'<'_x not
+R7700:7702 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'*'_x not
+R7699:7699 QArithSternBrocot.Q_ordered_field_properties <> x:87 var
+R7703:7703 QArithSternBrocot.Q_ordered_field_properties <> t:86 var
+R7708:7710 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'*'_x not
+R7707:7707 QArithSternBrocot.Q_ordered_field_properties <> y:88 var
+R7711:7711 QArithSternBrocot.Q_ordered_field_properties <> t:86 var
+R7717:7719 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'<'_x not
+R7716:7716 QArithSternBrocot.Q_ordered_field_properties <> x:87 var
+R7720:7720 QArithSternBrocot.Q_ordered_field_properties <> y:88 var
+R7647:7664 QArithSternBrocot.Q_ordered_field_properties <> Qlt_Qmult_cancel_r thm
+def 7735:7754 <> Qmult_resp_Qlt_pos_l
+R7793:7793 QArithSternBrocot.Q_field <> Q ind
+binder 7785:7785 <> t:89
+binder 7787:7787 <> x:90
+binder 7789:7789 <> y:91
+R7804:7807 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7800:7802 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'<'_x not
+R7796:7799 QArithSternBrocot.Q_field <> Zero constr
+R7803:7803 QArithSternBrocot.Q_ordered_field_properties <> t:89 var
+R7821:7824 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7813:7815 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'<'_x not
+R7809:7811 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'*'_x not
+R7808:7808 QArithSternBrocot.Q_ordered_field_properties <> t:89 var
+R7812:7812 QArithSternBrocot.Q_ordered_field_properties <> x:90 var
+R7817:7819 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'*'_x not
+R7816:7816 QArithSternBrocot.Q_ordered_field_properties <> t:89 var
+R7820:7820 QArithSternBrocot.Q_ordered_field_properties <> y:91 var
+R7826:7828 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'<'_x not
+R7825:7825 QArithSternBrocot.Q_ordered_field_properties <> x:90 var
+R7829:7829 QArithSternBrocot.Q_ordered_field_properties <> y:91 var
+R7758:7775 QArithSternBrocot.Q_ordered_field_properties <> Qlt_Qmult_cancel_l thm
+prf 7839:7858 <> Qmult_resp_Qlt_neg_r
+R7876:7876 QArithSternBrocot.Q_field <> Q ind
+binder 7868:7868 <> t:92
+binder 7870:7870 <> x:93
+binder 7872:7872 <> y:94
+R7887:7890 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7880:7882 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'<'_x not
+R7879:7879 QArithSternBrocot.Q_ordered_field_properties <> t:92 var
+R7883:7886 QArithSternBrocot.Q_field <> Zero constr
+R7904:7907 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7896:7898 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'<'_x not
+R7892:7894 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'*'_x not
+R7891:7891 QArithSternBrocot.Q_ordered_field_properties <> x:93 var
+R7895:7895 QArithSternBrocot.Q_ordered_field_properties <> t:92 var
+R7900:7902 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'*'_x not
+R7899:7899 QArithSternBrocot.Q_ordered_field_properties <> y:94 var
+R7903:7903 QArithSternBrocot.Q_ordered_field_properties <> t:92 var
+R7909:7911 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'<'_x not
+R7908:7908 QArithSternBrocot.Q_ordered_field_properties <> y:94 var
+R7912:7912 QArithSternBrocot.Q_ordered_field_properties <> x:93 var
+R7954:7968 QArithSternBrocot.general_Q <> Qtrichotomy_inf thm
+R8019:8033 QArithSternBrocot.general_Q <> Qlt_irreflexive thm
+R8037:8037 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'*'_x not
+R8074:8074 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'*'_x not
+R8052:8065 QArithSternBrocot.general_Q <> Qlt_transitive thm
+R8094:8111 QArithSternBrocot.Q_ordered_field_properties <> Qlt_reg_mult_neg_r thm
+R7954:7968 QArithSternBrocot.general_Q <> Qtrichotomy_inf thm
+R8019:8033 QArithSternBrocot.general_Q <> Qlt_irreflexive thm
+R8037:8037 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'*'_x not
+R8019:8033 QArithSternBrocot.general_Q <> Qlt_irreflexive thm
+R8037:8037 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'*'_x not
+R8074:8074 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'*'_x not
+R8052:8065 QArithSternBrocot.general_Q <> Qlt_transitive thm
+R8094:8111 QArithSternBrocot.Q_ordered_field_properties <> Qlt_reg_mult_neg_r thm
+prf 8164:8183 <> Qmult_resp_Qlt_neg_l
+R8201:8201 QArithSternBrocot.Q_field <> Q ind
+binder 8193:8193 <> t:95
+binder 8195:8195 <> x:96
+binder 8197:8197 <> y:97
+R8212:8215 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8205:8207 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'<'_x not
+R8204:8204 QArithSternBrocot.Q_ordered_field_properties <> t:95 var
+R8208:8211 QArithSternBrocot.Q_field <> Zero constr
+R8229:8232 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8221:8223 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'<'_x not
+R8217:8219 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'*'_x not
+R8216:8216 QArithSternBrocot.Q_ordered_field_properties <> t:95 var
+R8220:8220 QArithSternBrocot.Q_ordered_field_properties <> x:96 var
+R8225:8227 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'*'_x not
+R8224:8224 QArithSternBrocot.Q_ordered_field_properties <> t:95 var
+R8228:8228 QArithSternBrocot.Q_ordered_field_properties <> y:97 var
+R8234:8236 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'<'_x not
+R8233:8233 QArithSternBrocot.Q_ordered_field_properties <> y:97 var
+R8237:8237 QArithSternBrocot.Q_ordered_field_properties <> x:96 var
+R8279:8293 QArithSternBrocot.general_Q <> Qtrichotomy_inf thm
+R8344:8358 QArithSternBrocot.general_Q <> Qlt_irreflexive thm
+R8362:8362 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'*'_x not
+R8399:8399 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'*'_x not
+R8377:8390 QArithSternBrocot.general_Q <> Qlt_transitive thm
+R8419:8436 QArithSternBrocot.Q_ordered_field_properties <> Qlt_reg_mult_neg_l thm
+R8279:8293 QArithSternBrocot.general_Q <> Qtrichotomy_inf thm
+R8344:8358 QArithSternBrocot.general_Q <> Qlt_irreflexive thm
+R8362:8362 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'*'_x not
+R8344:8358 QArithSternBrocot.general_Q <> Qlt_irreflexive thm
+R8362:8362 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'*'_x not
+R8399:8399 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'*'_x not
+R8377:8390 QArithSternBrocot.general_Q <> Qlt_transitive thm
+R8419:8436 QArithSternBrocot.Q_ordered_field_properties <> Qlt_reg_mult_neg_l thm
+prf 8490:8499 <> Qeq_Qminus
+binder 8510:8510 <> x:98
+binder 8512:8512 <> y:99
+R8518:8521 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8516:8516 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R8515:8515 QArithSternBrocot.Q_ordered_field_properties <> x:98 var
+R8517:8517 QArithSternBrocot.Q_ordered_field_properties <> y:99 var
+R8525:8525 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R8523:8523 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'-'_x not
+R8522:8522 QArithSternBrocot.Q_ordered_field_properties <> x:98 var
+R8524:8524 QArithSternBrocot.Q_ordered_field_properties <> y:99 var
+R8526:8529 QArithSternBrocot.Q_field <> Zero constr
+prf 8587:8596 <> Qminus_Qeq
+binder 8607:8607 <> x:100
+binder 8609:8609 <> y:101
+R8620:8623 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8615:8615 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R8613:8613 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'-'_x not
+R8612:8612 QArithSternBrocot.Q_ordered_field_properties <> x:100 var
+R8614:8614 QArithSternBrocot.Q_ordered_field_properties <> y:101 var
+R8616:8619 QArithSternBrocot.Q_field <> Zero constr
+R8625:8625 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R8624:8624 QArithSternBrocot.Q_ordered_field_properties <> x:100 var
+R8626:8626 QArithSternBrocot.Q_ordered_field_properties <> y:101 var
+R8668:8669 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'+'_x not
+R8673:8673 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'+'_x not
+R8671:8671 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'-'_x not
+R8668:8669 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'+'_x not
+R8673:8673 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'+'_x not
+R8671:8671 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'-'_x not
+prf 8726:8736 <> Qlt_not_eq'
+R8752:8752 QArithSternBrocot.Q_field <> Q ind
+binder 8746:8746 <> x:102
+binder 8748:8748 <> y:103
+R8760:8763 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8756:8758 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'<'_x not
+R8755:8755 QArithSternBrocot.Q_ordered_field_properties <> x:102 var
+R8759:8759 QArithSternBrocot.Q_ordered_field_properties <> y:103 var
+R8765:8768 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R8764:8764 QArithSternBrocot.Q_ordered_field_properties <> x:102 var
+R8769:8769 QArithSternBrocot.Q_ordered_field_properties <> y:103 var
+R8802:8811 Coq.Init.Logic <> sym_not_eq abbrev
+R8820:8829 QArithSternBrocot.general_Q <> Qlt_not_eq thm
+R8802:8811 Coq.Init.Logic <> sym_not_eq abbrev
+R8820:8829 QArithSternBrocot.general_Q <> Qlt_not_eq thm
+prf 8857:8864 <> Qinv_neg
+R8878:8878 QArithSternBrocot.Q_field <> Q ind
+binder 8874:8874 <> q:104
+R8887:8890 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8882:8882 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'<'_x not
+R8881:8881 QArithSternBrocot.Q_ordered_field_properties <> q:104 var
+R8883:8886 QArithSternBrocot.Q_field <> Zero constr
+R8897:8898 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'<'_x not
+R8891:8894 QArithSternBrocot.Q_order <> Qinv def
+R8896:8896 QArithSternBrocot.Q_ordered_field_properties <> q:104 var
+R8899:8902 QArithSternBrocot.Q_field <> Zero constr
+R8932:8937 QArithSternBrocot.general_Q <> Qinv_2 thm
+R8948:8962 QArithSternBrocot.Q_ordered_field_properties <> Qinv_involutive thm
+R8980:8990 QArithSternBrocot.Q_ordered_field_properties <> Qlt_not_eq' thm
+R8932:8937 QArithSternBrocot.general_Q <> Qinv_2 thm
+R8948:8962 QArithSternBrocot.Q_ordered_field_properties <> Qinv_involutive thm
+R8948:8962 QArithSternBrocot.Q_ordered_field_properties <> Qinv_involutive thm
+R8948:8962 QArithSternBrocot.Q_ordered_field_properties <> Qinv_involutive thm
+R8980:8990 QArithSternBrocot.Q_ordered_field_properties <> Qlt_not_eq' thm
+prf 9019:9030 <> Qle_Qopp_pos
+R9043:9043 QArithSternBrocot.Q_field <> Q ind
+binder 9039:9039 <> q:105
+R9054:9057 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9047:9049 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'<='_x not
+R9046:9046 QArithSternBrocot.Q_ordered_field_properties <> q:105 var
+R9050:9053 QArithSternBrocot.Q_field <> Zero constr
+R9062:9064 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'<='_x not
+R9058:9061 QArithSternBrocot.Q_field <> Zero constr
+R9065:9068 QArithSternBrocot.Q_field <> Qopp def
+R9070:9070 QArithSternBrocot.Q_ordered_field_properties <> q:105 var
+R9105:9105 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'-'_x not
+R9101:9104 QArithSternBrocot.Q_field <> Zero constr
+R9124:9138 QArithSternBrocot.Q_ordered_field_properties <> Qle_Qminus_Zero thm
+R9105:9105 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'-'_x not
+R9101:9104 QArithSternBrocot.Q_field <> Zero constr
+R9124:9138 QArithSternBrocot.Q_ordered_field_properties <> Qle_Qminus_Zero thm
+prf 9165:9182 <> Qopp_Qone_Qlt_Qone
+R9194:9196 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'<'_x not
+R9185:9188 QArithSternBrocot.Q_field <> Qopp def
+R9190:9193 QArithSternBrocot.Q_field <> Qone def
+R9197:9200 QArithSternBrocot.Q_field <> Qone def
+R9237:9240 QArithSternBrocot.Q_field <> Zero constr
+R9217:9230 QArithSternBrocot.general_Q <> Qlt_transitive thm
+R9237:9240 QArithSternBrocot.Q_field <> Zero constr
+R9217:9230 QArithSternBrocot.general_Q <> Qlt_transitive thm
+prf 9423:9441 <> Qle_mult_nonneg_pos
+R9457:9457 QArithSternBrocot.Q_field <> Q ind
+binder 9451:9451 <> x:106
+binder 9453:9453 <> y:107
+R9469:9472 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9464:9467 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'<='_x not
+R9460:9463 QArithSternBrocot.Q_field <> Zero constr
+R9468:9468 QArithSternBrocot.Q_ordered_field_properties <> x:106 var
+R9481:9484 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9477:9479 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'<'_x not
+R9473:9476 QArithSternBrocot.Q_field <> Zero constr
+R9480:9480 QArithSternBrocot.Q_ordered_field_properties <> y:107 var
+R9489:9492 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'<='_x not
+R9485:9488 QArithSternBrocot.Q_field <> Zero constr
+R9494:9496 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'*'_x not
+R9493:9493 QArithSternBrocot.Q_ordered_field_properties <> x:106 var
+R9497:9497 QArithSternBrocot.Q_ordered_field_properties <> y:107 var
+R9532:9553 QArithSternBrocot.general_Q <> Qle_mult_nonneg_nonneg thm
+R9532:9553 QArithSternBrocot.general_Q <> Qle_mult_nonneg_nonneg thm
+prf 9574:9592 <> Qle_mult_pos_nonneg
+R9608:9608 QArithSternBrocot.Q_field <> Q ind
+binder 9602:9602 <> x:108
+binder 9604:9604 <> y:109
+R9617:9620 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9615:9615 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'<'_x not
+R9611:9614 QArithSternBrocot.Q_field <> Zero constr
+R9616:9616 QArithSternBrocot.Q_ordered_field_properties <> x:108 var
+R9630:9633 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9625:9628 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'<='_x not
+R9621:9624 QArithSternBrocot.Q_field <> Zero constr
+R9629:9629 QArithSternBrocot.Q_ordered_field_properties <> y:109 var
+R9638:9641 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'<='_x not
+R9634:9637 QArithSternBrocot.Q_field <> Zero constr
+R9643:9645 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'*'_x not
+R9642:9642 QArithSternBrocot.Q_ordered_field_properties <> x:108 var
+R9646:9646 QArithSternBrocot.Q_ordered_field_properties <> y:109 var
+R9681:9702 QArithSternBrocot.general_Q <> Qle_mult_nonneg_nonneg thm
+R9681:9702 QArithSternBrocot.general_Q <> Qle_mult_nonneg_nonneg thm
+prf 9723:9741 <> Qle_mult_nonpos_neg
+R9757:9757 QArithSternBrocot.Q_field <> Q ind
+binder 9751:9751 <> x:110
+binder 9753:9753 <> y:111
+R9767:9770 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9761:9762 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'<='_x not
+R9760:9760 QArithSternBrocot.Q_ordered_field_properties <> x:110 var
+R9763:9766 QArithSternBrocot.Q_field <> Zero constr
+R9777:9780 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9772:9772 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'<'_x not
+R9771:9771 QArithSternBrocot.Q_ordered_field_properties <> y:111 var
+R9773:9776 QArithSternBrocot.Q_field <> Zero constr
+R9785:9788 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'<='_x not
+R9781:9784 QArithSternBrocot.Q_field <> Zero constr
+R9790:9792 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'*'_x not
+R9789:9789 QArithSternBrocot.Q_ordered_field_properties <> x:110 var
+R9793:9793 QArithSternBrocot.Q_ordered_field_properties <> y:111 var
+R9829:9829 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'*'_x not
+R9832:9834 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'*'_x not
+R9837:9837 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'*'_x not
+R9830:9830 QArithSternBrocot.Qsyntax <> ::Q_scope:'-'_x not
+R9835:9835 QArithSternBrocot.Qsyntax <> ::Q_scope:'-'_x not
+R9855:9873 QArithSternBrocot.Q_ordered_field_properties <> Qle_mult_nonneg_pos thm
+R9829:9829 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'*'_x not
+R9832:9834 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'*'_x not
+R9837:9837 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'*'_x not
+R9830:9830 QArithSternBrocot.Qsyntax <> ::Q_scope:'-'_x not
+R9835:9835 QArithSternBrocot.Qsyntax <> ::Q_scope:'-'_x not
+R9855:9873 QArithSternBrocot.Q_ordered_field_properties <> Qle_mult_nonneg_pos thm
+prf 9894:9912 <> Qle_mult_neg_nonpos
+R9928:9928 QArithSternBrocot.Q_field <> Q ind
+binder 9922:9922 <> x:112
+binder 9924:9924 <> y:113
+R9937:9940 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9932:9932 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'<'_x not
+R9931:9931 QArithSternBrocot.Q_ordered_field_properties <> x:112 var
+R9933:9936 QArithSternBrocot.Q_field <> Zero constr
+R9948:9951 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9942:9943 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'<='_x not
+R9941:9941 QArithSternBrocot.Q_ordered_field_properties <> y:113 var
+R9944:9947 QArithSternBrocot.Q_field <> Zero constr
+R9956:9959 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'<='_x not
+R9952:9955 QArithSternBrocot.Q_field <> Zero constr
+R9961:9963 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'*'_x not
+R9960:9960 QArithSternBrocot.Q_ordered_field_properties <> x:112 var
+R9964:9964 QArithSternBrocot.Q_ordered_field_properties <> y:113 var
+R10000:10000 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'*'_x not
+R10003:10005 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'*'_x not
+R10008:10008 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'*'_x not
+R10001:10001 QArithSternBrocot.Qsyntax <> ::Q_scope:'-'_x not
+R10006:10006 QArithSternBrocot.Qsyntax <> ::Q_scope:'-'_x not
+R10026:10044 QArithSternBrocot.Q_ordered_field_properties <> Qle_mult_pos_nonneg thm
+R10000:10000 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'*'_x not
+R10003:10005 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'*'_x not
+R10008:10008 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'*'_x not
+R10001:10001 QArithSternBrocot.Qsyntax <> ::Q_scope:'-'_x not
+R10006:10006 QArithSternBrocot.Qsyntax <> ::Q_scope:'-'_x not
+R10026:10044 QArithSternBrocot.Q_ordered_field_properties <> Qle_mult_pos_nonneg thm
+prf 10065:10083 <> Qle_Qdiv_nonpos_pos
+R10099:10099 QArithSternBrocot.Q_field <> Q ind
+binder 10093:10093 <> x:114
+binder 10095:10095 <> y:115
+R10111:10114 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10103:10106 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'<='_x not
+R10102:10102 QArithSternBrocot.Q_ordered_field_properties <> x:114 var
+R10107:10110 QArithSternBrocot.Q_field <> Zero constr
+R10123:10126 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10119:10121 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'<'_x not
+R10115:10118 QArithSternBrocot.Q_field <> Zero constr
+R10122:10122 QArithSternBrocot.Q_ordered_field_properties <> y:115 var
+R10132:10135 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'<='_x not
+R10128:10130 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'/'_x not
+R10127:10127 QArithSternBrocot.Q_ordered_field_properties <> x:114 var
+R10131:10131 QArithSternBrocot.Q_ordered_field_properties <> y:115 var
+R10136:10139 QArithSternBrocot.Q_field <> Zero constr
+R10175:10178 QArithSternBrocot.Q_order <> Qdiv def
+R10187:10215 QArithSternBrocot.general_Q <> Qle_mult_nonpos_pos thm
+R10187:10215 QArithSternBrocot.general_Q <> Qle_mult_nonpos_pos thm
+prf 10236:10254 <> Qle_Qdiv_nonneg_neg
+R10270:10270 QArithSternBrocot.Q_field <> Q ind
+binder 10264:10264 <> x:116
+binder 10266:10266 <> y:117
+R10282:10285 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10277:10280 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'<='_x not
+R10273:10276 QArithSternBrocot.Q_field <> Zero constr
+R10281:10281 QArithSternBrocot.Q_ordered_field_properties <> x:116 var
+R10294:10297 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10287:10289 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'<'_x not
+R10286:10286 QArithSternBrocot.Q_ordered_field_properties <> y:117 var
+R10290:10293 QArithSternBrocot.Q_field <> Zero constr
+R10303:10306 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'<='_x not
+R10299:10301 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'/'_x not
+R10298:10298 QArithSternBrocot.Q_ordered_field_properties <> x:116 var
+R10302:10302 QArithSternBrocot.Q_ordered_field_properties <> y:117 var
+R10307:10310 QArithSternBrocot.Q_field <> Zero constr
+R10346:10349 QArithSternBrocot.Q_order <> Qdiv def
+R10360:10368 QArithSternBrocot.Q_order <> Qmult_sym thm
+R10377:10395 QArithSternBrocot.general_Q <> Qle_mult_neg_nonneg thm
+R10360:10368 QArithSternBrocot.Q_order <> Qmult_sym thm
+R10360:10368 QArithSternBrocot.Q_order <> Qmult_sym thm
+R10377:10395 QArithSternBrocot.general_Q <> Qle_mult_neg_nonneg thm
+prf 10416:10434 <> Qle_Qdiv_nonneg_pos
+R10450:10450 QArithSternBrocot.Q_field <> Q ind
+binder 10444:10444 <> x:118
+binder 10446:10446 <> y:119
+R10460:10463 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10457:10458 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'<='_x not
+R10453:10456 QArithSternBrocot.Q_field <> Zero constr
+R10459:10459 QArithSternBrocot.Q_ordered_field_properties <> x:118 var
+R10472:10475 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10468:10470 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'<'_x not
+R10464:10467 QArithSternBrocot.Q_field <> Zero constr
+R10471:10471 QArithSternBrocot.Q_ordered_field_properties <> y:119 var
+R10480:10481 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'<='_x not
+R10476:10479 QArithSternBrocot.Q_field <> Zero constr
+R10483:10485 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'/'_x not
+R10482:10482 QArithSternBrocot.Q_ordered_field_properties <> x:118 var
+R10486:10486 QArithSternBrocot.Q_ordered_field_properties <> y:119 var
+R10522:10525 QArithSternBrocot.Q_order <> Qdiv def
+R10534:10552 QArithSternBrocot.Q_ordered_field_properties <> Qle_mult_nonneg_pos thm
+R10534:10552 QArithSternBrocot.Q_ordered_field_properties <> Qle_mult_nonneg_pos thm
+prf 10573:10591 <> Qle_Qdiv_nonpos_neg
+R10607:10607 QArithSternBrocot.Q_field <> Q ind
+binder 10601:10601 <> x:120
+binder 10603:10603 <> y:121
+R10617:10620 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10611:10612 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'<='_x not
+R10610:10610 QArithSternBrocot.Q_ordered_field_properties <> x:120 var
+R10613:10616 QArithSternBrocot.Q_field <> Zero constr
+R10627:10630 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10622:10622 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'<'_x not
+R10621:10621 QArithSternBrocot.Q_ordered_field_properties <> y:121 var
+R10623:10626 QArithSternBrocot.Q_field <> Zero constr
+R10635:10636 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'<='_x not
+R10631:10634 QArithSternBrocot.Q_field <> Zero constr
+R10638:10640 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'/'_x not
+R10637:10637 QArithSternBrocot.Q_ordered_field_properties <> x:120 var
+R10641:10641 QArithSternBrocot.Q_ordered_field_properties <> y:121 var
+R10677:10680 QArithSternBrocot.Q_order <> Qdiv def
+R10689:10707 QArithSternBrocot.Q_ordered_field_properties <> Qle_mult_nonpos_neg thm
+R10689:10707 QArithSternBrocot.Q_ordered_field_properties <> Qle_mult_nonpos_neg thm
+prf 10728:10743 <> Qlt_mult_neg_neg
+R10759:10759 QArithSternBrocot.Q_field <> Q ind
+binder 10753:10753 <> x:122
+binder 10755:10755 <> y:123
+R10768:10770 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10763:10763 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'<'_x not
+R10762:10762 QArithSternBrocot.Q_ordered_field_properties <> x:122 var
+R10764:10767 QArithSternBrocot.Q_field <> Zero constr
+R10777:10780 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10772:10772 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'<'_x not
+R10771:10771 QArithSternBrocot.Q_ordered_field_properties <> y:123 var
+R10773:10776 QArithSternBrocot.Q_field <> Zero constr
+R10785:10787 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'<'_x not
+R10781:10784 QArithSternBrocot.Q_field <> Zero constr
+R10789:10791 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'*'_x not
+R10788:10788 QArithSternBrocot.Q_ordered_field_properties <> x:122 var
+R10792:10792 QArithSternBrocot.Q_ordered_field_properties <> y:123 var
+R10828:10828 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'*'_x not
+R10831:10833 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'*'_x not
+R10836:10836 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'*'_x not
+R10829:10829 QArithSternBrocot.Qsyntax <> ::Q_scope:'-'_x not
+R10834:10834 QArithSternBrocot.Qsyntax <> ::Q_scope:'-'_x not
+R10854:10869 QArithSternBrocot.general_Q <> Qlt_mult_pos_pos thm
+R10828:10828 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'*'_x not
+R10831:10833 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'*'_x not
+R10836:10836 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'*'_x not
+R10829:10829 QArithSternBrocot.Qsyntax <> ::Q_scope:'-'_x not
+R10834:10834 QArithSternBrocot.Qsyntax <> ::Q_scope:'-'_x not
+R10854:10869 QArithSternBrocot.general_Q <> Qlt_mult_pos_pos thm
+prf 10890:10900 <> Qmult_reg_l
+R10917:10917 QArithSternBrocot.Q_field <> Q ind
+binder 10910:10910 <> x:124
+binder 10912:10912 <> y:125
+binder 10914:10914 <> z:126
+R10929:10932 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10921:10924 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R10920:10920 QArithSternBrocot.Q_ordered_field_properties <> z:126 var
+R10925:10928 QArithSternBrocot.Q_field <> Zero constr
+R10942:10945 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10936:10938 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R10934:10934 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'*'_x not
+R10933:10933 QArithSternBrocot.Q_ordered_field_properties <> z:126 var
+R10935:10935 QArithSternBrocot.Q_ordered_field_properties <> x:124 var
+R10940:10940 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'*'_x not
+R10939:10939 QArithSternBrocot.Q_ordered_field_properties <> z:126 var
+R10941:10941 QArithSternBrocot.Q_ordered_field_properties <> y:125 var
+R10947:10947 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R10946:10946 QArithSternBrocot.Q_ordered_field_properties <> x:124 var
+R10948:10948 QArithSternBrocot.Q_ordered_field_properties <> y:125 var
+R10988:10997 QArithSternBrocot.Q_ordered_field_properties <> Qminus_Qeq thm
+R11018:11018 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R11012:11013 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'*'_x not
+R11017:11017 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'*'_x not
+R11015:11015 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'-'_x not
+R11019:11022 QArithSternBrocot.Q_field <> Zero constr
+R11046:11046 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'-'_x not
+R11044:11044 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'*'_x not
+R11048:11048 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'*'_x not
+R11074:11083 QArithSternBrocot.Q_ordered_field_properties <> Qeq_Qminus thm
+R11105:11114 QArithSternBrocot.Q_order <> Q_integral thm
+R10988:10997 QArithSternBrocot.Q_ordered_field_properties <> Qminus_Qeq thm
+R11018:11018 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R11012:11013 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'*'_x not
+R11017:11017 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'*'_x not
+R11015:11015 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'-'_x not
+R11019:11022 QArithSternBrocot.Q_field <> Zero constr
+R11046:11046 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'-'_x not
+R11044:11044 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'*'_x not
+R11048:11048 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'*'_x not
+R11074:11083 QArithSternBrocot.Q_ordered_field_properties <> Qeq_Qminus thm
+R11105:11114 QArithSternBrocot.Q_order <> Q_integral thm
+prf 11173:11183 <> Qmult_reg_r
+R11200:11200 QArithSternBrocot.Q_field <> Q ind
+binder 11193:11193 <> x:127
+binder 11195:11195 <> y:128
+binder 11197:11197 <> z:129
+R11212:11215 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R11204:11207 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R11203:11203 QArithSternBrocot.Q_ordered_field_properties <> z:129 var
+R11208:11211 QArithSternBrocot.Q_field <> Zero constr
+R11225:11228 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R11219:11221 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R11217:11217 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'*'_x not
+R11216:11216 QArithSternBrocot.Q_ordered_field_properties <> x:127 var
+R11218:11218 QArithSternBrocot.Q_ordered_field_properties <> z:129 var
+R11223:11223 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'*'_x not
+R11222:11222 QArithSternBrocot.Q_ordered_field_properties <> y:128 var
+R11224:11224 QArithSternBrocot.Q_ordered_field_properties <> z:129 var
+R11230:11230 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R11229:11229 QArithSternBrocot.Q_ordered_field_properties <> x:127 var
+R11231:11231 QArithSternBrocot.Q_ordered_field_properties <> y:128 var
+R11268:11276 QArithSternBrocot.Q_order <> Qmult_sym thm
+R11293:11301 QArithSternBrocot.Q_order <> Qmult_sym thm
+R11316:11326 QArithSternBrocot.Q_ordered_field_properties <> Qmult_reg_l thm
+R11268:11276 QArithSternBrocot.Q_order <> Qmult_sym thm
+R11268:11276 QArithSternBrocot.Q_order <> Qmult_sym thm
+R11293:11301 QArithSternBrocot.Q_order <> Qmult_sym thm
+R11293:11301 QArithSternBrocot.Q_order <> Qmult_sym thm
+R11316:11326 QArithSternBrocot.Q_ordered_field_properties <> Qmult_reg_l thm
+prf 11351:11360 <> Qmult_Qdiv
+R11380:11380 QArithSternBrocot.Q_field <> Q ind
+binder 11370:11370 <> x:130
+binder 11372:11372 <> y:131
+binder 11374:11374 <> z:132
+binder 11376:11376 <> t:133
+R11393:11397 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R11385:11388 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R11384:11384 QArithSternBrocot.Q_ordered_field_properties <> z:132 var
+R11389:11392 QArithSternBrocot.Q_field <> Zero constr
+R11407:11410 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R11399:11402 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R11398:11398 QArithSternBrocot.Q_ordered_field_properties <> t:133 var
+R11403:11406 QArithSternBrocot.Q_field <> Zero constr
+R11424:11427 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R11416:11418 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R11412:11414 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'*'_x not
+R11411:11411 QArithSternBrocot.Q_ordered_field_properties <> x:130 var
+R11415:11415 QArithSternBrocot.Q_ordered_field_properties <> t:133 var
+R11420:11422 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'*'_x not
+R11419:11419 QArithSternBrocot.Q_ordered_field_properties <> y:131 var
+R11423:11423 QArithSternBrocot.Q_ordered_field_properties <> z:132 var
+R11433:11435 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R11429:11431 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'/'_x not
+R11428:11428 QArithSternBrocot.Q_ordered_field_properties <> x:130 var
+R11432:11432 QArithSternBrocot.Q_ordered_field_properties <> z:132 var
+R11437:11439 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'/'_x not
+R11436:11436 QArithSternBrocot.Q_ordered_field_properties <> y:131 var
+R11440:11440 QArithSternBrocot.Q_ordered_field_properties <> t:133 var
+R11506:11506 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'*'_x not
+R11487:11497 QArithSternBrocot.Q_ordered_field_properties <> Qmult_reg_l thm
+R11533:11533 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'*'_x not
+R11556:11556 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'*'_x not
+R11506:11506 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'*'_x not
+R11487:11497 QArithSternBrocot.Q_ordered_field_properties <> Qmult_reg_l thm
+R11533:11533 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'*'_x not
+R11556:11556 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'*'_x not
+prf 11599:11608 <> Qdiv_Qmult
+R11628:11628 QArithSternBrocot.Q_field <> Q ind
+binder 11618:11618 <> x:134
+binder 11620:11620 <> y:135
+binder 11622:11622 <> z:136
+binder 11624:11624 <> t:137
+R11641:11645 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R11633:11636 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R11632:11632 QArithSternBrocot.Q_ordered_field_properties <> z:136 var
+R11637:11640 QArithSternBrocot.Q_field <> Zero constr
+R11655:11658 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R11647:11650 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R11646:11646 QArithSternBrocot.Q_ordered_field_properties <> t:137 var
+R11651:11654 QArithSternBrocot.Q_field <> Zero constr
+R11672:11675 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R11664:11666 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R11660:11662 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'/'_x not
+R11659:11659 QArithSternBrocot.Q_ordered_field_properties <> x:134 var
+R11663:11663 QArithSternBrocot.Q_ordered_field_properties <> z:136 var
+R11668:11670 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'/'_x not
+R11667:11667 QArithSternBrocot.Q_ordered_field_properties <> y:135 var
+R11671:11671 QArithSternBrocot.Q_ordered_field_properties <> t:137 var
+R11681:11683 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R11677:11679 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'*'_x not
+R11676:11676 QArithSternBrocot.Q_ordered_field_properties <> x:134 var
+R11680:11680 QArithSternBrocot.Q_ordered_field_properties <> t:137 var
+R11685:11687 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'*'_x not
+R11684:11684 QArithSternBrocot.Q_ordered_field_properties <> y:135 var
+R11688:11688 QArithSternBrocot.Q_ordered_field_properties <> z:136 var
+R11752:11752 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'*'_x not
+R11759:11761 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'*'_x not
+R11768:11768 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'*'_x not
+R11753:11756 QArithSternBrocot.Q_order <> Qinv def
+R11762:11765 QArithSternBrocot.Q_order <> Qinv def
+R11734:11744 QArithSternBrocot.Q_ordered_field_properties <> Qmult_reg_l thm
+R11794:11794 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'/'_x not
+R11820:11820 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'/'_x not
+R11752:11752 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'*'_x not
+R11759:11761 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'*'_x not
+R11768:11768 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'*'_x not
+R11753:11756 QArithSternBrocot.Q_order <> Qinv def
+R11762:11765 QArithSternBrocot.Q_order <> Qinv def
+R11734:11744 QArithSternBrocot.Q_ordered_field_properties <> Qmult_reg_l thm
+R11794:11794 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'/'_x not
+R11820:11820 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'/'_x not
+prf 11860:11884 <> Qdiv_Qdiv_Qmult_numerator
+binder 11894:11894 <> x:138
+binder 11896:11896 <> y:139
+binder 11898:11898 <> z:140
+R11908:11911 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R11902:11903 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R11901:11901 QArithSternBrocot.Q_ordered_field_properties <> y:139 var
+R11904:11907 QArithSternBrocot.Q_field <> Zero constr
+R11919:11921 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R11913:11914 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R11912:11912 QArithSternBrocot.Q_ordered_field_properties <> z:140 var
+R11915:11918 QArithSternBrocot.Q_field <> Zero constr
+R11929:11931 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R11922:11922 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'/'_x not
+R11926:11927 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'/'_x not
+R11924:11924 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'/'_x not
+R11923:11923 QArithSternBrocot.Q_ordered_field_properties <> x:138 var
+R11925:11925 QArithSternBrocot.Q_ordered_field_properties <> y:139 var
+R11928:11928 QArithSternBrocot.Q_ordered_field_properties <> z:140 var
+R11933:11934 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'/'_x not
+R11938:11938 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'/'_x not
+R11932:11932 QArithSternBrocot.Q_ordered_field_properties <> x:138 var
+R11936:11936 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'*'_x not
+R11935:11935 QArithSternBrocot.Q_ordered_field_properties <> y:139 var
+R11937:11937 QArithSternBrocot.Q_ordered_field_properties <> z:140 var
+prf 11994:12020 <> Qdiv_Qdiv_Qmult_denominator
+binder 12030:12030 <> x:141
+binder 12032:12032 <> y:142
+binder 12034:12034 <> z:143
+R12044:12047 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R12038:12039 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R12037:12037 QArithSternBrocot.Q_ordered_field_properties <> y:142 var
+R12040:12043 QArithSternBrocot.Q_field <> Zero constr
+R12055:12058 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R12049:12050 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R12048:12048 QArithSternBrocot.Q_ordered_field_properties <> z:143 var
+R12051:12054 QArithSternBrocot.Q_field <> Zero constr
+R12066:12068 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R12060:12061 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'/'_x not
+R12065:12065 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'/'_x not
+R12059:12059 QArithSternBrocot.Q_ordered_field_properties <> x:141 var
+R12063:12063 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'/'_x not
+R12062:12062 QArithSternBrocot.Q_ordered_field_properties <> y:142 var
+R12064:12064 QArithSternBrocot.Q_ordered_field_properties <> z:143 var
+R12069:12069 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'/'_x not
+R12073:12074 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'/'_x not
+R12071:12071 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'*'_x not
+R12070:12070 QArithSternBrocot.Q_ordered_field_properties <> x:141 var
+R12072:12072 QArithSternBrocot.Q_ordered_field_properties <> z:143 var
+R12075:12075 QArithSternBrocot.Q_ordered_field_properties <> y:142 var
+prf 12131:12146 <> Qdiv_Qplus_Qmult
+binder 12156:12156 <> x:144
+binder 12158:12158 <> y:145
+binder 12160:12160 <> z:146
+R12170:12173 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R12164:12165 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R12163:12163 QArithSternBrocot.Q_ordered_field_properties <> y:145 var
+R12166:12169 QArithSternBrocot.Q_field <> Zero constr
+R12181:12183 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R12177:12179 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'+'_x not
+R12175:12175 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'/'_x not
+R12174:12174 QArithSternBrocot.Q_ordered_field_properties <> x:144 var
+R12176:12176 QArithSternBrocot.Q_ordered_field_properties <> y:145 var
+R12180:12180 QArithSternBrocot.Q_ordered_field_properties <> z:146 var
+R12184:12184 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'/'_x not
+R12190:12191 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'/'_x not
+R12186:12186 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'+'_x not
+R12185:12185 QArithSternBrocot.Q_ordered_field_properties <> x:144 var
+R12188:12188 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'*'_x not
+R12187:12187 QArithSternBrocot.Q_ordered_field_properties <> y:145 var
+R12189:12189 QArithSternBrocot.Q_ordered_field_properties <> z:146 var
+R12192:12192 QArithSternBrocot.Q_ordered_field_properties <> y:145 var
+prf 12245:12261 <> Qdiv_Qminus_Qmult
+binder 12271:12271 <> x:147
+binder 12273:12273 <> y:148
+binder 12275:12275 <> z:149
+R12285:12288 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R12279:12280 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R12278:12278 QArithSternBrocot.Q_ordered_field_properties <> y:148 var
+R12281:12284 QArithSternBrocot.Q_field <> Zero constr
+R12296:12298 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R12292:12294 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'-'_x not
+R12290:12290 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'/'_x not
+R12289:12289 QArithSternBrocot.Q_ordered_field_properties <> x:147 var
+R12291:12291 QArithSternBrocot.Q_ordered_field_properties <> y:148 var
+R12295:12295 QArithSternBrocot.Q_ordered_field_properties <> z:149 var
+R12299:12299 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'/'_x not
+R12305:12306 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'/'_x not
+R12301:12301 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'-'_x not
+R12300:12300 QArithSternBrocot.Q_ordered_field_properties <> x:147 var
+R12303:12303 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'*'_x not
+R12302:12302 QArithSternBrocot.Q_ordered_field_properties <> y:148 var
+R12304:12304 QArithSternBrocot.Q_ordered_field_properties <> z:149 var
+R12307:12307 QArithSternBrocot.Q_ordered_field_properties <> y:148 var
+prf 12360:12376 <> Qminus_Qdiv_Qmult
+binder 12386:12386 <> x:150
+binder 12388:12388 <> y:151
+binder 12390:12390 <> z:152
+R12402:12403 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R12393:12394 Coq.Init.Logic <> ::type_scope:'~'_x not
+R12401:12401 Coq.Init.Logic <> ::type_scope:'~'_x not
+R12396:12396 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R12395:12395 QArithSternBrocot.Q_ordered_field_properties <> y:151 var
+R12397:12400 QArithSternBrocot.Q_field <> Zero constr
+R12409:12409 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R12405:12405 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'-'_x not
+R12404:12404 QArithSternBrocot.Q_ordered_field_properties <> z:152 var
+R12407:12407 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'/'_x not
+R12406:12406 QArithSternBrocot.Q_ordered_field_properties <> x:150 var
+R12408:12408 QArithSternBrocot.Q_ordered_field_properties <> y:151 var
+R12410:12410 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'/'_x not
+R12416:12417 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'/'_x not
+R12414:12414 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'-'_x not
+R12412:12412 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'*'_x not
+R12411:12411 QArithSternBrocot.Q_ordered_field_properties <> y:151 var
+R12413:12413 QArithSternBrocot.Q_ordered_field_properties <> z:152 var
+R12415:12415 QArithSternBrocot.Q_ordered_field_properties <> x:150 var
+R12418:12418 QArithSternBrocot.Q_ordered_field_properties <> y:151 var
+prf 12478:12493 <> Qplus_Qdiv_Qmult
+binder 12503:12503 <> x:153
+binder 12505:12505 <> y:154
+binder 12507:12507 <> z:155
+R12519:12520 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R12510:12511 Coq.Init.Logic <> ::type_scope:'~'_x not
+R12518:12518 Coq.Init.Logic <> ::type_scope:'~'_x not
+R12513:12513 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R12512:12512 QArithSternBrocot.Q_ordered_field_properties <> y:154 var
+R12514:12517 QArithSternBrocot.Q_field <> Zero constr
+R12526:12526 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R12522:12522 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'+'_x not
+R12521:12521 QArithSternBrocot.Q_ordered_field_properties <> z:155 var
+R12524:12524 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'/'_x not
+R12523:12523 QArithSternBrocot.Q_ordered_field_properties <> x:153 var
+R12525:12525 QArithSternBrocot.Q_ordered_field_properties <> y:154 var
+R12527:12527 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'/'_x not
+R12533:12534 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'/'_x not
+R12531:12531 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'+'_x not
+R12529:12529 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'*'_x not
+R12528:12528 QArithSternBrocot.Q_ordered_field_properties <> y:154 var
+R12530:12530 QArithSternBrocot.Q_ordered_field_properties <> z:155 var
+R12532:12532 QArithSternBrocot.Q_ordered_field_properties <> x:153 var
+R12535:12535 QArithSternBrocot.Q_ordered_field_properties <> y:154 var
+prf 12595:12608 <> Qle_reg_mult_r
+R12626:12626 QArithSternBrocot.Q_field <> Q ind
+binder 12618:12618 <> x:156
+binder 12620:12620 <> y:157
+binder 12622:12622 <> z:158
+R12637:12640 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R12633:12635 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'<'_x not
+R12629:12632 QArithSternBrocot.Q_field <> Zero constr
+R12636:12636 QArithSternBrocot.Q_ordered_field_properties <> x:156 var
+R12646:12649 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R12642:12644 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'<='_x not
+R12641:12641 QArithSternBrocot.Q_ordered_field_properties <> y:157 var
+R12645:12645 QArithSternBrocot.Q_ordered_field_properties <> z:158 var
+R12655:12657 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'<='_x not
+R12651:12653 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'*'_x not
+R12650:12650 QArithSternBrocot.Q_ordered_field_properties <> y:157 var
+R12654:12654 QArithSternBrocot.Q_ordered_field_properties <> x:156 var
+R12659:12661 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'*'_x not
+R12658:12658 QArithSternBrocot.Q_ordered_field_properties <> z:158 var
+R12662:12662 QArithSternBrocot.Q_ordered_field_properties <> x:156 var
+R12700:12714 QArithSternBrocot.Q_ordered_field_properties <> Qle_Zero_Qminus thm
+R12725:12726 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'*'_x not
+R12730:12730 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'*'_x not
+R12728:12728 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'-'_x not
+R12749:12770 QArithSternBrocot.general_Q <> Qle_mult_nonneg_nonneg thm
+R12785:12799 QArithSternBrocot.Q_ordered_field_properties <> Qle_Qminus_Zero thm
+R12700:12714 QArithSternBrocot.Q_ordered_field_properties <> Qle_Zero_Qminus thm
+R12725:12726 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'*'_x not
+R12730:12730 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'*'_x not
+R12728:12728 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'-'_x not
+R12749:12770 QArithSternBrocot.general_Q <> Qle_mult_nonneg_nonneg thm
+R12785:12799 QArithSternBrocot.Q_ordered_field_properties <> Qle_Qminus_Zero thm
+prf 12827:12840 <> Qle_reg_mult_l
+R12858:12858 QArithSternBrocot.Q_field <> Q ind
+binder 12850:12850 <> x:159
+binder 12852:12852 <> y:160
+binder 12854:12854 <> z:161
+R12869:12872 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R12865:12867 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'<'_x not
+R12861:12864 QArithSternBrocot.Q_field <> Zero constr
+R12868:12868 QArithSternBrocot.Q_ordered_field_properties <> x:159 var
+R12879:12882 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R12874:12877 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'<='_x not
+R12873:12873 QArithSternBrocot.Q_ordered_field_properties <> y:160 var
+R12878:12878 QArithSternBrocot.Q_ordered_field_properties <> z:161 var
+R12888:12891 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'<='_x not
+R12884:12886 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'*'_x not
+R12883:12883 QArithSternBrocot.Q_ordered_field_properties <> x:159 var
+R12887:12887 QArithSternBrocot.Q_ordered_field_properties <> y:160 var
+R12893:12895 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'*'_x not
+R12892:12892 QArithSternBrocot.Q_ordered_field_properties <> x:159 var
+R12896:12896 QArithSternBrocot.Q_ordered_field_properties <> z:161 var
+R12934:12948 QArithSternBrocot.Q_ordered_field_properties <> Qle_Zero_Qminus thm
+R12959:12960 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'*'_x not
+R12964:12964 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'*'_x not
+R12962:12962 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'-'_x not
+R12983:13004 QArithSternBrocot.general_Q <> Qle_mult_nonneg_nonneg thm
+R13019:13033 QArithSternBrocot.Q_ordered_field_properties <> Qle_Qminus_Zero thm
+R12934:12948 QArithSternBrocot.Q_ordered_field_properties <> Qle_Zero_Qminus thm
+R12959:12960 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'*'_x not
+R12964:12964 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'*'_x not
+R12962:12962 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'-'_x not
+R12983:13004 QArithSternBrocot.general_Q <> Qle_mult_nonneg_nonneg thm
+R13019:13033 QArithSternBrocot.Q_ordered_field_properties <> Qle_Qminus_Zero thm
+prf 13061:13080 <> Qmult_resp_Qle_pos_r
+R13098:13098 QArithSternBrocot.Q_field <> Q ind
+binder 13090:13090 <> t:162
+binder 13092:13092 <> x:163
+binder 13094:13094 <> y:164
+R13109:13112 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13105:13107 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'<'_x not
+R13101:13104 QArithSternBrocot.Q_field <> Zero constr
+R13108:13108 QArithSternBrocot.Q_ordered_field_properties <> t:162 var
+R13127:13130 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13118:13121 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'<='_x not
+R13114:13116 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'*'_x not
+R13113:13113 QArithSternBrocot.Q_ordered_field_properties <> x:163 var
+R13117:13117 QArithSternBrocot.Q_ordered_field_properties <> t:162 var
+R13123:13125 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'*'_x not
+R13122:13122 QArithSternBrocot.Q_ordered_field_properties <> y:164 var
+R13126:13126 QArithSternBrocot.Q_ordered_field_properties <> t:162 var
+R13132:13135 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'<='_x not
+R13131:13131 QArithSternBrocot.Q_ordered_field_properties <> x:163 var
+R13136:13136 QArithSternBrocot.Q_ordered_field_properties <> y:164 var
+R13174:13184 QArithSternBrocot.general_Q <> Q_le_lt_dec thm
+R13218:13226 Coq.Init.Logic <> False_ind scheme
+R13236:13250 QArithSternBrocot.general_Q <> Qlt_irreflexive thm
+R13254:13254 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'*'_x not
+R13288:13288 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'*'_x not
+R13268:13279 QArithSternBrocot.general_Q <> Qle_lt_trans thm
+R13308:13325 QArithSternBrocot.Q_ordered_field_properties <> Qlt_reg_mult_pos_r thm
+R13174:13184 QArithSternBrocot.general_Q <> Q_le_lt_dec thm
+R13218:13226 Coq.Init.Logic <> False_ind scheme
+R13236:13250 QArithSternBrocot.general_Q <> Qlt_irreflexive thm
+R13254:13254 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'*'_x not
+R13288:13288 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'*'_x not
+R13268:13279 QArithSternBrocot.general_Q <> Qle_lt_trans thm
+R13308:13325 QArithSternBrocot.Q_ordered_field_properties <> Qlt_reg_mult_pos_r thm
+prf 13352:13371 <> Qmult_resp_Qle_pos_l
+R13389:13389 QArithSternBrocot.Q_field <> Q ind
+binder 13381:13381 <> t:165
+binder 13383:13383 <> x:166
+binder 13385:13385 <> y:167
+R13400:13403 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13396:13398 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'<'_x not
+R13392:13395 QArithSternBrocot.Q_field <> Zero constr
+R13399:13399 QArithSternBrocot.Q_ordered_field_properties <> t:165 var
+R13418:13421 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13409:13412 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'<='_x not
+R13405:13407 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'*'_x not
+R13404:13404 QArithSternBrocot.Q_ordered_field_properties <> t:165 var
+R13408:13408 QArithSternBrocot.Q_ordered_field_properties <> x:166 var
+R13414:13416 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'*'_x not
+R13413:13413 QArithSternBrocot.Q_ordered_field_properties <> t:165 var
+R13417:13417 QArithSternBrocot.Q_ordered_field_properties <> y:167 var
+R13423:13426 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'<='_x not
+R13422:13422 QArithSternBrocot.Q_ordered_field_properties <> x:166 var
+R13427:13427 QArithSternBrocot.Q_ordered_field_properties <> y:167 var
+R13465:13475 QArithSternBrocot.general_Q <> Q_le_lt_dec thm
+R13509:13517 Coq.Init.Logic <> False_ind scheme
+R13527:13541 QArithSternBrocot.general_Q <> Qlt_irreflexive thm
+R13545:13545 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'*'_x not
+R13579:13579 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'*'_x not
+R13559:13570 QArithSternBrocot.general_Q <> Qle_lt_trans thm
+R13599:13616 QArithSternBrocot.Q_ordered_field_properties <> Qlt_reg_mult_pos_l thm
+R13465:13475 QArithSternBrocot.general_Q <> Q_le_lt_dec thm
+R13509:13517 Coq.Init.Logic <> False_ind scheme
+R13527:13541 QArithSternBrocot.general_Q <> Qlt_irreflexive thm
+R13545:13545 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'*'_x not
+R13579:13579 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'*'_x not
+R13559:13570 QArithSternBrocot.general_Q <> Qle_lt_trans thm
+R13599:13616 QArithSternBrocot.Q_ordered_field_properties <> Qlt_reg_mult_pos_l thm
+prf 13643:13662 <> Qmult_resp_Qle_neg_r
+R13680:13680 QArithSternBrocot.Q_field <> Q ind
+binder 13672:13672 <> t:168
+binder 13674:13674 <> x:169
+binder 13676:13676 <> y:170
+R13691:13694 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13684:13686 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'<'_x not
+R13683:13683 QArithSternBrocot.Q_ordered_field_properties <> t:168 var
+R13687:13690 QArithSternBrocot.Q_field <> Zero constr
+R13709:13712 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13700:13703 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'<='_x not
+R13696:13698 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'*'_x not
+R13695:13695 QArithSternBrocot.Q_ordered_field_properties <> x:169 var
+R13699:13699 QArithSternBrocot.Q_ordered_field_properties <> t:168 var
+R13705:13707 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'*'_x not
+R13704:13704 QArithSternBrocot.Q_ordered_field_properties <> y:170 var
+R13708:13708 QArithSternBrocot.Q_ordered_field_properties <> t:168 var
+R13714:13717 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'<='_x not
+R13713:13713 QArithSternBrocot.Q_ordered_field_properties <> y:170 var
+R13718:13718 QArithSternBrocot.Q_ordered_field_properties <> x:169 var
+R13756:13766 QArithSternBrocot.general_Q <> Q_le_lt_dec thm
+R13800:13808 Coq.Init.Logic <> False_ind scheme
+R13818:13832 QArithSternBrocot.general_Q <> Qlt_irreflexive thm
+R13836:13836 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'*'_x not
+R13870:13870 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'*'_x not
+R13850:13861 QArithSternBrocot.general_Q <> Qle_lt_trans thm
+R13890:13907 QArithSternBrocot.Q_ordered_field_properties <> Qlt_reg_mult_neg_r thm
+R13756:13766 QArithSternBrocot.general_Q <> Q_le_lt_dec thm
+R13800:13808 Coq.Init.Logic <> False_ind scheme
+R13818:13832 QArithSternBrocot.general_Q <> Qlt_irreflexive thm
+R13836:13836 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'*'_x not
+R13870:13870 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'*'_x not
+R13850:13861 QArithSternBrocot.general_Q <> Qle_lt_trans thm
+R13890:13907 QArithSternBrocot.Q_ordered_field_properties <> Qlt_reg_mult_neg_r thm
+prf 13934:13953 <> Qmult_resp_Qle_neg_l
+R13971:13971 QArithSternBrocot.Q_field <> Q ind
+binder 13963:13963 <> t:171
+binder 13965:13965 <> x:172
+binder 13967:13967 <> y:173
+R13982:13985 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13975:13977 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'<'_x not
+R13974:13974 QArithSternBrocot.Q_ordered_field_properties <> t:171 var
+R13978:13981 QArithSternBrocot.Q_field <> Zero constr
+R14000:14003 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13991:13994 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'<='_x not
+R13987:13989 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'*'_x not
+R13986:13986 QArithSternBrocot.Q_ordered_field_properties <> t:171 var
+R13990:13990 QArithSternBrocot.Q_ordered_field_properties <> x:172 var
+R13996:13998 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'*'_x not
+R13995:13995 QArithSternBrocot.Q_ordered_field_properties <> t:171 var
+R13999:13999 QArithSternBrocot.Q_ordered_field_properties <> y:173 var
+R14005:14008 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'<='_x not
+R14004:14004 QArithSternBrocot.Q_ordered_field_properties <> y:173 var
+R14009:14009 QArithSternBrocot.Q_ordered_field_properties <> x:172 var
+R14047:14057 QArithSternBrocot.general_Q <> Q_le_lt_dec thm
+R14091:14099 Coq.Init.Logic <> False_ind scheme
+R14109:14123 QArithSternBrocot.general_Q <> Qlt_irreflexive thm
+R14127:14127 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'*'_x not
+R14161:14161 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'*'_x not
+R14141:14152 QArithSternBrocot.general_Q <> Qle_lt_trans thm
+R14181:14198 QArithSternBrocot.Q_ordered_field_properties <> Qlt_reg_mult_neg_l thm
+R14047:14057 QArithSternBrocot.general_Q <> Q_le_lt_dec thm
+R14091:14099 Coq.Init.Logic <> False_ind scheme
+R14109:14123 QArithSternBrocot.general_Q <> Qlt_irreflexive thm
+R14127:14127 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'*'_x not
+R14161:14161 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'*'_x not
+R14141:14152 QArithSternBrocot.general_Q <> Qle_lt_trans thm
+R14181:14198 QArithSternBrocot.Q_ordered_field_properties <> Qlt_reg_mult_neg_l thm
+prf 14225:14242 <> Qmult_Qdiv_pos_Qle
+R14262:14262 QArithSternBrocot.Q_field <> Q ind
+binder 14252:14252 <> x:174
+binder 14254:14254 <> y:175
+binder 14256:14256 <> z:176
+binder 14258:14258 <> t:177
+R14273:14276 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R14269:14271 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'<'_x not
+R14265:14268 QArithSternBrocot.Q_field <> Zero constr
+R14272:14272 QArithSternBrocot.Q_ordered_field_properties <> z:176 var
+R14285:14288 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R14281:14283 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'<'_x not
+R14277:14280 QArithSternBrocot.Q_field <> Zero constr
+R14284:14284 QArithSternBrocot.Q_ordered_field_properties <> t:177 var
+R14303:14306 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R14294:14297 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'<='_x not
+R14290:14292 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'*'_x not
+R14289:14289 QArithSternBrocot.Q_ordered_field_properties <> x:174 var
+R14293:14293 QArithSternBrocot.Q_ordered_field_properties <> t:177 var
+R14299:14301 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'*'_x not
+R14298:14298 QArithSternBrocot.Q_ordered_field_properties <> y:175 var
+R14302:14302 QArithSternBrocot.Q_ordered_field_properties <> z:176 var
+R14312:14315 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'<='_x not
+R14308:14310 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'/'_x not
+R14307:14307 QArithSternBrocot.Q_ordered_field_properties <> x:174 var
+R14311:14311 QArithSternBrocot.Q_ordered_field_properties <> z:176 var
+R14317:14319 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'/'_x not
+R14316:14316 QArithSternBrocot.Q_ordered_field_properties <> y:175 var
+R14320:14320 QArithSternBrocot.Q_ordered_field_properties <> t:177 var
+R14394:14394 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'*'_x not
+R14366:14385 QArithSternBrocot.Q_ordered_field_properties <> Qmult_resp_Qle_pos_r thm
+R14409:14424 QArithSternBrocot.general_Q <> Qlt_mult_pos_pos thm
+R14438:14438 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'*'_x not
+R14457:14457 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'*'_x not
+R14501:14510 QArithSternBrocot.general_Q <> Qlt_not_eq thm
+R14394:14394 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'*'_x not
+R14366:14385 QArithSternBrocot.Q_ordered_field_properties <> Qmult_resp_Qle_pos_r thm
+R14409:14424 QArithSternBrocot.general_Q <> Qlt_mult_pos_pos thm
+R14438:14438 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'*'_x not
+R14457:14457 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'*'_x not
+R14501:14510 QArithSternBrocot.general_Q <> Qlt_not_eq thm
+R14501:14510 QArithSternBrocot.general_Q <> Qlt_not_eq thm
+prf 14541:14556 <> Qmult_Qle_compat
+R14576:14576 QArithSternBrocot.Q_field <> Q ind
+binder 14566:14566 <> n:178
+binder 14568:14568 <> m:179
+binder 14570:14570 <> p:180
+binder 14572:14572 <> q:181
+R14585:14588 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R14580:14583 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'<='_x not
+R14579:14579 QArithSternBrocot.Q_ordered_field_properties <> n:178 var
+R14584:14584 QArithSternBrocot.Q_ordered_field_properties <> p:180 var
+R14595:14598 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R14590:14593 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'<='_x not
+R14589:14589 QArithSternBrocot.Q_ordered_field_properties <> m:179 var
+R14594:14594 QArithSternBrocot.Q_ordered_field_properties <> q:181 var
+R14608:14611 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R14603:14606 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'<='_x not
+R14599:14602 QArithSternBrocot.Q_field <> Zero constr
+R14607:14607 QArithSternBrocot.Q_ordered_field_properties <> n:178 var
+R14621:14624 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R14616:14619 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'<='_x not
+R14612:14615 QArithSternBrocot.Q_field <> Zero constr
+R14620:14620 QArithSternBrocot.Q_ordered_field_properties <> m:179 var
+R14630:14633 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'<='_x not
+R14626:14628 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'*'_x not
+R14625:14625 QArithSternBrocot.Q_ordered_field_properties <> n:178 var
+R14629:14629 QArithSternBrocot.Q_ordered_field_properties <> m:179 var
+R14635:14637 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'*'_x not
+R14634:14634 QArithSternBrocot.Q_ordered_field_properties <> p:180 var
+R14638:14638 QArithSternBrocot.Q_ordered_field_properties <> q:181 var
+R14686:14698 QArithSternBrocot.general_Q <> Qle_lt_eq_dec thm
+R14738:14750 QArithSternBrocot.general_Q <> Qle_lt_eq_dec thm
+R14810:14810 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'*'_x not
+R14793:14801 QArithSternBrocot.general_Q <> Qle_trans thm
+R14829:14842 QArithSternBrocot.Q_ordered_field_properties <> Qle_reg_mult_r thm
+R14858:14871 QArithSternBrocot.Q_ordered_field_properties <> Qle_reg_mult_l thm
+R14889:14900 QArithSternBrocot.general_Q <> Qlt_le_trans thm
+R14938:14941 QArithSternBrocot.Q_field <> Zero constr
+R14956:14977 QArithSternBrocot.general_Q <> Qle_mult_nonneg_nonneg thm
+R15019:15021 QArithSternBrocot.general_Q <> Qlt def
+R15023:15026 QArithSternBrocot.Q_field <> Zero constr
+R15019:15021 QArithSternBrocot.general_Q <> Qlt def
+R15023:15026 QArithSternBrocot.Q_field <> Zero constr
+R15049:15057 QArithSternBrocot.general_Q <> Qle_trans thm
+R15083:15093 QArithSternBrocot.general_Q <> Qlt_le_weak thm
+R15123:15126 QArithSternBrocot.Q_field <> Zero constr
+R15145:15166 QArithSternBrocot.general_Q <> Qle_mult_nonneg_nonneg thm
+R15184:15192 QArithSternBrocot.general_Q <> Qle_trans thm
+R14686:14698 QArithSternBrocot.general_Q <> Qle_lt_eq_dec thm
+R14738:14750 QArithSternBrocot.general_Q <> Qle_lt_eq_dec thm
+R14810:14810 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'*'_x not
+R14793:14801 QArithSternBrocot.general_Q <> Qle_trans thm
+R14829:14842 QArithSternBrocot.Q_ordered_field_properties <> Qle_reg_mult_r thm
+R14858:14871 QArithSternBrocot.Q_ordered_field_properties <> Qle_reg_mult_l thm
+R14889:14900 QArithSternBrocot.general_Q <> Qlt_le_trans thm
+R14938:14941 QArithSternBrocot.Q_field <> Zero constr
+R14956:14977 QArithSternBrocot.general_Q <> Qle_mult_nonneg_nonneg thm
+R15049:15057 QArithSternBrocot.general_Q <> Qle_trans thm
+R15083:15093 QArithSternBrocot.general_Q <> Qlt_le_weak thm
+R15123:15126 QArithSternBrocot.Q_field <> Zero constr
+R15145:15166 QArithSternBrocot.general_Q <> Qle_mult_nonneg_nonneg thm
+R15184:15192 QArithSternBrocot.general_Q <> Qle_trans thm
+prf 15230:15252 <> Qdiv_num_denom_explicit
+R15272:15272 QArithSternBrocot.Q_field <> Q ind
+binder 15262:15263 <> q1:182
+binder 15265:15266 <> q2:183
+binder 15268:15268 <> p:184
+R15285:15288 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R15277:15280 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R15275:15276 QArithSternBrocot.Q_ordered_field_properties <> q2:183 var
+R15281:15284 QArithSternBrocot.Q_field <> Zero constr
+R15298:15301 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R15290:15293 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R15289:15289 QArithSternBrocot.Q_ordered_field_properties <> p:184 var
+R15294:15297 QArithSternBrocot.Q_field <> Zero constr
+R15309:15311 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R15304:15306 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'/'_x not
+R15302:15303 QArithSternBrocot.Q_ordered_field_properties <> q1:182 var
+R15307:15308 QArithSternBrocot.Q_ordered_field_properties <> q2:183 var
+R15312:15312 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'/'_x not
+R15319:15322 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'/'_x not
+R15329:15329 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'/'_x not
+R15315:15317 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'*'_x not
+R15313:15314 QArithSternBrocot.Q_ordered_field_properties <> q1:182 var
+R15318:15318 QArithSternBrocot.Q_ordered_field_properties <> p:184 var
+R15325:15327 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'*'_x not
+R15323:15324 QArithSternBrocot.Q_ordered_field_properties <> q2:183 var
+R15328:15328 QArithSternBrocot.Q_ordered_field_properties <> p:184 var
+prf 15399:15405 <> Qle_opp
+R15421:15421 QArithSternBrocot.Q_field <> Q ind
+binder 15415:15415 <> x:185
+binder 15417:15417 <> y:186
+R15434:15437 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R15427:15430 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'<='_x not
+R15424:15425 QArithSternBrocot.Qsyntax <> ::Q_scope:'-'_x not
+R15426:15426 QArithSternBrocot.Q_ordered_field_properties <> x:185 var
+R15431:15432 QArithSternBrocot.Qsyntax <> ::Q_scope:'-'_x not
+R15433:15433 QArithSternBrocot.Q_ordered_field_properties <> y:186 var
+R15439:15442 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'<='_x not
+R15438:15438 QArithSternBrocot.Q_ordered_field_properties <> y:186 var
+R15443:15443 QArithSternBrocot.Q_ordered_field_properties <> x:185 var
+R15503:15504 QArithSternBrocot.Qsyntax <> ::Q_scope:'-'_x not
+R15505:15508 QArithSternBrocot.Q_field <> Qone def
+R15476:15495 QArithSternBrocot.Q_ordered_field_properties <> Qmult_resp_Qle_neg_r thm
+R15525:15525 QArithSternBrocot.Qsyntax <> ::Q_scope:'-'_x not
+R15538:15538 QArithSternBrocot.Qsyntax <> ::Q_scope:'-'_x not
+R15503:15504 QArithSternBrocot.Qsyntax <> ::Q_scope:'-'_x not
+R15505:15508 QArithSternBrocot.Q_field <> Qone def
+R15476:15495 QArithSternBrocot.Q_ordered_field_properties <> Qmult_resp_Qle_neg_r thm
+R15525:15525 QArithSternBrocot.Qsyntax <> ::Q_scope:'-'_x not
+R15538:15538 QArithSternBrocot.Qsyntax <> ::Q_scope:'-'_x not
+prf 15572:15589 <> Qmult_pos_Qle_Qdiv
+R15607:15607 QArithSternBrocot.Q_field <> Q ind
+binder 15599:15599 <> x:187
+binder 15601:15601 <> y:188
+binder 15603:15603 <> z:189
+R15616:15619 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R15614:15614 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'<'_x not
+R15610:15613 QArithSternBrocot.Q_field <> Zero constr
+R15615:15615 QArithSternBrocot.Q_ordered_field_properties <> z:189 var
+R15628:15631 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R15625:15626 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'<='_x not
+R15621:15623 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'*'_x not
+R15620:15620 QArithSternBrocot.Q_ordered_field_properties <> x:187 var
+R15624:15624 QArithSternBrocot.Q_ordered_field_properties <> z:189 var
+R15627:15627 QArithSternBrocot.Q_ordered_field_properties <> y:188 var
+R15633:15636 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'<='_x not
+R15632:15632 QArithSternBrocot.Q_ordered_field_properties <> x:187 var
+R15638:15640 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'/'_x not
+R15637:15637 QArithSternBrocot.Q_ordered_field_properties <> y:188 var
+R15641:15641 QArithSternBrocot.Q_ordered_field_properties <> z:189 var
+R15680:15699 QArithSternBrocot.Q_ordered_field_properties <> Qmult_resp_Qle_pos_r thm
+R15680:15699 QArithSternBrocot.Q_ordered_field_properties <> Qmult_resp_Qle_pos_r thm
+prf 15761:15778 <> Qmult_neg_Qle_Qdiv
+R15796:15796 QArithSternBrocot.Q_field <> Q ind
+binder 15788:15788 <> x:190
+binder 15790:15790 <> y:191
+binder 15792:15792 <> z:192
+R15806:15809 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R15800:15801 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'<'_x not
+R15799:15799 QArithSternBrocot.Q_ordered_field_properties <> z:192 var
+R15802:15805 QArithSternBrocot.Q_field <> Zero constr
+R15820:15823 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R15811:15814 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'<='_x not
+R15810:15810 QArithSternBrocot.Q_ordered_field_properties <> y:191 var
+R15816:15818 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'*'_x not
+R15815:15815 QArithSternBrocot.Q_ordered_field_properties <> x:190 var
+R15819:15819 QArithSternBrocot.Q_ordered_field_properties <> z:192 var
+R15825:15828 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'<='_x not
+R15824:15824 QArithSternBrocot.Q_ordered_field_properties <> x:190 var
+R15830:15832 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'/'_x not
+R15829:15829 QArithSternBrocot.Q_ordered_field_properties <> y:191 var
+R15833:15833 QArithSternBrocot.Q_ordered_field_properties <> z:192 var
+R15872:15891 QArithSternBrocot.Q_ordered_field_properties <> Qmult_resp_Qle_neg_r thm
+R15872:15891 QArithSternBrocot.Q_ordered_field_properties <> Qmult_resp_Qle_neg_r thm
+prf 15953:15970 <> Qmult_pos_Qdiv_Qle
+R15988:15988 QArithSternBrocot.Q_field <> Q ind
+binder 15980:15980 <> x:193
+binder 15982:15982 <> y:194
+binder 15984:15984 <> z:195
+R15997:16000 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R15995:15995 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'<'_x not
+R15991:15994 QArithSternBrocot.Q_field <> Zero constr
+R15996:15996 QArithSternBrocot.Q_ordered_field_properties <> z:195 var
+R16007:16010 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R16002:16003 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'<='_x not
+R16001:16001 QArithSternBrocot.Q_ordered_field_properties <> y:194 var
+R16005:16005 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'*'_x not
+R16004:16004 QArithSternBrocot.Q_ordered_field_properties <> x:193 var
+R16006:16006 QArithSternBrocot.Q_ordered_field_properties <> z:195 var
+R16014:16017 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'<='_x not
+R16012:16012 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'/'_x not
+R16011:16011 QArithSternBrocot.Q_ordered_field_properties <> y:194 var
+R16013:16013 QArithSternBrocot.Q_ordered_field_properties <> z:195 var
+R16018:16018 QArithSternBrocot.Q_ordered_field_properties <> x:193 var
+R16057:16076 QArithSternBrocot.Q_ordered_field_properties <> Qmult_resp_Qle_pos_r thm
+R16057:16076 QArithSternBrocot.Q_ordered_field_properties <> Qmult_resp_Qle_pos_r thm
+prf 16138:16155 <> Qmult_neg_Qdiv_Qle
+R16173:16173 QArithSternBrocot.Q_field <> Q ind
+binder 16165:16165 <> x:196
+binder 16167:16167 <> y:197
+binder 16169:16169 <> z:198
+R16183:16186 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R16177:16178 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'<'_x not
+R16176:16176 QArithSternBrocot.Q_ordered_field_properties <> z:198 var
+R16179:16182 QArithSternBrocot.Q_field <> Zero constr
+R16193:16196 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R16190:16191 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'<='_x not
+R16188:16188 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'*'_x not
+R16187:16187 QArithSternBrocot.Q_ordered_field_properties <> x:196 var
+R16189:16189 QArithSternBrocot.Q_ordered_field_properties <> z:198 var
+R16192:16192 QArithSternBrocot.Q_ordered_field_properties <> y:197 var
+R16200:16201 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'<='_x not
+R16198:16198 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'/'_x not
+R16197:16197 QArithSternBrocot.Q_ordered_field_properties <> y:197 var
+R16199:16199 QArithSternBrocot.Q_ordered_field_properties <> z:198 var
+R16202:16202 QArithSternBrocot.Q_ordered_field_properties <> x:196 var
+R16241:16260 QArithSternBrocot.Q_ordered_field_properties <> Qmult_resp_Qle_neg_r thm
+R16241:16260 QArithSternBrocot.Q_ordered_field_properties <> Qmult_resp_Qle_neg_r thm
+prf 16322:16339 <> Qmult_pos_Qlt_Qdiv
+R16357:16357 QArithSternBrocot.Q_field <> Q ind
+binder 16349:16349 <> x:199
+binder 16351:16351 <> y:200
+binder 16353:16353 <> z:201
+R16366:16369 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R16364:16364 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'<'_x not
+R16360:16363 QArithSternBrocot.Q_field <> Zero constr
+R16365:16365 QArithSternBrocot.Q_ordered_field_properties <> z:201 var
+R16377:16380 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R16375:16375 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'<'_x not
+R16371:16373 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'*'_x not
+R16370:16370 QArithSternBrocot.Q_ordered_field_properties <> x:199 var
+R16374:16374 QArithSternBrocot.Q_ordered_field_properties <> z:201 var
+R16376:16376 QArithSternBrocot.Q_ordered_field_properties <> y:200 var
+R16382:16384 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'<'_x not
+R16381:16381 QArithSternBrocot.Q_ordered_field_properties <> x:199 var
+R16386:16386 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'/'_x not
+R16385:16385 QArithSternBrocot.Q_ordered_field_properties <> y:200 var
+R16387:16387 QArithSternBrocot.Q_ordered_field_properties <> z:201 var
+R16426:16445 QArithSternBrocot.Q_ordered_field_properties <> Qmult_resp_Qlt_pos_r def
+R16426:16445 QArithSternBrocot.Q_ordered_field_properties <> Qmult_resp_Qlt_pos_r def
+prf 16507:16524 <> Qmult_neg_Qlt_Qdiv
+R16542:16542 QArithSternBrocot.Q_field <> Q ind
+binder 16534:16534 <> x:202
+binder 16536:16536 <> y:203
+binder 16538:16538 <> z:204
+R16552:16555 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R16546:16547 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'<'_x not
+R16545:16545 QArithSternBrocot.Q_ordered_field_properties <> z:204 var
+R16548:16551 QArithSternBrocot.Q_field <> Zero constr
+R16565:16568 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R16557:16559 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'<'_x not
+R16556:16556 QArithSternBrocot.Q_ordered_field_properties <> y:203 var
+R16561:16563 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'*'_x not
+R16560:16560 QArithSternBrocot.Q_ordered_field_properties <> x:202 var
+R16564:16564 QArithSternBrocot.Q_ordered_field_properties <> z:204 var
+R16570:16572 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'<'_x not
+R16569:16569 QArithSternBrocot.Q_ordered_field_properties <> x:202 var
+R16574:16576 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'/'_x not
+R16573:16573 QArithSternBrocot.Q_ordered_field_properties <> y:203 var
+R16577:16577 QArithSternBrocot.Q_ordered_field_properties <> z:204 var
+R16616:16635 QArithSternBrocot.Q_ordered_field_properties <> Qmult_resp_Qlt_neg_r thm
+R16616:16635 QArithSternBrocot.Q_ordered_field_properties <> Qmult_resp_Qlt_neg_r thm
+prf 16697:16714 <> Qmult_pos_Qdiv_Qlt
+R16732:16732 QArithSternBrocot.Q_field <> Q ind
+binder 16724:16724 <> x:205
+binder 16726:16726 <> y:206
+binder 16728:16728 <> z:207
+R16741:16744 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R16739:16739 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'<'_x not
+R16735:16738 QArithSternBrocot.Q_field <> Zero constr
+R16740:16740 QArithSternBrocot.Q_ordered_field_properties <> z:207 var
+R16750:16753 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R16746:16746 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'<'_x not
+R16745:16745 QArithSternBrocot.Q_ordered_field_properties <> y:206 var
+R16748:16748 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'*'_x not
+R16747:16747 QArithSternBrocot.Q_ordered_field_properties <> x:205 var
+R16749:16749 QArithSternBrocot.Q_ordered_field_properties <> z:207 var
+R16757:16759 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'<'_x not
+R16755:16755 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'/'_x not
+R16754:16754 QArithSternBrocot.Q_ordered_field_properties <> y:206 var
+R16756:16756 QArithSternBrocot.Q_ordered_field_properties <> z:207 var
+R16760:16760 QArithSternBrocot.Q_ordered_field_properties <> x:205 var
+R16799:16818 QArithSternBrocot.Q_ordered_field_properties <> Qmult_resp_Qlt_pos_r def
+R16799:16818 QArithSternBrocot.Q_ordered_field_properties <> Qmult_resp_Qlt_pos_r def
+prf 16880:16897 <> Qmult_neg_Qdiv_Qlt
+R16915:16915 QArithSternBrocot.Q_field <> Q ind
+binder 16907:16907 <> x:208
+binder 16909:16909 <> y:209
+binder 16911:16911 <> z:210
+R16925:16928 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R16919:16920 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'<'_x not
+R16918:16918 QArithSternBrocot.Q_ordered_field_properties <> z:210 var
+R16921:16924 QArithSternBrocot.Q_field <> Zero constr
+R16934:16937 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R16932:16932 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'<'_x not
+R16930:16930 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'*'_x not
+R16929:16929 QArithSternBrocot.Q_ordered_field_properties <> x:208 var
+R16931:16931 QArithSternBrocot.Q_ordered_field_properties <> z:210 var
+R16933:16933 QArithSternBrocot.Q_ordered_field_properties <> y:209 var
+R16941:16941 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'<'_x not
+R16939:16939 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'/'_x not
+R16938:16938 QArithSternBrocot.Q_ordered_field_properties <> y:209 var
+R16940:16940 QArithSternBrocot.Q_ordered_field_properties <> z:210 var
+R16942:16942 QArithSternBrocot.Q_ordered_field_properties <> x:208 var
+R16981:17000 QArithSternBrocot.Q_ordered_field_properties <> Qmult_resp_Qlt_neg_r thm
+R16981:17000 QArithSternBrocot.Q_ordered_field_properties <> Qmult_resp_Qlt_neg_r thm
+prf 17062:17083 <> Qmult_Qdiv_pos_neg_Qle
+R17102:17102 QArithSternBrocot.Q_field <> Q ind
+binder 17092:17092 <> x:211
+binder 17094:17094 <> y:212
+binder 17096:17096 <> z:213
+binder 17098:17098 <> t:214
+R17114:17117 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R17110:17112 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'<'_x not
+R17106:17109 QArithSternBrocot.Q_field <> Zero constr
+R17113:17113 QArithSternBrocot.Q_ordered_field_properties <> z:213 var
+R17124:17127 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R17119:17119 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'<'_x not
+R17118:17118 QArithSternBrocot.Q_ordered_field_properties <> t:214 var
+R17120:17123 QArithSternBrocot.Q_field <> Zero constr
+R17142:17145 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R17133:17136 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'<='_x not
+R17129:17131 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'*'_x not
+R17128:17128 QArithSternBrocot.Q_ordered_field_properties <> y:212 var
+R17132:17132 QArithSternBrocot.Q_ordered_field_properties <> z:213 var
+R17138:17140 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'*'_x not
+R17137:17137 QArithSternBrocot.Q_ordered_field_properties <> x:211 var
+R17141:17141 QArithSternBrocot.Q_ordered_field_properties <> t:214 var
+R17151:17154 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'<='_x not
+R17147:17149 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'/'_x not
+R17146:17146 QArithSternBrocot.Q_ordered_field_properties <> x:211 var
+R17150:17150 QArithSternBrocot.Q_ordered_field_properties <> z:213 var
+R17156:17158 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'/'_x not
+R17155:17155 QArithSternBrocot.Q_ordered_field_properties <> y:212 var
+R17159:17159 QArithSternBrocot.Q_ordered_field_properties <> t:214 var
+R17233:17233 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'*'_x not
+R17205:17224 QArithSternBrocot.Q_ordered_field_properties <> Qmult_resp_Qle_neg_r thm
+R17233:17233 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'*'_x not
+R17205:17224 QArithSternBrocot.Q_ordered_field_properties <> Qmult_resp_Qle_neg_r thm
+R17248:17256 QArithSternBrocot.Q_order <> Qmult_sym thm
+R17265:17280 QArithSternBrocot.general_Q <> Qlt_mult_neg_pos thm
+R17248:17256 QArithSternBrocot.Q_order <> Qmult_sym thm
+R17248:17256 QArithSternBrocot.Q_order <> Qmult_sym thm
+R17265:17280 QArithSternBrocot.general_Q <> Qlt_mult_neg_pos thm
+R17302:17302 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'*'_x not
+R17317:17317 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'*'_x not
+R17302:17302 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'*'_x not
+R17317:17317 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'*'_x not
+prf 17360:17381 <> Qmult_Qdiv_neg_pos_Qle
+R17400:17400 QArithSternBrocot.Q_field <> Q ind
+binder 17390:17390 <> x:215
+binder 17392:17392 <> y:216
+binder 17394:17394 <> z:217
+binder 17396:17396 <> t:218
+R17410:17413 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R17405:17405 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'<'_x not
+R17404:17404 QArithSternBrocot.Q_ordered_field_properties <> z:217 var
+R17406:17409 QArithSternBrocot.Q_field <> Zero constr
+R17420:17423 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R17418:17418 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'<'_x not
+R17414:17417 QArithSternBrocot.Q_field <> Zero constr
+R17419:17419 QArithSternBrocot.Q_ordered_field_properties <> t:218 var
+R17438:17441 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R17429:17432 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'<='_x not
+R17425:17427 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'*'_x not
+R17424:17424 QArithSternBrocot.Q_ordered_field_properties <> y:216 var
+R17428:17428 QArithSternBrocot.Q_ordered_field_properties <> z:217 var
+R17434:17436 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'*'_x not
+R17433:17433 QArithSternBrocot.Q_ordered_field_properties <> x:215 var
+R17437:17437 QArithSternBrocot.Q_ordered_field_properties <> t:218 var
+R17447:17450 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'<='_x not
+R17443:17445 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'/'_x not
+R17442:17442 QArithSternBrocot.Q_ordered_field_properties <> x:215 var
+R17446:17446 QArithSternBrocot.Q_ordered_field_properties <> z:217 var
+R17452:17454 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'/'_x not
+R17451:17451 QArithSternBrocot.Q_ordered_field_properties <> y:216 var
+R17455:17455 QArithSternBrocot.Q_ordered_field_properties <> t:218 var
+R17529:17529 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'*'_x not
+R17501:17520 QArithSternBrocot.Q_ordered_field_properties <> Qmult_resp_Qle_neg_r thm
+R17529:17529 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'*'_x not
+R17501:17520 QArithSternBrocot.Q_ordered_field_properties <> Qmult_resp_Qle_neg_r thm
+R17542:17557 QArithSternBrocot.general_Q <> Qlt_mult_neg_pos thm
+R17542:17557 QArithSternBrocot.general_Q <> Qlt_mult_neg_pos thm
+R17579:17579 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'*'_x not
+R17594:17594 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'*'_x not
+R17579:17579 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'*'_x not
+R17594:17594 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'*'_x not
+prf 17637:17654 <> Qmult_Qdiv_neg_Qle
+R17673:17673 QArithSternBrocot.Q_field <> Q ind
+binder 17663:17663 <> x:219
+binder 17665:17665 <> y:220
+binder 17667:17667 <> z:221
+binder 17669:17669 <> t:222
+R17683:17686 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R17678:17678 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'<'_x not
+R17677:17677 QArithSternBrocot.Q_ordered_field_properties <> z:221 var
+R17679:17682 QArithSternBrocot.Q_field <> Zero constr
+R17693:17696 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R17688:17688 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'<'_x not
+R17687:17687 QArithSternBrocot.Q_ordered_field_properties <> t:222 var
+R17689:17692 QArithSternBrocot.Q_field <> Zero constr
+R17709:17712 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R17702:17703 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'<='_x not
+R17698:17700 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'*'_x not
+R17697:17697 QArithSternBrocot.Q_ordered_field_properties <> x:219 var
+R17701:17701 QArithSternBrocot.Q_ordered_field_properties <> t:222 var
+R17705:17707 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'*'_x not
+R17704:17704 QArithSternBrocot.Q_ordered_field_properties <> y:220 var
+R17708:17708 QArithSternBrocot.Q_ordered_field_properties <> z:221 var
+R17718:17721 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'<='_x not
+R17714:17716 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'/'_x not
+R17713:17713 QArithSternBrocot.Q_ordered_field_properties <> x:219 var
+R17717:17717 QArithSternBrocot.Q_ordered_field_properties <> z:221 var
+R17723:17725 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'/'_x not
+R17722:17722 QArithSternBrocot.Q_ordered_field_properties <> y:220 var
+R17726:17726 QArithSternBrocot.Q_ordered_field_properties <> t:222 var
+R17800:17800 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'*'_x not
+R17772:17791 QArithSternBrocot.Q_ordered_field_properties <> Qmult_resp_Qle_pos_r thm
+R17800:17800 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'*'_x not
+R17772:17791 QArithSternBrocot.Q_ordered_field_properties <> Qmult_resp_Qle_pos_r thm
+R17813:17828 QArithSternBrocot.Q_ordered_field_properties <> Qlt_mult_neg_neg thm
+R17813:17828 QArithSternBrocot.Q_ordered_field_properties <> Qlt_mult_neg_neg thm
+R17850:17850 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'*'_x not
+R17865:17865 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'*'_x not
+R17850:17850 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'*'_x not
+R17865:17865 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'*'_x not
+prf 17908:17922 <> Qopp_involutive
+binder 17932:17932 <> q:223
+R17948:17950 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R17935:17938 QArithSternBrocot.Q_field <> Qopp def
+R17941:17944 QArithSternBrocot.Q_field <> Qopp def
+R17946:17946 QArithSternBrocot.Q_ordered_field_properties <> q:223 var
+R17951:17951 QArithSternBrocot.Q_ordered_field_properties <> q:223 var
+prf 18001:18008 <> Qopp_Qle
+binder 18018:18018 <> x:224
+binder 18020:18020 <> y:225
+R18029:18032 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R18024:18027 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'<='_x not
+R18023:18023 QArithSternBrocot.Q_ordered_field_properties <> y:225 var
+R18028:18028 QArithSternBrocot.Q_ordered_field_properties <> x:224 var
+R18036:18039 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'<='_x not
+R18033:18034 QArithSternBrocot.Qsyntax <> ::Q_scope:'-'_x not
+R18035:18035 QArithSternBrocot.Q_ordered_field_properties <> x:224 var
+R18040:18041 QArithSternBrocot.Qsyntax <> ::Q_scope:'-'_x not
+R18042:18042 QArithSternBrocot.Q_ordered_field_properties <> y:225 var
+R18075:18081 QArithSternBrocot.Q_ordered_field_properties <> Qle_opp thm
+R18099:18113 QArithSternBrocot.Q_ordered_field_properties <> Qopp_involutive thm
+R18075:18081 QArithSternBrocot.Q_ordered_field_properties <> Qle_opp thm
+R18099:18113 QArithSternBrocot.Q_ordered_field_properties <> Qopp_involutive thm
+R18099:18113 QArithSternBrocot.Q_ordered_field_properties <> Qopp_involutive thm
+R18099:18113 QArithSternBrocot.Q_ordered_field_properties <> Qopp_involutive thm
+R18099:18113 QArithSternBrocot.Q_ordered_field_properties <> Qopp_involutive thm
+R18099:18113 QArithSternBrocot.Q_ordered_field_properties <> Qopp_involutive thm
+prf 18140:18147 <> Qopp_Qlt
+binder 18157:18157 <> x:226
+binder 18159:18159 <> y:227
+R18167:18170 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R18163:18165 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'<'_x not
+R18162:18162 QArithSternBrocot.Q_ordered_field_properties <> y:227 var
+R18166:18166 QArithSternBrocot.Q_ordered_field_properties <> x:226 var
+R18174:18176 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'<'_x not
+R18171:18172 QArithSternBrocot.Qsyntax <> ::Q_scope:'-'_x not
+R18173:18173 QArithSternBrocot.Q_ordered_field_properties <> x:226 var
+R18177:18178 QArithSternBrocot.Qsyntax <> ::Q_scope:'-'_x not
+R18179:18179 QArithSternBrocot.Q_ordered_field_properties <> y:227 var
+R18212:18218 QArithSternBrocot.Q_ordered_field_properties <> Qlt_opp thm
+R18236:18250 QArithSternBrocot.Q_ordered_field_properties <> Qopp_involutive thm
+R18212:18218 QArithSternBrocot.Q_ordered_field_properties <> Qlt_opp thm
+R18236:18250 QArithSternBrocot.Q_ordered_field_properties <> Qopp_involutive thm
+R18236:18250 QArithSternBrocot.Q_ordered_field_properties <> Qopp_involutive thm
+R18236:18250 QArithSternBrocot.Q_ordered_field_properties <> Qopp_involutive thm
+R18236:18250 QArithSternBrocot.Q_ordered_field_properties <> Qopp_involutive thm
+R18236:18250 QArithSternBrocot.Q_ordered_field_properties <> Qopp_involutive thm
+prf 18277:18297 <> Qle_reg_mult_r_strong
+R18315:18315 QArithSternBrocot.Q_field <> Q ind
+binder 18307:18307 <> x:228
+binder 18309:18309 <> y:229
+binder 18311:18311 <> z:230
+R18327:18330 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R18322:18325 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'<='_x not
+R18318:18321 QArithSternBrocot.Q_field <> Zero constr
+R18326:18326 QArithSternBrocot.Q_ordered_field_properties <> x:228 var
+R18337:18340 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R18332:18335 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'<='_x not
+R18331:18331 QArithSternBrocot.Q_ordered_field_properties <> y:229 var
+R18336:18336 QArithSternBrocot.Q_ordered_field_properties <> z:230 var
+R18346:18349 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'<='_x not
+R18342:18344 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'*'_x not
+R18341:18341 QArithSternBrocot.Q_ordered_field_properties <> y:229 var
+R18345:18345 QArithSternBrocot.Q_ordered_field_properties <> x:228 var
+R18351:18353 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'*'_x not
+R18350:18350 QArithSternBrocot.Q_ordered_field_properties <> z:230 var
+R18354:18354 QArithSternBrocot.Q_ordered_field_properties <> x:228 var
+R18393:18407 QArithSternBrocot.Q_ordered_field_properties <> Qle_Zero_Qminus thm
+R18418:18419 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'*'_x not
+R18423:18423 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'*'_x not
+R18421:18421 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'-'_x not
+R18442:18463 QArithSternBrocot.general_Q <> Qle_mult_nonneg_nonneg thm
+R18478:18492 QArithSternBrocot.Q_ordered_field_properties <> Qle_Qminus_Zero thm
+R18393:18407 QArithSternBrocot.Q_ordered_field_properties <> Qle_Zero_Qminus thm
+R18418:18419 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'*'_x not
+R18423:18423 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'*'_x not
+R18421:18421 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'-'_x not
+R18442:18463 QArithSternBrocot.general_Q <> Qle_mult_nonneg_nonneg thm
+R18478:18492 QArithSternBrocot.Q_ordered_field_properties <> Qle_Qminus_Zero thm
+prf 18519:18539 <> Qle_reg_mult_l_strong
+R18557:18557 QArithSternBrocot.Q_field <> Q ind
+binder 18549:18549 <> x:231
+binder 18551:18551 <> y:232
+binder 18553:18553 <> z:233
+R18569:18572 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R18564:18567 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'<='_x not
+R18560:18563 QArithSternBrocot.Q_field <> Zero constr
+R18568:18568 QArithSternBrocot.Q_ordered_field_properties <> x:231 var
+R18579:18582 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R18574:18577 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'<='_x not
+R18573:18573 QArithSternBrocot.Q_ordered_field_properties <> y:232 var
+R18578:18578 QArithSternBrocot.Q_ordered_field_properties <> z:233 var
+R18588:18591 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'<='_x not
+R18584:18586 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'*'_x not
+R18583:18583 QArithSternBrocot.Q_ordered_field_properties <> x:231 var
+R18587:18587 QArithSternBrocot.Q_ordered_field_properties <> y:232 var
+R18593:18595 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'*'_x not
+R18592:18592 QArithSternBrocot.Q_ordered_field_properties <> x:231 var
+R18596:18596 QArithSternBrocot.Q_ordered_field_properties <> z:233 var
+R18634:18648 QArithSternBrocot.Q_ordered_field_properties <> Qle_Zero_Qminus thm
+R18659:18660 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'*'_x not
+R18664:18664 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'*'_x not
+R18662:18662 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'-'_x not
+R18683:18704 QArithSternBrocot.general_Q <> Qle_mult_nonneg_nonneg thm
+R18719:18733 QArithSternBrocot.Q_ordered_field_properties <> Qle_Qminus_Zero thm
+R18634:18648 QArithSternBrocot.Q_ordered_field_properties <> Qle_Zero_Qminus thm
+R18659:18660 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'*'_x not
+R18664:18664 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'*'_x not
+R18662:18662 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'-'_x not
+R18683:18704 QArithSternBrocot.general_Q <> Qle_mult_nonneg_nonneg thm
+R18719:18733 QArithSternBrocot.Q_ordered_field_properties <> Qle_Qminus_Zero thm
+prf 18761:18782 <> Qlt_Qdiv_denom_neg_neg
+R18796:18796 QArithSternBrocot.Q_field <> Q ind
+binder 18792:18792 <> x:234
+binder 18794:18794 <> y:235
+R18805:18808 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R18800:18800 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'<'_x not
+R18799:18799 QArithSternBrocot.Q_ordered_field_properties <> y:235 var
+R18801:18804 QArithSternBrocot.Q_field <> Zero constr
+R18821:18825 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R18814:18816 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'<'_x not
+R18810:18812 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'/'_x not
+R18809:18809 QArithSternBrocot.Q_ordered_field_properties <> x:234 var
+R18813:18813 QArithSternBrocot.Q_ordered_field_properties <> y:235 var
+R18817:18820 QArithSternBrocot.Q_field <> Zero constr
+R18830:18832 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'<'_x not
+R18826:18829 QArithSternBrocot.Q_field <> Zero constr
+R18833:18833 QArithSternBrocot.Q_ordered_field_properties <> x:234 var
+R18871:18872 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'*'_x not
+R18876:18876 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'*'_x not
+R18874:18874 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'/'_x not
+R18902:18917 QArithSternBrocot.Q_ordered_field_properties <> Qlt_mult_neg_neg thm
+R18871:18872 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'*'_x not
+R18876:18876 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'*'_x not
+R18874:18874 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'/'_x not
+R18902:18917 QArithSternBrocot.Q_ordered_field_properties <> Qlt_mult_neg_neg thm
+prf 18945:18966 <> Qlt_Qdiv_denom_neg_pos
+R18980:18980 QArithSternBrocot.Q_field <> Q ind
+binder 18976:18976 <> x:236
+binder 18978:18978 <> y:237
+R18989:18993 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R18984:18984 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'<'_x not
+R18983:18983 QArithSternBrocot.Q_ordered_field_properties <> y:237 var
+R18985:18988 QArithSternBrocot.Q_field <> Zero constr
+R19005:19009 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R18998:18999 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'<'_x not
+R18994:18997 QArithSternBrocot.Q_field <> Zero constr
+R19001:19003 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'/'_x not
+R19000:19000 QArithSternBrocot.Q_ordered_field_properties <> x:236 var
+R19004:19004 QArithSternBrocot.Q_ordered_field_properties <> y:237 var
+R19011:19011 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'<'_x not
+R19010:19010 QArithSternBrocot.Q_ordered_field_properties <> x:236 var
+R19012:19015 QArithSternBrocot.Q_field <> Zero constr
+R19053:19054 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'*'_x not
+R19058:19058 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'*'_x not
+R19056:19056 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'/'_x not
+R19084:19099 QArithSternBrocot.general_Q <> Qlt_mult_neg_pos thm
+R19053:19054 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'*'_x not
+R19058:19058 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'*'_x not
+R19056:19056 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'/'_x not
+R19084:19099 QArithSternBrocot.general_Q <> Qlt_mult_neg_pos thm
+prf 19127:19148 <> Qlt_Qdiv_denom_pos_neg
+R19162:19162 QArithSternBrocot.Q_field <> Q ind
+binder 19158:19158 <> x:238
+binder 19160:19160 <> y:239
+R19171:19174 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R19169:19169 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'<'_x not
+R19165:19168 QArithSternBrocot.Q_field <> Zero constr
+R19170:19170 QArithSternBrocot.Q_ordered_field_properties <> y:239 var
+R19187:19191 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R19180:19182 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'<'_x not
+R19176:19178 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'/'_x not
+R19175:19175 QArithSternBrocot.Q_ordered_field_properties <> x:238 var
+R19179:19179 QArithSternBrocot.Q_ordered_field_properties <> y:239 var
+R19183:19186 QArithSternBrocot.Q_field <> Zero constr
+R19193:19193 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'<'_x not
+R19192:19192 QArithSternBrocot.Q_ordered_field_properties <> x:238 var
+R19194:19197 QArithSternBrocot.Q_field <> Zero constr
+R19234:19234 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'*'_x not
+R19238:19239 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'*'_x not
+R19236:19236 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'/'_x not
+R19266:19281 QArithSternBrocot.general_Q <> Qlt_mult_neg_pos thm
+R19234:19234 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'*'_x not
+R19238:19239 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'*'_x not
+R19236:19236 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'/'_x not
+R19266:19281 QArithSternBrocot.general_Q <> Qlt_mult_neg_pos thm
+prf 19309:19330 <> Qlt_Qdiv_denom_pos_pos
+R19344:19344 QArithSternBrocot.Q_field <> Q ind
+binder 19340:19340 <> x:240
+binder 19342:19342 <> y:241
+R19353:19357 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R19351:19351 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'<'_x not
+R19347:19350 QArithSternBrocot.Q_field <> Zero constr
+R19352:19352 QArithSternBrocot.Q_ordered_field_properties <> y:241 var
+R19369:19373 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R19362:19363 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'<'_x not
+R19358:19361 QArithSternBrocot.Q_field <> Zero constr
+R19365:19367 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'/'_x not
+R19364:19364 QArithSternBrocot.Q_ordered_field_properties <> x:240 var
+R19368:19368 QArithSternBrocot.Q_ordered_field_properties <> y:241 var
+R19378:19378 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'<'_x not
+R19374:19377 QArithSternBrocot.Q_field <> Zero constr
+R19379:19379 QArithSternBrocot.Q_ordered_field_properties <> x:240 var
+R19417:19418 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'*'_x not
+R19422:19422 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'*'_x not
+R19420:19420 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'/'_x not
+R19448:19463 QArithSternBrocot.general_Q <> Qlt_mult_pos_pos thm
+R19417:19418 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'*'_x not
+R19422:19422 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'*'_x not
+R19420:19420 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'/'_x not
+R19448:19463 QArithSternBrocot.general_Q <> Qlt_mult_pos_pos thm
+prf 19491:19515 <> Qle_Qdiv_denom_neg_nonpos
+R19529:19529 QArithSternBrocot.Q_field <> Q ind
+binder 19525:19525 <> x:242
+binder 19527:19527 <> y:243
+R19538:19541 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R19533:19533 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'<'_x not
+R19532:19532 QArithSternBrocot.Q_ordered_field_properties <> y:243 var
+R19534:19537 QArithSternBrocot.Q_field <> Zero constr
+R19555:19559 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R19547:19550 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'<='_x not
+R19543:19545 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'/'_x not
+R19542:19542 QArithSternBrocot.Q_ordered_field_properties <> x:242 var
+R19546:19546 QArithSternBrocot.Q_ordered_field_properties <> y:243 var
+R19551:19554 QArithSternBrocot.Q_field <> Zero constr
+R19564:19567 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'<='_x not
+R19560:19563 QArithSternBrocot.Q_field <> Zero constr
+R19568:19568 QArithSternBrocot.Q_ordered_field_properties <> x:242 var
+R19606:19607 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'*'_x not
+R19611:19611 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'*'_x not
+R19609:19609 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'/'_x not
+R19637:19655 QArithSternBrocot.Q_ordered_field_properties <> Qle_mult_neg_nonpos thm
+R19606:19607 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'*'_x not
+R19611:19611 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'*'_x not
+R19609:19609 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'/'_x not
+R19637:19655 QArithSternBrocot.Q_ordered_field_properties <> Qle_mult_neg_nonpos thm
+prf 19683:19707 <> Qle_Qdiv_denom_neg_nonneg
+R19721:19721 QArithSternBrocot.Q_field <> Q ind
+binder 19717:19717 <> x:244
+binder 19719:19719 <> y:245
+R19730:19734 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R19725:19725 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'<'_x not
+R19724:19724 QArithSternBrocot.Q_ordered_field_properties <> y:245 var
+R19726:19729 QArithSternBrocot.Q_field <> Zero constr
+R19747:19751 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R19739:19741 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'<='_x not
+R19735:19738 QArithSternBrocot.Q_field <> Zero constr
+R19743:19745 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'/'_x not
+R19742:19742 QArithSternBrocot.Q_ordered_field_properties <> x:244 var
+R19746:19746 QArithSternBrocot.Q_ordered_field_properties <> y:245 var
+R19753:19754 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'<='_x not
+R19752:19752 QArithSternBrocot.Q_ordered_field_properties <> x:244 var
+R19755:19758 QArithSternBrocot.Q_field <> Zero constr
+R19796:19797 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'*'_x not
+R19801:19801 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'*'_x not
+R19799:19799 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'/'_x not
+R19827:19845 QArithSternBrocot.general_Q <> Qle_mult_neg_nonneg thm
+R19796:19797 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'*'_x not
+R19801:19801 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'*'_x not
+R19799:19799 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'/'_x not
+R19827:19845 QArithSternBrocot.general_Q <> Qle_mult_neg_nonneg thm
+prf 19873:19897 <> Qle_Qdiv_denom_pos_nonpos
+R19911:19911 QArithSternBrocot.Q_field <> Q ind
+binder 19907:19907 <> x:246
+binder 19909:19909 <> y:247
+R19920:19923 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R19918:19918 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'<'_x not
+R19914:19917 QArithSternBrocot.Q_field <> Zero constr
+R19919:19919 QArithSternBrocot.Q_ordered_field_properties <> y:247 var
+R19937:19941 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R19929:19932 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'<='_x not
+R19925:19927 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'/'_x not
+R19924:19924 QArithSternBrocot.Q_ordered_field_properties <> x:246 var
+R19928:19928 QArithSternBrocot.Q_ordered_field_properties <> y:247 var
+R19933:19936 QArithSternBrocot.Q_field <> Zero constr
+R19943:19944 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'<='_x not
+R19942:19942 QArithSternBrocot.Q_ordered_field_properties <> x:246 var
+R19945:19948 QArithSternBrocot.Q_field <> Zero constr
+R19985:19985 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'*'_x not
+R19989:19990 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'*'_x not
+R19987:19987 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'/'_x not
+R20017:20035 QArithSternBrocot.general_Q <> Qle_mult_nonpos_pos thm
+R19985:19985 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'*'_x not
+R19989:19990 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'*'_x not
+R19987:19987 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'/'_x not
+R20017:20035 QArithSternBrocot.general_Q <> Qle_mult_nonpos_pos thm
+prf 20063:20087 <> Qle_Qdiv_denom_pos_nonneg
+R20101:20101 QArithSternBrocot.Q_field <> Q ind
+binder 20097:20097 <> x:248
+binder 20099:20099 <> y:249
+R20110:20114 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R20108:20108 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'<'_x not
+R20104:20107 QArithSternBrocot.Q_field <> Zero constr
+R20109:20109 QArithSternBrocot.Q_ordered_field_properties <> y:249 var
+R20127:20131 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R20119:20121 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'<='_x not
+R20115:20118 QArithSternBrocot.Q_field <> Zero constr
+R20123:20125 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'/'_x not
+R20122:20122 QArithSternBrocot.Q_ordered_field_properties <> x:248 var
+R20126:20126 QArithSternBrocot.Q_ordered_field_properties <> y:249 var
+R20136:20137 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'<='_x not
+R20132:20135 QArithSternBrocot.Q_field <> Zero constr
+R20138:20138 QArithSternBrocot.Q_ordered_field_properties <> x:248 var
+R20176:20177 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'*'_x not
+R20181:20181 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'*'_x not
+R20179:20179 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'/'_x not
+R20207:20225 QArithSternBrocot.Q_ordered_field_properties <> Qle_mult_pos_nonneg thm
+R20176:20177 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'*'_x not
+R20181:20181 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'*'_x not
+R20179:20179 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'/'_x not
+R20207:20225 QArithSternBrocot.Q_ordered_field_properties <> Qle_mult_pos_nonneg thm
+prf 20253:20264 <> Qlt_neg_Qopp
+R20278:20278 QArithSternBrocot.Q_field <> Q ind
+binder 20274:20274 <> x:250
+R20291:20292 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R20284:20286 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'<'_x not
+R20281:20282 QArithSternBrocot.Qsyntax <> ::Q_scope:'-'_x not
+R20283:20283 QArithSternBrocot.Q_ordered_field_properties <> x:250 var
+R20287:20290 QArithSternBrocot.Q_field <> Zero constr
+R20297:20299 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'<'_x not
+R20293:20296 QArithSternBrocot.Q_field <> Zero constr
+R20300:20300 QArithSternBrocot.Q_ordered_field_properties <> x:250 var
+R20330:20336 QArithSternBrocot.Q_ordered_field_properties <> Qlt_opp thm
+R20330:20336 QArithSternBrocot.Q_ordered_field_properties <> Qlt_opp thm
+prf 20370:20381 <> Qlt_pos_Qopp
+R20395:20395 QArithSternBrocot.Q_field <> Q ind
+binder 20391:20391 <> x:251
+R20408:20409 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R20402:20404 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'<'_x not
+R20398:20401 QArithSternBrocot.Q_field <> Zero constr
+R20405:20406 QArithSternBrocot.Qsyntax <> ::Q_scope:'-'_x not
+R20407:20407 QArithSternBrocot.Q_ordered_field_properties <> x:251 var
+R20411:20411 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'<'_x not
+R20410:20410 QArithSternBrocot.Q_ordered_field_properties <> x:251 var
+R20412:20415 QArithSternBrocot.Q_field <> Zero constr
+R20445:20451 QArithSternBrocot.Q_ordered_field_properties <> Qlt_opp thm
+R20445:20451 QArithSternBrocot.Q_ordered_field_properties <> Qlt_opp thm
+prf 20485:20513 <> Qmult_mult_Qle_Qone_Qopp_Qone
+binder 20523:20523 <> q:252
+R20534:20537 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R20531:20532 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'<='_x not
+R20526:20526 QArithSternBrocot.Qsyntax <> ::Q_scope:'-'_x not
+R20527:20530 QArithSternBrocot.Q_field <> Qone def
+R20533:20533 QArithSternBrocot.Q_ordered_field_properties <> q:252 var
+R20546:20549 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R20539:20541 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'<='_x not
+R20538:20538 QArithSternBrocot.Q_ordered_field_properties <> q:252 var
+R20542:20545 QArithSternBrocot.Q_field <> Qone def
+R20553:20556 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'<='_x not
+R20551:20551 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'*'_x not
+R20550:20550 QArithSternBrocot.Q_ordered_field_properties <> q:252 var
+R20552:20552 QArithSternBrocot.Q_ordered_field_properties <> q:252 var
+R20557:20560 QArithSternBrocot.Q_field <> Qone def
+R20599:20609 QArithSternBrocot.general_Q <> Q_le_lt_dec thm
+R20611:20614 QArithSternBrocot.Q_field <> Zero constr
+R20599:20609 QArithSternBrocot.general_Q <> Q_le_lt_dec thm
+R20611:20614 QArithSternBrocot.Q_field <> Zero constr
+R20633:20633 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'*'_x not
+R20629:20632 QArithSternBrocot.Q_field <> Qone def
+R20634:20637 QArithSternBrocot.Q_field <> Qone def
+R20656:20671 QArithSternBrocot.Q_ordered_field_properties <> Qmult_Qle_compat thm
+R20633:20633 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'*'_x not
+R20629:20632 QArithSternBrocot.Q_field <> Qone def
+R20634:20637 QArithSternBrocot.Q_field <> Qone def
+R20656:20671 QArithSternBrocot.Q_ordered_field_properties <> Qmult_Qle_compat thm
+R20695:20695 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'*'_x not
+R20698:20700 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'*'_x not
+R20703:20703 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'*'_x not
+R20696:20696 QArithSternBrocot.Qsyntax <> ::Q_scope:'-'_x not
+R20701:20701 QArithSternBrocot.Qsyntax <> ::Q_scope:'-'_x not
+R20727:20727 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'*'_x not
+R20723:20726 QArithSternBrocot.Q_field <> Qone def
+R20728:20731 QArithSternBrocot.Q_field <> Qone def
+R20750:20765 QArithSternBrocot.Q_ordered_field_properties <> Qmult_Qle_compat thm
+R20784:20790 QArithSternBrocot.Q_ordered_field_properties <> Qle_opp thm
+R20695:20695 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'*'_x not
+R20698:20700 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'*'_x not
+R20703:20703 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'*'_x not
+R20696:20696 QArithSternBrocot.Qsyntax <> ::Q_scope:'-'_x not
+R20701:20701 QArithSternBrocot.Qsyntax <> ::Q_scope:'-'_x not
+R20727:20727 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'*'_x not
+R20723:20726 QArithSternBrocot.Q_field <> Qone def
+R20728:20731 QArithSternBrocot.Q_field <> Qone def
+R20750:20765 QArithSternBrocot.Q_ordered_field_properties <> Qmult_Qle_compat thm
+R20784:20790 QArithSternBrocot.Q_ordered_field_properties <> Qle_opp thm
+R20784:20790 QArithSternBrocot.Q_ordered_field_properties <> Qle_opp thm
+prf 20827:20848 <> Qinv_resp_nonzero_Qdiv
+binder 20857:20857 <> q:253
+R20869:20872 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R20861:20864 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R20860:20860 QArithSternBrocot.Q_ordered_field_properties <> q:253 var
+R20865:20868 QArithSternBrocot.Q_field <> Zero constr
+R20873:20873 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R20880:20882 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R20878:20878 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'/'_x not
+R20874:20877 QArithSternBrocot.Q_field <> Qone def
+R20879:20879 QArithSternBrocot.Q_ordered_field_properties <> q:253 var
+R20883:20886 QArithSternBrocot.Q_field <> Zero constr
+R20922:20935 QArithSternBrocot.Q_ordered_field_properties <> Qinv_Qdiv_Qone thm
+R20944:20960 QArithSternBrocot.general_Q <> Qinv_resp_nonzero thm
+R20922:20935 QArithSternBrocot.Q_ordered_field_properties <> Qinv_Qdiv_Qone thm
+R20922:20935 QArithSternBrocot.Q_ordered_field_properties <> Qinv_Qdiv_Qone thm
+R20944:20960 QArithSternBrocot.general_Q <> Qinv_resp_nonzero thm
+prf 20987:21017 <> Qmult_Qlt_Qle_nonneg_pos_compat
+binder 21027:21027 <> n:254
+binder 21029:21029 <> m:255
+binder 21031:21031 <> p:256
+binder 21033:21033 <> q:257
+R21041:21044 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R21037:21039 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'<'_x not
+R21036:21036 QArithSternBrocot.Q_ordered_field_properties <> n:254 var
+R21040:21040 QArithSternBrocot.Q_ordered_field_properties <> p:256 var
+R21051:21054 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R21046:21049 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'<='_x not
+R21045:21045 QArithSternBrocot.Q_ordered_field_properties <> m:255 var
+R21050:21050 QArithSternBrocot.Q_ordered_field_properties <> q:257 var
+R21064:21067 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R21059:21062 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'<='_x not
+R21055:21058 QArithSternBrocot.Q_field <> Zero constr
+R21063:21063 QArithSternBrocot.Q_ordered_field_properties <> n:254 var
+R21076:21079 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R21072:21074 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'<'_x not
+R21068:21071 QArithSternBrocot.Q_field <> Zero constr
+R21075:21075 QArithSternBrocot.Q_ordered_field_properties <> q:257 var
+R21085:21087 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'<'_x not
+R21081:21083 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'*'_x not
+R21080:21080 QArithSternBrocot.Q_ordered_field_properties <> n:254 var
+R21084:21084 QArithSternBrocot.Q_ordered_field_properties <> m:255 var
+R21089:21091 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'*'_x not
+R21088:21088 QArithSternBrocot.Q_ordered_field_properties <> p:256 var
+R21092:21092 QArithSternBrocot.Q_ordered_field_properties <> q:257 var
+R21157:21157 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'*'_x not
+R21137:21148 QArithSternBrocot.general_Q <> Qle_lt_trans thm
+R21171:21191 QArithSternBrocot.Q_ordered_field_properties <> Qle_reg_mult_l_strong thm
+R21199:21216 QArithSternBrocot.Q_ordered_field_properties <> Qlt_reg_mult_pos_r thm
+R21234:21245 QArithSternBrocot.general_Q <> Qlt_le_trans thm
+R21157:21157 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'*'_x not
+R21137:21148 QArithSternBrocot.general_Q <> Qle_lt_trans thm
+R21171:21191 QArithSternBrocot.Q_ordered_field_properties <> Qle_reg_mult_l_strong thm
+R21199:21216 QArithSternBrocot.Q_ordered_field_properties <> Qlt_reg_mult_pos_r thm
+prf 21279:21309 <> Qmult_Qlt_Qle_pos_nonneg_compat
+binder 21319:21319 <> n:258
+binder 21321:21321 <> m:259
+binder 21323:21323 <> p:260
+binder 21325:21325 <> q:261
+R21334:21337 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R21329:21332 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'<='_x not
+R21328:21328 QArithSternBrocot.Q_ordered_field_properties <> n:258 var
+R21333:21333 QArithSternBrocot.Q_ordered_field_properties <> p:260 var
+R21343:21346 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R21339:21341 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'<'_x not
+R21338:21338 QArithSternBrocot.Q_ordered_field_properties <> m:259 var
+R21342:21342 QArithSternBrocot.Q_ordered_field_properties <> q:261 var
+R21355:21358 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R21351:21353 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'<'_x not
+R21347:21350 QArithSternBrocot.Q_field <> Zero constr
+R21354:21354 QArithSternBrocot.Q_ordered_field_properties <> p:260 var
+R21368:21371 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R21363:21366 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'<='_x not
+R21359:21362 QArithSternBrocot.Q_field <> Zero constr
+R21367:21367 QArithSternBrocot.Q_ordered_field_properties <> m:259 var
+R21377:21379 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'<'_x not
+R21373:21375 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'*'_x not
+R21372:21372 QArithSternBrocot.Q_ordered_field_properties <> n:258 var
+R21376:21376 QArithSternBrocot.Q_ordered_field_properties <> m:259 var
+R21381:21383 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'*'_x not
+R21380:21380 QArithSternBrocot.Q_ordered_field_properties <> p:260 var
+R21384:21384 QArithSternBrocot.Q_ordered_field_properties <> q:261 var
+R21449:21449 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'*'_x not
+R21429:21440 QArithSternBrocot.general_Q <> Qle_lt_trans thm
+R21463:21483 QArithSternBrocot.Q_ordered_field_properties <> Qle_reg_mult_r_strong thm
+R21491:21508 QArithSternBrocot.Q_ordered_field_properties <> Qlt_reg_mult_pos_l thm
+R21526:21537 QArithSternBrocot.general_Q <> Qlt_le_trans thm
+R21449:21449 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'*'_x not
+R21429:21440 QArithSternBrocot.general_Q <> Qle_lt_trans thm
+R21463:21483 QArithSternBrocot.Q_ordered_field_properties <> Qle_reg_mult_r_strong thm
+R21491:21508 QArithSternBrocot.Q_ordered_field_properties <> Qlt_reg_mult_pos_l thm
+R21598:21603 QArithSternBrocot.general_Q <> Z_to_Q def
+R21613:21616 QArithSternBrocot.Q_field <> Qone def
+R21689:21694 QArithSternBrocot.general_Q <> Z_to_Q def
+R21697:21704 Coq.ZArith.BinInt <> Z_of_nat abbrev
+R21689:21694 QArithSternBrocot.general_Q <> Z_to_Q def
+R21697:21704 Coq.ZArith.BinInt <> Z_of_nat abbrev
+R21765:21770 QArithSternBrocot.general_Q <> Z_to_Q def
+R21772:21773 Coq.Numbers.BinNums <> Z0 constr
+R21765:21770 QArithSternBrocot.general_Q <> Z_to_Q def
+R21772:21773 Coq.Numbers.BinNums <> Z0 constr
+R21852:21857 QArithSternBrocot.general_Q <> Z_to_Q def
+R21860:21863 Coq.Numbers.BinNums <> Zpos constr
+R21852:21857 QArithSternBrocot.general_Q <> Z_to_Q def
+R21860:21863 Coq.Numbers.BinNums <> Zpos constr
+R22039:22044 QArithSternBrocot.general_Q <> Z_to_Q def
+R22047:22050 Coq.Numbers.BinNums <> Zneg constr
+R22039:22044 QArithSternBrocot.general_Q <> Z_to_Q def
+R22047:22050 Coq.Numbers.BinNums <> Zneg constr
+R22216:22220 QArithSternBrocot.Q_field <> Qplus def
+R22222:22225 QArithSternBrocot.Q_field <> Zero constr
+R22216:22220 QArithSternBrocot.Q_field <> Qplus def
+R22222:22225 QArithSternBrocot.Q_field <> Zero constr
+R22293:22297 QArithSternBrocot.Q_field <> Qplus def
+R22303:22306 QArithSternBrocot.Q_field <> Zero constr
+R22293:22297 QArithSternBrocot.Q_field <> Qplus def
+R22303:22306 QArithSternBrocot.Q_field <> Zero constr
+R22371:22376 QArithSternBrocot.Q_order <> Qminus def
+R22378:22381 QArithSternBrocot.Q_field <> Zero constr
+R22371:22376 QArithSternBrocot.Q_order <> Qminus def
+R22378:22381 QArithSternBrocot.Q_field <> Zero constr
+R22464:22469 QArithSternBrocot.Q_order <> Qminus def
+R22475:22478 QArithSternBrocot.Q_field <> Zero constr
+R22464:22469 QArithSternBrocot.Q_order <> Qminus def
+R22475:22478 QArithSternBrocot.Q_field <> Zero constr
+R22558:22562 QArithSternBrocot.Q_field <> Qmult def
+R22564:22567 QArithSternBrocot.Q_field <> Qone def
+R22558:22562 QArithSternBrocot.Q_field <> Qmult def
+R22564:22567 QArithSternBrocot.Q_field <> Qone def
+R22634:22638 QArithSternBrocot.Q_field <> Qmult def
+R22644:22647 QArithSternBrocot.Q_field <> Qone def
+R22634:22638 QArithSternBrocot.Q_field <> Qmult def
+R22644:22647 QArithSternBrocot.Q_field <> Qone def
+R22664:22678 QArithSternBrocot.general_Q <> Qmult_one_right thm
+R22588:22601 QArithSternBrocot.Q_ordered_field_properties <> Qmult_one_left thm
+R22494:22499 QArithSternBrocot.Q_order <> Qminus def
+R22510:22525 QArithSternBrocot.general_Q <> Qplus_zero_right thm
+R22401:22406 QArithSternBrocot.Q_order <> Qminus def
+R22417:22431 QArithSternBrocot.Q_order <> Qplus_zero_left thm
+R22323:22338 QArithSternBrocot.general_Q <> Qplus_zero_right thm
+R22246:22260 QArithSternBrocot.Q_order <> Qplus_zero_left thm
+R22089:22094 Coq.ZArith.BinInt Z succ def
+R22097:22100 Coq.Numbers.BinNums <> Zneg constr
+R22128:22133 QArithSternBrocot.general_Q <> Z_to_Q def
+R22136:22139 Coq.Numbers.BinNums <> Zneg constr
+R22152:22157 QArithSternBrocot.Q_order <> Qminus def
+R22160:22165 QArithSternBrocot.general_Q <> Z_to_Q def
+R22170:22173 QArithSternBrocot.Q_field <> Qone def
+R21912:21917 Coq.ZArith.BinInt Z pred def
+R21920:21923 Coq.Numbers.BinNums <> Zpos constr
+R21952:21957 QArithSternBrocot.general_Q <> Z_to_Q def
+R21960:21963 Coq.Numbers.BinNums <> Zpos constr
+R21976:21980 QArithSternBrocot.Q_field <> Qplus def
+R21982:21985 QArithSternBrocot.Q_field <> Qone def
+R21988:21993 QArithSternBrocot.general_Q <> Z_to_Q def
+R21791:21796 QArithSternBrocot.general_Q <> Z_to_Q def
+R21798:21799 Coq.Numbers.BinNums <> Z0 constr
+R21807:21810 QArithSternBrocot.Q_field <> Zero constr
+R21725:21732 Coq.ZArith.BinInt Z of_nat def
+R22775:22777 QArithSternBrocot.general_Q <> Qlt def
+R22775:22777 QArithSternBrocot.general_Q <> Qlt def
+R22860:22862 QArithSternBrocot.general_Q <> Qle def
+R22860:22862 QArithSternBrocot.general_Q <> Qle def
+R22945:22946 Coq.Init.Logic <> ::type_scope:'~'_x not
+R22960:22960 Coq.Init.Logic <> ::type_scope:'~'_x not
+R22948:22949 Coq.Init.Logic <> eq ind
+R22951:22951 QArithSternBrocot.Q_field <> Q ind
+R22945:22946 Coq.Init.Logic <> ::type_scope:'~'_x not
+R22960:22960 Coq.Init.Logic <> ::type_scope:'~'_x not
+R22948:22949 Coq.Init.Logic <> eq ind
+R22951:22951 QArithSternBrocot.Q_field <> Q ind

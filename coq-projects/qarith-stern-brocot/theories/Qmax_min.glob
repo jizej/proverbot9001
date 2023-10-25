@@ -1,0 +1,922 @@
+DIGEST 754f7192c71a57c6c06e4c65f88b459b
+FQArithSternBrocot.Qmax_min
+R564:570 QArithSternBrocot.Qsyntax <> <> lib
+R611:624 QArithSternBrocot.Field_Theory_Q <> <> lib
+R665:690 QArithSternBrocot.Q_ordered_field_properties <> <> lib
+def 705:708 <> Qmax
+binder 710:710 <> p:1
+binder 712:712 <> q:2
+R720:730 QArithSternBrocot.general_Q <> Q_le_lt_dec thm
+R732:732 QArithSternBrocot.Qmax_min <> p:1 var
+R734:734 QArithSternBrocot.Qmax_min <> q:2 var
+R748:748 QArithSternBrocot.Qmax_min <> p:1 var
+R741:741 QArithSternBrocot.Qmax_min <> q:2 var
+def 763:766 <> Qmin
+binder 768:768 <> p:3
+binder 770:770 <> q:4
+R778:788 QArithSternBrocot.general_Q <> Q_le_lt_dec thm
+R790:790 QArithSternBrocot.Qmax_min <> p:3 var
+R792:792 QArithSternBrocot.Qmax_min <> q:4 var
+R806:806 QArithSternBrocot.Qmax_min <> q:4 var
+R799:799 QArithSternBrocot.Qmax_min <> p:3 var
+prf 816:824 <> Qle_max_l
+binder 834:834 <> p:5
+binder 836:836 <> q:6
+R840:843 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'<='_x not
+R839:839 QArithSternBrocot.Qmax_min <> p:5 var
+R844:847 QArithSternBrocot.Qmax_min <> Qmax def
+R849:849 QArithSternBrocot.Qmax_min <> p:5 var
+R851:851 QArithSternBrocot.Qmax_min <> q:6 var
+R881:884 QArithSternBrocot.Qmax_min <> Qmax def
+R897:907 QArithSternBrocot.general_Q <> Q_le_lt_dec thm
+R897:907 QArithSternBrocot.general_Q <> Q_le_lt_dec thm
+prf 943:951 <> Qle_max_r
+binder 961:961 <> p:7
+binder 963:963 <> q:8
+R967:970 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'<='_x not
+R966:966 QArithSternBrocot.Qmax_min <> q:8 var
+R971:974 QArithSternBrocot.Qmax_min <> Qmax def
+R976:976 QArithSternBrocot.Qmax_min <> p:7 var
+R978:978 QArithSternBrocot.Qmax_min <> q:8 var
+R1008:1011 QArithSternBrocot.Qmax_min <> Qmax def
+R1024:1034 QArithSternBrocot.general_Q <> Q_le_lt_dec thm
+R1024:1034 QArithSternBrocot.general_Q <> Q_le_lt_dec thm
+prf 1061:1068 <> Qmax_lub
+binder 1078:1079 <> q1:9
+binder 1081:1082 <> q2:10
+binder 1084:1084 <> p:11
+R1094:1097 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1089:1092 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'<='_x not
+R1087:1088 QArithSternBrocot.Qmax_min <> q1:9 var
+R1093:1093 QArithSternBrocot.Qmax_min <> p:11 var
+R1105:1108 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1100:1103 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'<='_x not
+R1098:1099 QArithSternBrocot.Qmax_min <> q2:10 var
+R1104:1104 QArithSternBrocot.Qmax_min <> p:11 var
+R1119:1122 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'<='_x not
+R1109:1112 QArithSternBrocot.Qmax_min <> Qmax def
+R1114:1115 QArithSternBrocot.Qmax_min <> q1:9 var
+R1117:1118 QArithSternBrocot.Qmax_min <> q2:10 var
+R1123:1123 QArithSternBrocot.Qmax_min <> p:11 var
+R1163:1166 QArithSternBrocot.Qmax_min <> Qmax def
+R1179:1189 QArithSternBrocot.general_Q <> Q_le_lt_dec thm
+R1179:1189 QArithSternBrocot.general_Q <> Q_le_lt_dec thm
+prf 1220:1239 <> Qmax_Qlt_upper_bound
+binder 1248:1248 <> p:12
+binder 1250:1251 <> q1:13
+binder 1253:1254 <> q2:14
+R1261:1264 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1258:1258 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'<'_x not
+R1257:1257 QArithSternBrocot.Qmax_min <> p:12 var
+R1259:1260 QArithSternBrocot.Qmax_min <> q1:13 var
+R1269:1271 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1266:1266 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'<'_x not
+R1265:1265 QArithSternBrocot.Qmax_min <> p:12 var
+R1267:1268 QArithSternBrocot.Qmax_min <> q2:14 var
+R1273:1275 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'<'_x not
+R1272:1272 QArithSternBrocot.Qmax_min <> p:12 var
+R1276:1279 QArithSternBrocot.Qmax_min <> Qmax def
+R1281:1282 QArithSternBrocot.Qmax_min <> q1:13 var
+R1284:1285 QArithSternBrocot.Qmax_min <> q2:14 var
+R1325:1328 QArithSternBrocot.Qmax_min <> Qmax def
+R1341:1351 QArithSternBrocot.general_Q <> Q_le_lt_dec thm
+R1341:1351 QArithSternBrocot.general_Q <> Q_le_lt_dec thm
+prf 1382:1399 <> Qmax_nondecreasing
+binder 1409:1410 <> q1:15
+binder 1412:1413 <> q2:16
+binder 1415:1416 <> p1:17
+binder 1418:1419 <> p2:18
+R1430:1433 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1424:1427 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'<='_x not
+R1422:1423 QArithSternBrocot.Qmax_min <> q1:15 var
+R1428:1429 QArithSternBrocot.Qmax_min <> p1:17 var
+R1442:1445 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1436:1439 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'<='_x not
+R1434:1435 QArithSternBrocot.Qmax_min <> q2:16 var
+R1440:1441 QArithSternBrocot.Qmax_min <> p2:18 var
+R1456:1459 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'<='_x not
+R1446:1449 QArithSternBrocot.Qmax_min <> Qmax def
+R1451:1452 QArithSternBrocot.Qmax_min <> q1:15 var
+R1454:1455 QArithSternBrocot.Qmax_min <> q2:16 var
+R1460:1463 QArithSternBrocot.Qmax_min <> Qmax def
+R1465:1466 QArithSternBrocot.Qmax_min <> p1:17 var
+R1468:1469 QArithSternBrocot.Qmax_min <> p2:18 var
+R1513:1516 QArithSternBrocot.Qmax_min <> Qmax def
+R1529:1539 QArithSternBrocot.general_Q <> Q_le_lt_dec thm
+R1559:1569 QArithSternBrocot.general_Q <> Q_le_lt_dec thm
+R1597:1607 QArithSternBrocot.general_Q <> Qlt_le_weak thm
+R1616:1627 QArithSternBrocot.general_Q <> Qle_lt_trans thm
+R1645:1653 QArithSternBrocot.general_Q <> Qle_trans thm
+R1529:1539 QArithSternBrocot.general_Q <> Q_le_lt_dec thm
+R1559:1569 QArithSternBrocot.general_Q <> Q_le_lt_dec thm
+R1559:1569 QArithSternBrocot.general_Q <> Q_le_lt_dec thm
+R1597:1607 QArithSternBrocot.general_Q <> Qlt_le_weak thm
+R1616:1627 QArithSternBrocot.general_Q <> Qle_lt_trans thm
+R1645:1653 QArithSternBrocot.general_Q <> Qle_trans thm
+prf 1686:1698 <> Qmin_Qmax_Qle
+binder 1707:1708 <> q1:19
+binder 1710:1711 <> q2:20
+R1724:1727 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'<='_x not
+R1714:1717 QArithSternBrocot.Qmax_min <> Qmin def
+R1719:1720 QArithSternBrocot.Qmax_min <> q1:19 var
+R1722:1723 QArithSternBrocot.Qmax_min <> q2:20 var
+R1728:1731 QArithSternBrocot.Qmax_min <> Qmax def
+R1733:1734 QArithSternBrocot.Qmax_min <> q1:19 var
+R1736:1737 QArithSternBrocot.Qmax_min <> q2:20 var
+R1769:1772 QArithSternBrocot.Qmax_min <> Qmax def
+R1775:1778 QArithSternBrocot.Qmax_min <> Qmin def
+R1791:1801 QArithSternBrocot.general_Q <> Q_le_lt_dec thm
+R1826:1836 QArithSternBrocot.general_Q <> Qlt_le_weak thm
+R1791:1801 QArithSternBrocot.general_Q <> Q_le_lt_dec thm
+R1826:1836 QArithSternBrocot.general_Q <> Qlt_le_weak thm
+prf 1863:1880 <> Qmin_nondecreasing
+binder 1890:1891 <> q1:21
+binder 1893:1894 <> q2:22
+binder 1896:1897 <> p1:23
+binder 1899:1900 <> p2:24
+R1911:1914 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1905:1908 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'<='_x not
+R1903:1904 QArithSternBrocot.Qmax_min <> q1:21 var
+R1909:1910 QArithSternBrocot.Qmax_min <> p1:23 var
+R1923:1926 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1917:1920 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'<='_x not
+R1915:1916 QArithSternBrocot.Qmax_min <> q2:22 var
+R1921:1922 QArithSternBrocot.Qmax_min <> p2:24 var
+R1937:1940 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'<='_x not
+R1927:1930 QArithSternBrocot.Qmax_min <> Qmin def
+R1932:1933 QArithSternBrocot.Qmax_min <> q1:21 var
+R1935:1936 QArithSternBrocot.Qmax_min <> q2:22 var
+R1941:1944 QArithSternBrocot.Qmax_min <> Qmin def
+R1946:1947 QArithSternBrocot.Qmax_min <> p1:23 var
+R1949:1950 QArithSternBrocot.Qmax_min <> p2:24 var
+R1994:1997 QArithSternBrocot.Qmax_min <> Qmin def
+R2010:2020 QArithSternBrocot.general_Q <> Q_le_lt_dec thm
+R2040:2050 QArithSternBrocot.general_Q <> Q_le_lt_dec thm
+R2077:2085 QArithSternBrocot.general_Q <> Qle_trans thm
+R2102:2112 QArithSternBrocot.general_Q <> Qlt_le_weak thm
+R2121:2132 QArithSternBrocot.general_Q <> Qlt_le_trans thm
+R2010:2020 QArithSternBrocot.general_Q <> Q_le_lt_dec thm
+R2040:2050 QArithSternBrocot.general_Q <> Q_le_lt_dec thm
+R2040:2050 QArithSternBrocot.general_Q <> Q_le_lt_dec thm
+R2077:2085 QArithSternBrocot.general_Q <> Qle_trans thm
+R2102:2112 QArithSternBrocot.general_Q <> Qlt_le_weak thm
+R2121:2132 QArithSternBrocot.general_Q <> Qlt_le_trans thm
+prf 2165:2172 <> Qmin_glb
+binder 2182:2183 <> q1:25
+binder 2185:2186 <> q2:26
+binder 2188:2188 <> p:27
+R2196:2199 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2192:2193 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'<='_x not
+R2191:2191 QArithSternBrocot.Qmax_min <> p:27 var
+R2194:2195 QArithSternBrocot.Qmax_min <> q1:25 var
+R2205:2208 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2201:2202 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'<='_x not
+R2200:2200 QArithSternBrocot.Qmax_min <> p:27 var
+R2203:2204 QArithSternBrocot.Qmax_min <> q2:26 var
+R2210:2211 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'<='_x not
+R2209:2209 QArithSternBrocot.Qmax_min <> p:27 var
+R2212:2215 QArithSternBrocot.Qmax_min <> Qmin def
+R2217:2218 QArithSternBrocot.Qmax_min <> q1:25 var
+R2220:2221 QArithSternBrocot.Qmax_min <> q2:26 var
+R2261:2264 QArithSternBrocot.Qmax_min <> Qmin def
+R2277:2287 QArithSternBrocot.general_Q <> Q_le_lt_dec thm
+R2277:2287 QArithSternBrocot.general_Q <> Q_le_lt_dec thm
+prf 2318:2337 <> Qmin_Qlt_upper_bound
+binder 2346:2346 <> p:28
+binder 2348:2349 <> q1:29
+binder 2351:2352 <> q2:30
+R2359:2362 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2356:2356 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'<'_x not
+R2355:2355 QArithSternBrocot.Qmax_min <> p:28 var
+R2357:2358 QArithSternBrocot.Qmax_min <> q1:29 var
+R2367:2369 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2364:2364 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'<'_x not
+R2363:2363 QArithSternBrocot.Qmax_min <> p:28 var
+R2365:2366 QArithSternBrocot.Qmax_min <> q2:30 var
+R2371:2373 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'<'_x not
+R2370:2370 QArithSternBrocot.Qmax_min <> p:28 var
+R2374:2377 QArithSternBrocot.Qmax_min <> Qmin def
+R2379:2380 QArithSternBrocot.Qmax_min <> q1:29 var
+R2382:2383 QArithSternBrocot.Qmax_min <> q2:30 var
+R2423:2426 QArithSternBrocot.Qmax_min <> Qmin def
+R2439:2449 QArithSternBrocot.general_Q <> Q_le_lt_dec thm
+R2439:2449 QArithSternBrocot.general_Q <> Q_le_lt_dec thm
+prf 2480:2488 <> Qle_min_l
+R2504:2504 QArithSternBrocot.Q_field <> Q ind
+binder 2498:2498 <> p:31
+binder 2500:2500 <> q:32
+R2515:2518 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'<='_x not
+R2507:2510 QArithSternBrocot.Qmax_min <> Qmin def
+R2512:2512 QArithSternBrocot.Qmax_min <> p:31 var
+R2514:2514 QArithSternBrocot.Qmax_min <> q:32 var
+R2519:2519 QArithSternBrocot.Qmax_min <> p:31 var
+R2549:2552 QArithSternBrocot.Qmax_min <> Qmin def
+R2565:2575 QArithSternBrocot.general_Q <> Q_le_lt_dec thm
+R2599:2609 QArithSternBrocot.general_Q <> Qlt_le_weak thm
+R2565:2575 QArithSternBrocot.general_Q <> Q_le_lt_dec thm
+R2599:2609 QArithSternBrocot.general_Q <> Qlt_le_weak thm
+prf 2636:2644 <> Qle_min_r
+R2660:2660 QArithSternBrocot.Q_field <> Q ind
+binder 2654:2654 <> p:33
+binder 2656:2656 <> q:34
+R2671:2674 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'<='_x not
+R2663:2666 QArithSternBrocot.Qmax_min <> Qmin def
+R2668:2668 QArithSternBrocot.Qmax_min <> p:33 var
+R2670:2670 QArithSternBrocot.Qmax_min <> q:34 var
+R2675:2675 QArithSternBrocot.Qmax_min <> q:34 var
+R2705:2708 QArithSternBrocot.Qmax_min <> Qmin def
+R2721:2731 QArithSternBrocot.general_Q <> Q_le_lt_dec thm
+R2755:2765 QArithSternBrocot.general_Q <> Qlt_le_weak thm
+R2721:2731 QArithSternBrocot.general_Q <> Q_le_lt_dec thm
+prf 2792:2810 <> Qmax_or_informative
+binder 2819:2819 <> p:35
+binder 2821:2821 <> q:36
+R2824:2824 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R2837:2841 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R2854:2854 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R2833:2835 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2825:2828 QArithSternBrocot.Qmax_min <> Qmax def
+R2830:2830 QArithSternBrocot.Qmax_min <> p:35 var
+R2832:2832 QArithSternBrocot.Qmax_min <> q:36 var
+R2836:2836 QArithSternBrocot.Qmax_min <> p:35 var
+R2850:2852 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2842:2845 QArithSternBrocot.Qmax_min <> Qmax def
+R2847:2847 QArithSternBrocot.Qmax_min <> p:35 var
+R2849:2849 QArithSternBrocot.Qmax_min <> q:36 var
+R2853:2853 QArithSternBrocot.Qmax_min <> q:36 var
+R2884:2887 QArithSternBrocot.Qmax_min <> Qmax def
+R2900:2910 QArithSternBrocot.general_Q <> Q_le_lt_dec thm
+R2900:2910 QArithSternBrocot.general_Q <> Q_le_lt_dec thm
+prf 2936:2954 <> Qmin_or_informative
+binder 2963:2963 <> p:37
+binder 2965:2965 <> q:38
+R2968:2968 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R2981:2985 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R2998:2998 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R2977:2979 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2969:2972 QArithSternBrocot.Qmax_min <> Qmin def
+R2974:2974 QArithSternBrocot.Qmax_min <> p:37 var
+R2976:2976 QArithSternBrocot.Qmax_min <> q:38 var
+R2980:2980 QArithSternBrocot.Qmax_min <> p:37 var
+R2994:2996 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2986:2989 QArithSternBrocot.Qmax_min <> Qmin def
+R2991:2991 QArithSternBrocot.Qmax_min <> p:37 var
+R2993:2993 QArithSternBrocot.Qmax_min <> q:38 var
+R2997:2997 QArithSternBrocot.Qmax_min <> q:38 var
+R3028:3031 QArithSternBrocot.Qmax_min <> Qmin def
+R3044:3054 QArithSternBrocot.general_Q <> Q_le_lt_dec thm
+R3044:3054 QArithSternBrocot.general_Q <> Q_le_lt_dec thm
+def 3085:3089 <> Qmax4
+binder 3091:3092 <> q1:39
+binder 3094:3095 <> q2:40
+binder 3097:3098 <> q3:41
+binder 3100:3101 <> q4:42
+R3106:3109 QArithSternBrocot.Qmax_min <> Qmax def
+R3112:3115 QArithSternBrocot.Qmax_min <> Qmax def
+R3117:3118 QArithSternBrocot.Qmax_min <> q1:39 var
+R3120:3121 QArithSternBrocot.Qmax_min <> q2:40 var
+R3125:3128 QArithSternBrocot.Qmax_min <> Qmax def
+R3130:3131 QArithSternBrocot.Qmax_min <> q3:41 var
+R3133:3134 QArithSternBrocot.Qmax_min <> q4:42 var
+def 3149:3153 <> Qmin4
+binder 3155:3156 <> q1:43
+binder 3158:3159 <> q2:44
+binder 3161:3162 <> q3:45
+binder 3164:3165 <> q4:46
+R3170:3173 QArithSternBrocot.Qmax_min <> Qmin def
+R3176:3179 QArithSternBrocot.Qmax_min <> Qmin def
+R3181:3182 QArithSternBrocot.Qmax_min <> q1:43 var
+R3184:3185 QArithSternBrocot.Qmax_min <> q2:44 var
+R3189:3192 QArithSternBrocot.Qmax_min <> Qmin def
+R3194:3195 QArithSternBrocot.Qmax_min <> q3:45 var
+R3197:3198 QArithSternBrocot.Qmax_min <> q4:46 var
+prf 3209:3225 <> Qmax4_informative
+binder 3234:3235 <> q1:47
+binder 3237:3238 <> q2:48
+binder 3240:3241 <> q3:49
+binder 3243:3244 <> q4:50
+R3319:3322 Coq.Init.Specif <> ::type_scope:x_'+'_'{'_x_'}' not
+R3343:3343 Coq.Init.Specif <> ::type_scope:x_'+'_'{'_x_'}' not
+R3294:3297 Coq.Init.Specif <> ::type_scope:x_'+'_'{'_x_'}' not
+R3318:3318 Coq.Init.Specif <> ::type_scope:x_'+'_'{'_x_'}' not
+R3247:3247 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R3268:3272 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R3293:3293 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R3265:3265 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3248:3252 QArithSternBrocot.Qmax_min <> Qmax4 def
+R3254:3255 QArithSternBrocot.Qmax_min <> q1:47 var
+R3257:3258 QArithSternBrocot.Qmax_min <> q2:48 var
+R3260:3261 QArithSternBrocot.Qmax_min <> q3:49 var
+R3263:3264 QArithSternBrocot.Qmax_min <> q4:50 var
+R3266:3267 QArithSternBrocot.Qmax_min <> q1:47 var
+R3290:3290 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3273:3277 QArithSternBrocot.Qmax_min <> Qmax4 def
+R3279:3280 QArithSternBrocot.Qmax_min <> q1:47 var
+R3282:3283 QArithSternBrocot.Qmax_min <> q2:48 var
+R3285:3286 QArithSternBrocot.Qmax_min <> q3:49 var
+R3288:3289 QArithSternBrocot.Qmax_min <> q4:50 var
+R3291:3292 QArithSternBrocot.Qmax_min <> q2:48 var
+R3315:3315 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3298:3302 QArithSternBrocot.Qmax_min <> Qmax4 def
+R3304:3305 QArithSternBrocot.Qmax_min <> q1:47 var
+R3307:3308 QArithSternBrocot.Qmax_min <> q2:48 var
+R3310:3311 QArithSternBrocot.Qmax_min <> q3:49 var
+R3313:3314 QArithSternBrocot.Qmax_min <> q4:50 var
+R3316:3317 QArithSternBrocot.Qmax_min <> q3:49 var
+R3340:3340 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3323:3327 QArithSternBrocot.Qmax_min <> Qmax4 def
+R3329:3330 QArithSternBrocot.Qmax_min <> q1:47 var
+R3332:3333 QArithSternBrocot.Qmax_min <> q2:48 var
+R3335:3336 QArithSternBrocot.Qmax_min <> q3:49 var
+R3338:3339 QArithSternBrocot.Qmax_min <> q4:50 var
+R3341:3342 QArithSternBrocot.Qmax_min <> q4:50 var
+R3381:3385 QArithSternBrocot.Qmax_min <> Qmax4 def
+R3400:3418 QArithSternBrocot.Qmax_min <> Qmax_or_informative thm
+R3421:3424 QArithSternBrocot.Qmax_min <> Qmax def
+R3434:3437 QArithSternBrocot.Qmax_min <> Qmax def
+R3491:3509 QArithSternBrocot.Qmax_min <> Qmax_or_informative thm
+R3532:3550 QArithSternBrocot.Qmax_min <> Qmax_or_informative thm
+R3400:3418 QArithSternBrocot.Qmax_min <> Qmax_or_informative thm
+R3421:3424 QArithSternBrocot.Qmax_min <> Qmax def
+R3434:3437 QArithSternBrocot.Qmax_min <> Qmax def
+R3491:3509 QArithSternBrocot.Qmax_min <> Qmax_or_informative thm
+R3532:3550 QArithSternBrocot.Qmax_min <> Qmax_or_informative thm
+prf 3604:3620 <> Qmin4_informative
+binder 3629:3630 <> q1:51
+binder 3632:3633 <> q2:52
+binder 3635:3636 <> q3:53
+binder 3638:3639 <> q4:54
+R3714:3717 Coq.Init.Specif <> ::type_scope:x_'+'_'{'_x_'}' not
+R3738:3738 Coq.Init.Specif <> ::type_scope:x_'+'_'{'_x_'}' not
+R3689:3692 Coq.Init.Specif <> ::type_scope:x_'+'_'{'_x_'}' not
+R3713:3713 Coq.Init.Specif <> ::type_scope:x_'+'_'{'_x_'}' not
+R3642:3642 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R3663:3667 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R3688:3688 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R3660:3660 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3643:3647 QArithSternBrocot.Qmax_min <> Qmin4 def
+R3649:3650 QArithSternBrocot.Qmax_min <> q1:51 var
+R3652:3653 QArithSternBrocot.Qmax_min <> q2:52 var
+R3655:3656 QArithSternBrocot.Qmax_min <> q3:53 var
+R3658:3659 QArithSternBrocot.Qmax_min <> q4:54 var
+R3661:3662 QArithSternBrocot.Qmax_min <> q1:51 var
+R3685:3685 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3668:3672 QArithSternBrocot.Qmax_min <> Qmin4 def
+R3674:3675 QArithSternBrocot.Qmax_min <> q1:51 var
+R3677:3678 QArithSternBrocot.Qmax_min <> q2:52 var
+R3680:3681 QArithSternBrocot.Qmax_min <> q3:53 var
+R3683:3684 QArithSternBrocot.Qmax_min <> q4:54 var
+R3686:3687 QArithSternBrocot.Qmax_min <> q2:52 var
+R3710:3710 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3693:3697 QArithSternBrocot.Qmax_min <> Qmin4 def
+R3699:3700 QArithSternBrocot.Qmax_min <> q1:51 var
+R3702:3703 QArithSternBrocot.Qmax_min <> q2:52 var
+R3705:3706 QArithSternBrocot.Qmax_min <> q3:53 var
+R3708:3709 QArithSternBrocot.Qmax_min <> q4:54 var
+R3711:3712 QArithSternBrocot.Qmax_min <> q3:53 var
+R3735:3735 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3718:3722 QArithSternBrocot.Qmax_min <> Qmin4 def
+R3724:3725 QArithSternBrocot.Qmax_min <> q1:51 var
+R3727:3728 QArithSternBrocot.Qmax_min <> q2:52 var
+R3730:3731 QArithSternBrocot.Qmax_min <> q3:53 var
+R3733:3734 QArithSternBrocot.Qmax_min <> q4:54 var
+R3736:3737 QArithSternBrocot.Qmax_min <> q4:54 var
+R3776:3780 QArithSternBrocot.Qmax_min <> Qmin4 def
+R3795:3813 QArithSternBrocot.Qmax_min <> Qmin_or_informative thm
+R3816:3819 QArithSternBrocot.Qmax_min <> Qmin def
+R3829:3832 QArithSternBrocot.Qmax_min <> Qmin def
+R3886:3904 QArithSternBrocot.Qmax_min <> Qmin_or_informative thm
+R3927:3945 QArithSternBrocot.Qmax_min <> Qmin_or_informative thm
+R3795:3813 QArithSternBrocot.Qmax_min <> Qmin_or_informative thm
+R3816:3819 QArithSternBrocot.Qmax_min <> Qmin def
+R3829:3832 QArithSternBrocot.Qmax_min <> Qmin def
+R3886:3904 QArithSternBrocot.Qmax_min <> Qmin_or_informative thm
+R3927:3945 QArithSternBrocot.Qmax_min <> Qmin_or_informative thm
+prf 3999:4013 <> Qmin4_Qmax4_Qle
+binder 4022:4023 <> q1:55
+binder 4025:4026 <> q2:56
+binder 4028:4029 <> q3:57
+binder 4031:4032 <> q4:58
+R4052:4054 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'<='_x not
+R4035:4039 QArithSternBrocot.Qmax_min <> Qmin4 def
+R4041:4042 QArithSternBrocot.Qmax_min <> q1:55 var
+R4044:4045 QArithSternBrocot.Qmax_min <> q2:56 var
+R4047:4048 QArithSternBrocot.Qmax_min <> q3:57 var
+R4050:4051 QArithSternBrocot.Qmax_min <> q4:58 var
+R4055:4059 QArithSternBrocot.Qmax_min <> Qmax4 def
+R4061:4062 QArithSternBrocot.Qmax_min <> q1:55 var
+R4064:4065 QArithSternBrocot.Qmax_min <> q2:56 var
+R4067:4068 QArithSternBrocot.Qmax_min <> q3:57 var
+R4070:4071 QArithSternBrocot.Qmax_min <> q4:58 var
+R4109:4113 QArithSternBrocot.Qmax_min <> Qmax4 def
+R4116:4120 QArithSternBrocot.Qmax_min <> Qmin4 def
+R4146:4149 QArithSternBrocot.Qmax_min <> Qmin def
+R4152:4155 QArithSternBrocot.Qmax_min <> Qmax def
+R4165:4168 QArithSternBrocot.Qmax_min <> Qmax def
+R4130:4138 QArithSternBrocot.general_Q <> Qle_trans thm
+R4186:4203 QArithSternBrocot.Qmax_min <> Qmin_nondecreasing thm
+R4214:4226 QArithSternBrocot.Qmax_min <> Qmin_Qmax_Qle thm
+R4146:4149 QArithSternBrocot.Qmax_min <> Qmin def
+R4152:4155 QArithSternBrocot.Qmax_min <> Qmax def
+R4165:4168 QArithSternBrocot.Qmax_min <> Qmax def
+R4130:4138 QArithSternBrocot.general_Q <> Qle_trans thm
+R4186:4203 QArithSternBrocot.Qmax_min <> Qmin_nondecreasing thm
+R4214:4226 QArithSternBrocot.Qmax_min <> Qmin_Qmax_Qle thm
+R4214:4226 QArithSternBrocot.Qmax_min <> Qmin_Qmax_Qle thm
+R4214:4226 QArithSternBrocot.Qmax_min <> Qmin_Qmax_Qle thm
+prf 4241:4251 <> Qle_Qmax4_1
+binder 4260:4261 <> q1:59
+binder 4263:4264 <> q2:60
+binder 4266:4267 <> q3:61
+binder 4269:4270 <> q4:62
+R4275:4276 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'<='_x not
+R4273:4274 QArithSternBrocot.Qmax_min <> q1:59 var
+R4277:4281 QArithSternBrocot.Qmax_min <> Qmax4 def
+R4283:4284 QArithSternBrocot.Qmax_min <> q1:59 var
+R4286:4287 QArithSternBrocot.Qmax_min <> q2:60 var
+R4289:4290 QArithSternBrocot.Qmax_min <> q3:61 var
+R4292:4293 QArithSternBrocot.Qmax_min <> q4:62 var
+R4346:4349 QArithSternBrocot.Qmax_min <> Qmax def
+R4330:4338 QArithSternBrocot.general_Q <> Qle_trans thm
+R4366:4370 QArithSternBrocot.Qmax_min <> Qmax4 def
+R4379:4387 QArithSternBrocot.Qmax_min <> Qle_max_l thm
+R4346:4349 QArithSternBrocot.Qmax_min <> Qmax def
+R4330:4338 QArithSternBrocot.general_Q <> Qle_trans thm
+R4379:4387 QArithSternBrocot.Qmax_min <> Qle_max_l thm
+R4379:4387 QArithSternBrocot.Qmax_min <> Qle_max_l thm
+prf 4402:4412 <> Qle_Qmax4_2
+binder 4421:4422 <> q1:63
+binder 4424:4425 <> q2:64
+binder 4427:4428 <> q3:65
+binder 4430:4431 <> q4:66
+R4436:4437 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'<='_x not
+R4434:4435 QArithSternBrocot.Qmax_min <> q2:64 var
+R4438:4442 QArithSternBrocot.Qmax_min <> Qmax4 def
+R4444:4445 QArithSternBrocot.Qmax_min <> q1:63 var
+R4447:4448 QArithSternBrocot.Qmax_min <> q2:64 var
+R4450:4451 QArithSternBrocot.Qmax_min <> q3:65 var
+R4453:4454 QArithSternBrocot.Qmax_min <> q4:66 var
+R4507:4510 QArithSternBrocot.Qmax_min <> Qmax def
+R4491:4499 QArithSternBrocot.general_Q <> Qle_trans thm
+R4527:4531 QArithSternBrocot.Qmax_min <> Qmax4 def
+R4559:4567 QArithSternBrocot.Qmax_min <> Qle_max_r thm
+R4540:4548 QArithSternBrocot.Qmax_min <> Qle_max_l thm
+R4507:4510 QArithSternBrocot.Qmax_min <> Qmax def
+R4491:4499 QArithSternBrocot.general_Q <> Qle_trans thm
+R4540:4548 QArithSternBrocot.Qmax_min <> Qle_max_l thm
+R4559:4567 QArithSternBrocot.Qmax_min <> Qle_max_r thm
+R4540:4548 QArithSternBrocot.Qmax_min <> Qle_max_l thm
+prf 4582:4592 <> Qle_Qmax4_3
+binder 4601:4602 <> q1:67
+binder 4604:4605 <> q2:68
+binder 4607:4608 <> q3:69
+binder 4610:4611 <> q4:70
+R4616:4617 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'<='_x not
+R4614:4615 QArithSternBrocot.Qmax_min <> q3:69 var
+R4618:4622 QArithSternBrocot.Qmax_min <> Qmax4 def
+R4624:4625 QArithSternBrocot.Qmax_min <> q1:67 var
+R4627:4628 QArithSternBrocot.Qmax_min <> q2:68 var
+R4630:4631 QArithSternBrocot.Qmax_min <> q3:69 var
+R4633:4634 QArithSternBrocot.Qmax_min <> q4:70 var
+R4687:4690 QArithSternBrocot.Qmax_min <> Qmax def
+R4671:4679 QArithSternBrocot.general_Q <> Qle_trans thm
+R4707:4711 QArithSternBrocot.Qmax_min <> Qmax4 def
+R4739:4747 QArithSternBrocot.Qmax_min <> Qle_max_r thm
+R4720:4728 QArithSternBrocot.Qmax_min <> Qle_max_l thm
+R4687:4690 QArithSternBrocot.Qmax_min <> Qmax def
+R4671:4679 QArithSternBrocot.general_Q <> Qle_trans thm
+R4720:4728 QArithSternBrocot.Qmax_min <> Qle_max_l thm
+R4720:4728 QArithSternBrocot.Qmax_min <> Qle_max_l thm
+R4739:4747 QArithSternBrocot.Qmax_min <> Qle_max_r thm
+prf 4762:4772 <> Qle_Qmax4_4
+binder 4781:4782 <> q1:71
+binder 4784:4785 <> q2:72
+binder 4787:4788 <> q3:73
+binder 4790:4791 <> q4:74
+R4796:4797 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'<='_x not
+R4794:4795 QArithSternBrocot.Qmax_min <> q4:74 var
+R4798:4802 QArithSternBrocot.Qmax_min <> Qmax4 def
+R4804:4805 QArithSternBrocot.Qmax_min <> q1:71 var
+R4807:4808 QArithSternBrocot.Qmax_min <> q2:72 var
+R4810:4811 QArithSternBrocot.Qmax_min <> q3:73 var
+R4813:4814 QArithSternBrocot.Qmax_min <> q4:74 var
+R4867:4870 QArithSternBrocot.Qmax_min <> Qmax def
+R4851:4859 QArithSternBrocot.general_Q <> Qle_trans thm
+R4887:4891 QArithSternBrocot.Qmax_min <> Qmax4 def
+R4900:4908 QArithSternBrocot.Qmax_min <> Qle_max_r thm
+R4867:4870 QArithSternBrocot.Qmax_min <> Qmax def
+R4851:4859 QArithSternBrocot.general_Q <> Qle_trans thm
+R4900:4908 QArithSternBrocot.Qmax_min <> Qle_max_r thm
+R4900:4908 QArithSternBrocot.Qmax_min <> Qle_max_r thm
+prf 4923:4933 <> Qle_Qmin4_1
+binder 4942:4943 <> q1:75
+binder 4945:4946 <> q2:76
+binder 4948:4949 <> q3:77
+binder 4951:4952 <> q4:78
+R4972:4974 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'<='_x not
+R4955:4959 QArithSternBrocot.Qmax_min <> Qmin4 def
+R4961:4962 QArithSternBrocot.Qmax_min <> q1:75 var
+R4964:4965 QArithSternBrocot.Qmax_min <> q2:76 var
+R4967:4968 QArithSternBrocot.Qmax_min <> q3:77 var
+R4970:4971 QArithSternBrocot.Qmax_min <> q4:78 var
+R4975:4976 QArithSternBrocot.Qmax_min <> q1:75 var
+R5029:5032 QArithSternBrocot.Qmax_min <> Qmin def
+R5013:5021 QArithSternBrocot.general_Q <> Qle_trans thm
+R5049:5053 QArithSternBrocot.Qmax_min <> Qmin4 def
+R5062:5070 QArithSternBrocot.Qmax_min <> Qle_min_l thm
+R5029:5032 QArithSternBrocot.Qmax_min <> Qmin def
+R5013:5021 QArithSternBrocot.general_Q <> Qle_trans thm
+R5062:5070 QArithSternBrocot.Qmax_min <> Qle_min_l thm
+R5062:5070 QArithSternBrocot.Qmax_min <> Qle_min_l thm
+prf 5085:5095 <> Qle_Qmin4_2
+binder 5104:5105 <> q1:79
+binder 5107:5108 <> q2:80
+binder 5110:5111 <> q3:81
+binder 5113:5114 <> q4:82
+R5134:5136 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'<='_x not
+R5117:5121 QArithSternBrocot.Qmax_min <> Qmin4 def
+R5123:5124 QArithSternBrocot.Qmax_min <> q1:79 var
+R5126:5127 QArithSternBrocot.Qmax_min <> q2:80 var
+R5129:5130 QArithSternBrocot.Qmax_min <> q3:81 var
+R5132:5133 QArithSternBrocot.Qmax_min <> q4:82 var
+R5137:5138 QArithSternBrocot.Qmax_min <> q2:80 var
+R5191:5194 QArithSternBrocot.Qmax_min <> Qmin def
+R5175:5183 QArithSternBrocot.general_Q <> Qle_trans thm
+R5211:5215 QArithSternBrocot.Qmax_min <> Qmin4 def
+R5243:5251 QArithSternBrocot.Qmax_min <> Qle_min_r thm
+R5224:5232 QArithSternBrocot.Qmax_min <> Qle_min_l thm
+R5191:5194 QArithSternBrocot.Qmax_min <> Qmin def
+R5175:5183 QArithSternBrocot.general_Q <> Qle_trans thm
+R5224:5232 QArithSternBrocot.Qmax_min <> Qle_min_l thm
+R5224:5232 QArithSternBrocot.Qmax_min <> Qle_min_l thm
+R5243:5251 QArithSternBrocot.Qmax_min <> Qle_min_r thm
+prf 5266:5276 <> Qle_Qmin4_3
+binder 5285:5286 <> q1:83
+binder 5288:5289 <> q2:84
+binder 5291:5292 <> q3:85
+binder 5294:5295 <> q4:86
+R5315:5317 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'<='_x not
+R5298:5302 QArithSternBrocot.Qmax_min <> Qmin4 def
+R5304:5305 QArithSternBrocot.Qmax_min <> q1:83 var
+R5307:5308 QArithSternBrocot.Qmax_min <> q2:84 var
+R5310:5311 QArithSternBrocot.Qmax_min <> q3:85 var
+R5313:5314 QArithSternBrocot.Qmax_min <> q4:86 var
+R5318:5319 QArithSternBrocot.Qmax_min <> q3:85 var
+R5372:5375 QArithSternBrocot.Qmax_min <> Qmin def
+R5356:5364 QArithSternBrocot.general_Q <> Qle_trans thm
+R5392:5396 QArithSternBrocot.Qmax_min <> Qmin4 def
+R5424:5432 QArithSternBrocot.Qmax_min <> Qle_min_r thm
+R5405:5413 QArithSternBrocot.Qmax_min <> Qle_min_l thm
+R5372:5375 QArithSternBrocot.Qmax_min <> Qmin def
+R5356:5364 QArithSternBrocot.general_Q <> Qle_trans thm
+R5405:5413 QArithSternBrocot.Qmax_min <> Qle_min_l thm
+R5424:5432 QArithSternBrocot.Qmax_min <> Qle_min_r thm
+R5405:5413 QArithSternBrocot.Qmax_min <> Qle_min_l thm
+prf 5447:5457 <> Qle_Qmin4_4
+binder 5466:5467 <> q1:87
+binder 5469:5470 <> q2:88
+binder 5472:5473 <> q3:89
+binder 5475:5476 <> q4:90
+R5496:5498 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'<='_x not
+R5479:5483 QArithSternBrocot.Qmax_min <> Qmin4 def
+R5485:5486 QArithSternBrocot.Qmax_min <> q1:87 var
+R5488:5489 QArithSternBrocot.Qmax_min <> q2:88 var
+R5491:5492 QArithSternBrocot.Qmax_min <> q3:89 var
+R5494:5495 QArithSternBrocot.Qmax_min <> q4:90 var
+R5499:5500 QArithSternBrocot.Qmax_min <> q4:90 var
+R5553:5556 QArithSternBrocot.Qmax_min <> Qmin def
+R5537:5545 QArithSternBrocot.general_Q <> Qle_trans thm
+R5573:5577 QArithSternBrocot.Qmax_min <> Qmin4 def
+R5586:5594 QArithSternBrocot.Qmax_min <> Qle_min_r thm
+R5553:5556 QArithSternBrocot.Qmax_min <> Qmin def
+R5537:5545 QArithSternBrocot.general_Q <> Qle_trans thm
+R5586:5594 QArithSternBrocot.Qmax_min <> Qle_min_r thm
+R5586:5594 QArithSternBrocot.Qmax_min <> Qle_min_r thm
+prf 5609:5629 <> Qmax4_Qlt_upper_bound
+binder 5638:5638 <> p:91
+binder 5640:5641 <> q1:92
+binder 5643:5644 <> q2:93
+binder 5646:5647 <> q3:94
+binder 5649:5650 <> q4:95
+R5657:5660 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5654:5654 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'<'_x not
+R5653:5653 QArithSternBrocot.Qmax_min <> p:91 var
+R5655:5656 QArithSternBrocot.Qmax_min <> q1:92 var
+R5665:5668 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5662:5662 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'<'_x not
+R5661:5661 QArithSternBrocot.Qmax_min <> p:91 var
+R5663:5664 QArithSternBrocot.Qmax_min <> q2:93 var
+R5673:5676 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5670:5670 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'<'_x not
+R5669:5669 QArithSternBrocot.Qmax_min <> p:91 var
+R5671:5672 QArithSternBrocot.Qmax_min <> q3:94 var
+R5681:5684 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5678:5678 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'<'_x not
+R5677:5677 QArithSternBrocot.Qmax_min <> p:91 var
+R5679:5680 QArithSternBrocot.Qmax_min <> q4:95 var
+R5686:5688 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'<'_x not
+R5685:5685 QArithSternBrocot.Qmax_min <> p:91 var
+R5689:5693 QArithSternBrocot.Qmax_min <> Qmax4 def
+R5695:5696 QArithSternBrocot.Qmax_min <> q1:92 var
+R5698:5699 QArithSternBrocot.Qmax_min <> q2:93 var
+R5701:5702 QArithSternBrocot.Qmax_min <> q3:94 var
+R5704:5705 QArithSternBrocot.Qmax_min <> q4:95 var
+R5757:5761 QArithSternBrocot.Qmax_min <> Qmax4 def
+R5777:5796 QArithSternBrocot.Qmax_min <> Qmax_Qlt_upper_bound thm
+R5777:5796 QArithSternBrocot.Qmax_min <> Qmax_Qlt_upper_bound thm
+R5777:5796 QArithSternBrocot.Qmax_min <> Qmax_Qlt_upper_bound thm
+R5777:5796 QArithSternBrocot.Qmax_min <> Qmax_Qlt_upper_bound thm
+R5777:5796 QArithSternBrocot.Qmax_min <> Qmax_Qlt_upper_bound thm
+R5777:5796 QArithSternBrocot.Qmax_min <> Qmax_Qlt_upper_bound thm
+R5777:5796 QArithSternBrocot.Qmax_min <> Qmax_Qlt_upper_bound thm
+R5777:5796 QArithSternBrocot.Qmax_min <> Qmax_Qlt_upper_bound thm
+prf 5823:5842 <> Qlt_Qmin_upper_bound
+R5862:5862 QArithSternBrocot.Q_field <> Q ind
+binder 5852:5852 <> p:96
+binder 5854:5855 <> q1:97
+binder 5857:5858 <> q2:98
+R5879:5882 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5866:5868 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'<'_x not
+R5865:5865 QArithSternBrocot.Qmax_min <> p:96 var
+R5869:5872 QArithSternBrocot.Qmax_min <> Qmin def
+R5874:5875 QArithSternBrocot.Qmax_min <> q1:97 var
+R5877:5878 QArithSternBrocot.Qmax_min <> q2:98 var
+R5889:5892 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R5884:5886 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'<'_x not
+R5883:5883 QArithSternBrocot.Qmax_min <> p:96 var
+R5887:5888 QArithSternBrocot.Qmax_min <> q1:97 var
+R5894:5896 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'<'_x not
+R5893:5893 QArithSternBrocot.Qmax_min <> p:96 var
+R5897:5898 QArithSternBrocot.Qmax_min <> q2:98 var
+R5957:5960 QArithSternBrocot.Qmax_min <> Qmin def
+R5938:5949 QArithSternBrocot.general_Q <> Qlt_le_trans thm
+R5986:5994 QArithSternBrocot.Qmax_min <> Qle_min_l thm
+R6002:6010 QArithSternBrocot.Qmax_min <> Qle_min_r thm
+R5957:5960 QArithSternBrocot.Qmax_min <> Qmin def
+R5938:5949 QArithSternBrocot.general_Q <> Qlt_le_trans thm
+R5957:5960 QArithSternBrocot.Qmax_min <> Qmin def
+R5938:5949 QArithSternBrocot.general_Q <> Qlt_le_trans thm
+R5986:5994 QArithSternBrocot.Qmax_min <> Qle_min_l thm
+R6002:6010 QArithSternBrocot.Qmax_min <> Qle_min_r thm
+def 6031:6052 <> Qlt_Qmin_upper_bound_l
+binder 6054:6054 <> p:99
+binder 6056:6057 <> q1:100
+binder 6059:6060 <> q2:101
+R6068:6070 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'<'_x not
+R6067:6067 QArithSternBrocot.Qmax_min <> p:99 var
+R6071:6074 QArithSternBrocot.Qmax_min <> Qmin def
+R6076:6077 QArithSternBrocot.Qmax_min <> q1:100 var
+R6079:6080 QArithSternBrocot.Qmax_min <> q2:101 var
+binder 6063:6065 <> hyp:102
+R6086:6088 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'<'_x not
+R6085:6085 QArithSternBrocot.Qmax_min <> p:99 var
+R6089:6090 QArithSternBrocot.Qmax_min <> q1:100 var
+R6094:6098 Coq.Init.Logic <> proj1 thm
+R6101:6120 QArithSternBrocot.Qmax_min <> Qlt_Qmin_upper_bound thm
+R6122:6122 QArithSternBrocot.Qmax_min <> p:99 var
+R6124:6125 QArithSternBrocot.Qmax_min <> q1:100 var
+R6127:6128 QArithSternBrocot.Qmax_min <> q2:101 var
+R6130:6132 QArithSternBrocot.Qmax_min <> hyp:102 var
+def 6147:6168 <> Qlt_Qmin_upper_bound_r
+binder 6170:6170 <> p:103
+binder 6172:6173 <> q1:104
+binder 6175:6176 <> q2:105
+R6184:6186 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'<'_x not
+R6183:6183 QArithSternBrocot.Qmax_min <> p:103 var
+R6187:6190 QArithSternBrocot.Qmax_min <> Qmin def
+R6192:6193 QArithSternBrocot.Qmax_min <> q1:104 var
+R6195:6196 QArithSternBrocot.Qmax_min <> q2:105 var
+binder 6179:6181 <> hyp:106
+R6202:6204 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'<'_x not
+R6201:6201 QArithSternBrocot.Qmax_min <> p:103 var
+R6205:6206 QArithSternBrocot.Qmax_min <> q2:105 var
+R6210:6214 Coq.Init.Logic <> proj2 thm
+R6217:6236 QArithSternBrocot.Qmax_min <> Qlt_Qmin_upper_bound thm
+R6238:6238 QArithSternBrocot.Qmax_min <> p:103 var
+R6240:6241 QArithSternBrocot.Qmax_min <> q1:104 var
+R6243:6244 QArithSternBrocot.Qmax_min <> q2:105 var
+R6246:6248 QArithSternBrocot.Qmax_min <> hyp:106 var
+prf 6259:6278 <> Qmax_Qlt_lower_bound
+R6298:6298 QArithSternBrocot.Q_field <> Q ind
+binder 6288:6288 <> p:107
+binder 6290:6291 <> q1:108
+binder 6293:6294 <> q2:109
+R6307:6311 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6303:6305 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'<'_x not
+R6301:6302 QArithSternBrocot.Qmax_min <> q1:108 var
+R6306:6306 QArithSternBrocot.Qmax_min <> p:107 var
+R6318:6321 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6314:6316 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'<'_x not
+R6312:6313 QArithSternBrocot.Qmax_min <> q2:109 var
+R6317:6317 QArithSternBrocot.Qmax_min <> p:107 var
+R6332:6334 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'<'_x not
+R6322:6325 QArithSternBrocot.Qmax_min <> Qmax def
+R6327:6328 QArithSternBrocot.Qmax_min <> q1:108 var
+R6330:6331 QArithSternBrocot.Qmax_min <> q2:109 var
+R6335:6335 QArithSternBrocot.Qmax_min <> p:107 var
+R6375:6378 QArithSternBrocot.Qmax_min <> Qmax def
+R6391:6401 QArithSternBrocot.general_Q <> Q_le_lt_dec thm
+R6391:6401 QArithSternBrocot.general_Q <> Q_le_lt_dec thm
+prf 6432:6451 <> Qlt_Qmax_lower_bound
+R6471:6471 QArithSternBrocot.Q_field <> Q ind
+binder 6461:6461 <> p:110
+binder 6463:6464 <> q1:111
+binder 6466:6467 <> q2:112
+R6488:6491 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6484:6486 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'<'_x not
+R6474:6477 QArithSternBrocot.Qmax_min <> Qmax def
+R6479:6480 QArithSternBrocot.Qmax_min <> q1:111 var
+R6482:6483 QArithSternBrocot.Qmax_min <> q2:112 var
+R6487:6487 QArithSternBrocot.Qmax_min <> p:110 var
+R6498:6501 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R6494:6496 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'<'_x not
+R6492:6493 QArithSternBrocot.Qmax_min <> q1:111 var
+R6497:6497 QArithSternBrocot.Qmax_min <> p:110 var
+R6504:6506 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'<'_x not
+R6502:6503 QArithSternBrocot.Qmax_min <> q2:112 var
+R6507:6507 QArithSternBrocot.Qmax_min <> p:110 var
+R6566:6569 QArithSternBrocot.Qmax_min <> Qmax def
+R6547:6558 QArithSternBrocot.general_Q <> Qle_lt_trans thm
+R6595:6603 QArithSternBrocot.Qmax_min <> Qle_max_l thm
+R6611:6619 QArithSternBrocot.Qmax_min <> Qle_max_r thm
+R6566:6569 QArithSternBrocot.Qmax_min <> Qmax def
+R6547:6558 QArithSternBrocot.general_Q <> Qle_lt_trans thm
+R6566:6569 QArithSternBrocot.Qmax_min <> Qmax def
+R6547:6558 QArithSternBrocot.general_Q <> Qle_lt_trans thm
+R6595:6603 QArithSternBrocot.Qmax_min <> Qle_max_l thm
+R6611:6619 QArithSternBrocot.Qmax_min <> Qle_max_r thm
+def 6640:6661 <> Qlt_Qmax_lower_bound_l
+binder 6663:6663 <> p:113
+binder 6665:6666 <> q1:114
+binder 6668:6669 <> q2:115
+R6686:6688 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'<'_x not
+R6676:6679 QArithSternBrocot.Qmax_min <> Qmax def
+R6681:6682 QArithSternBrocot.Qmax_min <> q1:114 var
+R6684:6685 QArithSternBrocot.Qmax_min <> q2:115 var
+R6689:6689 QArithSternBrocot.Qmax_min <> p:113 var
+binder 6672:6674 <> hyp:116
+R6695:6699 Coq.Init.Logic <> proj1 thm
+R6702:6721 QArithSternBrocot.Qmax_min <> Qlt_Qmax_lower_bound thm
+R6723:6723 QArithSternBrocot.Qmax_min <> p:113 var
+R6725:6726 QArithSternBrocot.Qmax_min <> q1:114 var
+R6728:6729 QArithSternBrocot.Qmax_min <> q2:115 var
+R6731:6733 QArithSternBrocot.Qmax_min <> hyp:116 var
+def 6748:6769 <> Qlt_Qmax_lower_bound_r
+binder 6771:6771 <> p:117
+binder 6773:6774 <> q1:118
+binder 6776:6777 <> q2:119
+R6794:6796 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'<'_x not
+R6784:6787 QArithSternBrocot.Qmax_min <> Qmax def
+R6789:6790 QArithSternBrocot.Qmax_min <> q1:118 var
+R6792:6793 QArithSternBrocot.Qmax_min <> q2:119 var
+R6797:6797 QArithSternBrocot.Qmax_min <> p:117 var
+binder 6780:6782 <> hyp:120
+R6803:6807 Coq.Init.Logic <> proj2 thm
+R6810:6829 QArithSternBrocot.Qmax_min <> Qlt_Qmax_lower_bound thm
+R6831:6831 QArithSternBrocot.Qmax_min <> p:117 var
+R6833:6834 QArithSternBrocot.Qmax_min <> q1:118 var
+R6836:6837 QArithSternBrocot.Qmax_min <> q2:119 var
+R6839:6841 QArithSternBrocot.Qmax_min <> hyp:120 var
+prf 6852:6866 <> Qmin_involutive
+binder 6877:6877 <> q:121
+R6888:6890 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R6880:6883 QArithSternBrocot.Qmax_min <> Qmin def
+R6885:6885 QArithSternBrocot.Qmax_min <> q:121 var
+R6887:6887 QArithSternBrocot.Qmax_min <> q:121 var
+R6891:6891 QArithSternBrocot.Qmax_min <> q:121 var
+R6922:6940 QArithSternBrocot.Qmax_min <> Qmin_or_informative thm
+R6922:6940 QArithSternBrocot.Qmax_min <> Qmin_or_informative thm
+prf 6969:6983 <> Qmax_involutive
+binder 6994:6994 <> q:122
+R7005:7007 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R6997:7000 QArithSternBrocot.Qmax_min <> Qmax def
+R7002:7002 QArithSternBrocot.Qmax_min <> q:122 var
+R7004:7004 QArithSternBrocot.Qmax_min <> q:122 var
+R7008:7008 QArithSternBrocot.Qmax_min <> q:122 var
+R7039:7057 QArithSternBrocot.Qmax_min <> Qmax_or_informative thm
+R7039:7057 QArithSternBrocot.Qmax_min <> Qmax_or_informative thm
+def 7091:7095 <> Qmean
+R7102:7102 QArithSternBrocot.Q_field <> Q ind
+binder 7098:7098 <> x:123
+binder 7100:7100 <> y:124
+R7105:7105 QArithSternBrocot.Q_field <> Q ind
+R7110:7110 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'/'_x not
+R7114:7118 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'/'_x not
+R7130:7130 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'/'_x not
+R7112:7112 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'+'_x not
+R7111:7111 QArithSternBrocot.Qmax_min <> x:123 var
+R7113:7113 QArithSternBrocot.Qmax_min <> y:124 var
+R7123:7125 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'+'_x not
+R7119:7122 QArithSternBrocot.Q_field <> Qone def
+R7126:7129 QArithSternBrocot.Q_field <> Qone def
+prf 7140:7153 <> Qmean_property
+R7167:7167 QArithSternBrocot.Q_field <> Q ind
+binder 7163:7163 <> x:125
+binder 7165:7165 <> y:126
+R7176:7179 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7172:7174 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'<'_x not
+R7171:7171 QArithSternBrocot.Qmax_min <> x:125 var
+R7175:7175 QArithSternBrocot.Qmax_min <> y:126 var
+R7193:7196 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R7181:7183 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'<'_x not
+R7180:7180 QArithSternBrocot.Qmax_min <> x:125 var
+R7184:7188 QArithSternBrocot.Qmax_min <> Qmean def
+R7190:7190 QArithSternBrocot.Qmax_min <> x:125 var
+R7192:7192 QArithSternBrocot.Qmax_min <> y:126 var
+R7206:7208 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'<'_x not
+R7197:7201 QArithSternBrocot.Qmax_min <> Qmean def
+R7203:7203 QArithSternBrocot.Qmax_min <> x:125 var
+R7205:7205 QArithSternBrocot.Qmax_min <> y:126 var
+R7209:7209 QArithSternBrocot.Qmax_min <> y:126 var
+R7248:7252 QArithSternBrocot.Qmax_min <> Qmean def
+R7263:7280 QArithSternBrocot.Q_ordered_field_properties <> Qmult_pos_Qlt_Qdiv thm
+R7297:7297 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'+'_x not
+R7263:7280 QArithSternBrocot.Q_ordered_field_properties <> Qmult_pos_Qlt_Qdiv thm
+R7297:7297 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'+'_x not
+R7324:7341 QArithSternBrocot.Q_ordered_field_properties <> Qmult_pos_Qdiv_Qlt thm
+R7358:7358 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'+'_x not
+R7324:7341 QArithSternBrocot.Q_ordered_field_properties <> Qmult_pos_Qdiv_Qlt thm
+R7358:7358 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'+'_x not
+def 7392:7407 <> Qmean_property_l
+binder 7409:7409 <> x:127
+binder 7411:7411 <> y:128
+R7419:7419 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'<'_x not
+R7418:7418 QArithSternBrocot.Qmax_min <> x:127 var
+R7420:7420 QArithSternBrocot.Qmax_min <> y:128 var
+binder 7414:7416 <> hyp:129
+R7426:7430 Coq.Init.Logic <> proj1 thm
+R7433:7446 QArithSternBrocot.Qmax_min <> Qmean_property thm
+R7448:7448 QArithSternBrocot.Qmax_min <> x:127 var
+R7450:7450 QArithSternBrocot.Qmax_min <> y:128 var
+R7452:7454 QArithSternBrocot.Qmax_min <> hyp:129 var
+def 7469:7484 <> Qmean_property_r
+binder 7486:7486 <> x:130
+binder 7488:7488 <> y:131
+R7496:7496 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'<'_x not
+R7495:7495 QArithSternBrocot.Qmax_min <> x:130 var
+R7497:7497 QArithSternBrocot.Qmax_min <> y:131 var
+binder 7491:7493 <> hyp:132
+R7503:7507 Coq.Init.Logic <> proj2 thm
+R7510:7523 QArithSternBrocot.Qmax_min <> Qmean_property thm
+R7525:7525 QArithSternBrocot.Qmax_min <> x:130 var
+R7527:7527 QArithSternBrocot.Qmax_min <> y:131 var
+R7529:7531 QArithSternBrocot.Qmax_min <> hyp:132 var
+prf 7542:7551 <> Qmean_incr
+binder 7561:7562 <> x1:133
+binder 7564:7565 <> x2:134
+binder 7567:7568 <> y1:135
+binder 7570:7571 <> y2:136
+R7580:7583 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7576:7577 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'<'_x not
+R7574:7575 QArithSternBrocot.Qmax_min <> x1:133 var
+R7578:7579 QArithSternBrocot.Qmax_min <> x2:134 var
+R7591:7595 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7586:7588 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'<'_x not
+R7584:7585 QArithSternBrocot.Qmax_min <> y1:135 var
+R7589:7590 QArithSternBrocot.Qmax_min <> y2:136 var
+R7607:7609 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'<'_x not
+R7596:7600 QArithSternBrocot.Qmax_min <> Qmean def
+R7602:7603 QArithSternBrocot.Qmax_min <> x1:133 var
+R7605:7606 QArithSternBrocot.Qmax_min <> y1:135 var
+R7610:7614 QArithSternBrocot.Qmax_min <> Qmean def
+R7616:7617 QArithSternBrocot.Qmax_min <> x2:134 var
+R7619:7620 QArithSternBrocot.Qmax_min <> y2:136 var
+R7664:7668 QArithSternBrocot.Qmax_min <> Qmean def
+R7678:7691 QArithSternBrocot.Q_ordered_field_properties <> Qmult_Qdiv_pos thm
+R7721:7723 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'+'_x not
+R7716:7718 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'+'_x not
+R7711:7713 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'+'_x not
+R7757:7759 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'+'_x not
+R7752:7754 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'+'_x not
+R7747:7749 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'+'_x not
+R7678:7691 QArithSternBrocot.Q_ordered_field_properties <> Qmult_Qdiv_pos thm
+R7721:7723 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'+'_x not
+R7716:7718 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'+'_x not
+R7711:7713 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'+'_x not
+R7757:7759 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'+'_x not
+R7752:7754 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'+'_x not
+R7747:7749 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'+'_x not
+prf 7793:7802 <> Q_is_dense
+binder 7811:7811 <> x:137
+binder 7813:7813 <> y:138
+R7819:7822 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7817:7817 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'<'_x not
+R7816:7816 QArithSternBrocot.Qmax_min <> x:137 var
+R7818:7818 QArithSternBrocot.Qmax_min <> y:138 var
+R7823:7823 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R7825:7825 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R7827:7829 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R7840:7840 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R7826:7826 QArithSternBrocot.Q_field <> Q ind
+binder 7824:7824 <> z:139
+R7833:7836 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R7831:7831 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'<'_x not
+R7830:7830 QArithSternBrocot.Qmax_min <> x:137 var
+R7832:7832 QArithSternBrocot.Qmax_min <> z:139 var
+R7838:7838 QArithSternBrocot.Qsyntax <> ::Q_scope:x_'<'_x not
+R7837:7837 QArithSternBrocot.Qmax_min <> z:139 var
+R7839:7839 QArithSternBrocot.Qmax_min <> y:138 var
+R7875:7879 QArithSternBrocot.Qmax_min <> Qmean def
+R7893:7906 QArithSternBrocot.Qmax_min <> Qmean_property thm
+R7875:7879 QArithSternBrocot.Qmax_min <> Qmean def
+R7893:7906 QArithSternBrocot.Qmax_min <> Qmean_property thm

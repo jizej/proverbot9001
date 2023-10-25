@@ -3,6 +3,9 @@
 *.aux
 *.d
 *.vo
+*.vos
+*.vok
+_build
+.lia.cache
 Makefile.coq
 Makefile.coq.conf
-result

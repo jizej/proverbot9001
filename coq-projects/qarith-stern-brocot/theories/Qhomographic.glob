@@ -1,0 +1,642 @@
+DIGEST b7f917a234224e9371be2de967b9a144
+FQArithSternBrocot.Qhomographic
+R1061:1092 QArithSternBrocot.homographicAcc_Qhomographic_sign <> <> lib
+R1119:1128 Coq.setoid_ring.ZArithRing <> <> lib
+prf 1189:1225 <> Qhomographic_sg_denom_nonzero_nonzero
+R1244:1244 Coq.Numbers.BinNums <> Z ind
+binder 1238:1238 <> c:1
+binder 1240:1240 <> d:2
+R1252:1260 QArithSternBrocot.Qpositive <> Qpositive ind
+binder 1248:1248 <> p:3
+R1272:1275 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1266:1268 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1265:1265 QArithSternBrocot.Qhomographic <> c:1 var
+R1283:1286 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1277:1279 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1276:1276 QArithSternBrocot.Qhomographic <> d:2 var
+R1287:1288 Coq.Init.Logic <> ::type_scope:'~'_x not
+R1289:1317 QArithSternBrocot.Qhomographic_sign <> Qhomographic_sg_denom_nonzero ind
+R1319:1319 QArithSternBrocot.Qhomographic <> c:1 var
+R1321:1321 QArithSternBrocot.Qhomographic <> d:2 var
+R1323:1323 QArithSternBrocot.Qhomographic <> p:3 var
+prf 1543:1581 <> Qhomographic_sg_denom_nonzero_nonzero_2
+R1600:1600 Coq.Numbers.BinNums <> Z ind
+binder 1594:1594 <> c:4
+binder 1596:1596 <> d:5
+R1608:1616 QArithSternBrocot.Qpositive <> Qpositive ind
+binder 1604:1604 <> p:6
+R1656:1659 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1621:1649 QArithSternBrocot.Qhomographic_sign <> Qhomographic_sg_denom_nonzero ind
+R1651:1651 QArithSternBrocot.Qhomographic <> c:4 var
+R1653:1653 QArithSternBrocot.Qhomographic <> d:5 var
+R1655:1655 QArithSternBrocot.Qhomographic <> p:6 var
+R1666:1669 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R1661:1664 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R1660:1660 QArithSternBrocot.Qhomographic <> c:4 var
+R1665:1665 QArithSternBrocot.Qhomographic <> d:5 var
+R1671:1674 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R1670:1670 QArithSternBrocot.Qhomographic <> c:4 var
+R1703:1723 QArithSternBrocot.Zaux <> double_not_equal_zero thm
+R1703:1723 QArithSternBrocot.Zaux <> double_not_equal_zero thm
+R1752:1788 QArithSternBrocot.Qhomographic <> Qhomographic_sg_denom_nonzero_nonzero thm
+R1752:1788 QArithSternBrocot.Qhomographic <> Qhomographic_sg_denom_nonzero_nonzero thm
+prf 1827:1865 <> Qhomographic_sg_denom_nonzero_nonzero_3
+R1884:1884 Coq.Numbers.BinNums <> Z ind
+binder 1878:1878 <> c:7
+binder 1880:1880 <> d:8
+R1892:1900 QArithSternBrocot.Qpositive <> Qpositive ind
+binder 1888:1888 <> p:9
+R1940:1943 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1905:1933 QArithSternBrocot.Qhomographic_sign <> Qhomographic_sg_denom_nonzero ind
+R1935:1935 QArithSternBrocot.Qhomographic <> c:7 var
+R1937:1937 QArithSternBrocot.Qhomographic <> d:8 var
+R1939:1939 QArithSternBrocot.Qhomographic <> p:9 var
+R1952:1955 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R1945:1948 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R1944:1944 QArithSternBrocot.Qhomographic <> c:7 var
+R1957:1960 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R1956:1956 QArithSternBrocot.Qhomographic <> d:8 var
+R2035:2073 QArithSternBrocot.Qhomographic <> Qhomographic_sg_denom_nonzero_nonzero_2 thm
+R2148:2154 Coq.ZArith.ZArith_dec <> Z_zerop thm
+R2190:2202 Coq.Init.Logic <> sym_not_equal abbrev
+R2035:2073 QArithSternBrocot.Qhomographic <> Qhomographic_sg_denom_nonzero_nonzero_2 thm
+R2148:2154 Coq.ZArith.ZArith_dec <> Z_zerop thm
+R2190:2202 Coq.Init.Logic <> sym_not_equal abbrev
+def 2281:2307 <> Qhomographic_Qpositive_to_Q
+R2320:2320 Coq.Numbers.BinNums <> Z ind
+binder 2310:2310 <> a:10
+binder 2312:2312 <> b:11
+binder 2314:2314 <> c:12
+binder 2316:2316 <> d:13
+R2331:2339 QArithSternBrocot.Qpositive <> Qpositive ind
+binder 2327:2327 <> p:14
+R2353:2381 QArithSternBrocot.Qhomographic_sign <> Qhomographic_sg_denom_nonzero ind
+R2383:2383 QArithSternBrocot.Qhomographic <> c:12 var
+R2385:2385 QArithSternBrocot.Qhomographic <> d:13 var
+R2387:2387 QArithSternBrocot.Qhomographic <> p:14 var
+binder 2343:2349 <> H_hsign:15
+R2392:2392 QArithSternBrocot.Q_field <> Q ind
+R2401:2408 Coq.ZArith.BinInt Z eq_dec def
+R2412:2414 Coq.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R2420:2422 Coq.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R2401:2408 Coq.ZArith.BinInt Z eq_dec def
+R2412:2414 Coq.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R2420:2422 Coq.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R2469:2475 Coq.ZArith.ZArith_dec <> Z_zerop thm
+R2469:2475 Coq.ZArith.ZArith_dec <> Z_zerop thm
+R2525:2541 QArithSternBrocot.positive_fraction_encoding <> fraction_encoding def
+R2525:2541 QArithSternBrocot.positive_fraction_encoding <> fraction_encoding def
+R2559:2597 QArithSternBrocot.Qhomographic <> Qhomographic_sg_denom_nonzero_nonzero_2 thm
+R2559:2597 QArithSternBrocot.Qhomographic <> Qhomographic_sg_denom_nonzero_nonzero_2 thm
+R2737:2753 QArithSternBrocot.positive_fraction_encoding <> fraction_encoding def
+R2737:2753 QArithSternBrocot.positive_fraction_encoding <> fraction_encoding def
+R2816:2826 QArithSternBrocot.Qhomographic_sign <> sg_sign_dec thm
+R2816:2826 QArithSternBrocot.Qhomographic_sign <> sg_sign_dec thm
+R2970:2973 QArithSternBrocot.Q_field <> Zero constr
+R2970:2973 QArithSternBrocot.Q_field <> Zero constr
+R3049:3059 Coq.ZArith.ZArith_dec <> Z_lt_le_dec thm
+R3074:3078 Coq.ZArith.BinInt Z sgn def
+R3104:3106 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R3081:3085 QArithSternBrocot.homographicAcc_Qhomographic_sign <> new_a def
+R3107:3111 QArithSternBrocot.homographicAcc_Qhomographic_sign <> new_b def
+R3049:3059 Coq.ZArith.ZArith_dec <> Z_lt_le_dec thm
+R3074:3078 Coq.ZArith.BinInt Z sgn def
+R3104:3106 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R3081:3085 QArithSternBrocot.homographicAcc_Qhomographic_sign <> new_a def
+R3107:3111 QArithSternBrocot.homographicAcc_Qhomographic_sign <> new_b def
+R3190:3193 QArithSternBrocot.Q_field <> Qpos constr
+R3206:3240 QArithSternBrocot.Qhomographic_Qpositive_to_Qpositive <> Qhomographic_Qpositive_to_Qpositive def
+R3243:3247 QArithSternBrocot.homographicAcc_Qhomographic_sign <> new_a def
+R3282:3286 QArithSternBrocot.homographicAcc_Qhomographic_sign <> new_b def
+R3308:3312 QArithSternBrocot.homographicAcc_Qhomographic_sign <> new_c def
+R3347:3351 QArithSternBrocot.homographicAcc_Qhomographic_sign <> new_d def
+R3373:3377 QArithSternBrocot.homographicAcc_Qhomographic_sign <> new_p def
+R3190:3193 QArithSternBrocot.Q_field <> Qpos constr
+R3206:3240 QArithSternBrocot.Qhomographic_Qpositive_to_Qpositive <> Qhomographic_Qpositive_to_Qpositive def
+R3243:3247 QArithSternBrocot.homographicAcc_Qhomographic_sign <> new_a def
+R3282:3286 QArithSternBrocot.homographicAcc_Qhomographic_sign <> new_b def
+R3308:3312 QArithSternBrocot.homographicAcc_Qhomographic_sign <> new_c def
+R3347:3351 QArithSternBrocot.homographicAcc_Qhomographic_sign <> new_d def
+R3373:3377 QArithSternBrocot.homographicAcc_Qhomographic_sign <> new_p def
+R3441:3488 QArithSternBrocot.homographicAcc_Qhomographic_sign <> Qhomographic_Qpositive_to_Q_homographicAcc_pos_1 thm
+R3441:3488 QArithSternBrocot.homographicAcc_Qhomographic_sign <> Qhomographic_Qpositive_to_Q_homographicAcc_pos_1 thm
+R3609:3612 QArithSternBrocot.Q_field <> Qpos constr
+R3625:3659 QArithSternBrocot.Qhomographic_Qpositive_to_Qpositive <> Qhomographic_Qpositive_to_Qpositive def
+R3662:3663 Coq.ZArith.BinInt <> ::Z_scope:'-'_x not
+R3664:3668 QArithSternBrocot.homographicAcc_Qhomographic_sign <> new_a def
+R3703:3704 Coq.ZArith.BinInt <> ::Z_scope:'-'_x not
+R3705:3709 QArithSternBrocot.homographicAcc_Qhomographic_sign <> new_b def
+R3731:3732 Coq.ZArith.BinInt <> ::Z_scope:'-'_x not
+R3733:3737 QArithSternBrocot.homographicAcc_Qhomographic_sign <> new_c def
+R3772:3773 Coq.ZArith.BinInt <> ::Z_scope:'-'_x not
+R3774:3778 QArithSternBrocot.homographicAcc_Qhomographic_sign <> new_d def
+R3800:3804 QArithSternBrocot.homographicAcc_Qhomographic_sign <> new_p def
+R3609:3612 QArithSternBrocot.Q_field <> Qpos constr
+R3625:3659 QArithSternBrocot.Qhomographic_Qpositive_to_Qpositive <> Qhomographic_Qpositive_to_Qpositive def
+R3662:3663 Coq.ZArith.BinInt <> ::Z_scope:'-'_x not
+R3664:3668 QArithSternBrocot.homographicAcc_Qhomographic_sign <> new_a def
+R3703:3704 Coq.ZArith.BinInt <> ::Z_scope:'-'_x not
+R3705:3709 QArithSternBrocot.homographicAcc_Qhomographic_sign <> new_b def
+R3731:3732 Coq.ZArith.BinInt <> ::Z_scope:'-'_x not
+R3733:3737 QArithSternBrocot.homographicAcc_Qhomographic_sign <> new_c def
+R3772:3773 Coq.ZArith.BinInt <> ::Z_scope:'-'_x not
+R3774:3778 QArithSternBrocot.homographicAcc_Qhomographic_sign <> new_d def
+R3800:3804 QArithSternBrocot.homographicAcc_Qhomographic_sign <> new_p def
+R3868:3915 QArithSternBrocot.homographicAcc_Qhomographic_sign <> Qhomographic_Qpositive_to_Q_homographicAcc_pos_2 thm
+R3868:3915 QArithSternBrocot.homographicAcc_Qhomographic_sign <> Qhomographic_Qpositive_to_Q_homographicAcc_pos_2 thm
+R4059:4069 Coq.ZArith.ZArith_dec <> Z_lt_le_dec thm
+R4072:4076 Coq.ZArith.BinInt Z sgn def
+R4102:4104 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R4079:4083 QArithSternBrocot.homographicAcc_Qhomographic_sign <> new_a def
+R4105:4109 QArithSternBrocot.homographicAcc_Qhomographic_sign <> new_b def
+R4059:4069 Coq.ZArith.ZArith_dec <> Z_lt_le_dec thm
+R4072:4076 Coq.ZArith.BinInt Z sgn def
+R4102:4104 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R4079:4083 QArithSternBrocot.homographicAcc_Qhomographic_sign <> new_a def
+R4105:4109 QArithSternBrocot.homographicAcc_Qhomographic_sign <> new_b def
+R4199:4202 QArithSternBrocot.Q_field <> Qneg constr
+R4215:4249 QArithSternBrocot.Qhomographic_Qpositive_to_Qpositive <> Qhomographic_Qpositive_to_Qpositive def
+R4252:4253 Coq.ZArith.BinInt <> ::Z_scope:'-'_x not
+R4254:4258 QArithSternBrocot.homographicAcc_Qhomographic_sign <> new_a def
+R4293:4294 Coq.ZArith.BinInt <> ::Z_scope:'-'_x not
+R4295:4299 QArithSternBrocot.homographicAcc_Qhomographic_sign <> new_b def
+R4321:4325 QArithSternBrocot.homographicAcc_Qhomographic_sign <> new_c def
+R4360:4364 QArithSternBrocot.homographicAcc_Qhomographic_sign <> new_d def
+R4386:4390 QArithSternBrocot.homographicAcc_Qhomographic_sign <> new_p def
+R4199:4202 QArithSternBrocot.Q_field <> Qneg constr
+R4215:4249 QArithSternBrocot.Qhomographic_Qpositive_to_Qpositive <> Qhomographic_Qpositive_to_Qpositive def
+R4252:4253 Coq.ZArith.BinInt <> ::Z_scope:'-'_x not
+R4254:4258 QArithSternBrocot.homographicAcc_Qhomographic_sign <> new_a def
+R4293:4294 Coq.ZArith.BinInt <> ::Z_scope:'-'_x not
+R4295:4299 QArithSternBrocot.homographicAcc_Qhomographic_sign <> new_b def
+R4321:4325 QArithSternBrocot.homographicAcc_Qhomographic_sign <> new_c def
+R4360:4364 QArithSternBrocot.homographicAcc_Qhomographic_sign <> new_d def
+R4386:4390 QArithSternBrocot.homographicAcc_Qhomographic_sign <> new_p def
+R4454:4501 QArithSternBrocot.homographicAcc_Qhomographic_sign <> Qhomographic_Qpositive_to_Q_homographicAcc_neg_1 thm
+R4454:4501 QArithSternBrocot.homographicAcc_Qhomographic_sign <> Qhomographic_Qpositive_to_Q_homographicAcc_neg_1 thm
+R4629:4632 QArithSternBrocot.Q_field <> Qneg constr
+R4645:4679 QArithSternBrocot.Qhomographic_Qpositive_to_Qpositive <> Qhomographic_Qpositive_to_Qpositive def
+R4682:4686 QArithSternBrocot.homographicAcc_Qhomographic_sign <> new_a def
+R4721:4725 QArithSternBrocot.homographicAcc_Qhomographic_sign <> new_b def
+R4747:4748 Coq.ZArith.BinInt <> ::Z_scope:'-'_x not
+R4749:4753 QArithSternBrocot.homographicAcc_Qhomographic_sign <> new_c def
+R4788:4789 Coq.ZArith.BinInt <> ::Z_scope:'-'_x not
+R4790:4794 QArithSternBrocot.homographicAcc_Qhomographic_sign <> new_d def
+R4816:4820 QArithSternBrocot.homographicAcc_Qhomographic_sign <> new_p def
+R4629:4632 QArithSternBrocot.Q_field <> Qneg constr
+R4645:4679 QArithSternBrocot.Qhomographic_Qpositive_to_Qpositive <> Qhomographic_Qpositive_to_Qpositive def
+R4682:4686 QArithSternBrocot.homographicAcc_Qhomographic_sign <> new_a def
+R4721:4725 QArithSternBrocot.homographicAcc_Qhomographic_sign <> new_b def
+R4747:4748 Coq.ZArith.BinInt <> ::Z_scope:'-'_x not
+R4749:4753 QArithSternBrocot.homographicAcc_Qhomographic_sign <> new_c def
+R4788:4789 Coq.ZArith.BinInt <> ::Z_scope:'-'_x not
+R4790:4794 QArithSternBrocot.homographicAcc_Qhomographic_sign <> new_d def
+R4816:4820 QArithSternBrocot.homographicAcc_Qhomographic_sign <> new_p def
+R4884:4931 QArithSternBrocot.homographicAcc_Qhomographic_sign <> Qhomographic_Qpositive_to_Q_homographicAcc_neg_2 thm
+R4884:4931 QArithSternBrocot.homographicAcc_Qhomographic_sign <> Qhomographic_Qpositive_to_Q_homographicAcc_neg_2 thm
+ind 5022:5047 <> Qhomographic_denom_nonzero
+constr 5078:5092 <> Qhomographicok0
+constr 5195:5209 <> Qhomographicok1
+constr 5363:5377 <> Qhomographicok2
+R5052:5055 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5051:5051 Coq.Numbers.BinNums <> Z ind
+R5057:5060 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5056:5056 Coq.Numbers.BinNums <> Z ind
+R5062:5065 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5061:5061 QArithSternBrocot.Q_field <> Q ind
+R5116:5116 Coq.Numbers.BinNums <> Z ind
+binder 5110:5110 <> c:18
+binder 5112:5112 <> d:19
+R5124:5124 QArithSternBrocot.Q_field <> Q ind
+binder 5120:5120 <> s:20
+R5142:5145 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5135:5137 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5134:5134 QArithSternBrocot.Qhomographic <> s:20 var
+R5138:5141 QArithSternBrocot.Q_field <> Zero constr
+R5154:5157 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5147:5150 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R5146:5146 QArithSternBrocot.Qhomographic <> d:19 var
+R5158:5183 QArithSternBrocot.Qhomographic <> Qhomographic_denom_nonzero:16 ind
+R5189:5189 QArithSternBrocot.Qhomographic <> s:20 var
+R5187:5187 QArithSternBrocot.Qhomographic <> d:19 var
+R5185:5185 QArithSternBrocot.Qhomographic <> c:18 var
+R5233:5233 Coq.Numbers.BinNums <> Z ind
+binder 5227:5227 <> c:21
+binder 5229:5229 <> d:22
+R5241:5241 QArithSternBrocot.Q_field <> Q ind
+binder 5237:5237 <> s:23
+R5249:5257 QArithSternBrocot.Qpositive <> Qpositive ind
+binder 5245:5245 <> p:24
+R5277:5286 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5268:5270 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5267:5267 QArithSternBrocot.Qhomographic <> s:23 var
+R5271:5274 QArithSternBrocot.Q_field <> Qpos constr
+R5276:5276 QArithSternBrocot.Qhomographic <> p:24 var
+R5322:5325 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5287:5315 QArithSternBrocot.Qhomographic_sign <> Qhomographic_sg_denom_nonzero ind
+R5317:5317 QArithSternBrocot.Qhomographic <> c:21 var
+R5319:5319 QArithSternBrocot.Qhomographic <> d:22 var
+R5321:5321 QArithSternBrocot.Qhomographic <> p:24 var
+R5326:5351 QArithSternBrocot.Qhomographic <> Qhomographic_denom_nonzero:16 ind
+R5357:5357 QArithSternBrocot.Qhomographic <> s:23 var
+R5355:5355 QArithSternBrocot.Qhomographic <> d:22 var
+R5353:5353 QArithSternBrocot.Qhomographic <> c:21 var
+R5401:5401 Coq.Numbers.BinNums <> Z ind
+binder 5395:5395 <> c:25
+binder 5397:5397 <> d:26
+R5409:5409 QArithSternBrocot.Q_field <> Q ind
+binder 5405:5405 <> s:27
+R5417:5425 QArithSternBrocot.Qpositive <> Qpositive ind
+binder 5413:5413 <> p:28
+R5445:5454 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5436:5438 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5435:5435 QArithSternBrocot.Qhomographic <> s:27 var
+R5439:5442 QArithSternBrocot.Q_field <> Qneg constr
+R5444:5444 QArithSternBrocot.Qhomographic <> p:28 var
+R5494:5503 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5455:5483 QArithSternBrocot.Qhomographic_sign <> Qhomographic_sg_denom_nonzero ind
+R5486:5487 Coq.ZArith.BinInt <> ::Z_scope:'-'_x not
+R5488:5488 QArithSternBrocot.Qhomographic <> c:25 var
+R5491:5491 QArithSternBrocot.Qhomographic <> d:26 var
+R5493:5493 QArithSternBrocot.Qhomographic <> p:28 var
+R5504:5529 QArithSternBrocot.Qhomographic <> Qhomographic_denom_nonzero:16 ind
+R5535:5535 QArithSternBrocot.Qhomographic <> s:27 var
+R5533:5533 QArithSternBrocot.Qhomographic <> d:26 var
+R5531:5531 QArithSternBrocot.Qhomographic <> c:25 var
+prf 5546:5573 <> Qhomographic_denom_nonzero_0
+R5591:5591 Coq.Numbers.BinNums <> Z ind
+binder 5585:5585 <> c:29
+binder 5587:5587 <> d:30
+R5629:5632 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5594:5619 QArithSternBrocot.Qhomographic <> Qhomographic_denom_nonzero ind
+R5621:5621 QArithSternBrocot.Qhomographic <> c:29 var
+R5623:5623 QArithSternBrocot.Qhomographic <> d:30 var
+R5625:5628 QArithSternBrocot.Q_field <> Zero constr
+R5634:5637 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R5633:5633 QArithSternBrocot.Qhomographic <> d:30 var
+prf 5738:5765 <> Qhomographic_denom_nonzero_1
+R5784:5784 Coq.Numbers.BinNums <> Z ind
+binder 5778:5778 <> c:31
+binder 5780:5780 <> d:32
+R5792:5800 QArithSternBrocot.Qpositive <> Qpositive ind
+binder 5788:5788 <> p:33
+R5844:5848 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5805:5830 QArithSternBrocot.Qhomographic <> Qhomographic_denom_nonzero ind
+R5832:5832 QArithSternBrocot.Qhomographic <> c:31 var
+R5834:5834 QArithSternBrocot.Qhomographic <> d:32 var
+R5837:5840 QArithSternBrocot.Q_field <> Qpos constr
+R5842:5842 QArithSternBrocot.Qhomographic <> p:33 var
+R5849:5877 QArithSternBrocot.Qhomographic_sign <> Qhomographic_sg_denom_nonzero ind
+R5879:5879 QArithSternBrocot.Qhomographic <> c:31 var
+R5881:5881 QArithSternBrocot.Qhomographic <> d:32 var
+R5883:5883 QArithSternBrocot.Qhomographic <> p:33 var
+R6021:6023 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R6021:6023 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R6146:6148 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R6146:6148 Coq.Init.Logic <> ::type_scope:x_'='_x not
+prf 6306:6333 <> Qhomographic_denom_nonzero_2
+R6352:6352 Coq.Numbers.BinNums <> Z ind
+binder 6346:6346 <> c:34
+binder 6348:6348 <> d:35
+R6360:6368 QArithSternBrocot.Qpositive <> Qpositive ind
+binder 6356:6356 <> p:36
+R6412:6416 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6373:6398 QArithSternBrocot.Qhomographic <> Qhomographic_denom_nonzero ind
+R6400:6400 QArithSternBrocot.Qhomographic <> c:34 var
+R6402:6402 QArithSternBrocot.Qhomographic <> d:35 var
+R6405:6408 QArithSternBrocot.Q_field <> Qneg constr
+R6410:6410 QArithSternBrocot.Qhomographic <> p:36 var
+R6417:6445 QArithSternBrocot.Qhomographic_sign <> Qhomographic_sg_denom_nonzero ind
+R6448:6449 Coq.ZArith.BinInt <> ::Z_scope:'-'_x not
+R6450:6450 QArithSternBrocot.Qhomographic <> c:34 var
+R6453:6453 QArithSternBrocot.Qhomographic <> d:35 var
+R6455:6455 QArithSternBrocot.Qhomographic <> p:36 var
+R6593:6595 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R6593:6595 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R6718:6720 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R6718:6720 Coq.Init.Logic <> ::type_scope:x_'='_x not
+def 6884:6895 <> Qhomographic
+R6908:6908 Coq.Numbers.BinNums <> Z ind
+binder 6898:6898 <> a:37
+binder 6900:6900 <> b:38
+binder 6902:6902 <> c:39
+binder 6904:6904 <> d:40
+R6916:6916 QArithSternBrocot.Q_field <> Q ind
+binder 6912:6912 <> s:41
+R6953:6978 QArithSternBrocot.Qhomographic <> Qhomographic_denom_nonzero ind
+R6980:6980 QArithSternBrocot.Qhomographic <> c:39 var
+R6982:6982 QArithSternBrocot.Qhomographic <> d:40 var
+R6984:6984 QArithSternBrocot.Qhomographic <> s:41 var
+binder 6922:6949 <> H_Qhomographic_denom_nonzero:42
+R6989:6989 QArithSternBrocot.Q_field <> Q ind
+R7024:7040 QArithSternBrocot.positive_fraction_encoding <> fraction_encoding def
+R7024:7040 QArithSternBrocot.positive_fraction_encoding <> fraction_encoding def
+R7056:7083 QArithSternBrocot.Qhomographic <> Qhomographic_denom_nonzero_0 thm
+R7056:7083 QArithSternBrocot.Qhomographic <> Qhomographic_denom_nonzero_0 thm
+R7113:7139 QArithSternBrocot.Qhomographic <> Qhomographic_Qpositive_to_Q def
+R7113:7139 QArithSternBrocot.Qhomographic <> Qhomographic_Qpositive_to_Q def
+R7161:7188 QArithSternBrocot.Qhomographic <> Qhomographic_denom_nonzero_1 thm
+R7161:7188 QArithSternBrocot.Qhomographic <> Qhomographic_denom_nonzero_1 thm
+R7211:7237 QArithSternBrocot.Qhomographic <> Qhomographic_Qpositive_to_Q def
+R7240:7241 Coq.ZArith.BinInt <> ::Z_scope:'-'_x not
+R7248:7249 Coq.ZArith.BinInt <> ::Z_scope:'-'_x not
+R7211:7237 QArithSternBrocot.Qhomographic <> Qhomographic_Qpositive_to_Q def
+R7240:7241 Coq.ZArith.BinInt <> ::Z_scope:'-'_x not
+R7248:7249 Coq.ZArith.BinInt <> ::Z_scope:'-'_x not
+R7267:7294 QArithSternBrocot.Qhomographic <> Qhomographic_denom_nonzero_2 thm
+R7267:7294 QArithSternBrocot.Qhomographic <> Qhomographic_denom_nonzero_2 thm
+prf 7326:7363 <> Qhomographic_sg_denom_nonzero_always_1
+R7385:7385 Coq.Numbers.BinNums <> Z ind
+binder 7376:7376 <> d:43
+binder 7378:7378 <> k:44
+binder 7380:7381 <> k':45
+R7393:7401 QArithSternBrocot.Qpositive <> Qpositive ind
+binder 7389:7389 <> p:46
+R7414:7418 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7407:7410 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R7406:7406 QArithSternBrocot.Qhomographic <> d:43 var
+R7428:7431 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7421:7423 Coq.ZArith.BinInt <> ::Z_scope:x_'<'_x not
+R7424:7424 QArithSternBrocot.Qhomographic <> k:44 var
+R7442:7445 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7434:7436 Coq.ZArith.BinInt <> ::Z_scope:x_'<'_x not
+R7437:7438 QArithSternBrocot.Qhomographic <> k':45 var
+R7446:7474 QArithSternBrocot.Qhomographic_sign <> Qhomographic_sg_denom_nonzero ind
+R7478:7480 Coq.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R7477:7477 QArithSternBrocot.Qhomographic <> k:44 var
+R7481:7481 QArithSternBrocot.Qhomographic <> d:43 var
+R7487:7489 Coq.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R7485:7486 QArithSternBrocot.Qhomographic <> k':45 var
+R7490:7490 QArithSternBrocot.Qhomographic <> d:43 var
+R7493:7493 QArithSternBrocot.Qhomographic <> p:46 var
+R7568:7587 QArithSternBrocot.Qhomographic_sign <> Qhomographic_signok1 constr
+R7568:7587 QArithSternBrocot.Qhomographic_sign <> Qhomographic_signok1 constr
+R7606:7608 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R7602:7604 Coq.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R7612:7614 Coq.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R7626:7626 Coq.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R7635:7638 Coq.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R7629:7631 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R7606:7608 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R7602:7604 Coq.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R7612:7614 Coq.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R7626:7626 Coq.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R7635:7638 Coq.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R7629:7631 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R7690:7692 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R7690:7692 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R7706:7718 QArithSternBrocot.Zaux <> Zlt_plus_plus thm
+R7706:7718 QArithSternBrocot.Zaux <> Zlt_plus_plus thm
+R7770:7787 Coq.ZArith.BinInt <> Zmult_plus_distr_l abbrev
+R7770:7787 Coq.ZArith.BinInt <> Zmult_plus_distr_l abbrev
+R7770:7787 Coq.ZArith.BinInt <> Zmult_plus_distr_l abbrev
+R7819:7838 QArithSternBrocot.Qhomographic_sign <> Qhomographic_signok2 constr
+R7819:7838 QArithSternBrocot.Qhomographic_sign <> Qhomographic_signok2 constr
+R7857:7859 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R7853:7855 Coq.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R7863:7865 Coq.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R7877:7877 Coq.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R7886:7889 Coq.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R7880:7882 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R7857:7859 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R7853:7855 Coq.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R7863:7865 Coq.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R7877:7877 Coq.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R7886:7889 Coq.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R7880:7882 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R7928:7930 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R7928:7930 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R7944:7956 QArithSternBrocot.Zaux <> Zlt_plus_plus thm
+R7944:7956 QArithSternBrocot.Zaux <> Zlt_plus_plus thm
+R8021:8038 Coq.ZArith.BinInt <> Zmult_plus_distr_l abbrev
+R8021:8038 Coq.ZArith.BinInt <> Zmult_plus_distr_l abbrev
+R8021:8038 Coq.ZArith.BinInt <> Zmult_plus_distr_l abbrev
+R8070:8089 QArithSternBrocot.Qhomographic_sign <> Qhomographic_signok0 constr
+R8070:8089 QArithSternBrocot.Qhomographic_sign <> Qhomographic_signok0 constr
+R8122:8124 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R8118:8120 Coq.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R8128:8130 Coq.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R8142:8142 Coq.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R8151:8154 Coq.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R8145:8147 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R8122:8124 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R8118:8120 Coq.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R8128:8130 Coq.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R8142:8142 Coq.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R8151:8154 Coq.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R8145:8147 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R8211:8213 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R8186:8201 Coq.ZArith.BinInt <> Zmult_integral_l thm
+R8211:8213 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R8186:8201 Coq.ZArith.BinInt <> Zmult_integral_l thm
+R8229:8238 QArithSternBrocot.Zaux <> Zgt_not_eq thm
+R8229:8238 QArithSternBrocot.Zaux <> Zgt_not_eq thm
+R8250:8256 Coq.ZArith.BinInt Z lt_gt thm
+R8250:8256 Coq.ZArith.BinInt Z lt_gt thm
+R8279:8281 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R8279:8281 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R8295:8307 QArithSternBrocot.Zaux <> Zlt_plus_plus thm
+R8295:8307 QArithSternBrocot.Zaux <> Zlt_plus_plus thm
+R8359:8368 Coq.ZArith.BinInt Z mul_comm thm
+R8359:8368 Coq.ZArith.BinInt Z mul_comm thm
+R8359:8368 Coq.ZArith.BinInt Z mul_comm thm
+R8393:8410 Coq.ZArith.BinInt <> Zmult_plus_distr_l abbrev
+R8393:8410 Coq.ZArith.BinInt <> Zmult_plus_distr_l abbrev
+R8393:8410 Coq.ZArith.BinInt <> Zmult_plus_distr_l abbrev
+prf 8442:8482 <> Qhomographic_sg_denom_nonzero_Zero_always
+R8499:8499 Coq.Numbers.BinNums <> Z ind
+binder 8495:8495 <> d:47
+R8507:8515 QArithSternBrocot.Qpositive <> Qpositive ind
+binder 8503:8503 <> p:48
+R8528:8531 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8521:8524 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R8520:8520 QArithSternBrocot.Qhomographic <> d:47 var
+R8532:8560 QArithSternBrocot.Qhomographic_sign <> Qhomographic_sg_denom_nonzero ind
+R8564:8564 QArithSternBrocot.Qhomographic <> d:47 var
+R8566:8566 QArithSternBrocot.Qhomographic <> p:48 var
+R8606:8625 QArithSternBrocot.Qhomographic_sign <> Qhomographic_signok1 constr
+R8606:8625 QArithSternBrocot.Qhomographic_sign <> Qhomographic_signok1 constr
+R8664:8683 QArithSternBrocot.Qhomographic_sign <> Qhomographic_signok2 constr
+R8664:8683 QArithSternBrocot.Qhomographic_sign <> Qhomographic_signok2 constr
+R8720:8722 Coq.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R8720:8722 Coq.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R8736:8773 QArithSternBrocot.Qhomographic <> Qhomographic_sg_denom_nonzero_always_1 thm
+R8736:8773 QArithSternBrocot.Qhomographic <> Qhomographic_sg_denom_nonzero_always_1 thm
+R8826:8834 Coq.ZArith.BinInt <> Zmult_1_l abbrev
+R8826:8834 Coq.ZArith.BinInt <> Zmult_1_l abbrev
+R8826:8834 Coq.ZArith.BinInt <> Zmult_1_l abbrev
+R8860:8879 QArithSternBrocot.Qhomographic_sign <> Qhomographic_signok0 constr
+R8860:8879 QArithSternBrocot.Qhomographic_sign <> Qhomographic_signok0 constr
+prf 8941:8981 <> Qhomographic_sg_denom_nonzero_always_Zero
+R8998:8998 Coq.Numbers.BinNums <> Z ind
+binder 8994:8994 <> c:49
+R9006:9014 QArithSternBrocot.Qpositive <> Qpositive ind
+binder 9002:9002 <> p:50
+R9027:9030 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9020:9023 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R9019:9019 QArithSternBrocot.Qhomographic <> c:49 var
+R9031:9059 QArithSternBrocot.Qhomographic_sign <> Qhomographic_sg_denom_nonzero ind
+R9061:9061 QArithSternBrocot.Qhomographic <> c:49 var
+R9065:9065 QArithSternBrocot.Qhomographic <> p:50 var
+R9105:9124 QArithSternBrocot.Qhomographic_sign <> Qhomographic_signok1 constr
+R9105:9124 QArithSternBrocot.Qhomographic_sign <> Qhomographic_signok1 constr
+R9136:9144 Coq.ZArith.BinInt <> Zplus_0_r abbrev
+R9136:9144 Coq.ZArith.BinInt <> Zplus_0_r abbrev
+R9136:9144 Coq.ZArith.BinInt <> Zplus_0_r abbrev
+R9165:9167 Coq.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R9165:9167 Coq.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R9181:9218 QArithSternBrocot.Qhomographic <> Qhomographic_sg_denom_nonzero_always_1 thm
+R9181:9218 QArithSternBrocot.Qhomographic <> Qhomographic_sg_denom_nonzero_always_1 thm
+R9271:9279 Coq.ZArith.BinInt <> Zmult_1_l abbrev
+R9271:9279 Coq.ZArith.BinInt <> Zmult_1_l abbrev
+R9271:9279 Coq.ZArith.BinInt <> Zmult_1_l abbrev
+R9303:9322 QArithSternBrocot.Qhomographic_sign <> Qhomographic_signok2 constr
+R9303:9322 QArithSternBrocot.Qhomographic_sign <> Qhomographic_signok2 constr
+R9334:9342 Coq.ZArith.BinInt <> Zplus_0_r abbrev
+R9334:9342 Coq.ZArith.BinInt <> Zplus_0_r abbrev
+R9334:9342 Coq.ZArith.BinInt <> Zplus_0_r abbrev
+R9365:9384 QArithSternBrocot.Qhomographic_sign <> Qhomographic_signok0 constr
+R9365:9384 QArithSternBrocot.Qhomographic_sign <> Qhomographic_signok0 constr
+R9410:9418 Coq.ZArith.BinInt <> Zplus_0_r abbrev
+R9410:9418 Coq.ZArith.BinInt <> Zplus_0_r abbrev
+R9410:9418 Coq.ZArith.BinInt <> Zplus_0_r abbrev
+prf 9451:9494 <> always_nonzero_Qhomographic_sg_denom_nonzero
+R9511:9511 Coq.Numbers.BinNums <> Z ind
+binder 9507:9507 <> d:51
+R9519:9527 QArithSternBrocot.Qpositive <> Qpositive ind
+binder 9515:9515 <> p:52
+R9567:9570 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9532:9560 QArithSternBrocot.Qhomographic_sign <> Qhomographic_sg_denom_nonzero ind
+R9564:9564 QArithSternBrocot.Qhomographic <> d:51 var
+R9566:9566 QArithSternBrocot.Qhomographic <> p:52 var
+R9572:9575 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R9571:9571 QArithSternBrocot.Qhomographic <> d:51 var
+R9613:9649 QArithSternBrocot.Qhomographic <> Qhomographic_sg_denom_nonzero_nonzero thm
+R9613:9649 QArithSternBrocot.Qhomographic <> Qhomographic_sg_denom_nonzero_nonzero thm
+prf 9714:9751 <> Qhomographic_denom_nonzero_Zero_always
+R9768:9768 Coq.Numbers.BinNums <> Z ind
+binder 9764:9764 <> d:53
+R9776:9776 QArithSternBrocot.Q_field <> Q ind
+binder 9772:9772 <> s:54
+R9788:9791 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9781:9784 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R9780:9780 QArithSternBrocot.Qhomographic <> d:53 var
+R9792:9817 QArithSternBrocot.Qhomographic <> Qhomographic_denom_nonzero ind
+R9821:9821 QArithSternBrocot.Qhomographic <> d:53 var
+R9823:9823 QArithSternBrocot.Qhomographic <> s:54 var
+R9896:9910 QArithSternBrocot.Qhomographic <> Qhomographicok0 constr
+R9932:9946 QArithSternBrocot.Qhomographic <> Qhomographicok1 constr
+R9975:9989 QArithSternBrocot.Qhomographic <> Qhomographicok2 constr
+R10053:10093 QArithSternBrocot.Qhomographic <> Qhomographic_sg_denom_nonzero_Zero_always thm
+R9896:9910 QArithSternBrocot.Qhomographic <> Qhomographicok0 constr
+R9932:9946 QArithSternBrocot.Qhomographic <> Qhomographicok1 constr
+R9975:9989 QArithSternBrocot.Qhomographic <> Qhomographicok2 constr
+R10053:10093 QArithSternBrocot.Qhomographic <> Qhomographic_sg_denom_nonzero_Zero_always thm
+R10053:10093 QArithSternBrocot.Qhomographic <> Qhomographic_sg_denom_nonzero_Zero_always thm
+R10053:10093 QArithSternBrocot.Qhomographic <> Qhomographic_sg_denom_nonzero_Zero_always thm
+prf 10139:10173 <> Qhomographic_denom_nonzero_Zero_ONE
+R10189:10189 QArithSternBrocot.Q_field <> Q ind
+binder 10185:10185 <> s:55
+R10192:10217 QArithSternBrocot.Qhomographic <> Qhomographic_denom_nonzero ind
+R10223:10223 QArithSternBrocot.Qhomographic <> s:55 var
+R10249:10286 QArithSternBrocot.Qhomographic <> Qhomographic_denom_nonzero_Zero_always thm
+R10249:10286 QArithSternBrocot.Qhomographic <> Qhomographic_denom_nonzero_Zero_always thm
+prf 10330:10367 <> Qhomographic_denom_nonzero_always_Zero
+R10384:10384 Coq.Numbers.BinNums <> Z ind
+binder 10380:10380 <> c:56
+R10392:10392 QArithSternBrocot.Q_field <> Q ind
+binder 10388:10388 <> s:57
+R10411:10414 Coq.Init.Logic <> ::type_scope:x_'<>'_x_':>'_x not
+R10419:10421 Coq.Init.Logic <> ::type_scope:x_'<>'_x_':>'_x not
+R10422:10422 QArithSternBrocot.Q_field <> Q ind
+R10410:10410 QArithSternBrocot.Qhomographic <> s:57 var
+R10415:10418 QArithSternBrocot.Q_field <> Zero constr
+binder 10396:10406 <> H_nonzero_s:58
+R10435:10438 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10428:10431 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R10427:10427 QArithSternBrocot.Qhomographic <> c:56 var
+R10439:10464 QArithSternBrocot.Qhomographic <> Qhomographic_denom_nonzero ind
+R10466:10466 QArithSternBrocot.Qhomographic <> c:56 var
+R10470:10470 QArithSternBrocot.Qhomographic <> s:57 var
+R10564:10578 QArithSternBrocot.Qhomographic <> Qhomographicok1 constr
+R10607:10621 QArithSternBrocot.Qhomographic <> Qhomographicok2 constr
+R10668:10708 QArithSternBrocot.Qhomographic <> Qhomographic_sg_denom_nonzero_always_Zero thm
+R10792:10795 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R10784:10785 Coq.ZArith.BinInt <> ::Z_scope:'-'_x not
+R10792:10795 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R10784:10785 Coq.ZArith.BinInt <> ::Z_scope:'-'_x not
+R10810:10817 QArithSternBrocot.Zaux <> Zopp_app thm
+R10564:10578 QArithSternBrocot.Qhomographic <> Qhomographicok1 constr
+R10607:10621 QArithSternBrocot.Qhomographic <> Qhomographicok2 constr
+R10668:10708 QArithSternBrocot.Qhomographic <> Qhomographic_sg_denom_nonzero_always_Zero thm
+R10668:10708 QArithSternBrocot.Qhomographic <> Qhomographic_sg_denom_nonzero_always_Zero thm
+R10810:10817 QArithSternBrocot.Zaux <> Zopp_app thm
+prf 10867:10901 <> Qhomographic_denom_nonzero_ONE_Zero
+R10918:10918 QArithSternBrocot.Q_field <> Q ind
+binder 10914:10914 <> s:59
+R10937:10940 Coq.Init.Logic <> ::type_scope:x_'<>'_x_':>'_x not
+R10945:10947 Coq.Init.Logic <> ::type_scope:x_'<>'_x_':>'_x not
+R10948:10948 QArithSternBrocot.Q_field <> Q ind
+R10936:10936 QArithSternBrocot.Qhomographic <> s:59 var
+R10941:10944 QArithSternBrocot.Q_field <> Zero constr
+binder 10922:10932 <> H_nonzero_s:60
+R10953:10978 QArithSternBrocot.Qhomographic <> Qhomographic_denom_nonzero ind
+R10984:10984 QArithSternBrocot.Qhomographic <> s:59 var
+R11009:11046 QArithSternBrocot.Qhomographic <> Qhomographic_denom_nonzero_always_Zero thm
+R11009:11046 QArithSternBrocot.Qhomographic <> Qhomographic_denom_nonzero_always_Zero thm
+def 11160:11174 <> Qhomographic_2x
+R11181:11181 QArithSternBrocot.Q_field <> Q ind
+binder 11177:11177 <> x:61
+R11186:11186 QArithSternBrocot.Q_field <> Q ind
+R11193:11204 QArithSternBrocot.Qhomographic <> Qhomographic def
+R11214:11214 QArithSternBrocot.Qhomographic <> x:61 var
+R11217:11251 QArithSternBrocot.Qhomographic <> Qhomographic_denom_nonzero_Zero_ONE thm
+R11253:11253 QArithSternBrocot.Qhomographic <> x:61 var
+def 11362:11370 <> Qopp_lazy
+R11377:11377 QArithSternBrocot.Q_field <> Q ind
+binder 11373:11373 <> x:62
+R11382:11382 QArithSternBrocot.Q_field <> Q ind
+R11389:11400 QArithSternBrocot.Qhomographic <> Qhomographic def
+R11413:11413 QArithSternBrocot.Qhomographic <> x:62 var
+R11416:11450 QArithSternBrocot.Qhomographic <> Qhomographic_denom_nonzero_Zero_ONE thm
+R11452:11452 QArithSternBrocot.Qhomographic <> x:62 var
+def 11512:11526 <> Qhomographic_kx
+R11533:11533 Coq.Numbers.BinNums <> Z ind
+binder 11529:11529 <> k:63
+R11541:11541 QArithSternBrocot.Q_field <> Q ind
+binder 11537:11537 <> x:64
+R11546:11546 QArithSternBrocot.Q_field <> Q ind
+R11553:11564 QArithSternBrocot.Qhomographic <> Qhomographic def
+R11566:11566 QArithSternBrocot.Qhomographic <> k:63 var
+R11574:11574 QArithSternBrocot.Qhomographic <> x:64 var
+R11577:11611 QArithSternBrocot.Qhomographic <> Qhomographic_denom_nonzero_Zero_ONE thm
+R11613:11613 QArithSternBrocot.Qhomographic <> x:64 var
+def 11677:11697 <> Qhomographic_x_over_k
+R11704:11704 Coq.Numbers.BinNums <> Z ind
+binder 11700:11700 <> k:65
+R11714:11717 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R11713:11713 QArithSternBrocot.Qhomographic <> k:65 var
+binder 11708:11709 <> Hk:66
+R11731:11731 QArithSternBrocot.Q_field <> Q ind
+binder 11727:11727 <> x:67
+R11736:11736 QArithSternBrocot.Q_field <> Q ind
+R11743:11754 QArithSternBrocot.Qhomographic <> Qhomographic def
+R11762:11762 QArithSternBrocot.Qhomographic <> k:65 var
+R11764:11764 QArithSternBrocot.Qhomographic <> x:67 var
+R11767:11804 QArithSternBrocot.Qhomographic <> Qhomographic_denom_nonzero_Zero_always thm
+R11806:11806 QArithSternBrocot.Qhomographic <> k:65 var
+R11808:11808 QArithSternBrocot.Qhomographic <> x:67 var
+R11810:11811 QArithSternBrocot.Qhomographic <> Hk:66 var
+def 11923:11931 <> Qinv_lazy
+R11938:11938 QArithSternBrocot.Q_field <> Q ind
+binder 11934:11934 <> x:68
+R11948:11951 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R11947:11947 QArithSternBrocot.Qhomographic <> x:68 var
+R11952:11955 QArithSternBrocot.Q_field <> Zero constr
+binder 11942:11943 <> Hx:69
+R11960:11960 QArithSternBrocot.Q_field <> Q ind
+R11967:11978 QArithSternBrocot.Qhomographic <> Qhomographic def
+R11988:11988 QArithSternBrocot.Qhomographic <> x:68 var
+R11991:12025 QArithSternBrocot.Qhomographic <> Qhomographic_denom_nonzero_ONE_Zero thm
+R12027:12027 QArithSternBrocot.Qhomographic <> x:68 var
+R12029:12030 QArithSternBrocot.Qhomographic <> Hx:69 var

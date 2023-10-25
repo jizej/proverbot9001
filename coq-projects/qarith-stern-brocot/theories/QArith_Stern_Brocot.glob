@@ -1,0 +1,10 @@
+DIGEST 9c0c46d8ae35e887883e0db3747672b7
+FQArithSternBrocot.QArith_Stern_Brocot
+R1027:1033 QArithSternBrocot.Qsyntax <> <> lib
+R1074:1087 QArithSternBrocot.Field_Theory_Q <> <> lib
+R1128:1153 QArithSternBrocot.Q_ordered_field_properties <> <> lib
+R1194:1197 QArithSternBrocot.Qabs <> <> lib
+R1238:1245 QArithSternBrocot.Qmax_min <> <> lib
+R1286:1298 QArithSternBrocot.Q_Archimedean <> <> lib
+R1339:1351 QArithSternBrocot.Q_denumerable <> <> lib
+R1392:1397 QArithSternBrocot.Q_to_R <> <> lib

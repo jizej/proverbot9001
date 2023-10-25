@@ -1,0 +1,5 @@
+(coq.theory
+ (name QArithSternBrocot)
+ (package coq-qarith-stern-brocot)
+ (synopsis "Binary rational numbers")
+ (flags :standard -w -notation-overridden))

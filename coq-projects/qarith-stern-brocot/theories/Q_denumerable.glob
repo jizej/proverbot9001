@@ -1,0 +1,562 @@
+DIGEST ce33fd85d100455cecbec3c967606ef3
+FQArithSternBrocot.Q_denumerable
+def 1481:1488 <> identity
+binder 1491:1491 <> A:1
+R1508:1508 QArithSternBrocot.Q_denumerable <> A:1 var
+binder 1506:1506 <> a:2
+R1512:1512 QArithSternBrocot.Q_denumerable <> a:2 var
+def 1526:1532 <> compose
+binder 1535:1535 <> A:3
+binder 1537:1537 <> B:4
+binder 1539:1539 <> C:5
+R1551:1552 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1550:1550 QArithSternBrocot.Q_denumerable <> B:4 var
+R1553:1553 QArithSternBrocot.Q_denumerable <> C:5 var
+binder 1548:1548 <> g:6
+R1560:1561 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1559:1559 QArithSternBrocot.Q_denumerable <> A:3 var
+R1562:1562 QArithSternBrocot.Q_denumerable <> B:4 var
+binder 1557:1557 <> f:7
+R1574:1574 QArithSternBrocot.Q_denumerable <> A:3 var
+binder 1572:1572 <> a:8
+R1577:1577 QArithSternBrocot.Q_denumerable <> g:6 var
+R1579:1579 QArithSternBrocot.Q_denumerable <> f:7 var
+R1581:1581 QArithSternBrocot.Q_denumerable <> a:8 var
+sec 1594:1607 <> Denumerability
+def 1672:1687 <> same_cardinality
+binder 1690:1690 <> A:9
+binder 1699:1699 <> B:10
+R1711:1711 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'&'_x_'}' not
+R1713:1713 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'&'_x_'}' not
+R1718:1720 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'&'_x_'}' not
+R1838:1838 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'&'_x_'}' not
+R1715:1716 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1714:1714 QArithSternBrocot.Q_denumerable <> A:9 var
+R1717:1717 QArithSternBrocot.Q_denumerable <> B:10 var
+binder 1712:1712 <> f:11
+R1721:1722 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R1724:1724 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R1729:1734 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R1837:1837 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R1726:1727 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1725:1725 QArithSternBrocot.Q_denumerable <> B:10 var
+R1728:1728 QArithSternBrocot.Q_denumerable <> A:9 var
+binder 1723:1723 <> g:12
+R1735:1735 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R1782:1789 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+binder 1743:1743 <> b:13
+R1766:1767 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1746:1752 QArithSternBrocot.Q_denumerable <> compose def
+R1760:1760 QArithSternBrocot.Q_denumerable <> f:11 var
+R1762:1762 QArithSternBrocot.Q_denumerable <> g:12 var
+R1765:1765 QArithSternBrocot.Q_denumerable <> b:13 var
+R1769:1776 QArithSternBrocot.Q_denumerable <> identity def
+R1778:1778 QArithSternBrocot.Q_denumerable <> B:10 var
+R1781:1781 QArithSternBrocot.Q_denumerable <> b:13 var
+binder 1797:1797 <> a:14
+R1820:1822 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1800:1806 QArithSternBrocot.Q_denumerable <> compose def
+R1814:1814 QArithSternBrocot.Q_denumerable <> g:12 var
+R1816:1816 QArithSternBrocot.Q_denumerable <> f:11 var
+R1819:1819 QArithSternBrocot.Q_denumerable <> a:14 var
+R1824:1831 QArithSternBrocot.Q_denumerable <> identity def
+R1833:1833 QArithSternBrocot.Q_denumerable <> A:9 var
+R1836:1836 QArithSternBrocot.Q_denumerable <> a:14 var
+def 1894:1907 <> is_denumerable
+binder 1909:1909 <> A:15
+R1914:1929 QArithSternBrocot.Q_denumerable <> same_cardinality def
+R1931:1931 QArithSternBrocot.Q_denumerable <> A:15 var
+R1933:1935 Coq.Init.Datatypes <> nat ind
+prf 1945:1971 <> same_cardinality_transitive
+binder 1983:1983 <> A:16
+binder 1985:1985 <> B:17
+binder 1987:1987 <> C:18
+R2010:2013 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1990:2005 QArithSternBrocot.Q_denumerable <> same_cardinality def
+R2007:2007 QArithSternBrocot.Q_denumerable <> A:16 var
+R2009:2009 QArithSternBrocot.Q_denumerable <> B:17 var
+R2034:2037 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2014:2029 QArithSternBrocot.Q_denumerable <> same_cardinality def
+R2031:2031 QArithSternBrocot.Q_denumerable <> B:17 var
+R2033:2033 QArithSternBrocot.Q_denumerable <> C:18 var
+R2038:2053 QArithSternBrocot.Q_denumerable <> same_cardinality def
+R2055:2055 QArithSternBrocot.Q_denumerable <> A:16 var
+R2057:2057 QArithSternBrocot.Q_denumerable <> C:18 var
+R2186:2189 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2167:2173 QArithSternBrocot.Q_denumerable <> compose def
+R2190:2197 QArithSternBrocot.Q_denumerable <> identity def
+R2186:2189 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2167:2173 QArithSternBrocot.Q_denumerable <> compose def
+R2190:2197 QArithSternBrocot.Q_denumerable <> identity def
+R2249:2255 QArithSternBrocot.Q_denumerable <> compose def
+R2272:2279 QArithSternBrocot.Q_denumerable <> identity def
+R2303:2309 QArithSternBrocot.Q_denumerable <> compose def
+R2332:2338 QArithSternBrocot.Q_denumerable <> compose def
+R2360:2366 QArithSternBrocot.Q_denumerable <> compose def
+R2376:2383 QArithSternBrocot.Q_denumerable <> identity def
+R2303:2309 QArithSternBrocot.Q_denumerable <> compose def
+R2332:2338 QArithSternBrocot.Q_denumerable <> compose def
+prf 2492:2516 <> is_denumerable_transitive
+binder 2528:2528 <> A:19
+binder 2530:2530 <> B:20
+R2549:2552 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2533:2546 QArithSternBrocot.Q_denumerable <> is_denumerable def
+R2548:2548 QArithSternBrocot.Q_denumerable <> A:19 var
+R2573:2576 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2553:2568 QArithSternBrocot.Q_denumerable <> same_cardinality def
+R2570:2570 QArithSternBrocot.Q_denumerable <> B:20 var
+R2572:2572 QArithSternBrocot.Q_denumerable <> A:19 var
+R2577:2590 QArithSternBrocot.Q_denumerable <> is_denumerable def
+R2592:2592 QArithSternBrocot.Q_denumerable <> B:20 var
+R2629:2655 QArithSternBrocot.Q_denumerable <> same_cardinality_transitive thm
+R2661:2663 Coq.Init.Datatypes <> nat ind
+R2629:2655 QArithSternBrocot.Q_denumerable <> same_cardinality_transitive thm
+R2661:2663 Coq.Init.Datatypes <> nat ind
+R2688:2701 QArithSternBrocot.Q_denumerable Denumerability <> sec
+R2770:2773 Coq.Arith.Div2 <> <> lib
+R2800:2805 Coq.ZArith.ZArith <> <> lib
+R2832:2834 Coq.micromega.Lia <> <> lib
+def 2887:2896 <> Z_to_nat_i
+R2901:2901 Coq.Numbers.BinNums <> Z ind
+binder 2899:2899 <> z:21
+R2905:2907 Coq.Init.Datatypes <> nat ind
+R2921:2921 QArithSternBrocot.Q_denumerable <> z:21 var
+R2934:2935 Coq.Numbers.BinNums <> Z0 constr
+R2940:2940 Coq.Init.Datatypes <> O constr
+R2947:2950 Coq.Numbers.BinNums <> Zpos constr
+R2957:2966 Coq.Arith.PeanoNat Nat double def
+R2969:2976 Coq.PArith.BinPos <> nat_of_P abbrev
+R2986:2989 Coq.Numbers.BinNums <> Zneg constr
+R2996:2999 Coq.Init.Peano <> pred abbrev
+R3002:3011 Coq.Arith.PeanoNat Nat double def
+R3014:3021 Coq.PArith.BinPos <> nat_of_P abbrev
+prf 3111:3120 <> odd_pred2n
+R3134:3136 Coq.Init.Datatypes <> nat ind
+binder 3130:3130 <> n:23
+R3149:3152 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3139:3146 Coq.Arith.Even <> odd abbrev
+R3148:3148 QArithSternBrocot.Q_denumerable <> n:23 var
+R3153:3153 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R3155:3157 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R3161:3163 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R3187:3187 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R3158:3160 Coq.Init.Datatypes <> nat ind
+binder 3154:3154 <> p:24
+R3165:3167 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3164:3164 QArithSternBrocot.Q_denumerable <> n:23 var
+R3168:3171 Coq.Init.Peano <> pred abbrev
+R3174:3183 Coq.Arith.PeanoNat Nat double def
+R3185:3185 QArithSternBrocot.Q_denumerable <> p:24 var
+R3224:3238 Coq.Arith.Div2 <> odd_double abbrev
+R3259:3259 Coq.Init.Datatypes <> S constr
+R3262:3269 Coq.Arith.PeanoNat Nat div2 def
+R3289:3296 Coq.Arith.PeanoNat Nat div2 def
+R3336:3345 Coq.Arith.PeanoNat Nat double def
+R3357:3370 Coq.Arith.PeanoNat Nat add_succ_r thm
+R3224:3238 Coq.Arith.Div2 <> odd_double abbrev
+R3224:3238 Coq.Arith.Div2 <> odd_double abbrev
+R3259:3259 Coq.Init.Datatypes <> S constr
+R3262:3269 Coq.Arith.PeanoNat Nat div2 def
+R3289:3296 Coq.Arith.PeanoNat Nat div2 def
+R3357:3370 Coq.Arith.PeanoNat Nat add_succ_r thm
+R3357:3370 Coq.Arith.PeanoNat Nat add_succ_r thm
+prf 3403:3421 <> even_odd_exists_dec
+binder 3432:3432 <> n:25
+R3463:3465 Coq.Init.Datatypes <> ::type_scope:x_'+'_x not
+R3435:3435 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R3437:3439 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R3443:3445 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R3462:3462 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R3440:3442 Coq.Init.Datatypes <> nat ind
+binder 3436:3436 <> p:26
+R3447:3449 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3446:3446 QArithSternBrocot.Q_denumerable <> n:25 var
+R3450:3459 Coq.Arith.PeanoNat Nat double def
+R3461:3461 QArithSternBrocot.Q_denumerable <> p:26 var
+R3466:3466 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R3468:3470 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R3474:3476 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R3500:3500 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R3471:3473 Coq.Init.Datatypes <> nat ind
+binder 3467:3467 <> p:27
+R3478:3480 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3477:3477 QArithSternBrocot.Q_denumerable <> n:25 var
+R3481:3484 Coq.Init.Peano <> pred abbrev
+R3487:3496 Coq.Arith.PeanoNat Nat double def
+R3498:3498 QArithSternBrocot.Q_denumerable <> p:27 var
+R3532:3548 Coq.Arith.Even <> even_odd_dec abbrev
+R3593:3604 Coq.Arith.Div2 <> even_2n abbrev
+R3636:3645 QArithSternBrocot.Q_denumerable <> odd_pred2n thm
+R3532:3548 Coq.Arith.Even <> even_odd_dec abbrev
+R3593:3604 Coq.Arith.Div2 <> even_2n abbrev
+R3636:3645 QArithSternBrocot.Q_denumerable <> odd_pred2n thm
+def 3720:3729 <> nat_to_Z_i
+R3734:3736 Coq.Init.Datatypes <> nat ind
+binder 3732:3732 <> n:28
+R3751:3769 QArithSternBrocot.Q_denumerable <> even_odd_exists_dec thm
+R3771:3771 QArithSternBrocot.Q_denumerable <> n:28 var
+R3782:3784 Coq.Init.Datatypes <> inl constr
+binder 3796:3796 <> k:29
+R3810:3817 Coq.ZArith.BinInt <> Z_of_nat abbrev
+R3819:3819 QArithSternBrocot.Q_denumerable <> k:29 var
+R3825:3827 Coq.Init.Datatypes <> inr constr
+binder 3839:3839 <> k:30
+R3853:3857 Coq.ZArith.BinInt Z opp def
+R3860:3867 Coq.ZArith.BinInt <> Z_of_nat abbrev
+R3869:3869 QArithSternBrocot.Q_denumerable <> k:30 var
+prf 3886:3902 <> double_eq_half_eq
+binder 3911:3911 <> m:31
+binder 3913:3913 <> n:32
+R3943:3946 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3928:3930 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3916:3925 Coq.Arith.PeanoNat Nat double def
+R3927:3927 QArithSternBrocot.Q_denumerable <> m:31 var
+R3931:3940 Coq.Arith.PeanoNat Nat double def
+R3942:3942 QArithSternBrocot.Q_denumerable <> n:32 var
+R3948:3950 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3947:3947 QArithSternBrocot.Q_denumerable <> m:31 var
+R3951:3951 QArithSternBrocot.Q_denumerable <> n:32 var
+R3969:3978 Coq.Arith.PeanoNat Nat double def
+prf 4014:4035 <> parity_mismatch_not_eq
+binder 4044:4044 <> m:33
+binder 4046:4046 <> n:34
+R4060:4063 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4049:4057 Coq.Arith.Even <> even abbrev
+R4059:4059 QArithSternBrocot.Q_denumerable <> m:33 var
+R4074:4077 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4064:4071 Coq.Arith.Even <> odd abbrev
+R4073:4073 QArithSternBrocot.Q_denumerable <> n:34 var
+R4078:4078 Coq.Init.Logic <> ::type_scope:'~'_x not
+R4080:4080 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4079:4079 QArithSternBrocot.Q_denumerable <> m:33 var
+R4081:4081 QArithSternBrocot.Q_denumerable <> n:34 var
+R4139:4159 Coq.Arith.Even <> not_even_and_odd abbrev
+R4139:4159 Coq.Arith.Even <> not_even_and_odd abbrev
+prf 4190:4200 <> even_double
+binder 4209:4209 <> n:35
+R4212:4220 Coq.Arith.Even <> even abbrev
+R4223:4232 Coq.Arith.PeanoNat Nat double def
+R4234:4234 QArithSternBrocot.Q_denumerable <> n:35 var
+R4263:4272 Coq.Arith.PeanoNat Nat double def
+R4286:4288 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R4299:4299 Coq.Init.Peano <> ::nat_scope:x_'*'_x not
+R4286:4288 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R4299:4299 Coq.Init.Peano <> ::nat_scope:x_'*'_x not
+prf 4342:4358 <> double_S_neq_pred
+binder 4367:4367 <> m:36
+binder 4369:4369 <> n:37
+R4372:4372 Coq.Init.Logic <> ::type_scope:'~'_x not
+R4389:4391 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4373:4382 Coq.Arith.PeanoNat Nat double def
+R4385:4385 Coq.Init.Datatypes <> S constr
+R4387:4387 QArithSternBrocot.Q_denumerable <> m:36 var
+R4392:4395 Coq.Init.Peano <> pred abbrev
+R4398:4407 Coq.Arith.PeanoNat Nat double def
+R4409:4409 QArithSternBrocot.Q_denumerable <> n:37 var
+R4444:4453 Coq.Arith.PeanoNat Nat double def
+R4469:4490 QArithSternBrocot.Q_denumerable <> parity_mismatch_not_eq thm
+R4493:4502 Coq.Arith.PeanoNat Nat double def
+R4505:4505 Coq.Init.Datatypes <> S constr
+R4512:4515 Coq.Init.Peano <> pred abbrev
+R4518:4527 Coq.Arith.PeanoNat Nat double def
+R4530:4530 Coq.Init.Datatypes <> S constr
+R4550:4560 QArithSternBrocot.Q_denumerable <> even_double thm
+R4573:4576 Coq.Init.Peano <> pred abbrev
+R4579:4588 Coq.Arith.PeanoNat Nat double def
+R4591:4591 Coq.Init.Datatypes <> S constr
+R4604:4604 Coq.Init.Datatypes <> S constr
+R4607:4616 Coq.Arith.PeanoNat Nat double def
+R4645:4655 QArithSternBrocot.Q_denumerable <> even_double thm
+R4667:4676 Coq.Arith.PeanoNat Nat double def
+R4469:4490 QArithSternBrocot.Q_denumerable <> parity_mismatch_not_eq thm
+R4493:4502 Coq.Arith.PeanoNat Nat double def
+R4505:4505 Coq.Init.Datatypes <> S constr
+R4512:4515 Coq.Init.Peano <> pred abbrev
+R4518:4527 Coq.Arith.PeanoNat Nat double def
+R4530:4530 Coq.Init.Datatypes <> S constr
+R4550:4560 QArithSternBrocot.Q_denumerable <> even_double thm
+R4550:4560 QArithSternBrocot.Q_denumerable <> even_double thm
+R4573:4576 Coq.Init.Peano <> pred abbrev
+R4579:4588 Coq.Arith.PeanoNat Nat double def
+R4591:4591 Coq.Init.Datatypes <> S constr
+R4604:4604 Coq.Init.Datatypes <> S constr
+R4607:4616 Coq.Arith.PeanoNat Nat double def
+R4645:4655 QArithSternBrocot.Q_denumerable <> even_double thm
+prf 4701:4711 <> eq_add_pred
+R4728:4730 Coq.Init.Datatypes <> nat ind
+binder 4722:4722 <> n:38
+binder 4724:4724 <> m:39
+R4748:4751 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4739:4741 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4733:4736 Coq.Init.Peano <> pred abbrev
+R4738:4738 QArithSternBrocot.Q_denumerable <> n:38 var
+R4742:4745 Coq.Init.Peano <> pred abbrev
+R4747:4747 QArithSternBrocot.Q_denumerable <> m:39 var
+R4752:4752 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R4758:4762 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R4777:4777 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R4754:4756 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4753:4753 QArithSternBrocot.Q_denumerable <> n:38 var
+R4757:4757 QArithSternBrocot.Q_denumerable <> m:39 var
+R4768:4771 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R4764:4766 Coq.Init.Peano <> ::nat_scope:x_'<'_x not
+R4763:4763 QArithSternBrocot.Q_denumerable <> n:38 var
+R4773:4775 Coq.Init.Peano <> ::nat_scope:x_'<'_x not
+R4772:4772 QArithSternBrocot.Q_denumerable <> m:39 var
+R4861:4867 Coq.Init.Logic <> f_equal thm
+R4869:4869 Coq.Init.Datatypes <> S constr
+R4883:4898 Coq.Arith.PeanoNat Nat lt_succ_pred thm
+R4861:4867 Coq.Init.Logic <> f_equal thm
+R4869:4869 Coq.Init.Datatypes <> S constr
+R4861:4867 Coq.Init.Logic <> f_equal thm
+R4869:4869 Coq.Init.Datatypes <> S constr
+R4883:4898 Coq.Arith.PeanoNat Nat lt_succ_pred thm
+prf 5007:5023 <> nat_to_Z_to_nat_i
+R5037:5037 Coq.Numbers.BinNums <> Z ind
+binder 5035:5035 <> z:40
+R5066:5068 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5041:5050 QArithSternBrocot.Q_denumerable <> nat_to_Z_i def
+R5053:5062 QArithSternBrocot.Q_denumerable <> Z_to_nat_i def
+R5064:5064 QArithSternBrocot.Q_denumerable <> z:40 var
+R5069:5069 QArithSternBrocot.Q_denumerable <> z:40 var
+R5103:5112 QArithSternBrocot.Q_denumerable <> nat_to_Z_i def
+R5133:5151 QArithSternBrocot.Q_denumerable <> even_odd_exists_dec thm
+R5192:5199 Coq.ZArith.BinInt <> Z_of_nat abbrev
+R5226:5230 Coq.ZArith.BinInt Z opp def
+R5233:5240 Coq.ZArith.BinInt <> Z_of_nat abbrev
+R5276:5282 Coq.Init.Logic <> f_equal thm
+R5284:5288 Coq.ZArith.BinInt Z opp def
+R5303:5309 Coq.Init.Logic <> f_equal thm
+R5311:5318 Coq.ZArith.BinInt <> Z_of_nat abbrev
+R5335:5344 Coq.Arith.PeanoNat Nat double def
+R5133:5151 QArithSternBrocot.Q_denumerable <> even_odd_exists_dec thm
+R5192:5199 Coq.ZArith.BinInt <> Z_of_nat abbrev
+R5226:5230 Coq.ZArith.BinInt Z opp def
+R5233:5240 Coq.ZArith.BinInt <> Z_of_nat abbrev
+R5366:5384 QArithSternBrocot.Q_denumerable <> even_odd_exists_dec thm
+R5387:5396 QArithSternBrocot.Q_denumerable <> Z_to_nat_i def
+R5399:5402 Coq.Numbers.BinNums <> Zpos constr
+R5366:5384 QArithSternBrocot.Q_denumerable <> even_odd_exists_dec thm
+R5387:5396 QArithSternBrocot.Q_denumerable <> Z_to_nat_i def
+R5399:5402 Coq.Numbers.BinNums <> Zpos constr
+R5435:5444 QArithSternBrocot.Q_denumerable <> Z_to_nat_i def
+R5467:5483 QArithSternBrocot.Q_denumerable <> double_eq_half_eq thm
+R5512:5538 Coq.ZArith.Znat <> Zpos_eq_Z_of_nat_o_nat_of_P abbrev
+R5467:5483 QArithSternBrocot.Q_denumerable <> double_eq_half_eq thm
+R5467:5483 QArithSternBrocot.Q_denumerable <> double_eq_half_eq thm
+R5512:5538 Coq.ZArith.Znat <> Zpos_eq_Z_of_nat_o_nat_of_P abbrev
+R5550:5558 Coq.Init.Logic <> False_ind scheme
+R5570:5579 QArithSternBrocot.Q_denumerable <> Z_to_nat_i def
+R5600:5602 Coq.PArith.Pnat <> ZL4 abbrev
+R5647:5663 QArithSternBrocot.Q_denumerable <> double_S_neq_pred thm
+R5550:5558 Coq.Init.Logic <> False_ind scheme
+R5600:5602 Coq.PArith.Pnat <> ZL4 abbrev
+R5647:5663 QArithSternBrocot.Q_denumerable <> double_S_neq_pred thm
+R5694:5712 QArithSternBrocot.Q_denumerable <> even_odd_exists_dec thm
+R5715:5724 QArithSternBrocot.Q_denumerable <> Z_to_nat_i def
+R5727:5730 Coq.Numbers.BinNums <> Zneg constr
+R5694:5712 QArithSternBrocot.Q_denumerable <> even_odd_exists_dec thm
+R5715:5724 QArithSternBrocot.Q_denumerable <> Z_to_nat_i def
+R5727:5730 Coq.Numbers.BinNums <> Zneg constr
+R5763:5772 QArithSternBrocot.Q_denumerable <> Z_to_nat_i def
+R5790:5799 Coq.Arith.PeanoNat Nat double def
+R5820:5822 Coq.PArith.Pnat <> ZL4 abbrev
+R5820:5822 Coq.PArith.Pnat <> ZL4 abbrev
+R5853:5862 QArithSternBrocot.Q_denumerable <> Z_to_nat_i def
+R5879:5889 QArithSternBrocot.Q_denumerable <> eq_add_pred thm
+R5879:5889 QArithSternBrocot.Q_denumerable <> eq_add_pred thm
+R5929:5945 QArithSternBrocot.Q_denumerable <> double_eq_half_eq thm
+R5979:5987 Coq.ZArith.BinInt Z opp_inj thm
+R6001:6008 Coq.ZArith.BinInt <> Zopp_neg abbrev
+R6022:6037 Coq.ZArith.BinInt Z opp_involutive thm
+R6049:6075 Coq.ZArith.Znat <> Zpos_eq_Z_of_nat_o_nat_of_P abbrev
+R5929:5945 QArithSternBrocot.Q_denumerable <> double_eq_half_eq thm
+R5929:5945 QArithSternBrocot.Q_denumerable <> double_eq_half_eq thm
+R5979:5987 Coq.ZArith.BinInt Z opp_inj thm
+R6001:6008 Coq.ZArith.BinInt <> Zopp_neg abbrev
+R6001:6008 Coq.ZArith.BinInt <> Zopp_neg abbrev
+R6022:6037 Coq.ZArith.BinInt Z opp_involutive thm
+R6022:6037 Coq.ZArith.BinInt Z opp_involutive thm
+R6049:6075 Coq.ZArith.Znat <> Zpos_eq_Z_of_nat_o_nat_of_P abbrev
+R6116:6124 Coq.Init.Logic <> False_ind scheme
+R6140:6142 Coq.PArith.Pnat <> ZL4 abbrev
+R6199:6208 Coq.Arith.PeanoNat Nat double def
+R6238:6251 Coq.Arith.PeanoNat Nat add_succ_r thm
+R6116:6124 Coq.Init.Logic <> False_ind scheme
+R6140:6142 Coq.PArith.Pnat <> ZL4 abbrev
+R6238:6251 Coq.Arith.PeanoNat Nat add_succ_r thm
+R6238:6251 Coq.Arith.PeanoNat Nat add_succ_r thm
+prf 6374:6388 <> Z_to_nat_to_Z_i
+R6402:6404 Coq.Init.Datatypes <> nat ind
+binder 6400:6400 <> n:41
+R6433:6435 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R6408:6417 QArithSternBrocot.Q_denumerable <> Z_to_nat_i def
+R6420:6429 QArithSternBrocot.Q_denumerable <> nat_to_Z_i def
+R6431:6431 QArithSternBrocot.Q_denumerable <> n:41 var
+R6436:6436 QArithSternBrocot.Q_denumerable <> n:41 var
+R6468:6477 QArithSternBrocot.Q_denumerable <> nat_to_Z_i def
+R6487:6505 QArithSternBrocot.Q_denumerable <> even_odd_exists_dec thm
+R6542:6551 QArithSternBrocot.Q_denumerable <> Z_to_nat_i def
+R6554:6561 Coq.ZArith.BinInt <> Z_of_nat abbrev
+R6585:6591 Coq.Init.Logic <> f_equal thm
+R6593:6602 QArithSternBrocot.Q_denumerable <> Z_to_nat_i def
+R6621:6630 Coq.Arith.PeanoNat Nat double def
+R6487:6505 QArithSternBrocot.Q_denumerable <> even_odd_exists_dec thm
+R6542:6551 QArithSternBrocot.Q_denumerable <> Z_to_nat_i def
+R6554:6561 Coq.ZArith.BinInt <> Z_of_nat abbrev
+R6542:6551 QArithSternBrocot.Q_denumerable <> Z_to_nat_i def
+R6554:6561 Coq.ZArith.BinInt <> Z_of_nat abbrev
+R6585:6591 Coq.Init.Logic <> f_equal thm
+R6593:6602 QArithSternBrocot.Q_denumerable <> Z_to_nat_i def
+R6585:6591 Coq.Init.Logic <> f_equal thm
+R6593:6602 QArithSternBrocot.Q_denumerable <> Z_to_nat_i def
+R6652:6670 QArithSternBrocot.Q_denumerable <> even_odd_exists_dec thm
+R6673:6673 Coq.Init.Datatypes <> S constr
+R6735:6741 Coq.Init.Logic <> f_equal thm
+R6743:6752 Coq.Arith.PeanoNat Nat double def
+R6764:6795 Coq.PArith.Pnat <> nat_of_P_o_P_of_succ_nat_eq_succ abbrev
+R6813:6816 Coq.Init.Peano <> pred abbrev
+R6819:6828 Coq.Arith.PeanoNat Nat double def
+R6831:6831 Coq.Init.Datatypes <> S constr
+R6857:6863 Coq.Init.Logic <> f_equal thm
+R6865:6868 Coq.Init.Peano <> pred abbrev
+R6881:6887 Coq.Init.Logic <> f_equal thm
+R6889:6898 Coq.Arith.PeanoNat Nat double def
+R6910:6941 Coq.PArith.Pnat <> nat_of_P_o_P_of_succ_nat_eq_succ abbrev
+R6652:6670 QArithSternBrocot.Q_denumerable <> even_odd_exists_dec thm
+R6673:6673 Coq.Init.Datatypes <> S constr
+R6735:6741 Coq.Init.Logic <> f_equal thm
+R6743:6752 Coq.Arith.PeanoNat Nat double def
+R6764:6795 Coq.PArith.Pnat <> nat_of_P_o_P_of_succ_nat_eq_succ abbrev
+R6813:6816 Coq.Init.Peano <> pred abbrev
+R6819:6828 Coq.Arith.PeanoNat Nat double def
+R6831:6831 Coq.Init.Datatypes <> S constr
+R6857:6863 Coq.Init.Logic <> f_equal thm
+R6865:6868 Coq.Init.Peano <> pred abbrev
+R6881:6887 Coq.Init.Logic <> f_equal thm
+R6889:6898 Coq.Arith.PeanoNat Nat double def
+R6910:6941 Coq.PArith.Pnat <> nat_of_P_o_P_of_succ_nat_eq_succ abbrev
+prf 7004:7019 <> Z_is_denumerable
+R7021:7034 QArithSternBrocot.Q_denumerable <> is_denumerable def
+R7036:7036 Coq.Numbers.BinNums <> Z ind
+R7054:7063 QArithSternBrocot.Q_denumerable <> Z_to_nat_i def
+R7073:7082 QArithSternBrocot.Q_denumerable <> nat_to_Z_i def
+R7102:7116 QArithSternBrocot.Q_denumerable <> Z_to_nat_to_Z_i thm
+R7127:7143 QArithSternBrocot.Q_denumerable <> nat_to_Z_to_nat_i thm
+R7054:7063 QArithSternBrocot.Q_denumerable <> Z_to_nat_i def
+R7073:7082 QArithSternBrocot.Q_denumerable <> nat_to_Z_i def
+R7102:7116 QArithSternBrocot.Q_denumerable <> Z_to_nat_to_Z_i thm
+R7127:7143 QArithSternBrocot.Q_denumerable <> nat_to_Z_to_nat_i thm
+R7262:7268 QArithSternBrocot.Q_field <> <> lib
+def 7415:7437 <> positive_to_Qpositive_i
+R7442:7449 Coq.Numbers.BinNums <> positive ind
+binder 7440:7440 <> p:42
+R7454:7462 QArithSternBrocot.Qpositive <> Qpositive ind
+R7477:7477 QArithSternBrocot.Q_denumerable <> p:42 var
+R7490:7491 Coq.Numbers.BinNums <> xI constr
+R7498:7499 QArithSternBrocot.Qpositive <> nR constr
+R7502:7524 QArithSternBrocot.Q_denumerable <> positive_to_Qpositive_i:43 def
+R7526:7526 QArithSternBrocot.Q_denumerable <> p:42 var
+R7534:7535 Coq.Numbers.BinNums <> xO constr
+R7542:7543 QArithSternBrocot.Qpositive <> dL constr
+R7546:7568 QArithSternBrocot.Q_denumerable <> positive_to_Qpositive_i:43 def
+R7570:7570 QArithSternBrocot.Q_denumerable <> p:42 var
+R7578:7579 Coq.Numbers.BinNums <> xH constr
+R7584:7586 QArithSternBrocot.Qpositive <> One constr
+def 7645:7652 <> Z_to_Q_i
+R7657:7657 Coq.Numbers.BinNums <> Z ind
+binder 7655:7655 <> z:45
+R7672:7672 QArithSternBrocot.Q_denumerable <> z:45 var
+R7685:7686 Coq.Numbers.BinNums <> Z0 constr
+R7691:7694 QArithSternBrocot.Q_field <> Zero constr
+R7701:7704 Coq.Numbers.BinNums <> Zpos constr
+R7711:7714 QArithSternBrocot.Q_field <> Qpos constr
+R7717:7739 QArithSternBrocot.Q_denumerable <> positive_to_Qpositive_i def
+R7749:7752 Coq.Numbers.BinNums <> Zneg constr
+R7759:7762 QArithSternBrocot.Q_field <> Qneg constr
+R7765:7787 QArithSternBrocot.Q_denumerable <> positive_to_Qpositive_i def
+def 7863:7885 <> Qpositive_to_positive_i
+R7891:7899 QArithSternBrocot.Qpositive <> Qpositive ind
+binder 7888:7889 <> qp:47
+R7904:7911 Coq.Numbers.BinNums <> positive ind
+R7926:7927 QArithSternBrocot.Q_denumerable <> qp:47 var
+R7940:7941 QArithSternBrocot.Qpositive <> nR constr
+R7949:7950 Coq.Numbers.BinNums <> xI constr
+R7953:7975 QArithSternBrocot.Q_denumerable <> Qpositive_to_positive_i:48 def
+R7977:7978 QArithSternBrocot.Q_denumerable <> qp:47 var
+R7986:7987 QArithSternBrocot.Qpositive <> dL constr
+R7995:7996 Coq.Numbers.BinNums <> xO constr
+R7999:8021 QArithSternBrocot.Q_denumerable <> Qpositive_to_positive_i:48 def
+R8023:8024 QArithSternBrocot.Q_denumerable <> qp:47 var
+R8032:8034 QArithSternBrocot.Qpositive <> One constr
+R8039:8040 Coq.Numbers.BinNums <> xH constr
+def 8099:8106 <> Q_to_Z_i
+R8111:8111 QArithSternBrocot.Q_field <> Q ind
+binder 8109:8109 <> q:50
+R8126:8126 QArithSternBrocot.Q_denumerable <> q:50 var
+R8139:8142 QArithSternBrocot.Q_field <> Zero constr
+R8147:8148 Coq.Numbers.BinNums <> Z0 constr
+R8155:8158 QArithSternBrocot.Q_field <> Qpos constr
+R8166:8169 Coq.Numbers.BinNums <> Zpos constr
+R8172:8194 QArithSternBrocot.Q_denumerable <> Qpositive_to_positive_i def
+R8205:8208 QArithSternBrocot.Q_field <> Qneg constr
+R8216:8219 Coq.Numbers.BinNums <> Zneg constr
+R8222:8244 QArithSternBrocot.Q_denumerable <> Qpositive_to_positive_i def
+prf 8359:8394 <> Qpositive_to_positive_to_Qpositive_i
+R8408:8415 Coq.Numbers.BinNums <> positive ind
+binder 8406:8406 <> p:52
+R8470:8472 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R8419:8441 QArithSternBrocot.Q_denumerable <> Qpositive_to_positive_i def
+R8444:8466 QArithSternBrocot.Q_denumerable <> positive_to_Qpositive_i def
+R8468:8468 QArithSternBrocot.Q_denumerable <> p:52 var
+R8473:8473 QArithSternBrocot.Q_denumerable <> p:52 var
+prf 8668:8702 <> positive_to_Qpositive_to_positive_i
+binder 8713:8714 <> qp:53
+R8769:8771 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R8717:8739 QArithSternBrocot.Q_denumerable <> positive_to_Qpositive_i def
+R8742:8764 QArithSternBrocot.Q_denumerable <> Qpositive_to_positive_i def
+R8766:8767 QArithSternBrocot.Q_denumerable <> qp:53 var
+R8772:8773 QArithSternBrocot.Q_denumerable <> qp:53 var
+prf 8937:8949 <> Q_to_Z_to_Q_i
+R8963:8963 Coq.Numbers.BinNums <> Z ind
+binder 8961:8961 <> z:54
+R8988:8990 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R8967:8974 QArithSternBrocot.Q_denumerable <> Q_to_Z_i def
+R8977:8984 QArithSternBrocot.Q_denumerable <> Z_to_Q_i def
+R8986:8986 QArithSternBrocot.Q_denumerable <> z:54 var
+R8991:8991 QArithSternBrocot.Q_denumerable <> z:54 var
+R9043:9078 QArithSternBrocot.Q_denumerable <> Qpositive_to_positive_to_Qpositive_i thm
+R9043:9078 QArithSternBrocot.Q_denumerable <> Qpositive_to_positive_to_Qpositive_i thm
+R9043:9078 QArithSternBrocot.Q_denumerable <> Qpositive_to_positive_to_Qpositive_i thm
+R9043:9078 QArithSternBrocot.Q_denumerable <> Qpositive_to_positive_to_Qpositive_i thm
+R9043:9078 QArithSternBrocot.Q_denumerable <> Qpositive_to_positive_to_Qpositive_i thm
+prf 9170:9182 <> Z_to_Q_to_Z_i
+R9196:9196 QArithSternBrocot.Q_field <> Q ind
+binder 9194:9194 <> q:55
+R9221:9223 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R9200:9207 QArithSternBrocot.Q_denumerable <> Z_to_Q_i def
+R9210:9217 QArithSternBrocot.Q_denumerable <> Q_to_Z_i def
+R9219:9219 QArithSternBrocot.Q_denumerable <> q:55 var
+R9224:9224 QArithSternBrocot.Q_denumerable <> q:55 var
+R9278:9312 QArithSternBrocot.Q_denumerable <> positive_to_Qpositive_to_positive_i thm
+R9278:9312 QArithSternBrocot.Q_denumerable <> positive_to_Qpositive_to_positive_i thm
+R9278:9312 QArithSternBrocot.Q_denumerable <> positive_to_Qpositive_to_positive_i thm
+R9278:9312 QArithSternBrocot.Q_denumerable <> positive_to_Qpositive_to_positive_i thm
+R9278:9312 QArithSternBrocot.Q_denumerable <> positive_to_Qpositive_to_positive_i thm
+prf 9379:9394 <> Q_is_denumerable
+R9397:9410 QArithSternBrocot.Q_denumerable <> is_denumerable def
+R9412:9412 QArithSternBrocot.Q_field <> Q ind
+R9460:9460 Coq.Numbers.BinNums <> Z ind
+R9429:9453 QArithSternBrocot.Q_denumerable <> is_denumerable_transitive thm
+R9460:9460 Coq.Numbers.BinNums <> Z ind
+R9429:9453 QArithSternBrocot.Q_denumerable <> is_denumerable_transitive thm
+R9470:9485 QArithSternBrocot.Q_denumerable <> Z_is_denumerable thm
+R9470:9485 QArithSternBrocot.Q_denumerable <> Z_is_denumerable thm
+R9496:9503 QArithSternBrocot.Q_denumerable <> Q_to_Z_i def
+R9513:9520 QArithSternBrocot.Q_denumerable <> Z_to_Q_i def
+R9540:9552 QArithSternBrocot.Q_denumerable <> Q_to_Z_to_Q_i thm
+R9563:9575 QArithSternBrocot.Q_denumerable <> Z_to_Q_to_Z_i thm
+R9496:9503 QArithSternBrocot.Q_denumerable <> Q_to_Z_i def
+R9513:9520 QArithSternBrocot.Q_denumerable <> Z_to_Q_i def
+R9540:9552 QArithSternBrocot.Q_denumerable <> Q_to_Z_to_Q_i thm
+R9563:9575 QArithSternBrocot.Q_denumerable <> Z_to_Q_to_Z_i thm

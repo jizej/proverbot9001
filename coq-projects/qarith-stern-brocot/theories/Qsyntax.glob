@@ -1,0 +1,23 @@
+DIGEST 3264ff0f1d423ae559f4e53a25d5b5a8
+FQArithSternBrocot.Qsyntax
+R1061:1069 QArithSternBrocot.general_Q <> <> lib
+R1086:1091 QArithSternBrocot.general_Q <> make_Q def
+not 1079:1079 <> ::Q_scope:x_'/'_x
+R1127:1134 QArithSternBrocot.general_Q <> decode_Q def
+not 1115:1115 <> ::Q_scope:'{'_x_'}'
+R1185:1189 QArithSternBrocot.Q_field <> Qplus def
+not 1178:1178 <> ::Q_scope:x_'+'_x
+R1216:1220 QArithSternBrocot.Q_field <> Qmult def
+not 1209:1209 <> ::Q_scope:x_'*'_x
+R1247:1252 QArithSternBrocot.Q_order <> Qminus def
+not 1240:1240 <> ::Q_scope:x_'-'_x
+R1279:1282 QArithSternBrocot.Q_order <> Qdiv def
+not 1272:1272 <> ::Q_scope:x_'/'_x
+R1315:1318 QArithSternBrocot.Q_field <> Qopp def
+not 1305:1305 <> ::Q_scope:'-'_x
+R1355:1358 QArithSternBrocot.Q_order <> Qinv def
+not 1344:1344 <> ::Q_scope:x_'^'
+R1453:1455 QArithSternBrocot.general_Q <> Qlt def
+not 1446:1446 <> ::Q_scope:x_'<'_x
+R1482:1484 QArithSternBrocot.general_Q <> Qle def
+not 1474:1474 <> ::Q_scope:x_'<='_x

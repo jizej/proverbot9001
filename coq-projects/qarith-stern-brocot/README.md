@@ -1,16 +1,21 @@
+<!---
+This file was generated from `meta.yml`, please do not edit manually.
+Follow the instructions on https://github.com/coq-community/templates to regenerate.
+--->
 # Binary Rational Numbers
 
-[![Travis][travis-shield]][travis-link]
+[![Docker CI][docker-action-shield]][docker-action-link]
+[![Nix CI][nix-action-shield]][nix-action-link]
 [![Contributing][contributing-shield]][contributing-link]
 [![Code of Conduct][conduct-shield]][conduct-link]
-[![Gitter][gitter-shield]][gitter-link]
+[![Zulip][zulip-shield]][zulip-link]
 [![DOI][doi-shield]][doi-link]
 
-[doi-shield]: https://zenodo.org/badge/DOI/10.1007/978-3-540-24849-1_20.svg
-[doi-link]: https://doi.org/10.1007/978-3-540-24849-1_20
+[docker-action-shield]: https://github.com/coq-community/qarith-stern-brocot/workflows/Docker%20CI/badge.svg?branch=master
+[docker-action-link]: https://github.com/coq-community/qarith-stern-brocot/actions?query=workflow:"Docker%20CI"
 
-[travis-shield]: https://travis-ci.com/coq-community/qarith-stern-brocot.svg?branch=master
-[travis-link]: https://travis-ci.com/coq-community/qarith-stern-brocot/builds
+[nix-action-shield]: https://github.com/coq-community/qarith-stern-brocot/workflows/Nix%20CI/badge.svg?branch=master
+[nix-action-link]: https://github.com/coq-community/qarith-stern-brocot/actions?query=workflow:"Nix%20CI"
 
 [contributing-shield]: https://img.shields.io/badge/contributions-welcome-%23f7931e.svg
 [contributing-link]: https://github.com/coq-community/manifesto/blob/master/CONTRIBUTING.md
@@ -18,15 +23,16 @@
 [conduct-shield]: https://img.shields.io/badge/%E2%9D%A4-code%20of%20conduct-%23f15a24.svg
 [conduct-link]: https://github.com/coq-community/manifesto/blob/master/CODE_OF_CONDUCT.md
 
-[gitter-shield]: https://img.shields.io/badge/chat-on%20gitter-%23c1272d.svg
-[gitter-link]: https://gitter.im/coq-community/Lobby
+[zulip-shield]: https://img.shields.io/badge/chat-on%20zulip-%23c1272d.svg
+[zulip-link]: https://coq.zulipchat.com/#narrow/stream/237663-coq-community-devs.20.26.20users
 
-Development of rational numbers as finite binary lists and defining
+
+[doi-shield]: https://zenodo.org/badge/DOI/10.1007/978-3-540-24849-1_20.svg
+[doi-link]: https://doi.org/10.1007/978-3-540-24849-1_20
+
+Development of rational numbers in Coq as finite binary lists and defining
 field operations on them in two different ways: strict and lazy.
 
-
-More details about the project can be found in the paper
-[QArith: Coq Formalisation of Lazy Rational Arithmetic](https://hal.inria.fr/inria-00077041).
 
 ## Meta
 
@@ -36,13 +42,16 @@ More details about the project can be found in the paper
 - Coq-community maintainer(s):
   - Hugo Herbelin ([**@herbelin**](https://github.com/herbelin))
 - License: [GNU Lesser General Public License v2.1 or later](LICENSE)
-- Compatible Coq versions: Coq 8.7 or greater (use releases for other Coq versions)
+- Compatible Coq versions: 8.14 or later
 - Additional dependencies: none
+- Coq namespace: `QArithSternBrocot`
+- Related publication(s):
+  - [QArith: Coq Formalisation of Lazy Rational Arithmetic](https://hal.inria.fr/inria-00077041) doi:[10.1007/978-3-540-24849-1_20](https://doi.org/10.1007/978-3-540-24849-1_20)
 
 ## Building and installation instructions
 
-The easiest way to install the latest released version is via
-[OPAM](https://opam.ocaml.org/doc/Install.html):
+The easiest way to install the latest released version of Binary Rational Numbers
+is via [OPAM](https://opam.ocaml.org/doc/Install.html):
 
 ```shell
 opam repo add coq-released https://coq.inria.fr/opam/released
@@ -52,22 +61,19 @@ opam install coq-qarith-stern-brocot
 To instead build and install manually, do:
 
 ``` shell
-git clone https://github.com/coq-community/qarith-stern-brocot
+git clone https://github.com/coq-community/qarith-stern-brocot.git
 cd qarith-stern-brocot
-make   # or make -j <number-of-cores-on-your-machine>
+make   # or make -j <number-of-cores-on-your-machine> 
 make install
 ```
 
-After installation, the included modules are available under
-the `QArithSternBrocot` namespace.
 
 ## Documentation
 
-This package contains a rational arithmetic library for Coq.
-This includes:
+This project contains a rational arithmetic library for Coq. This includes:
 
 - A binary representation for positive rational numbers `Qpositive` and its
-  extension to `Q` by adding sign bit (also known as Stern-Brocot
+  extension to `Q` by adding a sign bit (also known as Stern-Brocot
   tree encoding).
 - Arithmetic operations on `Qpositive` and `Q` defined in an strict way.
 - More efficient arithmetic operations on `Q` defined lazily using

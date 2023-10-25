@@ -1,0 +1,134 @@
+DIGEST 6d180ba1a3416323861d52392ec4e6b7
+FQArithSternBrocot.Field_Theory_Q
+R1047:1055 Coq.Logic.Eqdep_dec <> <> lib
+R1082:1086 Coq.setoid_ring.Field <> <> lib
+R1127:1133 QArithSternBrocot.Q_order <> <> lib
+prf 1348:1360 <> Q_Ring_Theory
+R1368:1378 Coq.setoid_ring.Ring_theory <> ring_theory rec
+R1415:1416 Coq.Init.Logic <> eq ind
+R1421:1421 QArithSternBrocot.Q_field <> Q ind
+R1409:1412 QArithSternBrocot.Q_field <> Qopp def
+R1402:1407 QArithSternBrocot.Q_order <> Qminus def
+R1396:1400 QArithSternBrocot.Q_field <> Qmult def
+R1390:1394 QArithSternBrocot.Q_field <> Qplus def
+R1385:1388 QArithSternBrocot.Q_field <> Qone def
+R1380:1383 QArithSternBrocot.Q_field <> Zero constr
+R1506:1514 QArithSternBrocot.Q_field <> Qplus_sym thm
+R1530:1540 QArithSternBrocot.Q_field <> Qplus_assoc thm
+R1556:1564 QArithSternBrocot.Q_order <> Qmult_sym thm
+R1580:1590 QArithSternBrocot.Q_order <> Qmult_assoc thm
+R1606:1620 QArithSternBrocot.Q_order <> Qplus_zero_left thm
+R1636:1649 QArithSternBrocot.Q_order <> Qmult_one_left thm
+R1665:1673 QArithSternBrocot.Q_order <> Q_opp_def thm
+R1689:1700 QArithSternBrocot.Q_order <> Q_distr_left thm
+R1506:1514 QArithSternBrocot.Q_field <> Qplus_sym thm
+R1530:1540 QArithSternBrocot.Q_field <> Qplus_assoc thm
+R1556:1564 QArithSternBrocot.Q_order <> Qmult_sym thm
+R1580:1590 QArithSternBrocot.Q_order <> Qmult_assoc thm
+R1606:1620 QArithSternBrocot.Q_order <> Qplus_zero_left thm
+R1506:1514 QArithSternBrocot.Q_field <> Qplus_sym thm
+R1506:1514 QArithSternBrocot.Q_field <> Qplus_sym thm
+R1530:1540 QArithSternBrocot.Q_field <> Qplus_assoc thm
+R1506:1514 QArithSternBrocot.Q_field <> Qplus_sym thm
+R1530:1540 QArithSternBrocot.Q_field <> Qplus_assoc thm
+R1556:1564 QArithSternBrocot.Q_order <> Qmult_sym thm
+R1580:1590 QArithSternBrocot.Q_order <> Qmult_assoc thm
+R1606:1620 QArithSternBrocot.Q_order <> Qplus_zero_left thm
+R1636:1649 QArithSternBrocot.Q_order <> Qmult_one_left thm
+R1506:1514 QArithSternBrocot.Q_field <> Qplus_sym thm
+R1530:1540 QArithSternBrocot.Q_field <> Qplus_assoc thm
+R1556:1564 QArithSternBrocot.Q_order <> Qmult_sym thm
+R1506:1514 QArithSternBrocot.Q_field <> Qplus_sym thm
+R1530:1540 QArithSternBrocot.Q_field <> Qplus_assoc thm
+R1556:1564 QArithSternBrocot.Q_order <> Qmult_sym thm
+R1580:1590 QArithSternBrocot.Q_order <> Qmult_assoc thm
+R1506:1514 QArithSternBrocot.Q_field <> Qplus_sym thm
+R1530:1540 QArithSternBrocot.Q_field <> Qplus_assoc thm
+R1556:1564 QArithSternBrocot.Q_order <> Qmult_sym thm
+R1580:1590 QArithSternBrocot.Q_order <> Qmult_assoc thm
+R1606:1620 QArithSternBrocot.Q_order <> Qplus_zero_left thm
+R1636:1649 QArithSternBrocot.Q_order <> Qmult_one_left thm
+R1665:1673 QArithSternBrocot.Q_order <> Q_opp_def thm
+R1689:1700 QArithSternBrocot.Q_order <> Q_distr_left thm
+R1506:1514 QArithSternBrocot.Q_field <> Qplus_sym thm
+R1530:1540 QArithSternBrocot.Q_field <> Qplus_assoc thm
+R1556:1564 QArithSternBrocot.Q_order <> Qmult_sym thm
+R1580:1590 QArithSternBrocot.Q_order <> Qmult_assoc thm
+R1606:1620 QArithSternBrocot.Q_order <> Qplus_zero_left thm
+R1506:1514 QArithSternBrocot.Q_field <> Qplus_sym thm
+R1530:1540 QArithSternBrocot.Q_field <> Qplus_assoc thm
+R1556:1564 QArithSternBrocot.Q_order <> Qmult_sym thm
+R1580:1590 QArithSternBrocot.Q_order <> Qmult_assoc thm
+R1606:1620 QArithSternBrocot.Q_order <> Qplus_zero_left thm
+R1636:1649 QArithSternBrocot.Q_order <> Qmult_one_left thm
+R1665:1673 QArithSternBrocot.Q_order <> Q_opp_def thm
+prf 1742:1750 <> Qinv_defT
+R1765:1765 QArithSternBrocot.Q_field <> Q ind
+binder 1761:1761 <> n:1
+R1777:1780 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1769:1772 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R1768:1768 QArithSternBrocot.Field_Theory_Q <> n:1 var
+R1773:1776 QArithSternBrocot.Q_field <> Zero constr
+R1797:1799 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1781:1785 QArithSternBrocot.Q_field <> Qmult def
+R1788:1791 QArithSternBrocot.Q_order <> Qinv def
+R1793:1793 QArithSternBrocot.Field_Theory_Q <> n:1 var
+R1796:1796 QArithSternBrocot.Field_Theory_Q <> n:1 var
+R1800:1803 QArithSternBrocot.Q_field <> Qone def
+R1835:1843 QArithSternBrocot.Q_order <> Qmult_sym thm
+R1852:1859 QArithSternBrocot.Q_order <> Qinv_def thm
+R1835:1843 QArithSternBrocot.Q_order <> Qmult_sym thm
+R1835:1843 QArithSternBrocot.Q_order <> Qmult_sym thm
+R1852:1859 QArithSternBrocot.Q_order <> Qinv_def thm
+prf 1909:1914 <> QField
+R1920:1931 Coq.setoid_ring.Field_theory <> field_theory rec
+R1978:1979 Coq.Init.Logic <> eq ind
+R1984:1984 QArithSternBrocot.Q_field <> Q ind
+R1972:1975 QArithSternBrocot.Q_order <> Qinv def
+R1967:1970 QArithSternBrocot.Q_order <> Qdiv def
+R1962:1965 QArithSternBrocot.Q_field <> Qopp def
+R1955:1960 QArithSternBrocot.Q_order <> Qminus def
+R1949:1953 QArithSternBrocot.Q_field <> Qmult def
+R1943:1947 QArithSternBrocot.Q_field <> Qplus def
+R1938:1941 QArithSternBrocot.Q_field <> Qone def
+R1933:1936 QArithSternBrocot.Q_field <> Zero constr
+R2009:2021 QArithSternBrocot.Field_Theory_Q <> Q_Ring_Theory thm
+R2009:2021 QArithSternBrocot.Field_Theory_Q <> Q_Ring_Theory thm
+R2060:2068 QArithSternBrocot.Field_Theory_Q <> Qinv_defT thm
+R2060:2068 QArithSternBrocot.Field_Theory_Q <> Qinv_defT thm
+R2117:2120 QArithSternBrocot.Q_field <> Zero constr
+R2117:2120 QArithSternBrocot.Q_field <> Zero constr
+R2134:2137 QArithSternBrocot.Q_field <> Qpos constr
+R2134:2137 QArithSternBrocot.Q_field <> Qpos constr
+R2158:2161 QArithSternBrocot.Q_field <> Qneg constr
+R2158:2161 QArithSternBrocot.Q_field <> Qneg constr
+R2182:2183 QArithSternBrocot.Qpositive <> nR constr
+R2182:2183 QArithSternBrocot.Qpositive <> nR constr
+R2204:2205 QArithSternBrocot.Qpositive <> dL constr
+R2204:2205 QArithSternBrocot.Qpositive <> dL constr
+R2226:2228 QArithSternBrocot.Qpositive <> One constr
+R2226:2228 QArithSternBrocot.Qpositive <> One constr
+R2242:2245 QArithSternBrocot.Q_field <> Qone def
+R2242:2245 QArithSternBrocot.Q_field <> Qone def
+R2318:2321 Coq.Init.Datatypes <> true constr
+R2318:2321 Coq.Init.Datatypes <> true constr
+R2407:2415 QArithSternBrocot.Q_order <> Q_eq_prop thm
+R2389:2394 QArithSternBrocot.Field_Theory_Q <> QField thm
+def 2449:2458 <> not_eq2eqT
+binder 2461:2461 <> A:2
+R2478:2478 QArithSternBrocot.Field_Theory_Q <> A:2 var
+binder 2472:2472 <> x:3
+binder 2474:2474 <> y:4
+R2488:2491 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R2487:2487 QArithSternBrocot.Field_Theory_Q <> x:3 var
+R2492:2492 QArithSternBrocot.Field_Theory_Q <> y:4 var
+binder 2482:2483 <> H1:5
+R2500:2503 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R2499:2499 QArithSternBrocot.Field_Theory_Q <> x:3 var
+R2504:2504 QArithSternBrocot.Field_Theory_Q <> y:4 var
+R2519:2521 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2518:2518 QArithSternBrocot.Field_Theory_Q <> x:3 var
+R2522:2522 QArithSternBrocot.Field_Theory_Q <> y:4 var
+binder 2513:2514 <> H2:6
+R2527:2528 QArithSternBrocot.Field_Theory_Q <> H1:5 var
+R2531:2532 QArithSternBrocot.Field_Theory_Q <> H2:6 var

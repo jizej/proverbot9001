@@ -1,0 +1,907 @@
+DIGEST 3ed677bc828ada8ba0cc8d7832e4253f
+FQArithSternBrocot.positive_fraction_encoding
+R1061:1064 QArithSternBrocot.Zaux <> <> lib
+R1091:1100 Coq.setoid_ring.ZArithRing <> <> lib
+R1141:1149 QArithSternBrocot.Qpositive <> <> lib
+R1190:1196 QArithSternBrocot.Q_field <> <> lib
+R1223:1228 Coq.funind.FunInd <> <> lib
+ind 1242:1254 <> fractionalAcc
+constr 1280:1293 <> fractionalacc0
+constr 1344:1357 <> fractionalacc1
+constr 1472:1485 <> fractionalacc2
+R1259:1262 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1258:1258 Coq.Numbers.BinNums <> Z ind
+R1264:1267 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1263:1263 Coq.Numbers.BinNums <> Z ind
+R1310:1310 Coq.Numbers.BinNums <> Z ind
+binder 1304:1304 <> m:3
+binder 1306:1306 <> n:4
+R1318:1321 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1314:1316 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1313:1313 QArithSternBrocot.positive_fraction_encoding <> m:3 var
+R1317:1317 QArithSternBrocot.positive_fraction_encoding <> n:4 var
+R1322:1334 QArithSternBrocot.positive_fraction_encoding <> fractionalAcc:1 ind
+R1338:1338 QArithSternBrocot.positive_fraction_encoding <> n:4 var
+R1336:1336 QArithSternBrocot.positive_fraction_encoding <> m:3 var
+R1380:1380 Coq.Numbers.BinNums <> Z ind
+binder 1374:1374 <> m:5
+binder 1376:1376 <> n:6
+R1398:1407 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1391:1393 Coq.ZArith.BinInt <> ::Z_scope:x_'<'_x not
+R1394:1394 QArithSternBrocot.positive_fraction_encoding <> m:5 var
+R1417:1420 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1410:1412 Coq.ZArith.BinInt <> ::Z_scope:x_'<'_x not
+R1409:1409 QArithSternBrocot.positive_fraction_encoding <> m:5 var
+R1413:1413 QArithSternBrocot.positive_fraction_encoding <> n:6 var
+R1446:1449 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1421:1433 QArithSternBrocot.positive_fraction_encoding <> fractionalAcc:1 ind
+R1439:1441 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R1438:1438 QArithSternBrocot.positive_fraction_encoding <> n:6 var
+R1442:1442 QArithSternBrocot.positive_fraction_encoding <> m:5 var
+R1435:1435 QArithSternBrocot.positive_fraction_encoding <> m:5 var
+R1450:1462 QArithSternBrocot.positive_fraction_encoding <> fractionalAcc:1 ind
+R1466:1466 QArithSternBrocot.positive_fraction_encoding <> n:6 var
+R1464:1464 QArithSternBrocot.positive_fraction_encoding <> m:5 var
+R1508:1508 Coq.Numbers.BinNums <> Z ind
+binder 1502:1502 <> m:7
+binder 1504:1504 <> n:8
+R1526:1535 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1519:1521 Coq.ZArith.BinInt <> ::Z_scope:x_'<'_x not
+R1522:1522 QArithSternBrocot.positive_fraction_encoding <> n:8 var
+R1545:1548 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1538:1540 Coq.ZArith.BinInt <> ::Z_scope:x_'<'_x not
+R1537:1537 QArithSternBrocot.positive_fraction_encoding <> n:8 var
+R1541:1541 QArithSternBrocot.positive_fraction_encoding <> m:7 var
+R1574:1577 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1549:1561 QArithSternBrocot.positive_fraction_encoding <> fractionalAcc:1 ind
+R1573:1573 QArithSternBrocot.positive_fraction_encoding <> n:8 var
+R1565:1567 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R1564:1564 QArithSternBrocot.positive_fraction_encoding <> m:7 var
+R1568:1568 QArithSternBrocot.positive_fraction_encoding <> n:8 var
+R1578:1590 QArithSternBrocot.positive_fraction_encoding <> fractionalAcc:1 ind
+R1594:1594 QArithSternBrocot.positive_fraction_encoding <> n:8 var
+R1592:1592 QArithSternBrocot.positive_fraction_encoding <> m:7 var
+prf 1604:1618 <> fractionalacc_0
+R1633:1633 Coq.Numbers.BinNums <> Z ind
+binder 1629:1629 <> m:9
+R1636:1648 QArithSternBrocot.positive_fraction_encoding <> fractionalAcc ind
+R1650:1650 QArithSternBrocot.positive_fraction_encoding <> m:9 var
+R1652:1652 QArithSternBrocot.positive_fraction_encoding <> m:9 var
+R1677:1690 QArithSternBrocot.positive_fraction_encoding <> fractionalacc0 constr
+R1677:1690 QArithSternBrocot.positive_fraction_encoding <> fractionalacc0 constr
+prf 1722:1736 <> fractionalacc_1
+R1754:1754 Coq.Numbers.BinNums <> Z ind
+binder 1748:1748 <> m:10
+binder 1750:1750 <> n:11
+R1775:1778 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1758:1770 QArithSternBrocot.positive_fraction_encoding <> fractionalAcc ind
+R1772:1772 QArithSternBrocot.positive_fraction_encoding <> m:10 var
+R1774:1774 QArithSternBrocot.positive_fraction_encoding <> n:11 var
+R1788:1791 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1781:1783 Coq.ZArith.BinInt <> ::Z_scope:x_'<'_x not
+R1784:1784 QArithSternBrocot.positive_fraction_encoding <> m:10 var
+R1801:1804 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1794:1796 Coq.ZArith.BinInt <> ::Z_scope:x_'<'_x not
+R1793:1793 QArithSternBrocot.positive_fraction_encoding <> m:10 var
+R1797:1797 QArithSternBrocot.positive_fraction_encoding <> n:11 var
+R1805:1817 QArithSternBrocot.positive_fraction_encoding <> fractionalAcc ind
+R1819:1819 QArithSternBrocot.positive_fraction_encoding <> m:10 var
+R1823:1825 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R1822:1822 QArithSternBrocot.positive_fraction_encoding <> n:11 var
+R1826:1826 QArithSternBrocot.positive_fraction_encoding <> m:10 var
+R1889:1899 Coq.ZArith.BinInt Z lt_irrefl thm
+R1935:1944 Coq.ZArith.BinInt Z lt_trans thm
+R1889:1899 Coq.ZArith.BinInt Z lt_irrefl thm
+R1889:1899 Coq.ZArith.BinInt Z lt_irrefl thm
+R1935:1944 Coq.ZArith.BinInt Z lt_trans thm
+prf 1986:2000 <> fractionalacc_2
+R2018:2018 Coq.Numbers.BinNums <> Z ind
+binder 2012:2012 <> m:12
+binder 2014:2014 <> n:13
+R2039:2042 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2022:2034 QArithSternBrocot.positive_fraction_encoding <> fractionalAcc ind
+R2036:2036 QArithSternBrocot.positive_fraction_encoding <> m:12 var
+R2038:2038 QArithSternBrocot.positive_fraction_encoding <> n:13 var
+R2052:2055 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2045:2047 Coq.ZArith.BinInt <> ::Z_scope:x_'<'_x not
+R2048:2048 QArithSternBrocot.positive_fraction_encoding <> n:13 var
+R2065:2068 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2058:2060 Coq.ZArith.BinInt <> ::Z_scope:x_'<'_x not
+R2057:2057 QArithSternBrocot.positive_fraction_encoding <> n:13 var
+R2061:2061 QArithSternBrocot.positive_fraction_encoding <> m:12 var
+R2069:2081 QArithSternBrocot.positive_fraction_encoding <> fractionalAcc ind
+R2085:2087 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R2084:2084 QArithSternBrocot.positive_fraction_encoding <> m:12 var
+R2088:2088 QArithSternBrocot.positive_fraction_encoding <> n:13 var
+R2091:2091 QArithSternBrocot.positive_fraction_encoding <> n:13 var
+R2153:2163 Coq.ZArith.BinInt Z lt_irrefl thm
+R2199:2208 Coq.ZArith.BinInt Z lt_trans thm
+R2153:2163 Coq.ZArith.BinInt Z lt_irrefl thm
+R2153:2163 Coq.ZArith.BinInt Z lt_irrefl thm
+R2199:2208 Coq.ZArith.BinInt Z lt_trans thm
+def 2255:2272 <> encoding_algorithm
+R2292:2292 Coq.Numbers.BinNums <> Z ind
+binder 2286:2286 <> x:14
+binder 2288:2288 <> y:15
+R2303:2305 Coq.ZArith.BinInt <> ::Z_scope:x_'<'_x not
+R2306:2306 QArithSternBrocot.positive_fraction_encoding <> x:14 var
+binder 2296:2297 <> h1:16
+R2320:2322 Coq.ZArith.BinInt <> ::Z_scope:x_'<'_x not
+R2323:2323 QArithSternBrocot.positive_fraction_encoding <> y:15 var
+binder 2313:2314 <> h2:17
+R2334:2346 QArithSternBrocot.positive_fraction_encoding <> fractionalAcc ind
+R2348:2348 QArithSternBrocot.positive_fraction_encoding <> x:14 var
+R2350:2350 QArithSternBrocot.positive_fraction_encoding <> y:15 var
+binder 2330:2330 <> H:18
+R2356:2364 QArithSternBrocot.Qpositive <> Qpositive ind
+R2428:2433 Coq.ZArith.ZArith_dec <> Z_dec' thm
+R2447:2452 Coq.Init.Specif <> inleft constr
+R2500:2503 Coq.Init.Specif <> left constr
+R2525:2526 QArithSternBrocot.Qpositive <> dL constr
+R2563:2565 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R2591:2605 QArithSternBrocot.positive_fraction_encoding <> fractionalacc_1 thm
+R2633:2637 Coq.Init.Specif <> right constr
+R2659:2660 QArithSternBrocot.Qpositive <> nR constr
+R2695:2697 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R2725:2739 QArithSternBrocot.positive_fraction_encoding <> fractionalacc_2 thm
+R2772:2778 Coq.Init.Specif <> inright constr
+R2785:2787 QArithSternBrocot.Qpositive <> One constr
+R2802:2807 Coq.ZArith.BinInt Z sub def
+R2824:2834 Coq.ZArith.auxiliary <> Zlt_left_lt thm
+R2428:2433 Coq.ZArith.ZArith_dec <> Z_dec' thm
+R2447:2452 Coq.Init.Specif <> inleft constr
+R2500:2503 Coq.Init.Specif <> left constr
+R2525:2526 QArithSternBrocot.Qpositive <> dL constr
+R2563:2565 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R2591:2605 QArithSternBrocot.positive_fraction_encoding <> fractionalacc_1 thm
+R2633:2637 Coq.Init.Specif <> right constr
+R2659:2660 QArithSternBrocot.Qpositive <> nR constr
+R2695:2697 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R2725:2739 QArithSternBrocot.positive_fraction_encoding <> fractionalacc_2 thm
+R2772:2778 Coq.Init.Specif <> inright constr
+R2785:2787 QArithSternBrocot.Qpositive <> One constr
+R2824:2834 Coq.ZArith.auxiliary <> Zlt_left_lt thm
+R2824:2834 Coq.ZArith.auxiliary <> Zlt_left_lt thm
+prf 2985:2994 <> Zminus2_wf
+R3012:3012 Coq.Numbers.BinNums <> Z ind
+binder 3006:3006 <> x:21
+binder 3008:3008 <> y:22
+R3028:3031 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3021:3023 Coq.ZArith.BinInt <> ::Z_scope:x_'<'_x not
+R3024:3024 QArithSternBrocot.positive_fraction_encoding <> x:21 var
+R3041:3044 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3034:3036 Coq.ZArith.BinInt <> ::Z_scope:x_'<'_x not
+R3037:3037 QArithSternBrocot.positive_fraction_encoding <> y:22 var
+R3045:3057 QArithSternBrocot.positive_fraction_encoding <> fractionalAcc ind
+R3059:3059 QArithSternBrocot.positive_fraction_encoding <> x:21 var
+R3061:3061 QArithSternBrocot.positive_fraction_encoding <> y:22 var
+R3092:3102 Coq.ZArith.ZArith_dec <> Z_lt_le_dec thm
+R3092:3102 Coq.ZArith.ZArith_dec <> Z_lt_le_dec thm
+R3127:3137 Coq.ZArith.ZArith_dec <> Z_lt_le_dec thm
+R3127:3137 Coq.ZArith.ZArith_dec <> Z_lt_le_dec thm
+R3209:3209 Coq.Numbers.BinNums <> Z ind
+binder 3203:3203 <> x:23
+binder 3205:3205 <> y:24
+R3223:3226 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3216:3218 Coq.ZArith.BinInt <> ::Z_scope:x_'<'_x not
+R3219:3219 QArithSternBrocot.positive_fraction_encoding <> x:23 var
+R3236:3239 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3229:3231 Coq.ZArith.BinInt <> ::Z_scope:x_'<'_x not
+R3232:3232 QArithSternBrocot.positive_fraction_encoding <> y:24 var
+R3240:3252 QArithSternBrocot.positive_fraction_encoding <> fractionalAcc ind
+R3254:3254 QArithSternBrocot.positive_fraction_encoding <> x:23 var
+R3256:3256 QArithSternBrocot.positive_fraction_encoding <> y:24 var
+R3165:3178 QArithSternBrocot.Zaux <> Zind_wf_double thm
+R3209:3209 Coq.Numbers.BinNums <> Z ind
+binder 3203:3203 <> x:25
+binder 3205:3205 <> y:26
+R3223:3226 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3216:3218 Coq.ZArith.BinInt <> ::Z_scope:x_'<'_x not
+R3219:3219 QArithSternBrocot.positive_fraction_encoding <> x:25 var
+R3236:3239 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3229:3231 Coq.ZArith.BinInt <> ::Z_scope:x_'<'_x not
+R3232:3232 QArithSternBrocot.positive_fraction_encoding <> y:26 var
+R3240:3252 QArithSternBrocot.positive_fraction_encoding <> fractionalAcc ind
+R3254:3254 QArithSternBrocot.positive_fraction_encoding <> x:25 var
+R3256:3256 QArithSternBrocot.positive_fraction_encoding <> y:26 var
+R3165:3178 QArithSternBrocot.Zaux <> Zind_wf_double thm
+R3311:3318 Coq.ZArith.BinInt Z eq_dec def
+R3311:3318 Coq.ZArith.BinInt Z eq_dec def
+R3341:3354 QArithSternBrocot.positive_fraction_encoding <> fractionalacc0 constr
+R3341:3354 QArithSternBrocot.positive_fraction_encoding <> fractionalacc0 constr
+R3389:3399 Coq.ZArith.ZArith_dec <> not_Zeq_inf thm
+R3389:3399 Coq.ZArith.ZArith_dec <> not_Zeq_inf thm
+R3425:3438 QArithSternBrocot.positive_fraction_encoding <> fractionalacc1 constr
+R3425:3438 QArithSternBrocot.positive_fraction_encoding <> fractionalacc1 constr
+R3493:3506 Coq.ZArith.Zorder <> Zplus_le_reg_l thm
+R3493:3506 Coq.ZArith.Zorder <> Zplus_le_reg_l thm
+R3527:3530 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R3536:3536 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R3532:3534 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R3527:3530 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R3536:3536 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R3532:3534 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R3566:3569 Coq.ZArith.BinInt <> ::Z_scope:x_'<='_x not
+R3558:3563 Coq.ZArith.BinInt Z succ def
+R3566:3569 Coq.ZArith.BinInt <> ::Z_scope:x_'<='_x not
+R3558:3563 Coq.ZArith.BinInt Z succ def
+R3591:3601 Coq.ZArith.Zorder <> Zlt_le_succ thm
+R3591:3601 Coq.ZArith.Zorder <> Zlt_le_succ thm
+R3653:3655 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R3631:3644 Coq.ZArith.Zorder <> Zplus_lt_reg_l thm
+R3653:3655 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R3631:3644 Coq.ZArith.Zorder <> Zplus_lt_reg_l thm
+R3677:3680 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R3686:3686 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R3673:3675 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R3682:3684 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R3677:3680 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R3686:3686 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R3673:3675 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R3682:3684 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R3716:3718 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R3712:3714 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R3716:3718 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R3712:3714 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R3780:3785 Coq.ZArith.BinInt Z sub def
+R3803:3813 Coq.ZArith.auxiliary <> Zlt_left_lt thm
+R3803:3813 Coq.ZArith.auxiliary <> Zlt_left_lt thm
+R3846:3859 QArithSternBrocot.positive_fraction_encoding <> fractionalacc2 constr
+R3846:3859 QArithSternBrocot.positive_fraction_encoding <> fractionalacc2 constr
+R3916:3919 Coq.ZArith.BinInt <> ::Z_scope:x_'<='_x not
+R3908:3913 Coq.ZArith.BinInt Z succ def
+R3916:3919 Coq.ZArith.BinInt <> ::Z_scope:x_'<='_x not
+R3908:3913 Coq.ZArith.BinInt Z succ def
+R3942:3952 Coq.ZArith.Zorder <> Zlt_le_succ thm
+R3942:3952 Coq.ZArith.Zorder <> Zlt_le_succ thm
+R3983:3996 Coq.ZArith.Zorder <> Zplus_le_reg_l thm
+R3983:3996 Coq.ZArith.Zorder <> Zplus_le_reg_l thm
+R4017:4020 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R4026:4026 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R4022:4024 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R4017:4020 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R4026:4026 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R4022:4024 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R4056:4059 Coq.ZArith.BinInt <> ::Z_scope:x_'<='_x not
+R4048:4053 Coq.ZArith.BinInt Z succ def
+R4056:4059 Coq.ZArith.BinInt <> ::Z_scope:x_'<='_x not
+R4048:4053 Coq.ZArith.BinInt Z succ def
+R4081:4091 Coq.ZArith.Zorder <> Zlt_le_succ thm
+R4081:4091 Coq.ZArith.Zorder <> Zlt_le_succ thm
+R4143:4145 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R4121:4134 Coq.ZArith.Zorder <> Zplus_lt_reg_l thm
+R4143:4145 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R4121:4134 Coq.ZArith.Zorder <> Zplus_lt_reg_l thm
+R4167:4170 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R4176:4176 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R4163:4165 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R4172:4174 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R4167:4170 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R4176:4176 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R4163:4165 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R4172:4174 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R4206:4208 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R4202:4204 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R4206:4208 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R4202:4204 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R4257:4262 Coq.ZArith.BinInt Z sub def
+R4280:4290 Coq.ZArith.auxiliary <> Zlt_left_lt thm
+R4280:4290 Coq.ZArith.auxiliary <> Zlt_left_lt thm
+R4338:4341 Coq.ZArith.BinInt <> ::Z_scope:x_'<='_x not
+R4330:4335 Coq.ZArith.BinInt Z succ def
+R4338:4341 Coq.ZArith.BinInt <> ::Z_scope:x_'<='_x not
+R4330:4335 Coq.ZArith.BinInt Z succ def
+R4364:4374 Coq.ZArith.Zorder <> Zlt_le_succ thm
+R4364:4374 Coq.ZArith.Zorder <> Zlt_le_succ thm
+R4407:4410 Coq.ZArith.BinInt <> ::Z_scope:x_'<='_x not
+R4399:4404 Coq.ZArith.BinInt Z succ def
+R4407:4410 Coq.ZArith.BinInt <> ::Z_scope:x_'<='_x not
+R4399:4404 Coq.ZArith.BinInt Z succ def
+R4433:4443 Coq.ZArith.Zorder <> Zlt_le_succ thm
+R4433:4443 Coq.ZArith.Zorder <> Zlt_le_succ thm
+R4478:4481 Coq.ZArith.BinInt <> ::Z_scope:x_'<='_x not
+R4478:4481 Coq.ZArith.BinInt <> ::Z_scope:x_'<='_x not
+R4495:4504 Coq.ZArith.Zorder <> Zgt_not_le thm
+R4495:4504 Coq.ZArith.Zorder <> Zgt_not_le thm
+R4546:4549 Coq.ZArith.BinInt <> ::Z_scope:x_'<='_x not
+R4546:4549 Coq.ZArith.BinInt <> ::Z_scope:x_'<='_x not
+R4563:4572 Coq.ZArith.Zorder <> Zgt_not_le thm
+R4563:4572 Coq.ZArith.Zorder <> Zgt_not_le thm
+def 4617:4642 <> positive_fraction_encoding
+R4651:4651 Coq.Numbers.BinNums <> Z ind
+binder 4645:4645 <> x:27
+binder 4647:4647 <> y:28
+R4662:4664 Coq.ZArith.BinInt <> ::Z_scope:x_'<'_x not
+R4665:4665 QArithSternBrocot.positive_fraction_encoding <> x:27 var
+binder 4655:4656 <> Hx:29
+R4681:4683 Coq.ZArith.BinInt <> ::Z_scope:x_'<'_x not
+R4684:4684 QArithSternBrocot.positive_fraction_encoding <> y:28 var
+binder 4674:4675 <> Hy:30
+R4693:4710 QArithSternBrocot.positive_fraction_encoding <> encoding_algorithm def
+R4712:4712 QArithSternBrocot.positive_fraction_encoding <> x:27 var
+R4714:4714 QArithSternBrocot.positive_fraction_encoding <> y:28 var
+R4716:4717 QArithSternBrocot.positive_fraction_encoding <> Hx:29 var
+R4719:4720 QArithSternBrocot.positive_fraction_encoding <> Hy:30 var
+R4723:4732 QArithSternBrocot.positive_fraction_encoding <> Zminus2_wf thm
+R4734:4734 QArithSternBrocot.positive_fraction_encoding <> x:27 var
+R4736:4736 QArithSternBrocot.positive_fraction_encoding <> y:28 var
+R4738:4739 QArithSternBrocot.positive_fraction_encoding <> Hx:29 var
+R4741:4742 QArithSternBrocot.positive_fraction_encoding <> Hy:30 var
+def 4869:4885 <> fraction_encoding
+R4894:4894 Coq.Numbers.BinNums <> Z ind
+binder 4888:4888 <> m:31
+binder 4890:4890 <> n:32
+R4904:4907 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R4903:4903 QArithSternBrocot.positive_fraction_encoding <> n:32 var
+binder 4898:4899 <> Hn:33
+R4915:4915 QArithSternBrocot.Q_field <> Q ind
+R4944:4946 Coq.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R4937:4941 Coq.ZArith.BinInt Z sgn def
+R4947:4951 Coq.ZArith.BinInt Z sgn def
+R4944:4946 Coq.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R4937:4941 Coq.ZArith.BinInt Z sgn def
+R4947:4951 Coq.ZArith.BinInt Z sgn def
+R4971:4975 Coq.ZArith.ZArith_dec <> Z_dec thm
+R4971:4975 Coq.ZArith.ZArith_dec <> Z_dec thm
+R5025:5028 QArithSternBrocot.Q_field <> Qneg constr
+R5031:5056 QArithSternBrocot.positive_fraction_encoding <> positive_fraction_encoding def
+R5059:5063 Coq.ZArith.BinInt Z abs def
+R5069:5073 Coq.ZArith.BinInt Z abs def
+R5025:5028 QArithSternBrocot.Q_field <> Qneg constr
+R5031:5056 QArithSternBrocot.positive_fraction_encoding <> positive_fraction_encoding def
+R5059:5063 Coq.ZArith.BinInt Z abs def
+R5069:5073 Coq.ZArith.BinInt Z abs def
+R5094:5100 QArithSternBrocot.Zaux <> Zabs_11 thm
+R5094:5100 QArithSternBrocot.Zaux <> Zabs_11 thm
+R5117:5133 Coq.ZArith.Zorder <> Zlt_not_eq abbrev
+R5117:5133 Coq.ZArith.Zorder <> Zlt_not_eq abbrev
+R5246:5252 QArithSternBrocot.Zaux <> Zabs_11 thm
+R5246:5252 QArithSternBrocot.Zaux <> Zabs_11 thm
+R5292:5295 QArithSternBrocot.Q_field <> Qpos constr
+R5298:5323 QArithSternBrocot.positive_fraction_encoding <> positive_fraction_encoding def
+R5326:5330 Coq.ZArith.BinInt Z abs def
+R5336:5340 Coq.ZArith.BinInt Z abs def
+R5292:5295 QArithSternBrocot.Q_field <> Qpos constr
+R5298:5323 QArithSternBrocot.positive_fraction_encoding <> positive_fraction_encoding def
+R5326:5330 Coq.ZArith.BinInt Z abs def
+R5336:5340 Coq.ZArith.BinInt Z abs def
+R5362:5368 QArithSternBrocot.Zaux <> Zabs_11 thm
+R5362:5368 QArithSternBrocot.Zaux <> Zabs_11 thm
+R5385:5394 QArithSternBrocot.Zaux <> Zgt_not_eq thm
+R5385:5394 QArithSternBrocot.Zaux <> Zgt_not_eq thm
+R5507:5513 QArithSternBrocot.Zaux <> Zabs_11 thm
+R5507:5513 QArithSternBrocot.Zaux <> Zabs_11 thm
+R5548:5551 QArithSternBrocot.Q_field <> Zero constr
+R5548:5551 QArithSternBrocot.Q_field <> Zero constr
+R6904:6907 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R6904:6907 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R6960:6962 Coq.ZArith.BinInt <> ::Z_scope:x_'<'_x not
+R6960:6962 Coq.ZArith.BinInt <> ::Z_scope:x_'<'_x not
+R7039:7041 Coq.ZArith.BinInt <> ::Z_scope:x_'<'_x not
+R7039:7041 Coq.ZArith.BinInt <> ::Z_scope:x_'<'_x not
+R7057:7059 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R7057:7059 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R7154:7156 Coq.ZArith.BinInt <> ::Z_scope:x_'<'_x not
+R7154:7156 Coq.ZArith.BinInt <> ::Z_scope:x_'<'_x not
+R7172:7174 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R7172:7174 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R7269:7271 Coq.ZArith.BinInt <> ::Z_scope:x_'<'_x not
+R7269:7271 Coq.ZArith.BinInt <> ::Z_scope:x_'<'_x not
+R7287:7289 Coq.ZArith.BinInt <> ::Z_scope:x_'<'_x not
+R7287:7289 Coq.ZArith.BinInt <> ::Z_scope:x_'<'_x not
+R7322:7332 Coq.ZArith.BinInt Z lt_irrefl thm
+R7345:7354 Coq.ZArith.BinInt Z lt_trans thm
+R7225:7235 Coq.ZArith.BinInt Z lt_irrefl thm
+R7110:7120 Coq.ZArith.BinInt Z lt_irrefl thm
+R6995:7005 Coq.ZArith.BinInt Z lt_irrefl thm
+def 7477:7497 <> fractionalAcc_ind_dep
+R7516:7528 QArithSternBrocot.positive_fraction_encoding <> fractionalAcc ind
+prf 7637:7662 <> encoding_algorithm_equal_1
+R7681:7681 Coq.Numbers.BinNums <> Z ind
+binder 7675:7675 <> a:92
+binder 7677:7677 <> b:93
+R7692:7694 Coq.ZArith.BinInt <> ::Z_scope:x_'<'_x not
+R7695:7695 QArithSternBrocot.positive_fraction_encoding <> a:92 var
+binder 7685:7686 <> Ha:94
+R7709:7711 Coq.ZArith.BinInt <> ::Z_scope:x_'<'_x not
+R7712:7712 QArithSternBrocot.positive_fraction_encoding <> b:93 var
+binder 7702:7703 <> Hb:95
+R7730:7742 QArithSternBrocot.positive_fraction_encoding <> fractionalAcc ind
+R7744:7744 QArithSternBrocot.positive_fraction_encoding <> a:92 var
+R7746:7746 QArithSternBrocot.positive_fraction_encoding <> b:93 var
+binder 7722:7723 <> H1:96
+binder 7725:7726 <> H2:97
+R7782:7784 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R7751:7768 QArithSternBrocot.positive_fraction_encoding <> encoding_algorithm def
+R7770:7770 QArithSternBrocot.positive_fraction_encoding <> a:92 var
+R7772:7772 QArithSternBrocot.positive_fraction_encoding <> b:93 var
+R7774:7775 QArithSternBrocot.positive_fraction_encoding <> Ha:94 var
+R7777:7778 QArithSternBrocot.positive_fraction_encoding <> Hb:95 var
+R7780:7781 QArithSternBrocot.positive_fraction_encoding <> H1:96 var
+R7785:7802 QArithSternBrocot.positive_fraction_encoding <> encoding_algorithm def
+R7804:7804 QArithSternBrocot.positive_fraction_encoding <> a:92 var
+R7806:7806 QArithSternBrocot.positive_fraction_encoding <> b:93 var
+R7808:7809 QArithSternBrocot.positive_fraction_encoding <> Ha:94 var
+R7811:7812 QArithSternBrocot.positive_fraction_encoding <> Hb:95 var
+R7814:7815 QArithSternBrocot.positive_fraction_encoding <> H2:97 var
+R7931:7951 QArithSternBrocot.positive_fraction_encoding <> fractionalAcc_ind_dep scheme
+R7931:7951 QArithSternBrocot.positive_fraction_encoding <> fractionalAcc_ind_dep scheme
+R8083:8103 QArithSternBrocot.positive_fraction_encoding <> fractionalAcc_ind_dep scheme
+R8083:8103 QArithSternBrocot.positive_fraction_encoding <> fractionalAcc_ind_dep scheme
+R8139:8144 Coq.ZArith.ZArith_dec <> Z_dec' thm
+R8139:8144 Coq.ZArith.ZArith_dec <> Z_dec' thm
+R8440:8460 QArithSternBrocot.positive_fraction_encoding <> fractionalAcc_ind_dep scheme
+R8440:8460 QArithSternBrocot.positive_fraction_encoding <> fractionalAcc_ind_dep scheme
+R8524:8529 Coq.ZArith.ZArith_dec <> Z_dec' thm
+R8606:8614 QArithSternBrocot.Qpositive <> Qpositive ind
+R8593:8599 Coq.Init.Logic <> f_equal thm
+R8524:8529 Coq.ZArith.ZArith_dec <> Z_dec' thm
+R8606:8614 QArithSternBrocot.Qpositive <> Qpositive ind
+R8593:8599 Coq.Init.Logic <> f_equal thm
+R8679:8684 Coq.ZArith.ZArith_dec <> Z_dec' thm
+R8761:8769 QArithSternBrocot.Qpositive <> Qpositive ind
+R8748:8754 Coq.Init.Logic <> f_equal thm
+R8679:8684 Coq.ZArith.ZArith_dec <> Z_dec' thm
+R8761:8769 QArithSternBrocot.Qpositive <> Qpositive ind
+R8748:8754 Coq.Init.Logic <> f_equal thm
+R8979:8999 QArithSternBrocot.positive_fraction_encoding <> fractionalAcc_ind_dep scheme
+R8979:8999 QArithSternBrocot.positive_fraction_encoding <> fractionalAcc_ind_dep scheme
+R9062:9067 Coq.ZArith.ZArith_dec <> Z_dec' thm
+R9155:9163 QArithSternBrocot.Qpositive <> Qpositive ind
+R9142:9148 Coq.Init.Logic <> f_equal thm
+R9062:9067 Coq.ZArith.ZArith_dec <> Z_dec' thm
+R9155:9163 QArithSternBrocot.Qpositive <> Qpositive ind
+R9142:9148 Coq.Init.Logic <> f_equal thm
+R9216:9221 Coq.ZArith.ZArith_dec <> Z_dec' thm
+R9309:9317 QArithSternBrocot.Qpositive <> Qpositive ind
+R9296:9302 Coq.Init.Logic <> f_equal thm
+R9216:9221 Coq.ZArith.ZArith_dec <> Z_dec' thm
+R9309:9317 QArithSternBrocot.Qpositive <> Qpositive ind
+R9296:9302 Coq.Init.Logic <> f_equal thm
+prf 9356:9379 <> encoding_algorithm_equal
+R9398:9398 Coq.Numbers.BinNums <> Z ind
+binder 9392:9392 <> a:98
+binder 9394:9394 <> b:99
+R9414:9416 Coq.ZArith.BinInt <> ::Z_scope:x_'<'_x not
+R9417:9417 QArithSternBrocot.positive_fraction_encoding <> a:98 var
+binder 9402:9404 <> Ha1:100
+binder 9406:9408 <> Ha2:101
+R9436:9438 Coq.ZArith.BinInt <> ::Z_scope:x_'<'_x not
+R9439:9439 QArithSternBrocot.positive_fraction_encoding <> b:99 var
+binder 9424:9426 <> Hb1:102
+binder 9428:9430 <> Hb2:103
+R9457:9469 QArithSternBrocot.positive_fraction_encoding <> fractionalAcc ind
+R9471:9471 QArithSternBrocot.positive_fraction_encoding <> a:98 var
+R9473:9473 QArithSternBrocot.positive_fraction_encoding <> b:99 var
+binder 9449:9450 <> H1:104
+binder 9452:9453 <> H2:105
+R9511:9513 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R9478:9495 QArithSternBrocot.positive_fraction_encoding <> encoding_algorithm def
+R9497:9497 QArithSternBrocot.positive_fraction_encoding <> a:98 var
+R9499:9499 QArithSternBrocot.positive_fraction_encoding <> b:99 var
+R9501:9503 QArithSternBrocot.positive_fraction_encoding <> Ha1:100 var
+R9505:9507 QArithSternBrocot.positive_fraction_encoding <> Hb1:102 var
+R9509:9510 QArithSternBrocot.positive_fraction_encoding <> H1:104 var
+R9514:9531 QArithSternBrocot.positive_fraction_encoding <> encoding_algorithm def
+R9533:9533 QArithSternBrocot.positive_fraction_encoding <> a:98 var
+R9535:9535 QArithSternBrocot.positive_fraction_encoding <> b:99 var
+R9537:9539 QArithSternBrocot.positive_fraction_encoding <> Ha2:101 var
+R9541:9543 QArithSternBrocot.positive_fraction_encoding <> Hb2:103 var
+R9545:9546 QArithSternBrocot.positive_fraction_encoding <> H2:105 var
+R9693:9713 QArithSternBrocot.positive_fraction_encoding <> fractionalAcc_ind_dep scheme
+R9693:9713 QArithSternBrocot.positive_fraction_encoding <> fractionalAcc_ind_dep scheme
+R9877:9897 QArithSternBrocot.positive_fraction_encoding <> fractionalAcc_ind_dep scheme
+R9877:9897 QArithSternBrocot.positive_fraction_encoding <> fractionalAcc_ind_dep scheme
+R9937:9942 Coq.ZArith.ZArith_dec <> Z_dec' thm
+R9937:9942 Coq.ZArith.ZArith_dec <> Z_dec' thm
+R10266:10286 QArithSternBrocot.positive_fraction_encoding <> fractionalAcc_ind_dep scheme
+R10266:10286 QArithSternBrocot.positive_fraction_encoding <> fractionalAcc_ind_dep scheme
+R10350:10355 Coq.ZArith.ZArith_dec <> Z_dec' thm
+R10432:10440 QArithSternBrocot.Qpositive <> Qpositive ind
+R10419:10425 Coq.Init.Logic <> f_equal thm
+R10350:10355 Coq.ZArith.ZArith_dec <> Z_dec' thm
+R10432:10440 QArithSternBrocot.Qpositive <> Qpositive ind
+R10419:10425 Coq.Init.Logic <> f_equal thm
+R10504:10509 Coq.ZArith.ZArith_dec <> Z_dec' thm
+R10586:10594 QArithSternBrocot.Qpositive <> Qpositive ind
+R10573:10579 Coq.Init.Logic <> f_equal thm
+R10504:10509 Coq.ZArith.ZArith_dec <> Z_dec' thm
+R10586:10594 QArithSternBrocot.Qpositive <> Qpositive ind
+R10573:10579 Coq.Init.Logic <> f_equal thm
+R10840:10860 QArithSternBrocot.positive_fraction_encoding <> fractionalAcc_ind_dep scheme
+R10840:10860 QArithSternBrocot.positive_fraction_encoding <> fractionalAcc_ind_dep scheme
+R10924:10929 Coq.ZArith.ZArith_dec <> Z_dec' thm
+R11017:11025 QArithSternBrocot.Qpositive <> Qpositive ind
+R11004:11010 Coq.Init.Logic <> f_equal thm
+R10924:10929 Coq.ZArith.ZArith_dec <> Z_dec' thm
+R11017:11025 QArithSternBrocot.Qpositive <> Qpositive ind
+R11004:11010 Coq.Init.Logic <> f_equal thm
+R11078:11083 Coq.ZArith.ZArith_dec <> Z_dec' thm
+R11171:11179 QArithSternBrocot.Qpositive <> Qpositive ind
+R11158:11164 Coq.Init.Logic <> f_equal thm
+R11078:11083 Coq.ZArith.ZArith_dec <> Z_dec' thm
+R11171:11179 QArithSternBrocot.Qpositive <> Qpositive ind
+R11158:11164 Coq.Init.Logic <> f_equal thm
+prf 11214:11244 <> encoding_algorithm_equal_strong
+R11271:11271 Coq.Numbers.BinNums <> Z ind
+binder 11257:11258 <> a1:106
+binder 11260:11261 <> a2:107
+binder 11263:11264 <> b1:108
+binder 11266:11267 <> b2:109
+R11283:11285 Coq.ZArith.BinInt <> ::Z_scope:x_'<'_x not
+R11286:11287 QArithSternBrocot.positive_fraction_encoding <> a1:106 var
+binder 11275:11277 <> Ha1:110
+R11302:11304 Coq.ZArith.BinInt <> ::Z_scope:x_'<'_x not
+R11305:11306 QArithSternBrocot.positive_fraction_encoding <> a2:107 var
+binder 11294:11296 <> Ha2:111
+R11324:11326 Coq.ZArith.BinInt <> ::Z_scope:x_'<'_x not
+R11327:11328 QArithSternBrocot.positive_fraction_encoding <> b1:108 var
+binder 11316:11318 <> Hb1:112
+R11343:11345 Coq.ZArith.BinInt <> ::Z_scope:x_'<'_x not
+R11346:11347 QArithSternBrocot.positive_fraction_encoding <> b2:109 var
+binder 11335:11337 <> Hb2:113
+R11359:11371 QArithSternBrocot.positive_fraction_encoding <> fractionalAcc ind
+R11373:11374 QArithSternBrocot.positive_fraction_encoding <> a1:106 var
+R11376:11377 QArithSternBrocot.positive_fraction_encoding <> b1:108 var
+binder 11354:11355 <> H1:114
+R11389:11401 QArithSternBrocot.positive_fraction_encoding <> fractionalAcc ind
+R11403:11404 QArithSternBrocot.positive_fraction_encoding <> a2:107 var
+R11406:11407 QArithSternBrocot.positive_fraction_encoding <> b2:109 var
+binder 11384:11385 <> H2:115
+R11419:11423 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R11414:11416 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R11412:11413 QArithSternBrocot.positive_fraction_encoding <> a1:106 var
+R11417:11418 QArithSternBrocot.positive_fraction_encoding <> a2:107 var
+R11431:11435 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R11426:11428 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R11424:11425 QArithSternBrocot.positive_fraction_encoding <> b1:108 var
+R11429:11430 QArithSternBrocot.positive_fraction_encoding <> b2:109 var
+R11471:11473 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R11436:11453 QArithSternBrocot.positive_fraction_encoding <> encoding_algorithm def
+R11455:11456 QArithSternBrocot.positive_fraction_encoding <> a1:106 var
+R11458:11459 QArithSternBrocot.positive_fraction_encoding <> b1:108 var
+R11461:11463 QArithSternBrocot.positive_fraction_encoding <> Ha1:110 var
+R11465:11467 QArithSternBrocot.positive_fraction_encoding <> Hb1:112 var
+R11469:11470 QArithSternBrocot.positive_fraction_encoding <> H1:114 var
+R11474:11491 QArithSternBrocot.positive_fraction_encoding <> encoding_algorithm def
+R11493:11494 QArithSternBrocot.positive_fraction_encoding <> a2:107 var
+R11496:11497 QArithSternBrocot.positive_fraction_encoding <> b2:109 var
+R11499:11501 QArithSternBrocot.positive_fraction_encoding <> Ha2:111 var
+R11503:11505 QArithSternBrocot.positive_fraction_encoding <> Hb2:113 var
+R11507:11508 QArithSternBrocot.positive_fraction_encoding <> H2:115 var
+R11540:11563 QArithSternBrocot.positive_fraction_encoding <> encoding_algorithm_equal thm
+R11540:11563 QArithSternBrocot.positive_fraction_encoding <> encoding_algorithm_equal thm
+prf 11660:11679 <> encoding_algorithm_0
+R11698:11698 Coq.Numbers.BinNums <> Z ind
+binder 11692:11692 <> m:116
+binder 11694:11694 <> n:117
+R11709:11711 Coq.ZArith.BinInt <> ::Z_scope:x_'<'_x not
+R11712:11712 QArithSternBrocot.positive_fraction_encoding <> m:116 var
+binder 11702:11703 <> Hm:118
+R11726:11728 Coq.ZArith.BinInt <> ::Z_scope:x_'<'_x not
+R11729:11729 QArithSternBrocot.positive_fraction_encoding <> n:117 var
+binder 11719:11720 <> Hn:119
+R11740:11752 QArithSternBrocot.positive_fraction_encoding <> fractionalAcc ind
+R11754:11754 QArithSternBrocot.positive_fraction_encoding <> m:116 var
+R11756:11756 QArithSternBrocot.positive_fraction_encoding <> n:117 var
+binder 11736:11736 <> H:120
+R11766:11769 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R11762:11764 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R11761:11761 QArithSternBrocot.positive_fraction_encoding <> m:116 var
+R11765:11765 QArithSternBrocot.positive_fraction_encoding <> n:117 var
+R11800:11802 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R11770:11787 QArithSternBrocot.positive_fraction_encoding <> encoding_algorithm def
+R11789:11789 QArithSternBrocot.positive_fraction_encoding <> m:116 var
+R11791:11791 QArithSternBrocot.positive_fraction_encoding <> n:117 var
+R11793:11794 QArithSternBrocot.positive_fraction_encoding <> Hm:118 var
+R11796:11797 QArithSternBrocot.positive_fraction_encoding <> Hn:119 var
+R11799:11799 QArithSternBrocot.positive_fraction_encoding <> H:120 var
+R11803:11805 QArithSternBrocot.Qpositive <> One constr
+R11851:11868 QArithSternBrocot.positive_fraction_encoding <> encoding_algorithm def
+R11881:11894 QArithSternBrocot.positive_fraction_encoding <> fractionalacc0 constr
+R11901:11910 Coq.Init.Logic <> refl_equal abbrev
+R11833:11840 Coq.Init.Logic <> trans_eq abbrev
+R11851:11868 QArithSternBrocot.positive_fraction_encoding <> encoding_algorithm def
+R11881:11894 QArithSternBrocot.positive_fraction_encoding <> fractionalacc0 constr
+R11901:11910 Coq.Init.Logic <> refl_equal abbrev
+R11833:11840 Coq.Init.Logic <> trans_eq abbrev
+R11925:11955 QArithSternBrocot.positive_fraction_encoding <> encoding_algorithm_equal_strong thm
+R11925:11955 QArithSternBrocot.positive_fraction_encoding <> encoding_algorithm_equal_strong thm
+R12029:12034 Coq.ZArith.ZArith_dec <> Z_dec' thm
+R12029:12034 Coq.ZArith.ZArith_dec <> Z_dec' thm
+prf 12117:12136 <> encoding_algorithm_1
+R12155:12155 Coq.Numbers.BinNums <> Z ind
+binder 12149:12149 <> m:121
+binder 12151:12151 <> n:122
+R12166:12168 Coq.ZArith.BinInt <> ::Z_scope:x_'<'_x not
+R12169:12169 QArithSternBrocot.positive_fraction_encoding <> m:121 var
+binder 12159:12160 <> Hm:123
+R12183:12185 Coq.ZArith.BinInt <> ::Z_scope:x_'<'_x not
+R12186:12186 QArithSternBrocot.positive_fraction_encoding <> n:122 var
+binder 12176:12177 <> Hn:124
+R12197:12209 QArithSternBrocot.positive_fraction_encoding <> fractionalAcc ind
+R12211:12211 QArithSternBrocot.positive_fraction_encoding <> m:121 var
+R12213:12213 QArithSternBrocot.positive_fraction_encoding <> n:122 var
+binder 12193:12193 <> H:125
+R12227:12231 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R12220:12222 Coq.ZArith.BinInt <> ::Z_scope:x_'<'_x not
+R12219:12219 QArithSternBrocot.positive_fraction_encoding <> m:121 var
+R12223:12223 QArithSternBrocot.positive_fraction_encoding <> n:122 var
+R12248:12250 Coq.ZArith.BinInt <> ::Z_scope:x_'<'_x not
+R12251:12251 QArithSternBrocot.positive_fraction_encoding <> m:121 var
+binder 12240:12242 <> H'm:126
+R12267:12269 Coq.ZArith.BinInt <> ::Z_scope:x_'<'_x not
+R12271:12273 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R12270:12270 QArithSternBrocot.positive_fraction_encoding <> n:122 var
+R12274:12274 QArithSternBrocot.positive_fraction_encoding <> m:121 var
+binder 12258:12261 <> H'nm:127
+R12289:12301 QArithSternBrocot.positive_fraction_encoding <> fractionalAcc ind
+R12303:12303 QArithSternBrocot.positive_fraction_encoding <> m:121 var
+R12307:12309 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R12306:12306 QArithSternBrocot.positive_fraction_encoding <> n:122 var
+R12310:12310 QArithSternBrocot.positive_fraction_encoding <> m:121 var
+binder 12284:12285 <> H':128
+R12346:12349 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R12316:12333 QArithSternBrocot.positive_fraction_encoding <> encoding_algorithm def
+R12335:12335 QArithSternBrocot.positive_fraction_encoding <> m:121 var
+R12337:12337 QArithSternBrocot.positive_fraction_encoding <> n:122 var
+R12339:12340 QArithSternBrocot.positive_fraction_encoding <> Hm:123 var
+R12342:12343 QArithSternBrocot.positive_fraction_encoding <> Hn:124 var
+R12345:12345 QArithSternBrocot.positive_fraction_encoding <> H:125 var
+R12350:12351 QArithSternBrocot.Qpositive <> dL constr
+R12354:12371 QArithSternBrocot.positive_fraction_encoding <> encoding_algorithm def
+R12373:12373 QArithSternBrocot.positive_fraction_encoding <> m:121 var
+R12377:12379 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R12376:12376 QArithSternBrocot.positive_fraction_encoding <> n:122 var
+R12380:12380 QArithSternBrocot.positive_fraction_encoding <> m:121 var
+R12383:12385 QArithSternBrocot.positive_fraction_encoding <> H'm:126 var
+R12387:12390 QArithSternBrocot.positive_fraction_encoding <> H'nm:127 var
+R12392:12393 QArithSternBrocot.positive_fraction_encoding <> H':128 var
+R12438:12455 QArithSternBrocot.positive_fraction_encoding <> encoding_algorithm def
+R12468:12481 QArithSternBrocot.positive_fraction_encoding <> fractionalacc1 constr
+R12423:12430 Coq.Init.Logic <> trans_eq abbrev
+R12438:12455 QArithSternBrocot.positive_fraction_encoding <> encoding_algorithm def
+R12468:12481 QArithSternBrocot.positive_fraction_encoding <> fractionalacc1 constr
+R12423:12430 Coq.Init.Logic <> trans_eq abbrev
+R12506:12529 QArithSternBrocot.positive_fraction_encoding <> encoding_algorithm_equal thm
+R12506:12529 QArithSternBrocot.positive_fraction_encoding <> encoding_algorithm_equal thm
+R12556:12561 Coq.ZArith.ZArith_dec <> Z_dec' thm
+R12652:12660 QArithSternBrocot.Qpositive <> Qpositive ind
+R12639:12645 Coq.Init.Logic <> f_equal thm
+R12669:12692 QArithSternBrocot.positive_fraction_encoding <> encoding_algorithm_equal thm
+R12556:12561 Coq.ZArith.ZArith_dec <> Z_dec' thm
+R12652:12660 QArithSternBrocot.Qpositive <> Qpositive ind
+R12639:12645 Coq.Init.Logic <> f_equal thm
+R12669:12692 QArithSternBrocot.positive_fraction_encoding <> encoding_algorithm_equal thm
+prf 12711:12730 <> encoding_algorithm_2
+R12749:12749 Coq.Numbers.BinNums <> Z ind
+binder 12743:12743 <> m:129
+binder 12745:12745 <> n:130
+R12760:12762 Coq.ZArith.BinInt <> ::Z_scope:x_'<'_x not
+R12763:12763 QArithSternBrocot.positive_fraction_encoding <> m:129 var
+binder 12753:12754 <> Hm:131
+R12777:12779 Coq.ZArith.BinInt <> ::Z_scope:x_'<'_x not
+R12780:12780 QArithSternBrocot.positive_fraction_encoding <> n:130 var
+binder 12770:12771 <> Hn:132
+R12791:12803 QArithSternBrocot.positive_fraction_encoding <> fractionalAcc ind
+R12805:12805 QArithSternBrocot.positive_fraction_encoding <> m:129 var
+R12807:12807 QArithSternBrocot.positive_fraction_encoding <> n:130 var
+binder 12787:12787 <> H:133
+R12821:12825 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R12814:12816 Coq.ZArith.BinInt <> ::Z_scope:x_'<'_x not
+R12813:12813 QArithSternBrocot.positive_fraction_encoding <> n:130 var
+R12817:12817 QArithSternBrocot.positive_fraction_encoding <> m:129 var
+R12843:12845 Coq.ZArith.BinInt <> ::Z_scope:x_'<'_x not
+R12847:12849 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R12846:12846 QArithSternBrocot.positive_fraction_encoding <> m:129 var
+R12850:12850 QArithSternBrocot.positive_fraction_encoding <> n:130 var
+binder 12834:12837 <> H'mn:134
+R12865:12867 Coq.ZArith.BinInt <> ::Z_scope:x_'<'_x not
+R12868:12868 QArithSternBrocot.positive_fraction_encoding <> n:130 var
+binder 12857:12859 <> H'n:135
+R12883:12895 QArithSternBrocot.positive_fraction_encoding <> fractionalAcc ind
+R12899:12901 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R12898:12898 QArithSternBrocot.positive_fraction_encoding <> m:129 var
+R12902:12902 QArithSternBrocot.positive_fraction_encoding <> n:130 var
+R12905:12905 QArithSternBrocot.positive_fraction_encoding <> n:130 var
+binder 12878:12879 <> H':136
+R12940:12943 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R12910:12927 QArithSternBrocot.positive_fraction_encoding <> encoding_algorithm def
+R12929:12929 QArithSternBrocot.positive_fraction_encoding <> m:129 var
+R12931:12931 QArithSternBrocot.positive_fraction_encoding <> n:130 var
+R12933:12934 QArithSternBrocot.positive_fraction_encoding <> Hm:131 var
+R12936:12937 QArithSternBrocot.positive_fraction_encoding <> Hn:132 var
+R12939:12939 QArithSternBrocot.positive_fraction_encoding <> H:133 var
+R12944:12945 QArithSternBrocot.Qpositive <> nR constr
+R12948:12965 QArithSternBrocot.positive_fraction_encoding <> encoding_algorithm def
+R12969:12971 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R12968:12968 QArithSternBrocot.positive_fraction_encoding <> m:129 var
+R12972:12972 QArithSternBrocot.positive_fraction_encoding <> n:130 var
+R12975:12975 QArithSternBrocot.positive_fraction_encoding <> n:130 var
+R12977:12980 QArithSternBrocot.positive_fraction_encoding <> H'mn:134 var
+R12982:12984 QArithSternBrocot.positive_fraction_encoding <> H'n:135 var
+R12986:12987 QArithSternBrocot.positive_fraction_encoding <> H':136 var
+R13032:13049 QArithSternBrocot.positive_fraction_encoding <> encoding_algorithm def
+R13062:13075 QArithSternBrocot.positive_fraction_encoding <> fractionalacc2 constr
+R13017:13024 Coq.Init.Logic <> trans_eq abbrev
+R13032:13049 QArithSternBrocot.positive_fraction_encoding <> encoding_algorithm def
+R13062:13075 QArithSternBrocot.positive_fraction_encoding <> fractionalacc2 constr
+R13017:13024 Coq.Init.Logic <> trans_eq abbrev
+R13100:13123 QArithSternBrocot.positive_fraction_encoding <> encoding_algorithm_equal thm
+R13100:13123 QArithSternBrocot.positive_fraction_encoding <> encoding_algorithm_equal thm
+R13150:13155 Coq.ZArith.ZArith_dec <> Z_dec' thm
+R13246:13254 QArithSternBrocot.Qpositive <> Qpositive ind
+R13233:13239 Coq.Init.Logic <> f_equal thm
+R13263:13286 QArithSternBrocot.positive_fraction_encoding <> encoding_algorithm_equal thm
+R13150:13155 Coq.ZArith.ZArith_dec <> Z_dec' thm
+R13246:13254 QArithSternBrocot.Qpositive <> Qpositive ind
+R13233:13239 Coq.Init.Logic <> f_equal thm
+R13263:13286 QArithSternBrocot.positive_fraction_encoding <> encoding_algorithm_equal thm
+prf 13363:13394 <> positive_fraction_encoding_equal
+R13413:13413 Coq.Numbers.BinNums <> Z ind
+binder 13407:13407 <> a:137
+binder 13409:13409 <> b:138
+R13429:13431 Coq.ZArith.BinInt <> ::Z_scope:x_'<'_x not
+R13432:13432 QArithSternBrocot.positive_fraction_encoding <> a:137 var
+binder 13417:13419 <> Ha1:139
+binder 13421:13423 <> Ha2:140
+R13451:13453 Coq.ZArith.BinInt <> ::Z_scope:x_'<'_x not
+R13454:13454 QArithSternBrocot.positive_fraction_encoding <> b:138 var
+binder 13439:13441 <> Hb1:141
+binder 13443:13445 <> Hb2:142
+R13500:13503 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R13462:13487 QArithSternBrocot.positive_fraction_encoding <> positive_fraction_encoding def
+R13489:13489 QArithSternBrocot.positive_fraction_encoding <> a:137 var
+R13491:13491 QArithSternBrocot.positive_fraction_encoding <> b:138 var
+R13493:13495 QArithSternBrocot.positive_fraction_encoding <> Ha1:139 var
+R13497:13499 QArithSternBrocot.positive_fraction_encoding <> Hb1:141 var
+R13504:13529 QArithSternBrocot.positive_fraction_encoding <> positive_fraction_encoding def
+R13531:13531 QArithSternBrocot.positive_fraction_encoding <> a:137 var
+R13533:13533 QArithSternBrocot.positive_fraction_encoding <> b:138 var
+R13535:13537 QArithSternBrocot.positive_fraction_encoding <> Ha2:140 var
+R13539:13541 QArithSternBrocot.positive_fraction_encoding <> Hb2:142 var
+R13569:13594 QArithSternBrocot.positive_fraction_encoding <> positive_fraction_encoding def
+R13612:13635 QArithSternBrocot.positive_fraction_encoding <> encoding_algorithm_equal thm
+R13612:13635 QArithSternBrocot.positive_fraction_encoding <> encoding_algorithm_equal thm
+prf 13654:13692 <> positive_fraction_encoding_equal_strong
+R13719:13719 Coq.Numbers.BinNums <> Z ind
+binder 13705:13706 <> a1:143
+binder 13708:13709 <> a2:144
+binder 13711:13712 <> b1:145
+binder 13714:13715 <> b2:146
+R13731:13733 Coq.ZArith.BinInt <> ::Z_scope:x_'<'_x not
+R13734:13735 QArithSternBrocot.positive_fraction_encoding <> a1:143 var
+binder 13723:13725 <> Ha1:147
+R13750:13752 Coq.ZArith.BinInt <> ::Z_scope:x_'<'_x not
+R13753:13754 QArithSternBrocot.positive_fraction_encoding <> a2:144 var
+binder 13742:13744 <> Ha2:148
+R13772:13774 Coq.ZArith.BinInt <> ::Z_scope:x_'<'_x not
+R13775:13776 QArithSternBrocot.positive_fraction_encoding <> b1:145 var
+binder 13764:13766 <> Hb1:149
+R13791:13793 Coq.ZArith.BinInt <> ::Z_scope:x_'<'_x not
+R13794:13795 QArithSternBrocot.positive_fraction_encoding <> b2:146 var
+binder 13783:13785 <> Hb2:150
+R13810:13814 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13805:13807 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R13803:13804 QArithSternBrocot.positive_fraction_encoding <> a1:143 var
+R13808:13809 QArithSternBrocot.positive_fraction_encoding <> a2:144 var
+R13822:13826 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13817:13819 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R13815:13816 QArithSternBrocot.positive_fraction_encoding <> b1:145 var
+R13820:13821 QArithSternBrocot.positive_fraction_encoding <> b2:146 var
+R13867:13870 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R13827:13852 QArithSternBrocot.positive_fraction_encoding <> positive_fraction_encoding def
+R13854:13855 QArithSternBrocot.positive_fraction_encoding <> a1:143 var
+R13857:13858 QArithSternBrocot.positive_fraction_encoding <> b1:145 var
+R13860:13862 QArithSternBrocot.positive_fraction_encoding <> Ha1:147 var
+R13864:13866 QArithSternBrocot.positive_fraction_encoding <> Hb1:149 var
+R13871:13896 QArithSternBrocot.positive_fraction_encoding <> positive_fraction_encoding def
+R13898:13899 QArithSternBrocot.positive_fraction_encoding <> a2:144 var
+R13901:13902 QArithSternBrocot.positive_fraction_encoding <> b2:146 var
+R13904:13906 QArithSternBrocot.positive_fraction_encoding <> Ha2:148 var
+R13908:13910 QArithSternBrocot.positive_fraction_encoding <> Hb2:150 var
+R13937:13962 QArithSternBrocot.positive_fraction_encoding <> positive_fraction_encoding def
+R13980:14010 QArithSternBrocot.positive_fraction_encoding <> encoding_algorithm_equal_strong thm
+R13980:14010 QArithSternBrocot.positive_fraction_encoding <> encoding_algorithm_equal_strong thm
+prf 14141:14168 <> positive_fraction_encoding_0
+R14187:14187 Coq.Numbers.BinNums <> Z ind
+binder 14181:14181 <> m:151
+binder 14183:14183 <> n:152
+R14198:14200 Coq.ZArith.BinInt <> ::Z_scope:x_'<'_x not
+R14201:14201 QArithSternBrocot.positive_fraction_encoding <> m:151 var
+binder 14191:14192 <> Hm:153
+R14215:14217 Coq.ZArith.BinInt <> ::Z_scope:x_'<'_x not
+R14218:14218 QArithSternBrocot.positive_fraction_encoding <> n:152 var
+binder 14208:14209 <> Hn:154
+R14231:14234 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R14227:14229 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R14226:14226 QArithSternBrocot.positive_fraction_encoding <> m:151 var
+R14230:14230 QArithSternBrocot.positive_fraction_encoding <> n:152 var
+R14271:14273 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R14235:14260 QArithSternBrocot.positive_fraction_encoding <> positive_fraction_encoding def
+R14262:14262 QArithSternBrocot.positive_fraction_encoding <> m:151 var
+R14264:14264 QArithSternBrocot.positive_fraction_encoding <> n:152 var
+R14266:14267 QArithSternBrocot.positive_fraction_encoding <> Hm:153 var
+R14269:14270 QArithSternBrocot.positive_fraction_encoding <> Hn:154 var
+R14274:14276 QArithSternBrocot.Qpositive <> One constr
+R14304:14329 QArithSternBrocot.positive_fraction_encoding <> positive_fraction_encoding def
+R14347:14366 QArithSternBrocot.positive_fraction_encoding <> encoding_algorithm_0 thm
+R14347:14366 QArithSternBrocot.positive_fraction_encoding <> encoding_algorithm_0 thm
+prf 14399:14426 <> positive_fraction_encoding_1
+R14445:14445 Coq.Numbers.BinNums <> Z ind
+binder 14439:14439 <> m:155
+binder 14441:14441 <> n:156
+R14456:14458 Coq.ZArith.BinInt <> ::Z_scope:x_'<'_x not
+R14459:14459 QArithSternBrocot.positive_fraction_encoding <> m:155 var
+binder 14449:14450 <> Hm:157
+R14473:14475 Coq.ZArith.BinInt <> ::Z_scope:x_'<'_x not
+R14476:14476 QArithSternBrocot.positive_fraction_encoding <> n:156 var
+binder 14466:14467 <> Hn:158
+R14493:14497 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R14486:14488 Coq.ZArith.BinInt <> ::Z_scope:x_'<'_x not
+R14485:14485 QArithSternBrocot.positive_fraction_encoding <> m:155 var
+R14489:14489 QArithSternBrocot.positive_fraction_encoding <> n:156 var
+R14514:14516 Coq.ZArith.BinInt <> ::Z_scope:x_'<'_x not
+R14517:14517 QArithSternBrocot.positive_fraction_encoding <> m:155 var
+binder 14506:14508 <> H'm:159
+R14533:14535 Coq.ZArith.BinInt <> ::Z_scope:x_'<'_x not
+R14537:14539 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R14536:14536 QArithSternBrocot.positive_fraction_encoding <> n:156 var
+R14540:14540 QArithSternBrocot.positive_fraction_encoding <> m:155 var
+binder 14524:14527 <> H'nm:160
+R14584:14587 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R14548:14573 QArithSternBrocot.positive_fraction_encoding <> positive_fraction_encoding def
+R14575:14575 QArithSternBrocot.positive_fraction_encoding <> m:155 var
+R14577:14577 QArithSternBrocot.positive_fraction_encoding <> n:156 var
+R14579:14580 QArithSternBrocot.positive_fraction_encoding <> Hm:157 var
+R14582:14583 QArithSternBrocot.positive_fraction_encoding <> Hn:158 var
+R14588:14589 QArithSternBrocot.Qpositive <> dL constr
+R14592:14617 QArithSternBrocot.positive_fraction_encoding <> positive_fraction_encoding def
+R14619:14619 QArithSternBrocot.positive_fraction_encoding <> m:155 var
+R14623:14625 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R14622:14622 QArithSternBrocot.positive_fraction_encoding <> n:156 var
+R14626:14626 QArithSternBrocot.positive_fraction_encoding <> m:155 var
+R14629:14631 QArithSternBrocot.positive_fraction_encoding <> H'm:159 var
+R14633:14636 QArithSternBrocot.positive_fraction_encoding <> H'nm:160 var
+R14665:14690 QArithSternBrocot.positive_fraction_encoding <> positive_fraction_encoding def
+R14708:14727 QArithSternBrocot.positive_fraction_encoding <> encoding_algorithm_1 thm
+R14708:14727 QArithSternBrocot.positive_fraction_encoding <> encoding_algorithm_1 thm
+prf 14759:14786 <> positive_fraction_encoding_2
+R14805:14805 Coq.Numbers.BinNums <> Z ind
+binder 14799:14799 <> m:161
+binder 14801:14801 <> n:162
+R14816:14818 Coq.ZArith.BinInt <> ::Z_scope:x_'<'_x not
+R14819:14819 QArithSternBrocot.positive_fraction_encoding <> m:161 var
+binder 14809:14810 <> Hm:163
+R14833:14835 Coq.ZArith.BinInt <> ::Z_scope:x_'<'_x not
+R14836:14836 QArithSternBrocot.positive_fraction_encoding <> n:162 var
+binder 14826:14827 <> Hn:164
+R14853:14857 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R14846:14848 Coq.ZArith.BinInt <> ::Z_scope:x_'<'_x not
+R14845:14845 QArithSternBrocot.positive_fraction_encoding <> n:162 var
+R14849:14849 QArithSternBrocot.positive_fraction_encoding <> m:161 var
+R14875:14877 Coq.ZArith.BinInt <> ::Z_scope:x_'<'_x not
+R14879:14881 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R14878:14878 QArithSternBrocot.positive_fraction_encoding <> m:161 var
+R14882:14882 QArithSternBrocot.positive_fraction_encoding <> n:162 var
+binder 14866:14869 <> H'mn:165
+R14897:14899 Coq.ZArith.BinInt <> ::Z_scope:x_'<'_x not
+R14900:14900 QArithSternBrocot.positive_fraction_encoding <> n:162 var
+binder 14889:14891 <> H'n:166
+R14944:14947 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R14908:14933 QArithSternBrocot.positive_fraction_encoding <> positive_fraction_encoding def
+R14935:14935 QArithSternBrocot.positive_fraction_encoding <> m:161 var
+R14937:14937 QArithSternBrocot.positive_fraction_encoding <> n:162 var
+R14939:14940 QArithSternBrocot.positive_fraction_encoding <> Hm:163 var
+R14942:14943 QArithSternBrocot.positive_fraction_encoding <> Hn:164 var
+R14948:14949 QArithSternBrocot.Qpositive <> nR constr
+R14952:14977 QArithSternBrocot.positive_fraction_encoding <> positive_fraction_encoding def
+R14981:14983 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R14980:14980 QArithSternBrocot.positive_fraction_encoding <> m:161 var
+R14984:14984 QArithSternBrocot.positive_fraction_encoding <> n:162 var
+R14987:14987 QArithSternBrocot.positive_fraction_encoding <> n:162 var
+R14989:14992 QArithSternBrocot.positive_fraction_encoding <> H'mn:165 var
+R14994:14996 QArithSternBrocot.positive_fraction_encoding <> H'n:166 var
+R15025:15050 QArithSternBrocot.positive_fraction_encoding <> positive_fraction_encoding def
+R15068:15087 QArithSternBrocot.positive_fraction_encoding <> encoding_algorithm_2 thm
+R15068:15087 QArithSternBrocot.positive_fraction_encoding <> encoding_algorithm_2 thm

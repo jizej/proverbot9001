@@ -1,15 +1,23 @@
 ---
 fullname: Binary Rational Numbers
 shortname: qarith-stern-brocot
+organization: coq-community
+community: true
+action: true
+nix: true
+
+synopsis: Binary rational numbers in Coq
 
 description: |
-  Development of rational numbers as finite binary lists and defining
+  Development of rational numbers in Coq as finite binary lists and defining
   field operations on them in two different ways: strict and lazy.
 
-paper:
-  doi: 10.1007/978-3-540-24849-1_20
-  url: https://hal.inria.fr/inria-00077041
-  title: 'QArith: Coq Formalisation of Lazy Rational Arithmetic'
+doi: 10.1007/978-3-540-24849-1_20
+
+publications:
+  pub_doi: 10.1007/978-3-540-24849-1_20
+  pub_url: https://hal.inria.fr/inria-00077041
+  pub_title: 'QArith: Coq Formalisation of Lazy Rational Arithmetic'
 
 authors:
 - name: Milad Niqui
@@ -26,16 +34,17 @@ license:
   identifier: LGPL-2.1-or-later
 
 supported_coq_versions:
-  text: Coq 8.7 or greater (use releases for other Coq versions)
-  opam: '{(>= "8.7" & < "8.10~") | (= "dev")}'
+  text: 8.14 or later
+  opam: '{(>= "8.14" & < "8.17~") | (= "dev")}'
 
-tested_coq_versions:
-- version_or_url: https://github.com/coq/coq/tarball/master
-- version_or_url: 8.9
-- version_or_url: 8.8
-- version_or_url: 8.7
+tested_coq_opam_versions:
+- version: dev
+- version: '8.16'
+- version: '8.15'
+- version: '8.14'
 
-tested_coq_opam_version: dev
+tested_coq_nix_versions:
+- coq_version: 'master'
 
 namespace: QArithSternBrocot
 
@@ -53,11 +62,10 @@ categories:
 documentation: |
   ## Documentation
 
-  This package contains a rational arithmetic library for Coq.
-  This includes:
+  This project contains a rational arithmetic library for Coq. This includes:
 
   - A binary representation for positive rational numbers `Qpositive` and its
-    extension to `Q` by adding sign bit (also known as Stern-Brocot
+    extension to `Q` by adding a sign bit (also known as Stern-Brocot
     tree encoding).
   - Arithmetic operations on `Qpositive` and `Q` defined in an strict way.
   - More efficient arithmetic operations on `Q` defined lazily using
