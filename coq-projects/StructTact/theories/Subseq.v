@@ -1,10 +1,7 @@
-Require Import Omega.
-Require Import List.
+From Coq Require Import List Lia.
+From StructTact Require Import StructTactics ListTactics.
+From StructTact Require Import FilterMap RemoveAll.
 Import ListNotations.
-Require Import StructTact.StructTactics.
-Require Import StructTact.ListTactics.
-Require Import StructTact.FilterMap.
-Require Import StructTact.RemoveAll.
 
 Set Implicit Arguments.
 
@@ -43,8 +40,9 @@ Section subseq.
   Proof using.
     induction ys; intros.
     - destruct xs; simpl in *; intuition.
-    - simpl in *. break_match; simpl in *; intuition; subst; intuition eauto;
-                    right; (eapply IHys; [eauto| intuition]).
+    - simpl in *.
+      break_match; simpl in *; intuition auto; subst; intuition eauto;
+        right; (eapply IHys; [eauto| intuition auto with datatypes]).
   Qed.
 
   Theorem subseq_NoDup :
@@ -98,8 +96,10 @@ Section subseq.
       subseq xs ys ->
       length xs <= length ys.
   Proof using.
-    induction ys; intros; simpl in *; break_match; intuition.
-    subst. simpl in *. specialize (IHys l). concludes. auto with *.
+    induction ys; intros; simpl in *; break_match;
+      intuition auto with datatypes arith.
+    subst. simpl in *. specialize (IHys l).
+    concludes. auto with arith.
   Qed.
 
   Lemma subseq_subseq_eq :
@@ -112,7 +112,7 @@ Section subseq.
       intuition eauto using f_equal2, subseq_cons_drop.
     exfalso.
     repeat find_apply_lem_hyp subseq_length.
-    simpl in *. omega.
+    simpl in *. lia.
   Qed.
 
   Lemma subseq_filter :

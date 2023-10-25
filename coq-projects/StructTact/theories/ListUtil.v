@@ -1,10 +1,7 @@
-Require Import Arith.
-Require Import Omega.
-Require Import List.
+From Coq Require Import Arith Lia ZArith List.
+From Coq Require Import Sorting.Permutation.
+From StructTact Require Import StructTactics ListTactics.
 Import ListNotations.
-Require Import Sorting.Permutation.
-Require Import StructTact.StructTactics.
-Require Import StructTact.ListTactics.
 
 Set Implicit Arguments.
 
@@ -16,8 +13,8 @@ Lemma seq_range :
     a <= x < a + n.
 Proof.
   induction n; intros; simpl in *.
-  - intuition.
-  - break_or_hyp; try find_apply_hyp_hyp; intuition.
+  - intuition auto.
+  - break_or_hyp; try find_apply_hyp_hyp; intuition lia.
 Qed.
 
 Lemma plus_gt_0 :
@@ -26,7 +23,7 @@ Lemma plus_gt_0 :
     a > 0 \/ b > 0.
 Proof.
   intros.
-  destruct (eq_nat_dec a 0); intuition.
+  destruct (eq_nat_dec a 0); intuition lia.
 Qed.
 
 Section list_util.
@@ -37,7 +34,7 @@ Section list_util.
     forall (l : list A) x,
       x :: l <> l.
   Proof using.
-    intuition.
+    intros l x H.
     symmetry in H.
     induction l;
       now inversion H.
@@ -50,10 +47,10 @@ Section list_util.
       In y (remove A_eq_dec x xs).
   Proof using.
     induction xs; intros.
-    - intuition.
+    - intuition auto.
     - simpl in *.
       concludes.
-      intuition; break_if; subst; try congruence; intuition.
+      break_or_hyp; break_if; subst; try congruence; intuition (auto with datatypes).
   Qed.
 
   Lemma in_remove :
@@ -63,7 +60,7 @@ Section list_util.
   Proof using.
     induction xs; intros.
     - auto.
-    - simpl in *. break_if; simpl in *; intuition.
+    - simpl in *. break_if; simpl in *; intuition auto.
   Qed.
 
   Lemma remove_partition :
@@ -111,7 +108,8 @@ Section list_util.
   Proof using.
     induction xs; intros.
     - auto.
-    - simpl. rewrite H by intuition. rewrite IHxs by intuition. auto.
+    - simpl. rewrite H by intuition (auto with datatypes). 
+      rewrite IHxs by intuition (auto with datatypes). auto.
   Qed.
 
   Lemma not_in_filter_false :
@@ -133,7 +131,7 @@ Section list_util.
     induction l.
     - easy.
     - simpl.
-      break_if; simpl; omega.
+      break_if; simpl; lia.
   Qed.
 
   Lemma NoDup_map_injective : forall (f : A -> B) xs,
@@ -145,9 +143,9 @@ Section list_util.
     - constructor.
     - simpl. invc_NoDup. constructor.
       + intro. do_in_map.
-        assert (x = a) by intuition.
+        assert (x = a) by intuition (auto with datatypes).
         congruence.
-      + intuition.
+      + intuition (auto with datatypes).
   Qed.
 
   Lemma NoDup_disjoint_append :
@@ -160,8 +158,8 @@ Section list_util.
     induction l; intros.
     - auto.
     - simpl. invc_NoDup. constructor.
-      + intro. do_in_app. intuition eauto with *.
-      + intuition eauto with *.
+      + intro. do_in_app. intuition eauto with datatypes.
+      + intuition eauto with datatypes.
   Qed.
 
   Lemma NoDup_map_partition :
@@ -176,10 +174,10 @@ Section list_util.
     - auto.
     - subst. simpl in *. find_inversion.
       invc H. exfalso. rewrite map_app in *. simpl in *.
-      repeat find_rewrite. intuition.
+      repeat find_rewrite. intuition (auto with datatypes).
     - subst. simpl in *. find_inversion.
       invc H. exfalso. rewrite map_app in *. simpl in *.
-      repeat find_rewrite. intuition.
+      repeat find_rewrite. intuition (auto with datatypes).
     - subst. simpl in *. find_injection. intros. subst.
       f_equal. eapply IHxs; eauto. solve_by_inversion.
   Qed.
@@ -193,7 +191,7 @@ Section list_util.
     - auto.
     - invc_NoDup. simpl. break_if; auto.
       constructor; auto.
-      intro. apply filter_In in H. intuition.
+      intro. apply filter_In in H. intuition auto.
   Qed.
 
   Lemma NoDup_map_filter :
@@ -207,7 +205,7 @@ Section list_util.
       break_if; simpl in *; auto.
       constructor; auto.
       intro. do_in_map.
-      find_apply_lem_hyp filter_In. intuition.
+      find_apply_lem_hyp filter_In. intuition auto.
       match goal with | H : _ -> False |- False => apply H end.
       apply in_map_iff. eauto.
   Qed.
@@ -218,7 +216,7 @@ Section list_util.
   Proof using.
     induction xs; intros.
     - auto.
-    - simpl. now rewrite H, IHxs by intuition.
+    - simpl. now rewrite H, IHxs by intuition (auto with datatypes).
   Qed.
 
   Lemma map_of_map : forall (f : A -> B) (g : B -> C) xs,
@@ -238,9 +236,9 @@ Section list_util.
     - auto.
     - simpl.
       break_if.
-      + subst. repeat find_rewrite. eauto with *.
-      + simpl. rewrite H by auto with *.
-        break_if; eauto using f_equal2 with *.
+      + subst. repeat find_rewrite. eauto with datatypes.
+      + simpl. rewrite H by auto with datatypes.
+        break_if; eauto using f_equal2 with datatypes.
   Qed.
 
   Lemma flat_map_nil : forall (f : A -> list B) l,
@@ -248,10 +246,11 @@ Section list_util.
       l = [] \/ (forall x, In x l -> f x = []).
   Proof using.
     induction l; intros.
-    - intuition.
+    - intuition auto.
     - right. simpl in *.
       apply app_eq_nil in H.
-      intuition; subst; simpl in *; intuition.
+      intros; break_and; break_or_hyp; concludes; break_or_hyp; auto.
+      contradiction.
   Qed.
 
   Theorem NoDup_Permutation_NoDup :
@@ -263,7 +262,7 @@ Section list_util.
     intros l l' Hnd Hp.
     induction Hp; auto; invc_NoDup; constructor;
       eauto using Permutation_in, Permutation_sym;
-      simpl in *; intuition.
+      simpl in *; intuition (auto with struct_util).
   Qed.
 
   Theorem NoDup_append :
@@ -282,8 +281,8 @@ Section list_util.
       x = y.
   Proof using.
     induction xs; intros; simpl in *.
-    - intuition.
-    - invc_NoDup. intuition; subst; auto; exfalso.
+    - intuition auto.
+    - invc_NoDup. intuition auto; subst; auto; exfalso.
       + repeat find_rewrite. auto using in_map.
       + repeat find_reverse_rewrite. auto using in_map.
   Qed.
@@ -294,8 +293,8 @@ Section list_util.
   Proof using.
     induction xs; intros.
     - auto.
-    - simpl in *. intuition.
-      break_if; subst; simpl; intuition.
+    - simpl in *. intuition auto.
+      break_if; subst; simpl; intuition auto.
   Qed.
 
   Lemma remove_length_in : forall (x : A) xs,
@@ -320,28 +319,22 @@ Section list_util.
     induction xs; intros.
     - destruct ys; simpl in *; congruence.
     - invc_NoDup. concludes.
-      assert (In a ys) by eauto with *.
-
+      assert (In a ys) by eauto with datatypes.
       find_apply_lem_hyp in_split.
       break_exists_name l1.
       break_exists_name l2.
       subst.
-
       specialize (IHxs (l1 ++ l2)).
-
       conclude_using ltac:(eauto using NoDup_remove_1).
-
       forward IHxs.
       intros x' Hx'.
-      assert (In x' (l1 ++ a :: l2)) by eauto with *.
-      do_in_app. simpl in *. intuition. subst. congruence.
+      assert (In x' (l1 ++ a :: l2)) by eauto with datatypes.
+      do_in_app. simpl in *. intuition auto with datatypes. subst. congruence.
       concludes.
-
       forward IHxs.
-      rewrite app_length in *. simpl in *. omega.
+      rewrite app_length in *. simpl in *. lia.
       concludes.
-
-      do_in_app. simpl in *. intuition.
+      do_in_app. simpl in *. intuition auto with datatypes.
   Qed.
 
   Lemma remove_NoDup :
@@ -361,10 +354,10 @@ Section list_util.
     induction xs; intros.
     - auto.
     - invc_NoDup. simpl. break_if.
-      + rewrite <- minus_n_O.
+      + rewrite Nat.sub_0_r.
         subst.
         rewrite remove_length_not_in; auto.
-      + simpl. concludes. omega.
+      + simpl. concludes. lia.
   Qed.
 
   Lemma remove_length_le :
@@ -375,7 +368,7 @@ Section list_util.
     - auto.
     - simpl in *.
       specialize (IHxs eq_dec).
-      break_if; subst; simpl; omega.
+      break_if; subst; simpl; lia.
   Qed.
 
   Lemma remove_length_lt :
@@ -383,13 +376,13 @@ Section list_util.
       In x xs ->
       length xs > length (remove eq_dec x xs).
   Proof using.
-    induction xs; intros; simpl in *; intuition.
+    induction xs; intros; simpl in *; [contradiction|]; break_or_hyp.
     - subst.
       break_if; try congruence.
       pose proof remove_length_le x xs eq_dec.
-      omega.
+      lia.
     - specialize (IHxs ltac:(eauto) ltac:(eauto)).
-      break_if; subst; simpl; omega.
+      break_if; subst; simpl; lia.
   Qed.
 
   Lemma subset_length :
@@ -399,20 +392,19 @@ Section list_util.
       length ys >= length xs.
   Proof using A_eq_dec.
     induction xs; intros.
-    - simpl. omega.
+    - simpl. lia.
     - specialize (IHxs (remove A_eq_dec a ys)).
       invc_NoDup.
       concludes.
-
       forward IHxs.
       intros.
-      apply remove_preserve; [congruence|intuition].
+      apply remove_preserve;
+       [congruence|intuition (auto with datatypes)].
       concludes.
-
       pose proof remove_length_lt a ys A_eq_dec.
-      conclude_using intuition.
-
-      simpl. omega.
+      assert (In a ys) by auto with datatypes.
+      concludes.
+      simpl. lia.
   Qed.
 
   Lemma app_cons_singleton_inv :
@@ -431,7 +423,7 @@ Section list_util.
       l = xs ++ a :: ys ->
       In a l.
   Proof using.
-    intros. subst. auto with *.
+    intros. subst. auto with datatypes.
   Qed.
   Hint Resolve app_cons_in : struct_util.
 
@@ -441,7 +433,8 @@ Section list_util.
       In b (xs ++ ys) ->
       In b l.
   Proof using.
-    intros. subst. in_crush.
+    intros. subst.
+    do_in_app; intuition auto with datatypes.
   Qed.
   Hint Resolve app_cons_in_rest : struct_util.
 
@@ -488,10 +481,10 @@ Section list_util.
     induction l1; intros; simpl in *; break_if; simpl in *; invc_NoDup.
     - destruct l1'; simpl in *.
       + solve_by_inversion.
-      + find_inversion. exfalso. eauto using In_filter_In with *.
-    - exfalso. eauto using In_filter_In with *.
+      + find_inversion. exfalso. eauto using In_filter_In with datatypes.
+    - exfalso. eauto using In_filter_In with datatypes.
     - destruct l1'; simpl in *; break_and; find_inversion.
-      + exfalso. eauto with *.
+      + exfalso. eauto with datatypes.
       + find_apply_hyp_hyp. intuition auto using f_equal2.
     - eauto.
   Qed.
@@ -540,10 +533,10 @@ Section list_util.
       False.
   Proof using.
     intros.
-    rewrite <- app_ass in *.
+    rewrite app_assoc in *.
     find_apply_lem_hyp NoDup_remove.
-    rewrite app_ass in *.
-    intuition.
+    rewrite <- app_assoc in *.
+    intuition (auto with datatypes).
   Qed.
 
   Lemma NoDup_app3_not_in_2 :
@@ -553,10 +546,10 @@ Section list_util.
       False.
   Proof using.
     intros.
-    rewrite <- app_ass in *.
+    rewrite app_assoc in *.
     find_apply_lem_hyp NoDup_remove_2.
-    rewrite app_ass in *.
-    auto 10 with *.
+    rewrite <- app_assoc in *.
+    auto 10 with datatypes.
   Qed.
 
   Lemma NoDup_app3_not_in_3 :
@@ -566,10 +559,10 @@ Section list_util.
       False.
   Proof using.
     intros.
-    rewrite <- app_ass in *.
+    rewrite app_assoc in *.
     find_apply_lem_hyp NoDup_remove_2.
-    rewrite app_ass in *.
-    auto 10 with *.
+    rewrite <- app_assoc in *.
+    auto 10 with datatypes.
   Qed.
 
   Lemma In_cons_2_3 :
@@ -578,7 +571,7 @@ Section list_util.
       In a (xs ++ x :: ys ++ y :: zs).
   Proof using.
     intros.
-    repeat (do_in_app; intuition auto 10 with *).
+    repeat (do_in_app; intuition auto 10 with datatypes).
   Qed.
 
   Lemma In_cons_2_3_neq :
@@ -589,7 +582,7 @@ Section list_util.
       In a (xs ++ ys ++ zs).
   Proof using.
     intros.
-    repeat (do_in_app; simpl in *; intuition (auto with *; try congruence)).
+    repeat (do_in_app; simpl in *; intuition (auto with datatypes; try congruence)).
   Qed.
 
   Lemma in_middle_reduce :
@@ -599,7 +592,7 @@ Section list_util.
       In a (xs ++ zs).
   Proof using.
     intros.
-    do_in_app; simpl in *; intuition. congruence.
+    do_in_app; simpl in *; intuition auto with datatypes. congruence.
   Qed.
 
   Lemma in_middle_insert :
@@ -608,7 +601,7 @@ Section list_util.
       In a (xs ++ y :: zs).
   Proof using.
     intros.
-    do_in_app; simpl in *; intuition.
+    do_in_app; simpl in *; intuition auto with datatypes.
   Qed.
 
   Lemma NoDup_rev :
@@ -656,9 +649,9 @@ Section list_util.
     induction l.
     intros.
     + simpl in *. find_apply_lem_hyp plus_gt_0. intuition.
-      * destruct sub1; simpl in *; [omega|].
+      * destruct sub1; simpl in *; [lia|].
         specialize (H a). intuition.
-      * destruct sub2; simpl in *; [omega|].
+      * destruct sub2; simpl in *; [lia|].
         specialize (H0 a). intuition.
     + intros. simpl in *.
       destruct (in_dec A_eq_dec a sub1);
@@ -678,7 +671,7 @@ Section list_util.
                    | H : In a ?sub |- _ =>
                      assert (length (remove A_eq_dec a sub) >= length sub - 1)
                        by eauto using remove_length_ge; clear H
-                   end; omega.
+                   end; lia.
   Qed.
 
   Lemma snoc_assoc :
@@ -989,6 +982,6 @@ End list_util.
 
 (* We have to repeat these Hint Resolve commands because hints don't survive
    past the ends of sections *)
-Hint Resolve app_cons_in : struct_util.
-Hint Resolve app_cons_in_rest : struct_util.
-Hint Resolve in_rest_app_cons : struct_util.
+#[global] Hint Resolve app_cons_in : struct_util.
+#[global] Hint Resolve app_cons_in_rest : struct_util.
+#[global] Hint Resolve in_rest_app_cons : struct_util.

@@ -1,0 +1,36 @@
+opam-version: "2.0"
+maintainer: "palmskog@gmail.com"
+version: "dev"
+
+homepage: "https://github.com/uwplse/StructTact"
+dev-repo: "git+https://github.com/uwplse/StructTact.git"
+bug-reports: "https://github.com/uwplse/StructTact/issues"
+license: "BSD-2-Clause"
+
+synopsis: "Coq library of structural tactics and utility lemmas about lists and finite types"
+description: """
+StructTact is a Coq library of structural tactics as well as lemmas about
+lists, finite types, and orders on strings that use the tactics.
+The structural tactics enable a style of proof where hypothesis names
+are never mentioned. When automatically generated names change during
+proof development, structural tactics will still work."""
+
+build: ["dune" "build" "-p" name "-j" jobs]
+depends: [
+  "dune" {>= "3.5"}
+  "coq" {>= "8.10"}
+]
+
+tags: [
+  "category:Computer Science/Data Types and Data Structures"
+  "keyword:proof automation"
+  "keyword:tactics"
+  "logpath:StructTact"
+]
+authors: [
+  "Ryan Doenges"
+  "Karl Palmskog"
+  "Keith Simmons"
+  "James R. Wilcox"
+  "Doug Woos"
+]
