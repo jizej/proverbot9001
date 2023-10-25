@@ -136,7 +136,7 @@ Inductive comp : redexes -> redexes -> Prop :=
       forall U2 V2 : redexes,
       comp U2 V2 -> forall b1 b2 : bool, comp (Ap b1 U1 U2) (Ap b2 V1 V2).
 
-Hint Resolve Comp_Var Comp_Fun Comp_Ap.
+#[export] Hint Resolve Comp_Var Comp_Fun Comp_Ap : core.
 
 Lemma comp_refl : forall U : redexes, comp U U.
 Proof.

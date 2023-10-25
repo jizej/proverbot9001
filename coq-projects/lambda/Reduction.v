@@ -120,14 +120,14 @@ Inductive par_red1 : lambda -> lambda -> Prop :=
       par_red1 M M' ->
       forall N N' : lambda, par_red1 N N' -> par_red1 (App M N) (App M' N').
 
-Hint Resolve par_beta ref_par_red abs_par_red app_par_red.
+#[export] Hint Resolve par_beta ref_par_red abs_par_red app_par_red : core.
 
 Lemma refl_par_red1 : forall M : lambda, par_red1 M M.
 Proof.
 simple induction M; auto.
 Qed.
 
-Hint Resolve refl_par_red1.
+#[export] Hint Resolve refl_par_red1 : core.
 
 Lemma red1_par_red1 : forall M N : lambda, red1 M N -> par_red1 M N.
 Proof.

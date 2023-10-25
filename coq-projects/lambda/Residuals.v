@@ -71,7 +71,7 @@ Inductive residuals : redexes -> redexes -> redexes -> Prop :=
       residuals (Ap b (Fun U1) U2) (Ap true (Fun V1) V2) (subst_r W2 W1).
 
 
-Hint Resolve Res_Var Res_Fun Res_Ap Res_redex.
+#[export] Hint Resolve Res_Var Res_Fun Res_Ap Res_redex : core.
 
 Lemma residuals_function :
  forall U V W : redexes,
@@ -103,7 +103,7 @@ Lemma residuals_lift :
 Proof.
 unfold lift_r in |- *; intros; apply residuals_lift_rec; trivial with arith.
 Qed.
-Hint Resolve residuals_lift.
+#[export] Hint Resolve residuals_lift : core.
 
 Lemma residuals_subst_rec :
  forall U1 U2 U3 V1 V2 V3 : redexes,
@@ -117,7 +117,7 @@ intros n R k; unfold insert_Var in |- *; elim (compare k n); auto with arith.
 simple induction a; auto with arith.
 intros; rewrite substitution; auto with arith.
 Qed.
-Hint Resolve residuals_subst_rec.
+#[export] Hint Resolve residuals_subst_rec : core.
 
 (***************************)
 (* The Commutation Theorem *)
