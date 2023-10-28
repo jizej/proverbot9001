@@ -87,8 +87,8 @@
 	branch = v8.9
 [submodule "coq-projects/dictionaries"]
 	path = coq-projects/dictionaries
-	url = git@github.com:coq-contribs/dictionaries.git
-	branch = v8.9
+	url = git@github.com:jizej/dictionaries.git
+	branch = master
 [submodule "coq-projects/buchberger"]
 	path = coq-projects/buchberger
 	url = git@github.com:coq-community/buchberger.git
