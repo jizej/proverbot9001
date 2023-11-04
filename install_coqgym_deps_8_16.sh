@@ -1,20 +1,19 @@
 #!/usr/bin/env bash
 
 # Create the coq 8.12 switch
-opam switch create coq-8.17 4.14.0
-eval $(opam env --switch=coq-8.17 --set-switch)
-opam pin add -y coq 8.17.0
+opam switch create coq-8.16 4.14.0
+eval $(opam env --switch=coq-8.16 --set-switch)
+opam pin add -y coq 8.16.0
 
 # Install the packages that can be installed directly through opam
 opam repo add coq-released https://coq.inria.fr/opam/released
 opam repo add coq-extra-dev https://coq.inria.fr/opam/extra-dev
 opam install -y coq-serapi \
-     coq-metacoq-template \
+     coq-smpl coq-metacoq-template \
      coq-equations \
      coq-mathcomp-ssreflect coq-mathcomp-algebra coq-mathcomp-field \
      menhir
 
-opam install coq-smpl -y --ignore-constraints-on=coq
 opam install coq-metacoq
 
 # Install some coqgym deps that don't have the right versions in their

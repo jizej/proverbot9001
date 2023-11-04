@@ -48,9 +48,10 @@ for project in $(jq -r '.[].project_name' coqgym_projs_splits.json); do
 
     SWITCH=$(jq -r ".[] | select(.project_name == \"$project\") | .switch" coqgym_projs_splits.json)
 
-    echo "eval \"$(opam env --set-switch --switch=coq-8.17)\"" >> coq-projects/$project/make.sh
+    echo "eval \"$(opam env --set-switch --switch=coq-8.16)\"" >> coq-projects/$project/make.sh
 
     echo "$BUILD $@" >> coq-projects/$project/make.sh
     chmod u+x coq-projects/$project/make.sh
-    (cd coq-projects/$project && ./make.sh && make install)
+    (cd coq-projects/$project && ./make.sh)
+    # (cd coq-projects/$project && make install)
 done
